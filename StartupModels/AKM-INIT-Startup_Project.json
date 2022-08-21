@@ -1,8 +1,8 @@
 {
   "phData": {
     "metis": {
-      "name": "INIT-Startup",
-      "description": "New startup project",
+      "name": "AKM-INIT-Startup",
+      "description": "Initial startup project",
       "metamodels": [
         {
           "id": "82e6ec62-e66e-4dc7-9780-32f4b1aa69b3",
