@@ -1,8 +1,10 @@
-# Startup Models directory
+# Models directory
 
 ## Introduction
 
-This directory contains AKM Startup Models. Startup Models intent to be a collection of models that can be used to start a project, and is also good for learning about and testing AKM Modelling.
+This directory contains AKM Models.
+AKM Models organized in project.json files.
+Each project.json file contains models and metamodels.
 
 AKM Models organized in project.json files.
 Each project.json file contains models and metamodels.
