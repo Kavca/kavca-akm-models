@@ -5814,6 +5814,26 @@
               "relshipkind": "Association",
               "valueset": null,
               "copiedFromId": ""
+            },
+            {
+              "id": "29943f58-e7d7-417d-1d14-c96e474a1c2c",
+              "name": "Label",
+              "description": "",
+              "text": "This is a Sale of a Car",
+              "abstract": false,
+              "viewkind": "",
+              "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
+              "typeName": "Label",
+              "propertyValues": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": false,
+              "nameId": "Label",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": ""
             }
           ],
           "relships": [
@@ -6230,7 +6250,8 @@
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
-                  "icon": ""
+                  "icon": "",
+                  "textscale": "1"
                 },
                 {
                   "id": "ca73d9d6-72b1-4f49-b259-00fe905c2b1a",
@@ -6255,7 +6276,8 @@
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
-                  "icon": ""
+                  "icon": "",
+                  "textscale": "1"
                 },
                 {
                   "id": "0a324dae-06bd-48ae-b796-c19268190755",
@@ -6280,7 +6302,8 @@
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
-                  "icon": "https://img.icons8.com/color/2x/person-male.png"
+                  "icon": "https://img.icons8.com/color/2x/person-male.png",
+                  "textscale": "1"
                 },
                 {
                   "id": "ebb86070-8f5a-40d8-979a-b087636e76c5",
@@ -6305,7 +6328,8 @@
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
-                  "icon": "./../images/car.png"
+                  "icon": "./../images/car.png",
+                  "textscale": "1"
                 },
                 {
                   "id": "403bfeae-1120-419e-8b18-024703d95a08",
@@ -6330,7 +6354,8 @@
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
-                  "icon": "./../images/book.png"
+                  "icon": "./../images/book.png",
+                  "textscale": "1"
                 },
                 {
                   "id": "d27dca4d-11bc-4a76-a035-003b51e43ffa",
@@ -6355,7 +6380,8 @@
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
-                  "icon": ""
+                  "icon": "",
+                  "textscale": "1"
                 },
                 {
                   "id": "ce4a1d8a-1a56-40dc-d7f0-3726b6865495",
@@ -6380,7 +6406,8 @@
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
-                  "icon": ""
+                  "icon": "",
+                  "textscale": "1"
                 },
                 {
                   "id": "e44aa86c-6040-4ecb-5bba-116cd3eb828c",
@@ -6405,28 +6432,39 @@
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
-                  "icon": ""
+                  "icon": "",
+                  "textscale": "1"
                 },
                 {
                   "description": "",
                   "group": "",
-                  "viewkind": "",
+                  "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "",
+                  "loc": "-10 -270",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
                   "markedAsDeleted": false,
                   "modified": false,
-                  "template": "",
+                  "template": "Annotation",
                   "figure": "",
                   "geometry": "",
                   "fillcolor": "",
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
-                  "icon": ""
+                  "icon": "",
+                  "id": "ec546a86-b187-4261-cee2-2a2656578d4b",
+                  "name": "Label",
+                  "objectRef": "29943f58-e7d7-417d-1d14-c96e474a1c2c",
+                  "typeviewRef": "4be6622d-82a6-4b8c-a872-df6e9fcc8d3a",
+                  "textscale": "1.2",
+                  "text": "This is a Sale of a Car"
+                },
+                {
+                  "scale": null,
+                  "memberscale": null
                 }
               ],
               "relshipviews": [
@@ -8239,12 +8277,12 @@
     "focusTargetModel": null,
     "focusTargetModelview": null,
     "focusModel": {
-      "id": "ced75f73-5ea5-45b2-6372-93864c08829c",
-      "name": "TEST_MODEL"
+      "id": "05d5b929-b985-49ac-cf92-cc095a03889d",
+      "name": "SELL_A_CAR_CM"
     },
     "focusModelview": {
-      "id": "7f4d4098-790b-4e4e-86ca-8521e47cace4",
-      "name": "Main"
+      "id": "25369779-7e2d-4731-3d54-415f3c10da5d",
+      "name": "1-Overview"
     },
     "focusObject": {
       "id": "f9f77d6b-56b0-4b52-556a-9644f9239355",
@@ -8309,7 +8347,15 @@
         {
           "id": "Task0",
           "name": "Modelling",
-          "workOnTypes": []
+          "workOnTypes": [
+            "Information",
+            "Role",
+            "Task",
+            "View",
+            "EntityType",
+            "Property",
+            "Container"
+          ]
         },
         {
           "id": "task1",
@@ -8357,7 +8403,27 @@
           "name": "All types",
           "description": "All types modelling",
           "workOnTypes": [
-            []
+            [
+              "Container",
+              "Datatype",
+              "Element",
+              "EntityType",
+              "FieldType",
+              "Generic",
+              "Information",
+              "InputPattern",
+              "Label",
+              "Method",
+              "MethodType",
+              "Property",
+              "RelshipType",
+              "Role",
+              "Task",
+              "Unittype",
+              "Value",
+              "View",
+              "ViewFormat"
+            ]
           ]
         }
       ]
@@ -8365,12 +8431,17 @@
     "focusCollection": null,
     "focusTask": {
       "id": "Task4",
-      "name": "All types",
-      "description": "All types modelling",
+      "name": "Modelling",
+      "description": "Modelling",
       "workOnTypes": [
-        [
-          "Container"
-        ]
+        "Container",
+        "Information",
+        "Role",
+        "Task",
+        "View",
+        "EntityType",
+        "Property",
+        "Container"
       ]
     },
     "focusSource": {
@@ -8399,5 +8470,5 @@
     }
   },
   "phSource": "SELL-A-CAR_Project_2022-08-17.json",
-  "lastUpdate": "2022-08-23T05:51:36.674Z"
+  "lastUpdate": "2022-08-23T05:55:07.816Z"
 }
