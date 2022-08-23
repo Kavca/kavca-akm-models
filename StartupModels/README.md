@@ -19,4 +19,4 @@ CamelCase is used for several words in same part.
 i.e.
 
 - "Kavca-IspimScooterRental-Workshop"
-- "Equinor-Cumulus-AkmPoc"
+- "Equinor-OSDU-AkmPoc"
