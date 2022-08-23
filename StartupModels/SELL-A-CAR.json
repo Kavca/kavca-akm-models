@@ -5929,9 +5929,9 @@
             },
             {
               "id": "29943f58-e7d7-417d-1d14-c96e474a1c2c",
-              "name": "This is a Sale of a Car",
+              "name": "Car sales",
               "description": "",
-              "text": "Car sales",
+              "text": "Car sales test\n",
               "abstract": false,
               "viewkind": "",
               "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
@@ -6779,7 +6779,7 @@
                 },
                 {
                   "id": "ec546a86-b187-4261-cee2-2a2656578d4b",
-                  "name": "This is a Sale of a Car",
+                  "name": "Car sales",
                   "description": "",
                   "objectRef": "29943f58-e7d7-417d-1d14-c96e474a1c2c",
                   "typeviewRef": "4be6622d-82a6-4b8c-a872-df6e9fcc8d3a",
@@ -6802,7 +6802,7 @@
                   "textcolor": "black",
                   "textscale": "2.2",
                   "icon": "",
-                  "text": "Car sales"
+                  "text": "Car sales test\n"
                 },
                 {
                   "description": "",
@@ -8819,5 +8819,5 @@
     }
   },
   "phSource": "SELL-A-CAR_Project_2022-08-17.json",
-  "lastUpdate": "2022-08-23T08:06:48.116Z"
+  "lastUpdate": "2022-08-23T08:44:22.047Z"
 }
