@@ -1,14 +1,13 @@
-# Models directory
+# Dementia R&D Models directory
 
 ## Introduction
 
-This directory contains AKM Models.
+This directory contains AKM Models for the Dementia R&D project.
 AKM Models organized in project.json files.
 Each project.json file contains models and metamodels.
 
-## AKM MOdels
-
-This directory contains AKM Models that does not fit into any of the other Project directories.
+AKM Models organized in project.json files.
+Each project.json file contains models and metamodels.
 
 ## Naming Conventions
 
@@ -23,4 +22,9 @@ i.e.
 
 - "Kavca-IspimScooterRental-Workshop"
 - "Equinor-Cumulus-AkmPoc"
-  
+
+---
+
+---
+
+[Upload Model project Procedure](../UploadModels.md)
