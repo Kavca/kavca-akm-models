@@ -1,4 +1,4 @@
-# Dementia R&D Models directory
+# Study Dementia Models directory
 
 ## Introduction
 
