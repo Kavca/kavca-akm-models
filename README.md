@@ -9,7 +9,7 @@ AKM Modelling can also be done as a collaborate task with several team members w
 
 ## Lets get started
 
-(Tip: You can duplicate this browsertab and move it on the side, to have it avaiable when doing the procedure)
+(Tips: You can duplicate this browsertab and move it on the side, to have it avaiable when doing the procedure)
 
 Open the webpage:  
 
@@ -19,9 +19,11 @@ Open the webpage:
 
 ---
 
-## 1. Open Project files
+Select "Modelling" in the top menu.
 
-### Open Project file
+## Open and save local files
+
+### 1. Open a Project.json file in AKM Modeller
 
 <details><summary markdown="span">Open local project files: <code> Click: "Choose file" button</code></summary>
 
@@ -33,7 +35,31 @@ The selected file will be loaded in the AKM Modeller.
 
 </details>
 
-or
+---
+
+### 2. Then Work with your model project
+
+See the documentation how to used AKM Modeller in "Help" in top menu.
+
+---
+
+### 3. Save your model project to Local Project.json file
+
+<details><summary markdown="span">To save local project files: <code> Click on: "Save" button</code></summary>
+
+To save the current project.json file Click on the "Save" button.
+
+The file will by default be saved in Download folder as a "Projectname".json file.
+
+</details>
+
+---
+---
+---
+
+## Open and save models on GitHub repository
+
+To open a model stored on GitHub repository:
 
 <details><summary markdown="span">Open GitHub repository AKM project files in AKM Modeller: <code> Click on: "GitHub" button</code></summary>
 ..
@@ -56,85 +82,9 @@ Click on "X" button in the top right corner to close the GitHub repository selec
 
 ---
 
-## 2. Work with your model project
+To upload a model to GitHub repository:
 
-After updating your model project, you can save it locally.
-
-## 3. Save your model project to Local file
-
-<details><summary markdown="span">To save local project files: <code> Click on: "Save" button</code></summary>
-
-To save the current project.json file Click on the "Save" button.
-
-The file will default be saved in Download folder as the "Projectname"_project_"date".json file.
-
-</details>
-
-## 4. Upload the project file to GitHub repository
-
-<details><summary markdown="span">Go to the GitHub repository, and open the model folder <code> Open the model folder </code> </summary>
-
-(https://api.github.com/users/UserName/repos/)
-
-</details>
-
-<details><summary markdown="span">Upload file (the updated or new model project.json)  <code> Drag or select file to upload and click "Commit changes" </code></summary>
-..
-
-Drag in or "choose your files.
-
-Select "Creat anew branch for this commit and start a pull request.
-
-Then click "Commit changes" button.
+First make sure you have saved your Project.json file locally (the model you want to upload), as described in item 3 above.
 
 
-![Code.png](./img/DraginFiles.png)
-
-</details>
-
-<details><summary markdown="span">Compare and Pull request <code> Click "Compare & pull request" button.</code></summary>
-..
-
-Click "Compare & pull request" button.
-
-![Code.png](./img/ComparePullRequest.png)
-
-</details>
-
-<details><summary markdown="span">Create Pull Request for the uploaded model project file <code> Click "Create pull request" button.</code></summary>
-..
-
-(Add a comment and)Click "Create pull request" button.
-
-![Code.png](./img/CreatePullRequestUploadFiles.png)
-
-</details>
-
-<details><summary markdown="span">Confirm Merge <code> Click "Confirm merge" button</code></summary>
-..
-
-Click "Confirm merge" button.
-
-
-![Code.png](./img/ConfirmeMergeOfUploadedProject.png)
-
-</details>
-
-<details><summary markdown="span">The update of the project file to the main branch is completed <code> "Sucessfully Merged!" </code> </summary>
-..
-
-The Main branch is updated with the new model project file
-
-![Code.png](./img/SuccessfullyMerged.png)
-
-</details>
-
-<details><summary markdown="span">Delete you temporary branch <code> Click: "Delete branch" button</code></summary>
-..
-
-Your branch which was created for the upload of the model project file can be deleted.
-
-
-</details>
-
-
+[Procedure for uploading to Github repository](UploadModels.md)
