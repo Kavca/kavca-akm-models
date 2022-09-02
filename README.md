@@ -2,6 +2,8 @@
 
 This is a public repo for AKM models made in AKM Modeller and saved as .json files.
 
+[svg](https://github.com/Kavca/kavca-akm-models/blob/main/img/vision-svgrepo-com.svg)
+
 ## Introduction
 
 AKM Modelling can be done locally with models stored locally on your computer as Project.json files.
