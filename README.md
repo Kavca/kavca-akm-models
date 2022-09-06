@@ -7,6 +7,8 @@ This is a public repo for AKM models made in AKM Modeller and saved as .json fil
 AKM Modelling can be done locally with models stored locally on your computer as Project.json files.
 AKM Modelling can also be done as a collaborate task with several team members with Project.json files stored in a GitHub repository.
 
+***If you have an Issue, click on Issues above, and file an Issue report.***
+
 ## Lets get started
 
 (Tips: You can duplicate this browser-tab and move it on the side, to have it available when doing the procedure)
