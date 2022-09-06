@@ -5800,10 +5800,28 @@
               "modified": false
             },
             {
-              "id": "67aa94a9-652b-4352-e210-c21e51bca4ab",
-              "name": "worksOn_Association",
+              "id": "9fbb5093-dfd5-4792-75ab-4c41931d9ae4",
+              "name": "applies_Association",
               "description": "",
-              "typeRef": "abf62204-26cd-487e-1d55-0222b0500c2a",
+              "typeRef": "ada94196-fa40-4dfb-cfdb-a4100462dad3",
+              "template": "linkTemplate1",
+              "strokecolor": "black",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textscale": "1",
+              "dash": "None",
+              "fromArrow": "",
+              "toArrow": "OpenTriangle",
+              "fromArrowColor": "",
+              "toArrowColor": "white",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "754706e1-9e3d-47df-4fa8-9566e73edb8f",
+              "name": "includes_Association",
+              "description": "",
+              "typeRef": "826155d3-ff9e-4098-df2d-fb31de0719af",
               "template": "linkTemplate1",
               "strokecolor": "black",
               "strokewidth": "1",
@@ -24704,6 +24722,86 @@
               "relshipkind": "Association",
               "valueset": null,
               "copiedFromId": ""
+            },
+            {
+              "id": "9110613a-3e5a-45ba-3725-0280ccaeae45",
+              "name": "Modeller",
+              "description": "",
+              "abstract": false,
+              "viewkind": "",
+              "typeRef": "5237d07b-38e0-407d-1deb-4ed4e09c5e15",
+              "typeName": "Role",
+              "propertyValues": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true,
+              "nameId": "Role",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": "",
+              "text": ""
+            },
+            {
+              "id": "bd398776-9c13-42bc-6d17-e3f1c5dbf3db",
+              "name": "Create new strategy",
+              "description": "",
+              "abstract": false,
+              "viewkind": "",
+              "typeRef": "8da42b14-08ac-4616-046f-f13dbba6d166",
+              "typeName": "Task",
+              "propertyValues": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true,
+              "nameId": "Task",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": "",
+              "text": ""
+            },
+            {
+              "id": "4a956991-bc73-4fea-f91d-84b51610b172",
+              "name": "Strategy view",
+              "description": "",
+              "abstract": false,
+              "viewkind": "",
+              "typeRef": "d7de8950-a1c6-4137-3eb4-4f94fbdd8e1a",
+              "typeName": "View",
+              "propertyValues": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true,
+              "nameId": "View",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": "",
+              "text": ""
+            },
+            {
+              "id": "ba438f7e-fe89-43a0-0f64-9d4ba4c9583d",
+              "name": "Modelling Roles / Tasks /Views",
+              "description": "",
+              "abstract": false,
+              "viewkind": "",
+              "typeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
+              "typeName": "Container",
+              "propertyValues": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true,
+              "nameId": "Container",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": "",
+              "text": ""
             }
           ],
           "relships": [
@@ -24994,6 +25092,132 @@
               "markedAsDeleted": false,
               "generatedTypeId": "",
               "modified": false
+            },
+            {
+              "id": "5afa5496-2843-4b64-8f8a-3c815fc1367f",
+              "name": "contains",
+              "description": "",
+              "relshipkind": "Association",
+              "typeRef": "4d07da8b-ecc6-4920-15e8-b0905d0a9cd0",
+              "fromobjectRef": "29b8e22b-1ad9-47ae-e0ae-b48e895e11e2",
+              "toobjectRef": "77dbc6d2-d0aa-4e17-088b-06eb6ace1151",
+              "propvalues": [],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true
+            },
+            {
+              "id": "e405a6b9-9f8e-42f2-7da9-d03db4302271",
+              "name": "worksOn",
+              "description": "",
+              "relshipkind": "Association",
+              "typeRef": "3f2522a0-86ba-40ea-9053-8e1e763c3ee6",
+              "fromobjectRef": "bd398776-9c13-42bc-6d17-e3f1c5dbf3db",
+              "toobjectRef": "9f84341d-613a-44ea-bacd-82c8e0c8ae08",
+              "propvalues": [],
+              "cardinality": "n-n",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true
+            },
+            {
+              "id": "ed012de3-1e70-4230-3e44-8c0e4604d756",
+              "name": "applies",
+              "description": "",
+              "relshipkind": "Association",
+              "typeRef": "ada94196-fa40-4dfb-cfdb-a4100462dad3",
+              "fromobjectRef": "bd398776-9c13-42bc-6d17-e3f1c5dbf3db",
+              "toobjectRef": "4a956991-bc73-4fea-f91d-84b51610b172",
+              "propvalues": [],
+              "cardinality": "n-n",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true
+            },
+            {
+              "id": "68bbe4aa-52f7-4efb-6d35-1e5e28404257",
+              "name": "includes",
+              "description": "",
+              "relshipkind": "Association",
+              "typeRef": "826155d3-ff9e-4098-df2d-fb31de0719af",
+              "fromobjectRef": "4a956991-bc73-4fea-f91d-84b51610b172",
+              "toobjectRef": "9f84341d-613a-44ea-bacd-82c8e0c8ae08",
+              "propvalues": [],
+              "cardinality": "n-n",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true
+            },
+            {
+              "id": "bde227b0-310e-4052-02cc-b93f39a07e45",
+              "name": "performs",
+              "description": "",
+              "relshipkind": "Association",
+              "typeRef": "e2c21c11-f4df-4671-7af4-1305a1ca6178",
+              "fromobjectRef": "9110613a-3e5a-45ba-3725-0280ccaeae45",
+              "toobjectRef": "bd398776-9c13-42bc-6d17-e3f1c5dbf3db",
+              "propvalues": [],
+              "cardinality": "n-n",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true
+            },
+            {
+              "id": "acc86216-63cc-4795-a7bb-0fbbab779de0",
+              "name": "includes",
+              "description": "",
+              "relshipkind": "Association",
+              "typeRef": "826155d3-ff9e-4098-df2d-fb31de0719af",
+              "fromobjectRef": "4a956991-bc73-4fea-f91d-84b51610b172",
+              "toobjectRef": "20a57e61-90fa-46e1-9a87-f7400a1ca15a",
+              "propvalues": [],
+              "cardinality": "n-n",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true
+            },
+            {
+              "id": "78a5de36-c7d0-4f4f-a41f-f535ad92cbff",
+              "name": "includes",
+              "description": "",
+              "relshipkind": "Association",
+              "typeRef": "826155d3-ff9e-4098-df2d-fb31de0719af",
+              "fromobjectRef": "4a956991-bc73-4fea-f91d-84b51610b172",
+              "toobjectRef": "82ecadc7-31d3-4acb-6e03-6b9d12153a8a",
+              "propvalues": [],
+              "cardinality": "n-n",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true
             }
           ],
           "modelviews": [
@@ -25017,7 +25241,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-90 -180",
+                  "loc": "-470 -190",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25045,7 +25269,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-90 60",
+                  "loc": "-470 50",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25073,7 +25297,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-90 170",
+                  "loc": "-470 160",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25101,7 +25325,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-90 -50",
+                  "loc": "-470 -60",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25129,7 +25353,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-90 -280",
+                  "loc": "-470 -290",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25157,7 +25381,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-440 -150",
+                  "loc": "-830 -350",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25213,7 +25437,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-760 -320",
+                  "loc": "-150 -330",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25241,7 +25465,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-760 -150",
+                  "loc": "-150 -110",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25269,7 +25493,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-760 -60",
+                  "loc": "-150 0",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25297,7 +25521,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-760 200",
+                  "loc": "-150 200",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25325,8 +25549,8 @@
                   "viewkind": "Container",
                   "isGroup": true,
                   "isCollapsed": false,
-                  "loc": "-140 -340",
-                  "size": "280 640",
+                  "loc": "-520 -350",
+                  "size": "280 650",
                   "scale": 1,
                   "memberscale": 1,
                   "markedAsDeleted": false,
@@ -25337,6 +25561,7 @@
                   "fillcolor": "#ffe0e0",
                   "fillcolor2": "#947ec9",
                   "strokecolor": "black",
+                  "strokecolor2": "",
                   "strokewidth": "1",
                   "textcolor": "",
                   "textscale": "1",
@@ -25352,7 +25577,7 @@
                   "viewkind": "Container",
                   "isGroup": true,
                   "isCollapsed": false,
-                  "loc": "-820 -350",
+                  "loc": "-210 -350",
                   "size": "330 650",
                   "scale": 1,
                   "memberscale": 1,
@@ -25380,7 +25605,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-410 -480",
+                  "loc": "-60 -470",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25432,7 +25657,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "20 -480",
+                  "loc": "-570 -470",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -25449,6 +25674,118 @@
                   "textcolor": "",
                   "textscale": "1.2",
                   "icon": ""
+                },
+                {
+                  "id": "6cf348ad-d735-4410-d101-fd4aefa105db",
+                  "name": "Modeller",
+                  "description": "",
+                  "objectRef": "9110613a-3e5a-45ba-3725-0280ccaeae45",
+                  "typeviewRef": "497fbf77-2d40-4ff3-bef7-32e03ba75308",
+                  "group": "b34a13de-97e4-4fda-f6ed-e5d57bd881dd",
+                  "viewkind": "Object",
+                  "isGroup": false,
+                  "isCollapsed": false,
+                  "loc": "-1180 -370",
+                  "size": "",
+                  "scale": 1,
+                  "memberscale": 1,
+                  "markedAsDeleted": false,
+                  "modified": true,
+                  "template": "textAndGeometry",
+                  "figure": "",
+                  "geometry": "",
+                  "fillcolor": "",
+                  "fillcolor2": "",
+                  "strokecolor": "",
+                  "strokecolor2": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "1",
+                  "icon": ""
+                },
+                {
+                  "id": "b9c75d46-bd65-4351-9528-f29b68cc00a9",
+                  "name": "Create new strategy",
+                  "description": "",
+                  "objectRef": "bd398776-9c13-42bc-6d17-e3f1c5dbf3db",
+                  "typeviewRef": "646b4d99-c0d3-42e4-d8a2-3f34cc3f0697",
+                  "group": "b34a13de-97e4-4fda-f6ed-e5d57bd881dd",
+                  "viewkind": "Object",
+                  "isGroup": false,
+                  "isCollapsed": false,
+                  "loc": "-1180 -260",
+                  "size": "",
+                  "scale": 1,
+                  "memberscale": 1,
+                  "markedAsDeleted": false,
+                  "modified": true,
+                  "template": "textAndGeometry",
+                  "figure": "",
+                  "geometry": "",
+                  "fillcolor": "",
+                  "fillcolor2": "",
+                  "strokecolor": "",
+                  "strokecolor2": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "1",
+                  "icon": ""
+                },
+                {
+                  "id": "3a287b53-719d-4903-807c-0ee1d1aeaca1",
+                  "name": "Strategy view",
+                  "description": "",
+                  "objectRef": "4a956991-bc73-4fea-f91d-84b51610b172",
+                  "typeviewRef": "1f13a96b-dfe1-4066-b74c-019f2ac264ee",
+                  "group": "b34a13de-97e4-4fda-f6ed-e5d57bd881dd",
+                  "viewkind": "Object",
+                  "isGroup": false,
+                  "isCollapsed": false,
+                  "loc": "-1180 -110",
+                  "size": "",
+                  "scale": 1,
+                  "memberscale": 1,
+                  "markedAsDeleted": false,
+                  "modified": true,
+                  "template": "textAndIcon",
+                  "figure": "",
+                  "geometry": "",
+                  "fillcolor": "",
+                  "fillcolor2": "",
+                  "strokecolor": "",
+                  "strokecolor2": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "1",
+                  "icon": ""
+                },
+                {
+                  "id": "b34a13de-97e4-4fda-f6ed-e5d57bd881dd",
+                  "name": "Modelling Roles / Tasks /Views",
+                  "description": "",
+                  "objectRef": "ba438f7e-fe89-43a0-0f64-9d4ba4c9583d",
+                  "typeviewRef": "a3112875-e4fe-4100-b290-5634d8b8acfc",
+                  "group": "",
+                  "viewkind": "Container",
+                  "isGroup": true,
+                  "isCollapsed": false,
+                  "loc": "-1260 -400",
+                  "size": "380 720",
+                  "scale": 1,
+                  "memberscale": 1,
+                  "markedAsDeleted": false,
+                  "modified": true,
+                  "template": "Container1",
+                  "figure": "",
+                  "geometry": "",
+                  "fillcolor": "",
+                  "fillcolor2": "",
+                  "strokecolor": "",
+                  "strokecolor2": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "1",
+                  "icon": ""
                 }
               ],
               "relshipviews": [
@@ -25461,7 +25798,7 @@
                   "fromobjviewRef": "0cefc7bd-dc52-4fca-ec18-007ebcbd1d3d",
                   "toobjviewRef": "0cefc7bd-dc52-4fca-ec18-007ebcbd1d3d",
                   "template": "",
-                  "arrowscale": "1.3",
+                  "arrowscale": "",
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
@@ -25472,36 +25809,7 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "markedAsDeleted": "",
-                  "modified": true,
-                  "points": {
-                    "__gohashid": 18579532,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": 31.129909152447283,
-                        "y": -109.13397459621558,
-                        "s": true
-                      },
-                      {
-                        "x": 52.12990915244728,
-                        "y": -72.76090763726916,
-                        "s": true
-                      },
-                      {
-                        "x": -30.129909152447258,
-                        "y": -72.76090763726916,
-                        "s": true
-                      },
-                      {
-                        "x": -9.129909152447269,
-                        "y": -109.13397459621558,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 4,
-                    "Ha": null,
-                    "gh": null
-                  }
+                  "modified": true
                 },
                 {
                   "id": "76617d04-9604-4866-f972-08b2a74517f4",
@@ -25512,7 +25820,7 @@
                   "fromobjviewRef": "12a6fc35-7ebc-4e7a-4291-a9e2331ce8be",
                   "toobjviewRef": "0cefc7bd-dc52-4fca-ec18-007ebcbd1d3d",
                   "template": "",
-                  "arrowscale": "1.3",
+                  "arrowscale": "",
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
@@ -25523,26 +25831,7 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "markedAsDeleted": "",
-                  "modified": true,
-                  "points": {
-                    "__gohashid": 18579531,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": 11,
-                        "y": -209,
-                        "s": true
-                      },
-                      {
-                        "x": 11,
-                        "y": -179,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 2,
-                    "Ha": null,
-                    "gh": null
-                  }
+                  "modified": true
                 },
                 {
                   "id": "5efb3622-46ba-4c54-9a87-423f91e8cc9d",
@@ -25553,7 +25842,7 @@
                   "fromobjviewRef": "0cefc7bd-dc52-4fca-ec18-007ebcbd1d3d",
                   "toobjviewRef": "bc7bcb23-4b49-4dba-73b9-370b04e44af3",
                   "template": "",
-                  "arrowscale": "1.3",
+                  "arrowscale": "",
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
@@ -25564,26 +25853,7 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "markedAsDeleted": "",
-                  "modified": true,
-                  "points": {
-                    "__gohashid": 18579530,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": 11,
-                        "y": -109,
-                        "s": true
-                      },
-                      {
-                        "x": 11,
-                        "y": -49,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 2,
-                    "Ha": null,
-                    "gh": null
-                  }
+                  "modified": true
                 },
                 {
                   "id": "c5ac8d79-cecb-4736-c183-05cb5422ea46",
@@ -25594,7 +25864,7 @@
                   "fromobjviewRef": "71c569ae-16eb-4d54-b8ef-0835c9a34584",
                   "toobjviewRef": "0cefc7bd-dc52-4fca-ec18-007ebcbd1d3d",
                   "template": "",
-                  "arrowscale": "1.3",
+                  "arrowscale": "",
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
@@ -25605,26 +25875,7 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "markedAsDeleted": "",
-                  "modified": true,
-                  "points": {
-                    "__gohashid": 18579591,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": -239.00365335095825,
-                        "y": -122.57111542706072,
-                        "s": true
-                      },
-                      {
-                        "x": -88.99634664904175,
-                        "y": -135.42888457293927,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 3,
-                    "Ha": null,
-                    "gh": null
-                  }
+                  "modified": true
                 },
                 {
                   "id": "5bd65f88-972a-4bb4-94ab-0f30fb301ae8",
@@ -25635,7 +25886,7 @@
                   "fromobjviewRef": "71c569ae-16eb-4d54-b8ef-0835c9a34584",
                   "toobjviewRef": "bc7bcb23-4b49-4dba-73b9-370b04e44af3",
                   "template": "",
-                  "arrowscale": "1.3",
+                  "arrowscale": "",
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
@@ -25646,26 +25897,7 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "markedAsDeleted": "",
-                  "modified": true,
-                  "points": {
-                    "__gohashid": 18579588,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": -239.0384760523592,
-                        "y": -85.43956458638834,
-                        "s": true
-                      },
-                      {
-                        "x": -88.96152394764083,
-                        "y": -42.560435413611664,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 3,
-                    "Ha": null,
-                    "gh": null
-                  }
+                  "modified": true
                 },
                 {
                   "id": "c730d100-49a2-40a1-6261-5d1b08120ec6",
@@ -25676,7 +25908,7 @@
                   "fromobjviewRef": "71c569ae-16eb-4d54-b8ef-0835c9a34584",
                   "toobjviewRef": "fb566cea-ebed-4fd3-b66d-28ec5ebe196b",
                   "template": "",
-                  "arrowscale": "1.3",
+                  "arrowscale": "",
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
@@ -25687,26 +25919,7 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "markedAsDeleted": "",
-                  "modified": true,
-                  "points": {
-                    "__gohashid": 18579590,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": -281.4758404076208,
-                        "y": -79.48550424457247,
-                        "s": true
-                      },
-                      {
-                        "x": -46.524159592379206,
-                        "y": 61.485504244572475,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 3,
-                    "Ha": null,
-                    "gh": null
-                  }
+                  "modified": true
                 },
                 {
                   "id": "15804a50-97d0-447c-1024-2ecce3549937",
@@ -25717,7 +25930,7 @@
                   "fromobjviewRef": "71c569ae-16eb-4d54-b8ef-0835c9a34584",
                   "toobjviewRef": "b25481a1-a5f7-447f-e638-180b79c40ee8",
                   "template": "",
-                  "arrowscale": "1.3",
+                  "arrowscale": "",
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
@@ -25728,26 +25941,7 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "markedAsDeleted": "",
-                  "modified": true,
-                  "points": {
-                    "__gohashid": 18579589,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": -301.0744711879977,
-                        "y": -79.32523080045506,
-                        "s": true
-                      },
-                      {
-                        "x": -26.92552881200227,
-                        "y": 171.32523080045507,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 3,
-                    "Ha": null,
-                    "gh": null
-                  }
+                  "modified": true
                 },
                 {
                   "id": "ca1cd36c-72d3-4399-2b7c-9141ba558c94",
@@ -25804,6 +25998,129 @@
                   "fromobjviewRef": "71c569ae-16eb-4d54-b8ef-0835c9a34584",
                   "toobjviewRef": "12a6fc35-7ebc-4e7a-4291-a9e2331ce8be",
                   "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": {
+                    "__gohashid": 6070337,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -271.99960108657075,
+                        "y": -148.45734801262077,
+                        "s": true
+                      },
+                      {
+                        "x": -56.000398913429265,
+                        "y": -259.54265198737926,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 3,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "4abe2f6d-827b-4db5-cafb-816a20aff9d8",
+                  "name": "contains",
+                  "description": "",
+                  "relshipRef": "5afa5496-2843-4b64-8f8a-3c815fc1367f",
+                  "typeviewRef": "cfc7e358-96c6-46da-b498-243d55628cf3",
+                  "fromobjviewRef": "e120918a-dff4-4d42-e715-9afaddcd0ede",
+                  "toobjviewRef": "fcf5b3cf-5d4e-498e-9335-604fd285fd33",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": {
+                    "__gohashid": 2248935,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -659,
+                        "y": -259,
+                        "s": true
+                      },
+                      {
+                        "x": -659,
+                        "y": -149,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 3,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "654b69c7-6701-49a9-99a6-6dedc5c420fa",
+                  "name": "worksOn",
+                  "description": "",
+                  "relshipRef": "e405a6b9-9f8e-42f2-7da9-d03db4302271",
+                  "typeviewRef": "1139c90b-e6f8-4bd3-b3e0-15c91b96bce8",
+                  "fromobjviewRef": "b9c75d46-bd65-4351-9528-f29b68cc00a9",
+                  "toobjviewRef": "12a6fc35-7ebc-4e7a-4291-a9e2331ce8be",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": {
+                    "__gohashid": 2249009,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -1099,
+                        "y": -244,
+                        "s": true
+                      },
+                      {
+                        "x": -89,
+                        "y": -244,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 3,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "11f37119-5741-4de9-8b03-0062a80dde05",
+                  "name": "applies",
+                  "description": "",
+                  "relshipRef": "ed012de3-1e70-4230-3e44-8c0e4604d756",
+                  "typeviewRef": "9fbb5093-dfd5-4792-75ab-4c41931d9ae4",
+                  "fromobjviewRef": "b9c75d46-bd65-4351-9528-f29b68cc00a9",
+                  "toobjviewRef": "3a287b53-719d-4903-807c-0ee1d1aeaca1",
+                  "template": "",
                   "arrowscale": "1.3",
                   "strokecolor": "",
                   "strokewidth": "1",
@@ -25815,17 +26132,17 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 18579585,
+                    "__gohashid": 3445223,
                     "s": true,
                     "j": [
                       {
-                        "x": -246.5241131895287,
-                        "y": -148.34818652960362,
+                        "x": -1079,
+                        "y": -189,
                         "s": true
                       },
                       {
-                        "x": -81.47588681047131,
-                        "y": -209.65181347039638,
+                        "x": -1079,
+                        "y": -109,
                         "s": true
                       }
                     ],
@@ -25835,6 +26152,170 @@
                   },
                   "markedAsDeleted": "",
                   "modified": ""
+                },
+                {
+                  "id": "38adfa32-284e-4c0a-a401-92d969e59b87",
+                  "name": "includes",
+                  "description": "",
+                  "relshipRef": "68bbe4aa-52f7-4efb-6d35-1e5e28404257",
+                  "typeviewRef": "754706e1-9e3d-47df-4fa8-9566e73edb8f",
+                  "fromobjviewRef": "3a287b53-719d-4903-807c-0ee1d1aeaca1",
+                  "toobjviewRef": "12a6fc35-7ebc-4e7a-4291-a9e2331ce8be",
+                  "template": "",
+                  "arrowscale": "1.3",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": {
+                    "__gohashid": 3445272,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -979.0306659120348,
+                        "y": -99.34433821948414,
+                        "s": true
+                      },
+                      {
+                        "x": -468.9693340879652,
+                        "y": -228.65566178051586,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 3,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "dbaa08cf-34a0-4f25-854d-45cf25df1ef0",
+                  "name": "performs_Association",
+                  "description": "",
+                  "relshipRef": "bde227b0-310e-4052-02cc-b93f39a07e45",
+                  "typeviewRef": "604974a7-0dfa-4fd3-5c95-1d093a321fcd",
+                  "fromobjviewRef": "6cf348ad-d735-4410-d101-fd4aefa105db",
+                  "toobjviewRef": "b9c75d46-bd65-4351-9528-f29b68cc00a9",
+                  "template": "linkTemplate1",
+                  "arrowscale": "1.3",
+                  "strokecolor": "black",
+                  "strokewidth": "1",
+                  "textcolor": "black",
+                  "textscale": 1,
+                  "dash": "None",
+                  "fromArrow": "",
+                  "toArrow": "OpenTriangle",
+                  "fromArrowColor": "",
+                  "toArrowColor": "white",
+                  "points": {
+                    "__gohashid": 3440577,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -1079,
+                        "y": -299,
+                        "s": true
+                      },
+                      {
+                        "x": -1079,
+                        "y": -259,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 2,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": false,
+                  "modified": false
+                },
+                {
+                  "id": "f196aced-e9e1-4343-3ffa-e4d73a0a6525",
+                  "name": "includes_Association",
+                  "description": "",
+                  "relshipRef": "acc86216-63cc-4795-a7bb-0fbbab779de0",
+                  "typeviewRef": "754706e1-9e3d-47df-4fa8-9566e73edb8f",
+                  "fromobjviewRef": "3a287b53-719d-4903-807c-0ee1d1aeaca1",
+                  "toobjviewRef": "0cefc7bd-dc52-4fca-ec18-007ebcbd1d3d",
+                  "template": "linkTemplate1",
+                  "arrowscale": "1.3",
+                  "strokecolor": "black",
+                  "strokewidth": "1",
+                  "textcolor": "black",
+                  "textscale": 1,
+                  "dash": "None",
+                  "fromArrow": "",
+                  "toArrow": "OpenTriangle",
+                  "fromArrowColor": "",
+                  "toArrowColor": "white",
+                  "points": {
+                    "__gohashid": 3445273,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -979.0062881346674,
+                        "y": -85.26689711158676,
+                        "s": true
+                      },
+                      {
+                        "x": -468.9937118653325,
+                        "y": -142.73310288841324,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 3,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": false,
+                  "modified": false
+                },
+                {
+                  "id": "a2ca9d01-f803-42c3-f9ed-444a000c90c9",
+                  "name": "includes_Association",
+                  "description": "",
+                  "relshipRef": "78a5de36-c7d0-4f4f-a41f-f535ad92cbff",
+                  "typeviewRef": "754706e1-9e3d-47df-4fa8-9566e73edb8f",
+                  "fromobjviewRef": "3a287b53-719d-4903-807c-0ee1d1aeaca1",
+                  "toobjviewRef": "bc7bcb23-4b49-4dba-73b9-370b04e44af3",
+                  "template": "linkTemplate1",
+                  "arrowscale": "1.3",
+                  "strokecolor": "black",
+                  "strokewidth": "1",
+                  "textcolor": "black",
+                  "textscale": 1,
+                  "dash": "None",
+                  "fromArrow": "",
+                  "toArrow": "OpenTriangle",
+                  "fromArrowColor": "",
+                  "toArrowColor": "white",
+                  "points": {
+                    "__gohashid": 3445274,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -979.0024704815646,
+                        "y": -66.9579204564482,
+                        "s": true
+                      },
+                      {
+                        "x": -468.99752951843544,
+                        "y": -31.04207954355179,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 3,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": false,
+                  "modified": false
                 }
               ],
               "objecttypeviews": [],
@@ -29757,7 +30238,7 @@
                   "fromobjviewRef": "a5642b1d-372a-40d4-5332-3b09da154f72",
                   "toobjviewRef": "bc46336f-b978-4dca-23da-c20b17e986e0",
                   "template": "",
-                  "arrowscale": "1.3",
+                  "arrowscale": "",
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
@@ -29768,26 +30249,7 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "markedAsDeleted": "",
-                  "modified": "",
-                  "points": {
-                    "__gohashid": 18965742,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": 468.1231875913287,
-                        "y": -268.48083261120684,
-                        "s": true
-                      },
-                      {
-                        "x": 283.8768124086713,
-                        "y": -369.51916738879316,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 3,
-                    "Ha": null,
-                    "gh": null
-                  }
+                  "modified": ""
                 },
                 {
                   "id": "d9031654-5ce2-49c2-a252-38d152ed8c85",
@@ -29798,7 +30260,7 @@
                   "fromobjviewRef": "a5642b1d-372a-40d4-5332-3b09da154f72",
                   "toobjviewRef": "6fc408ab-e165-4a4c-8e45-4d0a9782e873",
                   "template": "",
-                  "arrowscale": "1.3",
+                  "arrowscale": "",
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
@@ -29809,26 +30271,7 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "markedAsDeleted": "",
-                  "modified": "",
-                  "points": {
-                    "__gohashid": 18965863,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": 531,
-                        "y": -269,
-                        "s": true
-                      },
-                      {
-                        "x": 531,
-                        "y": -369,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 3,
-                    "Ha": null,
-                    "gh": null
-                  }
+                  "modified": ""
                 },
                 {
                   "id": "4ec6842e-e595-4bf7-4803-9ce636d0eafb",
@@ -29839,7 +30282,7 @@
                   "fromobjviewRef": "a5642b1d-372a-40d4-5332-3b09da154f72",
                   "toobjviewRef": "853ca459-c08d-4765-4389-0a8295d9cbf9",
                   "template": "",
-                  "arrowscale": "1.3",
+                  "arrowscale": "",
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
@@ -29850,26 +30293,7 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "markedAsDeleted": "",
-                  "modified": true,
-                  "points": {
-                    "__gohashid": 18965060,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": 431,
-                        "y": -234,
-                        "s": true
-                      },
-                      {
-                        "x": 331,
-                        "y": -234,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 2,
-                    "Ha": null,
-                    "gh": null
-                  }
+                  "modified": true
                 },
                 {
                   "id": "f5a93527-1dec-4197-6f6c-1f43ef0d3964",
@@ -30229,6 +30653,375 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "d5795e34-70ca-49ce-1647-9d052bfb2ec8",
+                  "name": "leadsTo",
+                  "description": "",
+                  "relshipRef": "42eff5ca-06a1-4324-103f-80b2bf033c44",
+                  "typeviewRef": "10fd4ca9-e86b-4d2d-2c7b-93a8548fc15c",
+                  "fromobjviewRef": "0cefc7bd-dc52-4fca-ec18-007ebcbd1d3d",
+                  "toobjviewRef": "0cefc7bd-dc52-4fca-ec18-007ebcbd1d3d",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "markedAsDeleted": "",
+                  "modified": true
+                },
+                {
+                  "id": "76617d04-9604-4866-f972-08b2a74517f4",
+                  "name": "leadsTo",
+                  "description": "",
+                  "relshipRef": "3f9dbc1f-2f5b-43b8-b1b7-f5c1ad5c74f0",
+                  "typeviewRef": "10fd4ca9-e86b-4d2d-2c7b-93a8548fc15c",
+                  "fromobjviewRef": "12a6fc35-7ebc-4e7a-4291-a9e2331ce8be",
+                  "toobjviewRef": "0cefc7bd-dc52-4fca-ec18-007ebcbd1d3d",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "markedAsDeleted": "",
+                  "modified": true
+                },
+                {
+                  "id": "5efb3622-46ba-4c54-9a87-423f91e8cc9d",
+                  "name": "affects",
+                  "description": "",
+                  "relshipRef": "c5fce7b1-2a21-472a-7562-c5c302b167a6",
+                  "typeviewRef": "10fd4ca9-e86b-4d2d-2c7b-93a8548fc15c",
+                  "fromobjviewRef": "0cefc7bd-dc52-4fca-ec18-007ebcbd1d3d",
+                  "toobjviewRef": "bc7bcb23-4b49-4dba-73b9-370b04e44af3",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "markedAsDeleted": "",
+                  "modified": true
+                },
+                {
+                  "id": "c5ac8d79-cecb-4736-c183-05cb5422ea46",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "cc4a286e-beb9-442d-ec2b-811a67c4423f",
+                  "typeviewRef": "10fd4ca9-e86b-4d2d-2c7b-93a8548fc15c",
+                  "fromobjviewRef": "71c569ae-16eb-4d54-b8ef-0835c9a34584",
+                  "toobjviewRef": "0cefc7bd-dc52-4fca-ec18-007ebcbd1d3d",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "markedAsDeleted": "",
+                  "modified": true
+                },
+                {
+                  "id": "5bd65f88-972a-4bb4-94ab-0f30fb301ae8",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "d67e542c-65ae-41c1-cf37-0fe12b7efa38",
+                  "typeviewRef": "419ab8e9-d839-45d4-e432-a335457ab2e0",
+                  "fromobjviewRef": "71c569ae-16eb-4d54-b8ef-0835c9a34584",
+                  "toobjviewRef": "bc7bcb23-4b49-4dba-73b9-370b04e44af3",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "markedAsDeleted": "",
+                  "modified": true
+                },
+                {
+                  "id": "c730d100-49a2-40a1-6261-5d1b08120ec6",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "a5daac1d-468e-4353-f8fc-9766590b769b",
+                  "typeviewRef": "10fd4ca9-e86b-4d2d-2c7b-93a8548fc15c",
+                  "fromobjviewRef": "71c569ae-16eb-4d54-b8ef-0835c9a34584",
+                  "toobjviewRef": "fb566cea-ebed-4fd3-b66d-28ec5ebe196b",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "markedAsDeleted": "",
+                  "modified": true
+                },
+                {
+                  "id": "15804a50-97d0-447c-1024-2ecce3549937",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "bd69fe77-a843-49aa-654c-c23b7193a007",
+                  "typeviewRef": "10fd4ca9-e86b-4d2d-2c7b-93a8548fc15c",
+                  "fromobjviewRef": "71c569ae-16eb-4d54-b8ef-0835c9a34584",
+                  "toobjviewRef": "b25481a1-a5f7-447f-e638-180b79c40ee8",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "markedAsDeleted": "",
+                  "modified": true
+                },
+                {
+                  "id": "ca1cd36c-72d3-4399-2b7c-9141ba558c94",
+                  "name": " ",
+                  "description": "",
+                  "relshipRef": "d659887c-543d-455c-6cd0-e676d11dd62f",
+                  "typeviewRef": "5c7940d2-3abe-4ed2-ec4d-34f85d6663e7",
+                  "fromobjviewRef": "7da59054-1b01-4a0a-4eef-cf18bc494d0f",
+                  "toobjviewRef": "71c569ae-16eb-4d54-b8ef-0835c9a34584",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": {
+                    "__gohashid": 4203599,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -412.57236328125,
+                        "y": -510,
+                        "s": true
+                      },
+                      {
+                        "x": -422.57236328125,
+                        "y": -510,
+                        "s": true
+                      },
+                      {
+                        "x": -355.2473109847789,
+                        "y": -188.98442712821458,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 4,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "d96965ca-03a5-4e3f-2337-8cdb7b47ed55",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "a9544828-a149-4ce6-dab4-03747f89cc0e",
+                  "typeviewRef": "b1a0a127-4516-4c4e-5030-43f8a426fabc",
+                  "fromobjviewRef": "71c569ae-16eb-4d54-b8ef-0835c9a34584",
+                  "toobjviewRef": "12a6fc35-7ebc-4e7a-4291-a9e2331ce8be",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": {
+                    "__gohashid": 6070337,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -271.99960108657075,
+                        "y": -148.45734801262077,
+                        "s": true
+                      },
+                      {
+                        "x": -56.000398913429265,
+                        "y": -259.54265198737926,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 3,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "4abe2f6d-827b-4db5-cafb-816a20aff9d8",
+                  "name": "contains",
+                  "description": "",
+                  "relshipRef": "5afa5496-2843-4b64-8f8a-3c815fc1367f",
+                  "typeviewRef": "cfc7e358-96c6-46da-b498-243d55628cf3",
+                  "fromobjviewRef": "e120918a-dff4-4d42-e715-9afaddcd0ede",
+                  "toobjviewRef": "fcf5b3cf-5d4e-498e-9335-604fd285fd33",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": 1,
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": {
+                    "__gohashid": 2248935,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -659,
+                        "y": -259,
+                        "s": true
+                      },
+                      {
+                        "x": -659,
+                        "y": -149,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 3,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "654b69c7-6701-49a9-99a6-6dedc5c420fa",
+                  "name": "worksOn",
+                  "description": "",
+                  "relshipRef": "e405a6b9-9f8e-42f2-7da9-d03db4302271",
+                  "typeviewRef": "1139c90b-e6f8-4bd3-b3e0-15c91b96bce8",
+                  "fromobjviewRef": "b9c75d46-bd65-4351-9528-f29b68cc00a9",
+                  "toobjviewRef": "12a6fc35-7ebc-4e7a-4291-a9e2331ce8be",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": {
+                    "__gohashid": 2249009,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -1099,
+                        "y": -244,
+                        "s": true
+                      },
+                      {
+                        "x": -89,
+                        "y": -244,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 3,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "11f37119-5741-4de9-8b03-0062a80dde05",
+                  "name": "applies",
+                  "description": "",
+                  "relshipRef": "ed012de3-1e70-4230-3e44-8c0e4604d756",
+                  "typeviewRef": "9fbb5093-dfd5-4792-75ab-4c41931d9ae4",
+                  "fromobjviewRef": "b9c75d46-bd65-4351-9528-f29b68cc00a9",
+                  "toobjviewRef": "3a287b53-719d-4903-807c-0ee1d1aeaca1",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "38adfa32-284e-4c0a-a401-92d969e59b87",
+                  "name": "includes",
+                  "description": "",
+                  "relshipRef": "68bbe4aa-52f7-4efb-6d35-1e5e28404257",
+                  "typeviewRef": "754706e1-9e3d-47df-4fa8-9566e73edb8f",
+                  "fromobjviewRef": "3a287b53-719d-4903-807c-0ee1d1aeaca1",
+                  "toobjviewRef": "12a6fc35-7ebc-4e7a-4291-a9e2331ce8be",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
                   "markedAsDeleted": "",
                   "modified": ""
                 }
@@ -31059,30 +31852,6 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "points": {
-                    "__gohashid": 4203599,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": -412.57236328125,
-                        "y": -510,
-                        "s": true
-                      },
-                      {
-                        "x": -422.57236328125,
-                        "y": -510,
-                        "s": true
-                      },
-                      {
-                        "x": -355.2473109847789,
-                        "y": -188.98442712821458,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 4,
-                    "Ha": null,
-                    "gh": null
-                  },
                   "markedAsDeleted": "",
                   "modified": ""
                 },
@@ -31105,25 +31874,6 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "points": {
-                    "__gohashid": 6070337,
-                    "s": true,
-                    "j": [
-                      {
-                        "x": -271.99960108657075,
-                        "y": -148.45734801262077,
-                        "s": true
-                      },
-                      {
-                        "x": -56.000398913429265,
-                        "y": -259.54265198737926,
-                        "s": true
-                      }
-                    ],
-                    "Aa": 3,
-                    "Ha": null,
-                    "gh": null
-                  },
                   "markedAsDeleted": "",
                   "modified": ""
                 },
@@ -31221,11 +31971,11 @@
     "focusTargetModel": null,
     "focusTargetModelview": null,
     "focusModel": {
-      "id": "a9d0bb23-7b8b-4ca8-928c-3509b55981c8",
-      "name": "Test-Solution-model_SM"
+      "id": "05d5b929-b985-49ac-cf92-cc095a03889d",
+      "name": "IRTV&Strategy-Concepts_CM"
     },
     "focusModelview": {
-      "id": "73893550-a814-4fcb-67a1-6b7b6ad6b57b",
+      "id": "25369779-7e2d-4731-3d54-415f3c10da5d",
       "name": "Main"
     },
     "focusObject": {
@@ -31293,22 +32043,25 @@
           "description": "All types modelling",
           "workOnTypes": [
             [
-              "Capability",
               "Container",
+              "Datatype",
               "Element",
               "EntityType",
+              "FieldType",
               "Generic",
-              "Goal",
               "Information",
+              "InputPattern",
               "Label",
-              "Outcome",
-              "Requirement",
+              "Method",
+              "MethodType",
+              "Property",
+              "RelshipType",
               "Role",
               "Task",
-              "Test",
               "Unittype",
+              "Value",
               "View",
-              "Vision"
+              "ViewFormat"
             ]
           ]
         },
@@ -31322,12 +32075,13 @@
             "Role",
             "Task",
             "View",
-            "Test",
             false,
             false,
             false,
-            "Goal",
-            "Outcome"
+            false,
+            false,
+            "Property",
+            false
           ]
         },
         {
@@ -31375,8 +32129,25 @@
     },
     "focusCollection": null,
     "focusTask": {
-      "id": "task00",
-      "name": "All types"
+      "id": "Task4",
+      "name": "Modelling",
+      "description": "Modelling",
+      "workOnTypes": [
+        "Container",
+        "EntityType",
+        "Information",
+        "Role",
+        "Task",
+        "View",
+        "Label",
+        false,
+        false,
+        false,
+        false,
+        false,
+        "Property",
+        false
+      ]
     },
     "focusSource": {
       "id": null,
@@ -31404,5 +32175,5 @@
     }
   },
   "phSource": "GitHub: kavca-akm-models/metamodels/AKM-IRTV&Strategy&Test-Metamodels.json",
-  "lastUpdate": "2022-09-06T12:11:46.942Z"
+  "lastUpdate": "2022-09-06T14:16:01.962Z"
 }
