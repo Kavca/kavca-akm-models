@@ -8672,10 +8672,10 @@
               "description": "",
               "typeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
-              "loc": "",
+              "loc": "410 30",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "e659de13-43d7-43a1-e0d2-d54e12bb6035",
@@ -8683,10 +8683,10 @@
               "description": "",
               "typeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
-              "loc": "",
+              "loc": "120 200",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "a6d97e2d-561f-4cb2-b072-5ed8338945b9",
@@ -8694,10 +8694,10 @@
               "description": "",
               "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
-              "loc": "",
+              "loc": "30 -50",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "2cd9e8e9-c6b7-4512-3a0e-01454a1ef7ca",
@@ -8705,10 +8705,10 @@
               "description": "",
               "typeRef": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
-              "loc": "",
+              "loc": "20 380",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "18692c10-b4fe-4638-7214-2bcc048756b3",
@@ -8716,10 +8716,10 @@
               "description": "",
               "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
-              "loc": "",
+              "loc": "0 120",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "1163cd5d-e9de-46e5-b791-852fb4c10b6b",
@@ -8727,10 +8727,10 @@
               "description": "",
               "typeRef": "8977588c-e5fb-4ba0-ebb7-2905c0477ac5",
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
-              "loc": "",
+              "loc": "370 370",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "04868887-ddba-421e-0781-d07ddadf7030",
@@ -8892,10 +8892,10 @@
               "description": "",
               "typeRef": "99aecda3-79c2-49b4-aebe-664a1ccfb467",
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
-              "loc": "0 0",
+              "loc": "-260 -200",
               "size": "100 50",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "fb443ed0-eb36-4f77-d896-5f7656d918f8",
@@ -8903,10 +8903,10 @@
               "description": "",
               "typeRef": "99f120a4-bac0-4221-030f-12f97a2a1c1f",
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
-              "loc": "0 0",
+              "loc": "50 -240",
               "size": "100 50",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "3c81ddc7-9713-47a8-7a61-17f680f7260f",
@@ -8914,7 +8914,7 @@
               "description": "",
               "typeRef": "e2f1b75e-925b-40b2-88ca-164b40eb62ea",
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
-              "loc": "450 30",
+              "loc": "350 -130",
               "size": "100 50",
               "markedAsDeleted": false,
               "modified": true
@@ -14045,5 +14045,6 @@
       }
     }
   },
-  "lastUpdate": "2022-09-11T07:55:15.560Z"
+  "phSource": "GitHub: kavca-akm-models/models/PROD-STRUCT.json",
+  "lastUpdate": "2022-09-11T07:57:20.958Z"
 }
