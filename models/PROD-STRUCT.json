@@ -1,7 +1,7 @@
 {
   "phData": {
     "metis": {
-      "name": "PROD_STRUCT",
+      "name": "PROD-STRUCT",
       "description": "Product structure project",
       "metamodels": [
         {
@@ -6298,7 +6298,7 @@
                 }
               ],
               "methods": [],
-              "markedAsDeleted": false,
+              "markedAsDeleted": true,
               "modified": true
             },
             {
@@ -6334,7 +6334,7 @@
                 }
               ],
               "methods": [],
-              "markedAsDeleted": false,
+              "markedAsDeleted": true,
               "modified": true
             },
             {
@@ -8577,7 +8577,7 @@
               "textscale": "1",
               "memberscale": 1,
               "icon": "",
-              "markedAsDeleted": false,
+              "markedAsDeleted": true,
               "modified": false
             },
             {
@@ -8598,7 +8598,7 @@
               "textscale": "1",
               "memberscale": 1,
               "icon": "",
-              "markedAsDeleted": false,
+              "markedAsDeleted": true,
               "modified": false
             },
             {
@@ -8738,10 +8738,10 @@
               "description": "",
               "typeRef": "1be8168e-a9a4-46ea-2270-d71ab01024e0",
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
-              "loc": "0 0",
+              "loc": "400 220",
               "size": "100 50",
-              "markedAsDeleted": false,
-              "modified": false
+              "markedAsDeleted": true,
+              "modified": true
             },
             {
               "id": "c738a7a8-710d-4807-2adc-bf4938632979",
@@ -8751,7 +8751,7 @@
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
               "loc": "0 0",
               "size": "100 50",
-              "markedAsDeleted": false,
+              "markedAsDeleted": true,
               "modified": false
             },
             {
@@ -8914,10 +8914,10 @@
               "description": "",
               "typeRef": "e2f1b75e-925b-40b2-88ca-164b40eb62ea",
               "metamodelRef": "220da1d4-0718-4d16-704d-fdbf025d0f4f",
-              "loc": "0 0",
+              "loc": "450 30",
               "size": "100 50",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "826c60d2-8aca-4bb8-b695-a65fcf9af06a",
@@ -11686,7 +11686,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "c794a93b-e1ef-47a8-27d3-e913fbc8d36a",
@@ -11709,7 +11709,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "00a6a647-2c0f-45ed-ea54-803eb554ba5c",
@@ -11732,7 +11732,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "0872e72e-ecce-4e39-362a-64fe05a4b750",
@@ -11755,7 +11755,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "759e7f19-1887-4548-c940-4e508d1bdac2",
@@ -11778,7 +11778,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "126cf8c3-bad2-4de1-2755-38a5cbb35322",
@@ -11801,7 +11801,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "96996f88-df85-49e9-bbf6-8cb28d11f109",
@@ -11824,7 +11824,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "d9b6243a-67a4-4146-ef57-97a8371207da",
@@ -11847,7 +11847,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "fb5ff7c1-48a5-4f3d-cf55-534fdadeae86",
@@ -11870,7 +11870,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "8a4b991a-915b-4bed-b3fe-300a3320f9b2",
@@ -11893,7 +11893,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "0d658587-efcf-43fe-4738-61e47c4afc48",
@@ -11916,7 +11916,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "35e8331b-15bc-461d-ab9a-56071d4aac3b",
@@ -11939,7 +11939,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "624e5127-e633-418f-2d82-7881aa0e9772",
@@ -11962,7 +11962,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "e40158b8-fcc7-422d-0452-7aef4a1bf1c1",
@@ -11985,7 +11985,145 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
+                },
+                {
+                  "id": "cd5dff58-989b-47de-8f93-a8990585e46b",
+                  "name": "consistsOf",
+                  "description": "",
+                  "relshipRef": "a224a2ad-d0ba-4de1-5c6d-98912cdbe892",
+                  "typeviewRef": "f49647f8-85f2-495d-2cac-9b817672d128",
+                  "fromobjviewRef": "4ab4ad9c-286e-4ad0-843e-08ab9e8ad2d4",
+                  "toobjviewRef": "bbeef12d-24a7-4a7e-fca3-d38b23feab4c",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "3562cb85-07cd-4644-29c7-401f5fe39918",
+                  "name": "consistsOf",
+                  "description": "",
+                  "relshipRef": "b03d2a46-a931-416c-21d5-923c5dae1675",
+                  "typeviewRef": "f49647f8-85f2-495d-2cac-9b817672d128",
+                  "fromobjviewRef": "4ab4ad9c-286e-4ad0-843e-08ab9e8ad2d4",
+                  "toobjviewRef": "108594c9-e386-4f11-02f7-fb3a66466541",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "e34a9d69-51dc-4027-59c0-2e1ff7eecb03",
+                  "name": "consistsOf",
+                  "description": "",
+                  "relshipRef": "64a42e0b-45bf-41ca-ae73-db3390928c04",
+                  "typeviewRef": "f49647f8-85f2-495d-2cac-9b817672d128",
+                  "fromobjviewRef": "60347785-0f9e-4b18-afe5-bee5e36583fa",
+                  "toobjviewRef": "42455d14-5600-491c-120d-1775cf29298d",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "d7a7698a-48ea-4666-4255-d36f3e72f829",
+                  "name": "consistsOf",
+                  "description": "",
+                  "relshipRef": "3c5d5489-8d02-4f4a-0f65-c45fd63bd2bb",
+                  "typeviewRef": "f49647f8-85f2-495d-2cac-9b817672d128",
+                  "fromobjviewRef": "60347785-0f9e-4b18-afe5-bee5e36583fa",
+                  "toobjviewRef": "ebc3d6f0-7609-4027-7b62-9ccd3930f690",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "8eaac92d-dace-4e65-44e4-f6e73188d3d1",
+                  "name": "consistsOf",
+                  "description": "",
+                  "relshipRef": "cdee0f37-0989-4fb4-599c-cb4d74a76f14",
+                  "typeviewRef": "08550be6-b51f-4837-c4e8-55fabc8068c4",
+                  "fromobjviewRef": "5d090dcd-cce4-4d8c-44aa-cb521ce692ce",
+                  "toobjviewRef": "4ab4ad9c-286e-4ad0-843e-08ab9e8ad2d4",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "a7f17322-3a9e-4a87-20a6-12dcf08daffc",
+                  "name": "consistsOf",
+                  "description": "",
+                  "relshipRef": "729930c4-e108-4114-ae32-fe3c7021b29b",
+                  "typeviewRef": "08550be6-b51f-4837-c4e8-55fabc8068c4",
+                  "fromobjviewRef": "5d090dcd-cce4-4d8c-44aa-cb521ce692ce",
+                  "toobjviewRef": "60347785-0f9e-4b18-afe5-bee5e36583fa",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
                 }
               ],
               "objecttypeviews": [],
@@ -13377,6 +13515,328 @@
                   "points": null,
                   "markedAsDeleted": "",
                   "modified": ""
+                },
+                {
+                  "id": "2723c3a1-482a-4d80-6b0f-697375704066",
+                  "name": "consistsOf",
+                  "description": "",
+                  "relshipRef": "7ccd0eb3-9d31-4a7c-b49a-69da7b91b370",
+                  "typeviewRef": "70e7b709-bd91-4b7c-f390-553914e10430",
+                  "fromobjviewRef": "27cc4541-f8fb-487e-b622-59d54b26a2c3",
+                  "toobjviewRef": "2f920c73-3ba8-48de-5f05-431d90540aaf",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "c794a93b-e1ef-47a8-27d3-e913fbc8d36a",
+                  "name": "consistsOf",
+                  "description": "",
+                  "relshipRef": "bb08267c-5070-4fb1-8b2b-ee975ebddab1",
+                  "typeviewRef": "70e7b709-bd91-4b7c-f390-553914e10430",
+                  "fromobjviewRef": "2f920c73-3ba8-48de-5f05-431d90540aaf",
+                  "toobjviewRef": "8353885b-90f4-4554-3725-87f3e9b87ab8",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "00a6a647-2c0f-45ed-ea54-803eb554ba5c",
+                  "name": "consistsOf",
+                  "description": "",
+                  "relshipRef": "0049a1fb-e807-48a7-8167-93edab1fb738",
+                  "typeviewRef": "70e7b709-bd91-4b7c-f390-553914e10430",
+                  "fromobjviewRef": "2f920c73-3ba8-48de-5f05-431d90540aaf",
+                  "toobjviewRef": "2f920c73-3ba8-48de-5f05-431d90540aaf",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "0872e72e-ecce-4e39-362a-64fe05a4b750",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "63080518-186c-4aa7-dedd-ab5ee65daf15",
+                  "typeviewRef": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
+                  "fromobjviewRef": "8353885b-90f4-4554-3725-87f3e9b87ab8",
+                  "toobjviewRef": "fd51e34d-9da8-4889-b7d9-0b974bee8d15",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "759e7f19-1887-4548-c940-4e508d1bdac2",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "e3bbb86f-0cae-4ea5-c6be-0e85bfbe20c3",
+                  "typeviewRef": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
+                  "fromobjviewRef": "8353885b-90f4-4554-3725-87f3e9b87ab8",
+                  "toobjviewRef": "746cdeaa-1656-40b1-7ffe-ce6d267038ee",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "126cf8c3-bad2-4de1-2755-38a5cbb35322",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "a17a0605-d8f7-4416-abdf-39f6ef4a04cf",
+                  "typeviewRef": "063bfe99-b439-4ffa-f1cd-a4438cb8c29e",
+                  "fromobjviewRef": "746cdeaa-1656-40b1-7ffe-ce6d267038ee",
+                  "toobjviewRef": "432f8145-0501-450e-2429-8b8ef9245241",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "96996f88-df85-49e9-bbf6-8cb28d11f109",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "169bd3c5-6b98-4729-bb70-d3b903edf1ff",
+                  "typeviewRef": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
+                  "fromobjviewRef": "2f920c73-3ba8-48de-5f05-431d90540aaf",
+                  "toobjviewRef": "d0b1a668-30b7-4020-92c3-6897147df584",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "d9b6243a-67a4-4146-ef57-97a8371207da",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "0abf33bc-f028-4033-c706-289c71d96f0e",
+                  "typeviewRef": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
+                  "fromobjviewRef": "2f920c73-3ba8-48de-5f05-431d90540aaf",
+                  "toobjviewRef": "be1723da-21a4-42c7-74d2-dd57b8b5655b",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "fb5ff7c1-48a5-4f3d-cf55-534fdadeae86",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "412e8240-d029-4139-6f74-63b55e3ccf02",
+                  "typeviewRef": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
+                  "fromobjviewRef": "27cc4541-f8fb-487e-b622-59d54b26a2c3",
+                  "toobjviewRef": "d0b1a668-30b7-4020-92c3-6897147df584",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "8a4b991a-915b-4bed-b3fe-300a3320f9b2",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "5488c114-db55-4bde-e07c-6b58385f7f7f",
+                  "typeviewRef": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
+                  "fromobjviewRef": "27cc4541-f8fb-487e-b622-59d54b26a2c3",
+                  "toobjviewRef": "be1723da-21a4-42c7-74d2-dd57b8b5655b",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "0d658587-efcf-43fe-4738-61e47c4afc48",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "687d43ee-8f68-4026-dfb1-e05fcd0d7426",
+                  "typeviewRef": "063bfe99-b439-4ffa-f1cd-a4438cb8c29e",
+                  "fromobjviewRef": "be1723da-21a4-42c7-74d2-dd57b8b5655b",
+                  "toobjviewRef": "45c75e4b-78da-42e6-50fd-54a2bab9eba1",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "35e8331b-15bc-461d-ab9a-56071d4aac3b",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "71e215e2-32b8-4143-47d1-cdd373892024",
+                  "typeviewRef": "063bfe99-b439-4ffa-f1cd-a4438cb8c29e",
+                  "fromobjviewRef": "d0b1a668-30b7-4020-92c3-6897147df584",
+                  "toobjviewRef": "af39889f-7424-4bab-057f-798baf670fe8",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "624e5127-e633-418f-2d82-7881aa0e9772",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "3fd0932a-7f27-4225-dc62-271324c3d9eb",
+                  "typeviewRef": "063bfe99-b439-4ffa-f1cd-a4438cb8c29e",
+                  "fromobjviewRef": "27cc4541-f8fb-487e-b622-59d54b26a2c3",
+                  "toobjviewRef": "d927d868-87a5-47a7-d356-db4bc0e32c29",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
+                },
+                {
+                  "id": "e40158b8-fcc7-422d-0452-7aef4a1bf1c1",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "c16c7cd5-0cd4-46c5-1d45-1fdb783f5ad2",
+                  "typeviewRef": "063bfe99-b439-4ffa-f1cd-a4438cb8c29e",
+                  "fromobjviewRef": "27cc4541-f8fb-487e-b622-59d54b26a2c3",
+                  "toobjviewRef": "07a8e9f7-c404-49d2-3d2d-92817fd17acc",
+                  "template": "",
+                  "arrowscale": 1.3,
+                  "strokecolor": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "",
+                  "toArrow": "",
+                  "fromArrowColor": "",
+                  "toArrowColor": "",
+                  "points": null,
+                  "markedAsDeleted": "",
+                  "modified": ""
                 }
               ],
               "objecttypeviews": [],
@@ -13585,6 +14045,5 @@
       }
     }
   },
-  "phSource": "PROD-STRUCT.json",
-  "lastUpdate": "2022-09-11T07:51:48.954Z"
+  "lastUpdate": "2022-09-11T07:55:15.560Z"
 }
