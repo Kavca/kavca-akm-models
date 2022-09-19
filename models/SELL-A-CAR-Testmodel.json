@@ -2479,9 +2479,9 @@
             },
             {
               "id": "69a15677-c416-46c1-f1a6-ba51c6819d30",
-              "name": "isRelatedTo",
+              "name": "generic",
               "description": "",
-              "typeviewRef": "5a3fff6b-91d2-4a2b-6f21-daa8fbf196a2",
+              "typeviewRef": "e5af94e2-4645-4b27-3370-0f39456055d6",
               "properties": [],
               "relshipkind": "Association",
               "viewkind": "",
@@ -11899,7 +11899,7 @@
               "id": "69a15677-c416-46c1-f1a6-ba51c6819d30",
               "name": "isRelatedTo",
               "description": "",
-              "typeviewRef": "79fba204-9290-4b80-c833-4e013ea40c9f",
+              "typeviewRef": "41231913-f2c3-4a2c-0350-8b3205c2c323",
               "properties": [],
               "relshipkind": "Association",
               "viewkind": "",
@@ -14093,10 +14093,10 @@
               "description": "",
               "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
               "metamodelRef": "b0a3e5b1-8393-469f-3548-9f0e3c9ac126",
-              "loc": "",
+              "loc": "-30 -350",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "83dcd6cc-4075-45f1-754a-e97e2601ac94",
@@ -14104,10 +14104,10 @@
               "description": "",
               "typeRef": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
               "metamodelRef": "b0a3e5b1-8393-469f-3548-9f0e3c9ac126",
-              "loc": "",
+              "loc": "-20 -290",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "58105f64-10ab-485f-b7e1-10cb337d1a14",
@@ -14115,10 +14115,10 @@
               "description": "",
               "typeRef": "257e1f72-51d0-455b-7d78-b47b42d874a9",
               "metamodelRef": "b0a3e5b1-8393-469f-3548-9f0e3c9ac126",
-              "loc": "",
+              "loc": "-10 -230",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "7dfc7d8a-25ec-43a6-de7c-0ab64a441e5e",
@@ -14126,10 +14126,10 @@
               "description": "",
               "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
               "metamodelRef": "b0a3e5b1-8393-469f-3548-9f0e3c9ac126",
-              "loc": "",
+              "loc": "-80 120",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "15cd01ca-1721-4c08-fd31-25bff3dc94ae",
@@ -14137,10 +14137,10 @@
               "description": "",
               "typeRef": "5237d07b-38e0-407d-1deb-4ed4e09c5e15",
               "metamodelRef": "b0a3e5b1-8393-469f-3548-9f0e3c9ac126",
-              "loc": "",
+              "loc": "0 -200",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "4c79546d-9b50-46fa-12b0-7fdcd51c4723",
@@ -14159,10 +14159,10 @@
               "description": "",
               "typeRef": "8977588c-e5fb-4ba0-ebb7-2905c0477ac5",
               "metamodelRef": "b0a3e5b1-8393-469f-3548-9f0e3c9ac126",
-              "loc": "",
+              "loc": "-10 -130",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "68fbe302-5faf-48a5-b3f6-11df2b6bb60f",
@@ -14170,10 +14170,10 @@
               "description": "",
               "typeRef": "d7de8950-a1c6-4137-3eb4-4f94fbdd8e1a",
               "metamodelRef": "b0a3e5b1-8393-469f-3548-9f0e3c9ac126",
-              "loc": "",
+              "loc": "-10 -60",
               "size": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": true
             },
             {
               "id": "753fe07d-dbf2-4959-6d2d-890e9e39c30f",
@@ -20505,12 +20505,12 @@
     "focusTargetModel": null,
     "focusTargetModelview": null,
     "focusModel": {
-      "id": "23113c96-ee2f-4ecf-5886-36c9d562340c",
-      "name": "TEST_MODEL"
+      "id": "05d5b929-b985-49ac-cf92-cc095a03889d",
+      "name": "SELL_A_CAR_CONCEPT_MODEL"
     },
     "focusModelview": {
-      "id": "05711d5f-4bfd-452f-f5a1-a89b230db946",
-      "name": "Main"
+      "id": "25369779-7e2d-4731-3d54-415f3c10da5d",
+      "name": "1-Overview"
     },
     "focusObject": {
       "id": "eed91222-ca0d-4c7a-a7c9-30841e08d400",
@@ -20575,12 +20575,54 @@
       "name": "Modeller 1",
       "tasks": [
         {
+          "id": "task00",
+          "name": "All types",
+          "description": "All types modelling",
+          "workOnTypes": [
+            "Container",
+            "EntityType",
+            "Information",
+            "Role",
+            "Task",
+            "View",
+            false,
+            "Datatype",
+            "Element",
+            false,
+            "FieldType",
+            "Generic",
+            false,
+            "InputPattern",
+            "Label",
+            "Method",
+            "MethodType",
+            "Property",
+            "RelshipType",
+            false,
+            false,
+            "Unittype",
+            "Value",
+            false,
+            "ViewFormat"
+          ]
+        },
+        {
           "id": "Task0",
           "name": "Modelling",
           "workOnTypes": [
-            "Person",
-            "Car",
-            "Contract"
+            "Container",
+            "EntityType",
+            "Information",
+            "Role",
+            "Task",
+            "View",
+            false,
+            false,
+            false,
+            false,
+            false,
+            "Property",
+            false
           ]
         },
         {
@@ -20623,28 +20665,6 @@
             "Task",
             "View"
           ]
-        },
-        {
-          "id": "task4",
-          "name": "All types",
-          "description": "All types modelling",
-          "workOnTypes": [
-            [
-              "Car",
-              "Container",
-              "Contract",
-              "Element",
-              "EntityType",
-              "Generic",
-              "Information",
-              "Label",
-              "Person",
-              "Role",
-              "Task",
-              "Unittype",
-              "View"
-            ]
-          ]
         }
       ]
     },
@@ -20655,9 +20675,19 @@
       "description": "Modelling",
       "workOnTypes": [
         "Container",
-        "Person",
-        "Car",
-        "Contract"
+        "EntityType",
+        "Information",
+        "Role",
+        "Task",
+        "View",
+        "Label",
+        false,
+        false,
+        false,
+        false,
+        false,
+        "Property",
+        false
       ]
     },
     "focusSource": {
@@ -20685,6 +20715,6 @@
       }
     }
   },
-  "phSource": "SELL-A-CAR-Testmodel.json",
-  "lastUpdate": "2022-09-05T07:56:58.371Z"
+  "phSource": "GitHub: kavca-akm-models/models/SELL-A-CAR-Testmodel.json",
+  "lastUpdate": "2022-09-19T10:10:35.121Z"
 }
