@@ -2479,7 +2479,7 @@
             },
             {
               "id": "69a15677-c416-46c1-f1a6-ba51c6819d30",
-              "name": "isRelatedTo",
+              "name": "generic",
               "description": "",
               "typeviewRef": "759100a1-25aa-435a-f08b-edceb65b80e1",
               "properties": [],
@@ -6896,7 +6896,7 @@
             },
             {
               "id": "69a15677-c416-46c1-f1a6-ba51c6819d30",
-              "name": "isRelatedTo",
+              "name": "generic",
               "description": "",
               "typeviewRef": "",
               "properties": [],
@@ -11897,7 +11897,7 @@
             },
             {
               "id": "69a15677-c416-46c1-f1a6-ba51c6819d30",
-              "name": "isRelatedTo",
+              "name": "generic",
               "description": "",
               "typeviewRef": "",
               "properties": [],
@@ -25901,21 +25901,25 @@
           "name": "All types",
           "description": "All types modelling",
           "workOnTypes": [
-            [
-              "Car",
-              "Container",
-              "Contract",
-              "Element",
-              "EntityType",
-              "Generic",
-              "Information",
-              "Label",
-              "Person",
-              "Role",
-              "Task",
-              "Unittype",
-              "View"
-            ]
+            "Container",
+            "EntityType",
+            "Information",
+            "Role",
+            "Task",
+            "View",
+            "Car",
+            false,
+            "Contract",
+            "Element",
+            false,
+            "Generic",
+            false,
+            "Label",
+            "Person",
+            false,
+            false,
+            "Unittype",
+            false
           ]
         },
         {
@@ -26020,5 +26024,5 @@
     }
   },
   "phSource": "GitHub: kavca-akm-models/models/SellACar-Testmodel-Project.json",
-  "lastUpdate": "2022-09-06T13:29:52.758Z"
+  "lastUpdate": "2022-09-19T10:04:34.181Z"
 }
