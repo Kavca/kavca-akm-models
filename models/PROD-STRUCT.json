@@ -379,7 +379,7 @@
             },
             {
               "id": "69a15677-c416-46c1-f1a6-ba51c6819d30",
-              "name": "isRelatedTo",
+              "name": "generic",
               "description": "",
               "typeviewRef": "8546870a-32fe-4e08-a454-4e131933a506",
               "properties": [],
@@ -6670,9 +6670,9 @@
             },
             {
               "id": "69a15677-c416-46c1-f1a6-ba51c6819d30",
-              "name": "isRelatedTo",
+              "name": "generic",
               "description": "",
-              "typeviewRef": "4fdd8098-1ac0-4f2e-a54a-7eed09006bbf",
+              "typeviewRef": "4eef373b-dbd2-4764-4030-e03ddf7f22d7",
               "properties": [],
               "relshipkind": "Association",
               "viewkind": "",
@@ -14045,6 +14045,6 @@
       }
     }
   },
-  "phSource": "GitHub: kavca-akm-models/models/PROD-STRUCT.json",
-  "lastUpdate": "2022-09-11T07:57:20.958Z"
+  "phSource": "PROD-STRUCT.json",
+  "lastUpdate": "2022-09-19T10:18:42.807Z"
 }
