@@ -40741,6 +40741,88 @@
               "relshipkind": "Association",
               "valueset": null,
               "copiedFromId": ""
+            },
+            {
+              "id": "1584cf04-d893-42a4-7afa-3d839a7d8ea3",
+              "name": "Property",
+              "description": "",
+              "abstract": false,
+              "viewkind": "",
+              "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+              "typeName": "Property",
+              "typeDescription": "",
+              "propertyValues": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": false,
+              "nameId": "Property",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": ""
+            },
+            {
+              "id": "c7acfaa9-9cd9-4a57-16f7-f2a82cafc30f",
+              "name": "Property",
+              "description": "",
+              "abstract": false,
+              "viewkind": "",
+              "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+              "typeName": "Property",
+              "typeDescription": "",
+              "propertyValues": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": false,
+              "nameId": "Property",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": ""
+            },
+            {
+              "id": "9ecc400d-aa79-42df-d996-d037d286dcc5",
+              "name": "Method",
+              "description": "",
+              "abstract": false,
+              "viewkind": "",
+              "typeRef": "4f1e3080-24b0-4e9f-f8cc-f13e469232a2",
+              "typeName": "Method",
+              "typeDescription": "",
+              "propertyValues": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": false,
+              "nameId": "Method",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": "",
+              "methodtype": ""
+            },
+            {
+              "id": "31fabaac-4800-424f-f1ac-00e315e9732e",
+              "name": "Method",
+              "description": "",
+              "abstract": false,
+              "viewkind": "",
+              "typeRef": "4f1e3080-24b0-4e9f-f8cc-f13e469232a2",
+              "typeName": "Method",
+              "typeDescription": "",
+              "propertyValues": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": false,
+              "nameId": "Method",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": "",
+              "methodtype": ""
             }
           ],
           "relships": [
@@ -44872,7 +44954,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "1f5043ee-fd45-4909-aec8-c1b657e7e7d0",
@@ -44918,7 +45000,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "cc2948d3-823e-44dd-4856-36b6800c2d2a",
@@ -44959,7 +45041,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "6fc0708e-6c7c-4329-8b17-73abc37afaa5",
@@ -45005,7 +45087,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "911d2270-60cf-4111-7547-97945172431e",
@@ -45051,7 +45133,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "f90a0ed9-a2d9-4ab4-9695-a915d8b4bcee",
@@ -45092,7 +45174,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "6b0b9642-e06b-4e42-c773-075bc8a1fa91",
@@ -45133,7 +45215,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "f54353a6-c4fe-4c90-4eb4-91d9a698a3bc",
@@ -45174,7 +45256,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "37833188-8be3-495b-94bb-e14bfcc2ae62",
@@ -45215,7 +45297,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "5e15a7c9-917a-4b89-7a23-2abcafa7c2b5",
@@ -45256,7 +45338,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "ca2e5463-ae75-49da-e3b9-50f06f295bcc",
@@ -45297,7 +45379,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "df7c0b19-c768-4c9e-746a-76c4198b5a42",
@@ -45338,7 +45420,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "1010c4b6-66ee-4697-cc43-d8c5a820372c",
@@ -45379,7 +45461,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "6b4ed9f1-7ce7-46c9-2e2d-2bed0388c81f",
@@ -45420,7 +45502,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "8219b4ad-9efc-4eef-b4e1-bf742a0f9046",
@@ -45461,7 +45543,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "f927b412-101d-4a72-4710-027897c173ae",
@@ -45502,7 +45584,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "f2da6810-03bb-4e6f-15c0-d2e25b9749ae",
@@ -45543,7 +45625,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "68b5d11f-2056-4095-2370-fe2762a07b62",
@@ -45584,7 +45666,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "8ffa688b-172f-4a55-12b5-92bd271d70ad",
@@ -45625,7 +45707,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "802244ab-0f5a-48df-d773-ac81eb561c5b",
@@ -45666,7 +45748,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "f39fae33-a950-4fda-56fd-79fce6df1d17",
@@ -45707,7 +45789,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "622f5009-5198-4acf-de8f-aa2c508c6647",
@@ -45748,7 +45830,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "c26010d4-d94f-47f5-d335-ab07111181fe",
@@ -45789,7 +45871,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "4ee7f44d-39e0-4f15-b552-5e188407ee02",
@@ -45830,7 +45912,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "79db0369-d8d6-4731-123b-9e2f6f8e026c",
@@ -45853,7 +45935,7 @@
                   "toArrowColor": "",
                   "points": null,
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "e3ecc0aa-6916-422a-34c3-bf6435f66d3a",
@@ -45894,7 +45976,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "385c34e3-5aa5-4747-cc10-e410dec4e036",
@@ -45935,7 +46017,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "b06e9a73-31b8-4ddd-3aa1-48733c1658dd",
@@ -45976,7 +46058,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "d45b8d76-68df-40d5-c62b-9162f74267d1",
@@ -46017,7 +46099,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "f1a66bc9-5590-42fb-7717-123e645ac736",
@@ -46058,7 +46140,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "25a1b409-3023-435f-96e8-07dda7daf3ae",
@@ -46099,7 +46181,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "b275824c-c653-41e5-0694-ab76456119c7",
@@ -46140,7 +46222,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "b3246073-9aad-4d85-f84d-9cd2c1c394ac",
@@ -46181,7 +46263,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "ff7db399-e38b-4260-ee92-7ef7982e9221",
@@ -46222,7 +46304,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 }
               ],
               "objecttypeviews": [],
@@ -49182,16 +49264,16 @@
                 {
                   "description": "",
                   "group": "",
-                  "viewkind": "",
+                  "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "",
+                  "loc": "-300 -230",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
                   "markedAsDeleted": false,
                   "modified": false,
-                  "template": "",
+                  "template": "textAndIcon",
                   "figure": "",
                   "geometry": "",
                   "fillcolor": "",
@@ -49201,7 +49283,11 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "textscale": "1",
-                  "icon": ""
+                  "icon": "",
+                  "id": "10df5809-bf8d-4d80-5832-2226878fbc31",
+                  "name": "Property",
+                  "objectRef": "1584cf04-d893-42a4-7afa-3d839a7d8ea3",
+                  "typeviewRef": "e05d9ee2-7592-4313-4b53-865f7964294a"
                 },
                 {
                   "id": "d075c507-a9e8-40e4-5adf-32ed6618db1f",
@@ -49213,7 +49299,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-300 -220",
+                  "loc": "-300 0",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -49241,7 +49327,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "100 -220",
+                  "loc": "90 0",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -49258,6 +49344,94 @@
                   "textcolor": "",
                   "textscale": "1",
                   "icon": ""
+                },
+                {
+                  "id": "1088f0fb-43d6-4c6d-7422-9ef1d38af7d7",
+                  "name": "Property",
+                  "description": "",
+                  "objectRef": "c7acfaa9-9cd9-4a57-16f7-f2a82cafc30f",
+                  "typeviewRef": "e05d9ee2-7592-4313-4b53-865f7964294a",
+                  "group": "",
+                  "viewkind": "Object",
+                  "isGroup": false,
+                  "isCollapsed": false,
+                  "loc": "-300 -140",
+                  "size": "",
+                  "scale": 1,
+                  "memberscale": 1,
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "template": "textAndIcon",
+                  "figure": "",
+                  "geometry": "",
+                  "fillcolor": "",
+                  "fillcolor2": "",
+                  "strokecolor": "",
+                  "strokecolor2": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "1",
+                  "icon": ""
+                },
+                {
+                  "id": "419a3bdc-183c-4b69-5b23-f6405fb437d1",
+                  "name": "Method",
+                  "description": "",
+                  "objectRef": "9ecc400d-aa79-42df-d996-d037d286dcc5",
+                  "typeviewRef": "35bdb5f9-49c9-4ce0-471d-efc648d41fc1",
+                  "group": "",
+                  "viewkind": "Object",
+                  "isGroup": false,
+                  "isCollapsed": false,
+                  "loc": "100 -220",
+                  "size": "",
+                  "scale": 1,
+                  "memberscale": 1,
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "template": "textAndIcon",
+                  "figure": "",
+                  "geometry": "",
+                  "fillcolor": "",
+                  "fillcolor2": "",
+                  "strokecolor": "",
+                  "strokecolor2": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "1",
+                  "icon": ""
+                },
+                {
+                  "id": "f209123d-0a2d-45d2-9585-810c02e5669f",
+                  "name": "Method",
+                  "description": "",
+                  "objectRef": "31fabaac-4800-424f-f1ac-00e315e9732e",
+                  "typeviewRef": "35bdb5f9-49c9-4ce0-471d-efc648d41fc1",
+                  "group": "",
+                  "viewkind": "Object",
+                  "isGroup": false,
+                  "isCollapsed": false,
+                  "loc": "100 -140",
+                  "size": "",
+                  "scale": 1,
+                  "memberscale": 1,
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "template": "textAndIcon",
+                  "figure": "",
+                  "geometry": "",
+                  "fillcolor": "",
+                  "fillcolor2": "",
+                  "strokecolor": "",
+                  "strokecolor2": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "1",
+                  "icon": ""
+                },
+                {
+                  "scale": null,
+                  "memberscale": null
                 }
               ],
               "relshipviews": [
@@ -49321,7 +49495,25 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "points": null,
+                  "points": {
+                    "__gohashid": 1504822,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -99,
+                        "y": 36,
+                        "s": true
+                      },
+                      {
+                        "x": 91,
+                        "y": 36,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 3,
+                    "Ha": null,
+                    "gh": null
+                  },
                   "markedAsDeleted": "",
                   "modified": ""
                 },
@@ -49367,7 +49559,14 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "points": null,
+                  "points": [
+                    -598.9012362364354,
+                    -239.0000039813163,
+                    -598.125,
+                    36.08332824707031,
+                    -298.999999978206,
+                    36.020877731801356
+                  ],
                   "markedAsDeleted": "",
                   "modified": ""
                 }
@@ -51163,7 +51362,7 @@
             },
             {
               "id": "d0fe99d2-4ed9-4c84-76ba-dfa0c3a4e107",
-              "name": "Iterpret of A-2",
+              "name": "Interpret of A-2",
               "description": "",
               "text": "",
               "abstract": false,
@@ -51877,7 +52076,7 @@
                 },
                 {
                   "id": "5cc979be-4e34-4beb-02e4-1f529466ce74",
-                  "name": "BlodtrykkmÃ¥ler",
+                  "name": "BlodtrykkmÃÂ¥ler",
                   "description": "",
                   "group": "",
                   "viewkind": "",
@@ -51991,7 +52190,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-560 -110",
+                  "loc": "-440 -110",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52019,7 +52218,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-220 -110",
+                  "loc": "-100 -110",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52047,7 +52246,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "130 -110",
+                  "loc": "250 -110",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52075,7 +52274,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-400 -260",
+                  "loc": "-550 -270",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52103,7 +52302,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-300 -400",
+                  "loc": "-450 -410",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52131,7 +52330,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "100 -370",
+                  "loc": "-50 -380",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52159,7 +52358,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-480 -530",
+                  "loc": "-630 -540",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52187,7 +52386,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-130 -530",
+                  "loc": "-280 -540",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52215,7 +52414,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-560 -10",
+                  "loc": "-440 -10",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52243,7 +52442,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-560 110",
+                  "loc": "-440 110",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52299,7 +52498,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "100 -470",
+                  "loc": "-50 -480",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52327,7 +52526,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-200 110",
+                  "loc": "-80 110",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52347,7 +52546,7 @@
                 },
                 {
                   "id": "42a52ce9-1024-40ce-081e-572fbfce0b63",
-                  "name": "Iterpret of A-2",
+                  "name": "Interpret of A-2",
                   "description": "",
                   "objectRef": "d0fe99d2-4ed9-4c84-76ba-dfa0c3a4e107",
                   "typeviewRef": "23cd96f0-c5db-4913-a198-9ca4ba2e9758",
@@ -52355,7 +52554,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-170 -260",
+                  "loc": "-320 -270",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52371,7 +52570,8 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "textscale": "1",
-                  "icon": ""
+                  "icon": "",
+                  "text": ""
                 },
                 {
                   "id": "e1e202cf-bbe8-44c8-5e4f-0a706a8d4aa4",
@@ -52439,7 +52639,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "60 -260",
+                  "loc": "-90 -270",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
@@ -52493,8 +52693,8 @@
                   "isCollapsed": false,
                   "loc": "",
                   "size": "",
-                  "scale": 1,
-                  "memberscale": 1,
+                  "scale": null,
+                  "memberscale": null,
                   "markedAsDeleted": false,
                   "modified": false,
                   "template": "",
@@ -52519,12 +52719,12 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isCollapsed": false,
-                  "loc": "-760 -290",
+                  "loc": "-860 -260",
                   "size": "",
                   "scale": 1,
                   "memberscale": 1,
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": true,
                   "template": "textAndGeometry",
                   "figure": "",
                   "geometry": "",
@@ -52559,11 +52759,11 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 16099413,
+                    "__gohashid": 1211940,
                     "s": true,
                     "j": [
                       {
-                        "x": -559,
+                        "x": -439,
                         "y": -74,
                         "s": true
                       },
@@ -52600,17 +52800,17 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 13404887,
+                    "__gohashid": 1211941,
                     "s": true,
                     "j": [
                       {
-                        "x": -335.99620387080677,
-                        "y": -189.31605887111868,
+                        "x": -425.05847117711295,
+                        "y": -199.17595807580062,
                         "s": true
                       },
                       {
-                        "x": -422.00379612919323,
-                        "y": -108.68394112888133,
+                        "x": -362.94152882288705,
+                        "y": -108.82404192419936,
                         "s": true
                       }
                     ],
@@ -52641,26 +52841,26 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 13404888,
+                    "__gohashid": 1211346,
                     "s": true,
                     "j": [
                       {
-                        "x": -223.8669524794334,
-                        "y": -329.1862665287933,
+                        "x": -373.8669524794334,
+                        "y": -339.1862665287933,
                         "s": true
                       },
                       {
-                        "x": -274.1330475205666,
-                        "y": -258.8137334712067,
+                        "x": -424.1330475205666,
+                        "y": -268.8137334712067,
                         "s": true
                       }
                     ],
-                    "Aa": 3,
+                    "Aa": 2,
                     "Ha": null,
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": ""
+                  "modified": false
                 },
                 {
                   "id": "cd054cb2-0834-4287-a48f-5b9324243698",
@@ -52682,26 +52882,26 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 16097923,
+                    "__gohashid": 1211345,
                     "s": true,
                     "j": [
                       {
-                        "x": -99.00280069011154,
-                        "y": -356.50021005175836,
+                        "x": -249.00280069011154,
+                        "y": -366.50021005175836,
                         "s": true
                       },
                       {
-                        "x": 101.00280069011154,
-                        "y": -341.49978994824164,
+                        "x": -48.99719930988846,
+                        "y": -351.49978994824164,
                         "s": true
                       }
                     ],
-                    "Aa": 3,
+                    "Aa": 2,
                     "Ha": null,
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": ""
+                  "modified": false
                 },
                 {
                   "id": "3a9064a0-f63a-4cdc-8707-158384b4a598",
@@ -52723,21 +52923,21 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 1495820,
+                    "__gohashid": 1211344,
                     "s": true,
                     "j": [
                       {
-                        "x": -191.44126391569682,
-                        "y": -368.588171697675,
+                        "x": -303.74410370548435,
+                        "y": -408.6074501075708,
                         "s": true
                       },
                       {
-                        "x": -66.55873608430319,
-                        "y": -459.4118283023249,
+                        "x": -224.25589629451565,
+                        "y": -469.3925498924292,
                         "s": true
                       }
                     ],
-                    "Aa": 3,
+                    "Aa": 2,
                     "Ha": null,
                     "gh": null
                   },
@@ -52764,21 +52964,21 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 1495751,
+                    "__gohashid": 1211343,
                     "s": true,
                     "j": [
                       {
-                        "x": -275.8531999926928,
-                        "y": -368.685364699005,
+                        "x": -396.88760230532296,
+                        "y": -408.58549055384435,
                         "s": true
                       },
                       {
-                        "x": -372.1468000073072,
-                        "y": -459.314635300995,
+                        "x": -481.11239769467704,
+                        "y": -469.41450944615565,
                         "s": true
                       }
                     ],
-                    "Aa": 3,
+                    "Aa": 2,
                     "Ha": null,
                     "gh": null
                   },
@@ -52805,26 +53005,26 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 1495821,
+                    "__gohashid": 1211342,
                     "s": true,
                     "j": [
                       {
-                        "x": -309,
-                        "y": -494,
+                        "x": -429,
+                        "y": -504,
                         "s": true
                       },
                       {
-                        "x": -119,
-                        "y": -494,
+                        "x": -279,
+                        "y": -504,
                         "s": true
                       }
                     ],
-                    "Aa": 3,
+                    "Aa": 2,
                     "Ha": null,
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": ""
+                  "modified": false
                 },
                 {
                   "id": "7123ed93-01fb-429d-3acc-a1de11526c31",
@@ -52846,17 +53046,17 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 16099414,
+                    "__gohashid": 1211935,
                     "s": true,
                     "j": [
                       {
-                        "x": -557.6938204130547,
-                        "y": -5.836716262275716,
+                        "x": -438.9740080270392,
+                        "y": 2.7502306913862338,
                         "s": true
                       },
                       {
-                        "x": -670.3061795869455,
-                        "y": -42.16328373772434,
+                        "x": -669.0259919729608,
+                        "y": -50.75023069138623,
                         "s": true
                       }
                     ],
@@ -52887,17 +53087,17 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 13404889,
+                    "__gohashid": 1211936,
                     "s": true,
                     "j": [
                       {
-                        "x": -321.29905369642336,
-                        "y": -189.1577285993385,
+                        "x": -434.22574462454793,
+                        "y": -199.07903274893144,
                         "s": true
                       },
                       {
-                        "x": -436.70094630357664,
-                        "y": -8.842271400661511,
+                        "x": -353.77425537545207,
+                        "y": -8.920967251068559,
                         "s": true
                       }
                     ],
@@ -52928,17 +53128,17 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 16099415,
+                    "__gohashid": 1211932,
                     "s": true,
                     "j": [
                       {
-                        "x": -507.7245980538261,
-                        "y": 111.42125299405888,
+                        "x": -406.3447936175228,
+                        "y": 111.54452419568601,
                         "s": true
                       },
                       {
-                        "x": -720.2754019461738,
-                        "y": -39.421252994058875,
+                        "x": -701.6552063824772,
+                        "y": -39.54452419568601,
                         "s": true
                       }
                     ],
@@ -52969,17 +53169,17 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 13404890,
+                    "__gohashid": 1211933,
                     "s": true,
                     "j": [
                       {
-                        "x": -313.7038464737423,
-                        "y": -189.07836462486193,
+                        "x": -438.87983666030107,
+                        "y": -199.03943573558544,
                         "s": true
                       },
                       {
-                        "x": -444.2961535262577,
-                        "y": 121.07836462486193,
+                        "x": -349.12016333969893,
+                        "y": 111.03943573558544,
                         "s": true
                       }
                     ],
@@ -53010,21 +53210,21 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 16097893,
+                    "__gohashid": 1211341,
                     "s": true,
                     "j": [
                       {
-                        "x": -99.0149695328443,
-                        "y": -381.49738033175225,
+                        "x": -249.0149695328443,
+                        "y": -391.49738033175225,
                         "s": true
                       },
                       {
-                        "x": 101.01496953284429,
-                        "y": -416.50261966824775,
+                        "x": -48.98503046715571,
+                        "y": -426.50261966824775,
                         "s": true
                       }
                     ],
-                    "Aa": 3,
+                    "Aa": 2,
                     "Ha": null,
                     "gh": null
                   },
@@ -53051,17 +53251,17 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 13404917,
+                    "__gohashid": 1211937,
                     "s": true,
                     "j": [
                       {
-                        "x": -122.88187913896388,
-                        "y": -189.46033388527957,
+                        "x": -235.11136586976943,
+                        "y": -199.09204061549954,
                         "s": true
                       },
                       {
-                        "x": -405.1181208610361,
-                        "y": -8.539666114720433,
+                        "x": -322.88863413023057,
+                        "y": -8.907959384500451,
                         "s": true
                       }
                     ],
@@ -53091,9 +53291,27 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "points": null,
+                  "points": {
+                    "__gohashid": 1211928,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -79,
+                        "y": 146,
+                        "s": true
+                      },
+                      {
+                        "x": -239,
+                        "y": 146,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 2,
+                    "Ha": null,
+                    "gh": null
+                  },
                   "markedAsDeleted": "",
-                  "modified": ""
+                  "modified": false
                 },
                 {
                   "id": "63ef6e99-95c2-4cec-f23c-2432d38f3a57",
@@ -53114,9 +53332,27 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "points": null,
+                  "points": {
+                    "__gohashid": 1211927,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -99,
+                        "y": -74,
+                        "s": true
+                      },
+                      {
+                        "x": -239,
+                        "y": -74,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 2,
+                    "Ha": null,
+                    "gh": null
+                  },
                   "markedAsDeleted": "",
-                  "modified": ""
+                  "modified": false
                 },
                 {
                   "id": "49602647-f8ee-40ad-5f84-8261c5cda6c6",
@@ -53138,17 +53374,17 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 13404891,
+                    "__gohashid": 1211938,
                     "s": true,
                     "j": [
                       {
-                        "x": -252.86666666666665,
-                        "y": -189.4,
+                        "x": -353.38027923484276,
+                        "y": -200.0018770612774,
                         "s": true
                       },
                       {
-                        "x": -145.13333333333333,
-                        "y": -108.6,
+                        "x": -94.61972076515721,
+                        "y": -107.99812293872256,
                         "s": true
                       }
                     ],
@@ -53157,7 +53393,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": ""
+                  "modified": false
                 },
                 {
                   "id": "c25fcf93-2847-44ea-e623-c8d49a188c8e",
@@ -53179,17 +53415,17 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 13404918,
+                    "__gohashid": 1211939,
                     "s": true,
                     "j": [
                       {
-                        "x": -75.99611613513818,
-                        "y": -189.01941932430907,
+                        "x": -171.44126391569682,
+                        "y": -199.41182830232495,
                         "s": true
                       },
                       {
-                        "x": -92.00388386486182,
-                        "y": -108.98058067569092,
+                        "x": -46.55873608430319,
+                        "y": -108.58817169767505,
                         "s": true
                       }
                     ],
@@ -53198,7 +53434,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": ""
+                  "modified": false
                 },
                 {
                   "id": "26b22cdc-db89-4cdf-edd4-ac1ec6155304",
@@ -53220,17 +53456,17 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 13404957,
+                    "__gohashid": 1211934,
                     "s": true,
                     "j": [
                       {
-                        "x": 104.67371453706275,
-                        "y": -189.4774379420707,
+                        "x": -20.993265228436,
+                        "y": -199.26445489484092,
                         "s": true
                       },
                       {
-                        "x": -402.6737145370627,
-                        "y": 121.47743794207071,
+                        "x": -307.00673477156397,
+                        "y": 111.26445489484091,
                         "s": true
                       }
                     ],
@@ -53261,26 +53497,26 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 13404919,
+                    "__gohashid": 1211340,
                     "s": true,
                     "j": [
                       {
-                        "x": -166.74812032920414,
-                        "y": -329.2672065083737,
+                        "x": -316.74812032920414,
+                        "y": -339.2672065083737,
                         "s": true
                       },
                       {
-                        "x": -101.25187967079584,
-                        "y": -258.7327934916263,
+                        "x": -251.25187967079586,
+                        "y": -268.7327934916263,
                         "s": true
                       }
                     ],
-                    "Aa": 3,
+                    "Aa": 2,
                     "Ha": null,
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": ""
+                  "modified": false
                 },
                 {
                   "id": "a2620dd3-341f-41ec-0259-21bc2696c92f",
@@ -53302,26 +53538,26 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 13404958,
+                    "__gohashid": 1211339,
                     "s": true,
                     "j": [
                       {
-                        "x": -110.63942389988728,
-                        "y": -329.63755373884504,
+                        "x": -260.6394238998873,
+                        "y": -339.63755373884504,
                         "s": true
                       },
                       {
-                        "x": 72.63942389988728,
-                        "y": -258.36244626115496,
+                        "x": -77.36057610011272,
+                        "y": -268.36244626115496,
                         "s": true
                       }
                     ],
-                    "Aa": 3,
+                    "Aa": 2,
                     "Ha": null,
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": ""
+                  "modified": false
                 },
                 {
                   "id": "9d406670-1023-4090-8c7d-91f1aaf5255c",
@@ -53343,17 +53579,17 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 13404959,
+                    "__gohashid": 1211931,
                     "s": true,
                     "j": [
                       {
-                        "x": 137.17215818967117,
-                        "y": -189.17469273875017,
+                        "x": 11.921043524193493,
+                        "y": -199.00034608064715,
                         "s": true
                       },
                       {
-                        "x": -75.17215818967118,
-                        "y": 121.17469273875017,
+                        "x": 20.078956475806507,
+                        "y": 111.00034608064715,
                         "s": true
                       }
                     ],
@@ -53362,7 +53598,7 @@
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": true
+                  "modified": false
                 },
                 {
                   "id": "6ae9f334-3e4c-40b7-6f18-018525325204",
@@ -53384,26 +53620,26 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 12554332,
+                    "__gohashid": 1211926,
                     "s": true,
                     "j": [
-                      {
-                        "x": 1,
-                        "y": -74,
-                        "s": true
-                      },
                       {
                         "x": 101,
                         "y": -74,
                         "s": true
+                      },
+                      {
+                        "x": 251,
+                        "y": -74,
+                        "s": true
                       }
                     ],
-                    "Aa": 3,
+                    "Aa": 2,
                     "Ha": null,
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": true
+                  "modified": false
                 },
                 {
                   "id": "17aa585e-7651-43fe-5fbb-75954736fb6b",
@@ -53425,26 +53661,26 @@
                   "fromArrowColor": "",
                   "toArrowColor": "",
                   "points": {
-                    "__gohashid": 12554259,
+                    "__gohashid": 1211925,
                     "s": true,
                     "j": [
                       {
-                        "x": -53.85856755175155,
-                        "y": 121.39156845634287,
+                        "x": 72.83205029433785,
+                        "y": 111.44529980377477,
                         "s": true
                       },
                       {
-                        "x": 155.85856755175155,
-                        "y": -39.39156845634287,
+                        "x": 299.1679497056622,
+                        "y": -39.44529980377477,
                         "s": true
                       }
                     ],
-                    "Aa": 3,
+                    "Aa": 2,
                     "Ha": null,
                     "gh": null
                   },
                   "markedAsDeleted": "",
-                  "modified": true
+                  "modified": false
                 },
                 {
                   "id": "a1db87bb-f657-4b13-3108-fbc278cda993",
@@ -53454,20 +53690,38 @@
                   "typeviewRef": "c5ea95c4-be59-4db7-a7c5-fa4b6f2a22aa",
                   "fromobjviewRef": "9d1dffd8-bbbe-4f90-9fa9-7f886d650c62",
                   "toobjviewRef": "8ed2fd16-2969-4e8f-2889-1a8c6d65c7db",
-                  "template": "linkTemplate1",
+                  "template": "",
                   "arrowscale": 1.3,
-                  "strokecolor": "black",
+                  "strokecolor": "",
                   "strokewidth": "1",
-                  "textcolor": "black",
-                  "textscale": "1",
-                  "dash": "None",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
                   "fromArrow": "",
-                  "toArrow": "OpenTriangle",
+                  "toArrow": "",
                   "fromArrowColor": "",
-                  "toArrowColor": "white",
-                  "points": null,
-                  "markedAsDeleted": false,
-                  "modified": false
+                  "toArrowColor": "",
+                  "points": {
+                    "__gohashid": 1211942,
+                    "s": true,
+                    "j": [
+                      {
+                        "x": -663.5566460142578,
+                        "y": -189.91308786223493,
+                        "s": true
+                      },
+                      {
+                        "x": -434.44335398574214,
+                        "y": -108.08691213776504,
+                        "s": true
+                      }
+                    ],
+                    "Aa": 3,
+                    "Ha": null,
+                    "gh": null
+                  },
+                  "markedAsDeleted": "",
+                  "modified": ""
                 }
               ],
               "objecttypeviews": [],
@@ -53498,12 +53752,12 @@
     "focusTargetModel": null,
     "focusTargetModelview": null,
     "focusModel": {
-      "id": "6000bf62-6cc0-4cf8-93d1-4f3b9f68548b",
-      "name": "Test-of-metamodel_SM"
+      "id": "05d5b929-b985-49ac-cf92-cc095a03889d",
+      "name": "AKM-Measurements_CM"
     },
     "focusModelview": {
-      "id": "9da4a511-f37d-4c74-8261-97f97988947e",
-      "name": "0-Main"
+      "id": "9b2a9cd8-b50e-4a68-b172-13cc6e099809",
+      "name": "2-interpretation"
     },
     "focusObject": {
       "id": "96b82291-4fa1-448b-59cc-016673e5610a",
@@ -53576,45 +53830,21 @@
             "Role",
             "Task",
             "View",
-            "Caption",
             false,
             "Datatype",
-            "DateTime",
-            "Direction",
             "Element",
             false,
-            "Event",
-            "Eventlog",
             "FieldType",
             "Generic",
-            "GeoLocation",
             false,
             "InputPattern",
-            "Instrument",
-            "Interpretation",
             "Label",
-            "Measurement",
             "Method",
             "MethodType",
-            "Obeservation",
-            "Observations",
-            "Organisation",
-            "Position",
-            "Process",
-            "Product",
             "Property",
             "RelshipType",
             false,
-            "Sample",
-            "SampleLog",
-            "Sensor",
-            "Situation?",
-            "SynthConclusion",
-            "System",
             false,
-            "Temperature",
-            "TimeStamp",
-            "Trajectory",
             "Unittype",
             "Value",
             false,
@@ -53631,30 +53861,12 @@
             "Role",
             "Task",
             "View",
-            "Organisation",
-            "Product",
-            "Process",
-            "System",
-            "Position",
-            "Event",
-            "Observations",
-            "Eventlog",
-            "Obeservation",
-            "Sensor",
-            "SampleLog",
-            "Caption",
-            "Sample",
-            "Interpretation",
-            "SynthConclusion",
-            "Instrument",
-            "Direction",
-            "TimeStamp",
-            "GeoLocation",
-            "Trajectory",
-            "DateTime",
-            "Temperature",
-            "Situation?",
-            "Measurement",
+            false,
+            false,
+            false,
+            false,
+            false,
+            "Property",
             false
           ]
         },
@@ -53717,30 +53929,7 @@
         "Property",
         "Generic",
         "Label",
-        "Caption",
-        "DateTime",
-        "Direction",
         "Element",
-        "Event",
-        "Eventlog",
-        "GeoLocation",
-        "Instrument",
-        "Interpretation",
-        "Measurement",
-        "Obeservation",
-        "Observations",
-        "Organisation",
-        "Position",
-        "Product",
-        "Sample",
-        "SampleLog",
-        "Sensor",
-        "Situation?",
-        "SynthConclusion",
-        "System",
-        "Temperature",
-        "TimeStamp",
-        "Trajectory",
         "Process",
         "Function",
         "Activity",
@@ -53765,8 +53954,8 @@
       "name": ""
     },
     "focusRefresh": {
-      "id": "lq5m5v",
-      "name": "0name"
+      "id": "5k151u",
+      "name": "2name"
     },
     "focusTargetMetamodel": {
       "id": "242b4338-ebd2-4db0-42ee-e9c9423ea1d2",
@@ -53785,6 +53974,6 @@
       }
     }
   },
-  "phSource": "AKM-WellogMeasurements-Conceptmodel.json",
-  "lastUpdate": "2022-10-12T14:27:32.298Z"
+  "phSource": "GitHub: kavca-akm-models/metaprojects/AKM-WellogMeasurements-Conceptmodel.json",
+  "lastUpdate": "2022-10-14T11:44:59.824Z"
 }
