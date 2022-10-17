@@ -13854,7 +13854,7 @@
           "objects": [
             {
               "id": "1a799a09-e58e-45bd-5225-593016f5bbe3",
-              "name": "Action",
+              "name": "Propose Action",
               "description": "",
               "abstract": false,
               "viewkind": "",
@@ -13870,11 +13870,12 @@
               "sourceUri": "",
               "relshipkind": "Association",
               "valueset": null,
-              "copiedFromId": ""
+              "copiedFromId": "",
+              "text": ""
             },
             {
               "id": "1723dae9-14f3-443e-5740-5698011d8db3",
-              "name": "Analysis",
+              "name": "Analyse",
               "description": "",
               "abstract": false,
               "viewkind": "",
@@ -13890,11 +13891,12 @@
               "sourceUri": "",
               "relshipkind": "Association",
               "valueset": null,
-              "copiedFromId": ""
+              "copiedFromId": "",
+              "text": ""
             },
             {
               "id": "c05d60cd-64d6-4840-b50d-bd89d726e171",
-              "name": "Conclusion",
+              "name": "Conclude",
               "description": "",
               "abstract": false,
               "viewkind": "",
@@ -13910,7 +13912,8 @@
               "sourceUri": "",
               "relshipkind": "Association",
               "valueset": null,
-              "copiedFromId": ""
+              "copiedFromId": "",
+              "text": ""
             },
             {
               "id": "6f3961cf-5ed7-43e8-c8fc-a55a598663e2",
@@ -13934,7 +13937,7 @@
             },
             {
               "id": "39e738f0-ef94-4240-693d-339962627103",
-              "name": "Examination",
+              "name": "Examine",
               "description": "",
               "abstract": false,
               "viewkind": "",
@@ -13950,7 +13953,8 @@
               "sourceUri": "",
               "relshipkind": "Association",
               "valueset": null,
-              "copiedFromId": ""
+              "copiedFromId": "",
+              "text": ""
             },
             {
               "id": "93b2d4db-c42b-4af8-d302-a90624806bbf",
@@ -13994,7 +13998,7 @@
             },
             {
               "id": "7dd4f4d8-7f54-400c-8495-3e938d287a6a",
-              "name": "Interpretation",
+              "name": "Interpret",
               "description": "",
               "abstract": false,
               "viewkind": "",
@@ -14010,11 +14014,12 @@
               "sourceUri": "",
               "relshipkind": "Association",
               "valueset": null,
-              "copiedFromId": ""
+              "copiedFromId": "",
+              "text": ""
             },
             {
               "id": "61651f08-573e-4216-d335-bfc88abaa950",
-              "name": "Measurements",
+              "name": "Measure",
               "description": "",
               "abstract": false,
               "viewkind": "",
@@ -14030,7 +14035,8 @@
               "sourceUri": "",
               "relshipkind": "Association",
               "valueset": null,
-              "copiedFromId": ""
+              "copiedFromId": "",
+              "text": ""
             },
             {
               "id": "5bf807b3-01f4-498b-67cc-8bfe52393131",
@@ -14195,7 +14201,7 @@
             },
             {
               "id": "6d64c6ed-a93b-4555-6c90-a70ffe692f92",
-              "name": "resultsIn",
+              "name": "isFollowedBy",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "9c2f4dd9-297a-4221-c694-76a7c18ab04d",
@@ -14410,7 +14416,7 @@
               "objectviews": [
                 {
                   "id": "a5deca0f-b2eb-4630-dd7d-b42620a2c916",
-                  "name": "Action",
+                  "name": "Propose Action",
                   "description": "",
                   "objectRef": "1a799a09-e58e-45bd-5225-593016f5bbe3",
                   "typeviewRef": "646b4d99-c0d3-42e4-d8a2-3f34cc3f0697",
@@ -14434,11 +14440,12 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "textscale": "1",
-                  "icon": "https://img.icons8.com/color/2x/task.png"
+                  "icon": "https://img.icons8.com/color/2x/task.png",
+                  "text": ""
                 },
                 {
                   "id": "a4b72f4a-ee19-4af9-92f6-aac47c095b94",
-                  "name": "Conclusion",
+                  "name": "Conclude",
                   "description": "",
                   "objectRef": "c05d60cd-64d6-4840-b50d-bd89d726e171",
                   "typeviewRef": "646b4d99-c0d3-42e4-d8a2-3f34cc3f0697",
@@ -14462,11 +14469,12 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "textscale": "1",
-                  "icon": "https://img.icons8.com/color/2x/task.png"
+                  "icon": "https://img.icons8.com/color/2x/task.png",
+                  "text": ""
                 },
                 {
                   "id": "6303f654-ffd8-4fb9-a677-76f858c9efbc",
-                  "name": "Interpretation",
+                  "name": "Interpret",
                   "description": "",
                   "objectRef": "7dd4f4d8-7f54-400c-8495-3e938d287a6a",
                   "typeviewRef": "646b4d99-c0d3-42e4-d8a2-3f34cc3f0697",
@@ -14490,11 +14498,12 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "textscale": "1",
-                  "icon": "https://img.icons8.com/color/2x/task.png"
+                  "icon": "https://img.icons8.com/color/2x/task.png",
+                  "text": ""
                 },
                 {
                   "id": "cb458950-9355-40fa-10c4-d74ffee562fe",
-                  "name": "Analysis",
+                  "name": "Analyse",
                   "description": "",
                   "objectRef": "1723dae9-14f3-443e-5740-5698011d8db3",
                   "typeviewRef": "646b4d99-c0d3-42e4-d8a2-3f34cc3f0697",
@@ -14518,11 +14527,12 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "textscale": "1",
-                  "icon": "https://img.icons8.com/color/2x/task.png"
+                  "icon": "https://img.icons8.com/color/2x/task.png",
+                  "text": ""
                 },
                 {
                   "id": "2f3e097f-92ce-4073-4898-47e30e036853",
-                  "name": "Measurements",
+                  "name": "Measure",
                   "description": "",
                   "objectRef": "61651f08-573e-4216-d335-bfc88abaa950",
                   "typeviewRef": "646b4d99-c0d3-42e4-d8a2-3f34cc3f0697",
@@ -14546,11 +14556,12 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "textscale": "1",
-                  "icon": "https://img.icons8.com/color/2x/task.png"
+                  "icon": "https://img.icons8.com/color/2x/task.png",
+                  "text": ""
                 },
                 {
                   "id": "5bcfee77-d4a1-43d9-b030-05e9570274a5",
-                  "name": "Examination",
+                  "name": "Examine",
                   "description": "",
                   "objectRef": "39e738f0-ef94-4240-693d-339962627103",
                   "typeviewRef": "646b4d99-c0d3-42e4-d8a2-3f34cc3f0697",
@@ -14574,7 +14585,8 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "textscale": "1",
-                  "icon": "https://img.icons8.com/color/2x/task.png"
+                  "icon": "https://img.icons8.com/color/2x/task.png",
+                  "text": ""
                 },
                 {
                   "id": "92a71aa2-5f3f-4d12-9508-5fc9636251b6",
@@ -14882,7 +14894,7 @@
                 },
                 {
                   "id": "dad97667-a757-41eb-1118-6db546857f37",
-                  "name": "resultsIn",
+                  "name": "isFollowedBy",
                   "description": "",
                   "relshipRef": "6d64c6ed-a93b-4555-6c90-a70ffe692f92",
                   "typeviewRef": "70e7b709-bd91-4b7c-f390-553914e10430",
@@ -15482,6 +15494,6 @@
       }
     }
   },
-  "phSource": "AKM-METHODOLOGY (3).json",
-  "lastUpdate": "2022-10-14T14:13:18.783Z"
+  "phSource": "AKM-ANALYSIS-METHODOLOGY.json",
+  "lastUpdate": "2022-10-11T11:49:57.377Z"
 }
