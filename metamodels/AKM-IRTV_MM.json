@@ -1,7 +1,7 @@
 {
   "id": "98613adc-29a1-46f0-7c98-41d7f494a95d",
   "name": "AKM-IRTV_MM",
-  "description": "",
+  "description": "Basic IRTV Metamodel",
   "metamodelRefs": [],
   "viewstyles": [
     {
