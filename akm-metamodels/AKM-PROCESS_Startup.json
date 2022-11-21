@@ -6225,7 +6225,7 @@
         },
         {
           "id": "336d1339-bc90-4657-84d1-a2f86d2ca093",
-          "name": "INIT_CM",
+          "name": "INIT_SM",
           "description": "",
           "metamodelRef": "76d1a443-db97-4de4-be71-e7862d697c56",
           "sourceMetamodelRef": "",
@@ -6481,6 +6481,6 @@
       }
     }
   },
-  "phSource": "GitHub: kavca-akm-models/models/Process-Modelling-Example.json",
+  "phSource": "GitHub: kavca-akm-models/akm-metamodels/AKM-PROCESS_Startup.json",
   "lastUpdate": "2022-11-21T09:03:09.125Z"
 }
