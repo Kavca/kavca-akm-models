@@ -8059,9 +8059,9 @@
             },
             {
               "id": "aaa3d452-2f49-4f5f-1f42-e535fd4041fd",
-              "name": "Label",
+              "name": "Activity Modelling Metamodel",
               "description": "",
-              "text": "Activity Modelling Metamodel",
+              "text": "Process Modelling Metamodel",
               "abstract": false,
               "viewkind": "",
               "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
@@ -8485,7 +8485,8 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "textscale": "1",
-                  "icon": ""
+                  "icon": "",
+                  "text": "Process Modelling Metamodel"
                 },
                 {
                   "id": "5ccdbcfa-ea65-4b33-6d00-4365bbc5b5ad",
@@ -11314,11 +11315,11 @@
     "focusTargetModel": null,
     "focusTargetModelview": null,
     "focusModel": {
-      "id": "4a0c1f4a-677c-4256-5723-7320c44a8839",
-      "name": "TEST_MODEL"
+      "id": "05d5b929-b985-49ac-cf92-cc095a03889d",
+      "name": "INIT_MODEL"
     },
     "focusModelview": {
-      "id": "871180bf-8008-469d-152a-450061cfe2ac",
+      "id": "25369779-7e2d-4731-3d54-415f3c10da5d",
       "name": "Main"
     },
     "focusObject": {
@@ -11386,16 +11387,9 @@
             "View",
             false,
             "Element",
-            "End",
             false,
-            "ExclusiveGate",
-            "Gateway",
             "Generic",
-            "InclusiveGate",
-            "Label",
-            "ParallelGate",
-            "Process",
-            "Start"
+            "Label"
           ]
         },
         {
@@ -11407,14 +11401,7 @@
             "Information",
             "Role",
             "Task",
-            "View",
-            "Process",
-            "Start",
-            "Gateway",
-            "End",
-            "ParallelGate",
-            "InclusiveGate",
-            "ExclusiveGate"
+            "View"
           ]
         },
         {
@@ -11476,7 +11463,6 @@
         "Generic",
         "Label",
         "Element",
-        "Gateway",
         "Process",
         "Function",
         "Activity",
