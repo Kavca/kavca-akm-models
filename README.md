@@ -21,6 +21,10 @@ Open the webpage:
 
 ---
 
+## List of models
+
+localhost:3000/modelling?repo=Kavca/kavca-akm-models&path=startmodels&file=AKM-IRTV-Startup.json
+
 ***(In AKM Modeller)***
 
 Select "Modelling" in the top menu.
