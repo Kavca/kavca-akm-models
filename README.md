@@ -25,7 +25,6 @@ Open the webpage:
 
 [AKM-IRTV-Startup model](http://localhost:3000/modelling?repo=Kavca/kavca-akm-models&path=startmodels&file=AKM-IRTV-Startup.json)
 
-[Back to README.md](./README.md#AKM)
 
 ***(In AKM Modeller)***
 
