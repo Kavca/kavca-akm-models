@@ -1584,7 +1584,7 @@
         },
         {
           "id": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6",
-          "name": "AKM_PROD_MM",
+          "name": "AKM_PROD-_MM",
           "description": "",
           "metamodelRefs": [],
           "viewstyles": [
@@ -3761,6 +3761,6 @@
       }
     }
   },
-  "phSource": "GitHub: kavca-akm-models/akm-startups/AKM-PROD_Startup.json",
+  "phSource": "GitHub: kavca-akm-models/akm-startups/AKM-PROD-_Startup.json",
   "lastUpdate": "2022-11-25T09:24:05.730Z"
 }
