@@ -1,7 +1,7 @@
 {
   "phData": {
     "metis": {
-      "name": "AKM-IRTV-POPS+_Startup",
+      "name": "AKM-IRTV-POPS++_Startup",
       "description": "New project based on the AKM-IRTV-POPS metamodel",
       "metamodels": [
         {
