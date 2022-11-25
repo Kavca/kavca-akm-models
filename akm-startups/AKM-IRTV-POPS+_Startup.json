@@ -4691,7 +4691,7 @@
               "description": "",
               "typeRef": "05ea3e5c-e9a1-43f5-31a4-042acc4dbdbb",
               "metamodelRef": "98613adc-29a1-46f0-7c98-41d7f494a95d",
-              "loc": "-550 -280",
+              "loc": "-400 -270",
               "size": "100 50",
               "markedAsDeleted": false,
               "modified": true
@@ -4702,7 +4702,7 @@
               "description": "",
               "typeRef": "0006897b-07c2-4824-683f-2c10146e1a4a",
               "metamodelRef": "98613adc-29a1-46f0-7c98-41d7f494a95d",
-              "loc": "-630 -150",
+              "loc": "-520 -160",
               "size": "100 50",
               "markedAsDeleted": false,
               "modified": true
@@ -4713,7 +4713,7 @@
               "description": "",
               "typeRef": "a7661dac-4deb-4668-81f3-0248d46f1c7e",
               "metamodelRef": "98613adc-29a1-46f0-7c98-41d7f494a95d",
-              "loc": "-460 40",
+              "loc": "-370 -20",
               "size": "100 50",
               "markedAsDeleted": false,
               "modified": true
@@ -4724,7 +4724,7 @@
               "description": "",
               "typeRef": "3808df57-878a-4738-dc95-644370cd1b08",
               "metamodelRef": "98613adc-29a1-46f0-7c98-41d7f494a95d",
-              "loc": "-580 240",
+              "loc": "-450 160",
               "size": "100 50",
               "markedAsDeleted": false,
               "modified": true
@@ -4735,7 +4735,7 @@
               "description": "",
               "typeRef": "759ebaa4-43e5-499d-67a4-237eace5e525",
               "metamodelRef": "98613adc-29a1-46f0-7c98-41d7f494a95d",
-              "loc": "-240 -480",
+              "loc": "-80 -480",
               "size": "",
               "markedAsDeleted": false,
               "modified": true
@@ -4757,7 +4757,7 @@
               "description": "",
               "typeRef": "def5a36d-06c8-4ac4-be91-d2dfd1e5a90a",
               "metamodelRef": "98613adc-29a1-46f0-7c98-41d7f494a95d",
-              "loc": "30 -470",
+              "loc": "180 -490",
               "size": "",
               "markedAsDeleted": false,
               "modified": true
@@ -4768,7 +4768,7 @@
               "description": "",
               "typeRef": "3bc3ec69-b600-41a7-5c89-fce11ae67a9a",
               "metamodelRef": "98613adc-29a1-46f0-7c98-41d7f494a95d",
-              "loc": "-410 -390",
+              "loc": "-260 -370",
               "size": "",
               "markedAsDeleted": false,
               "modified": true
@@ -4801,7 +4801,7 @@
               "description": "",
               "typeRef": "0b53bc0d-ea00-473e-ce18-bca12eafecaa",
               "metamodelRef": "98613adc-29a1-46f0-7c98-41d7f494a95d",
-              "loc": "870 -160",
+              "loc": "870 -140",
               "size": "",
               "markedAsDeleted": false,
               "modified": true
@@ -4812,7 +4812,7 @@
               "description": "",
               "typeRef": "c9e5b548-9d0c-4c72-cb73-c04b352ddada",
               "metamodelRef": "98613adc-29a1-46f0-7c98-41d7f494a95d",
-              "loc": "770 -270",
+              "loc": "800 -270",
               "size": "",
               "markedAsDeleted": false,
               "modified": true
@@ -4823,7 +4823,7 @@
               "description": "",
               "typeRef": "268d733a-193d-4a8b-a179-079320ab62e3",
               "metamodelRef": "98613adc-29a1-46f0-7c98-41d7f494a95d",
-              "loc": "1020 -270",
+              "loc": "690 -170",
               "size": "",
               "markedAsDeleted": false,
               "modified": true
