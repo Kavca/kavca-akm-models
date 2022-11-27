@@ -1583,7 +1583,7 @@
           "modified": false
         },
         {
-          "id": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6",
+          "id": "faba7b59-b1da-484f-5c16-d9fa3e28da88",
           "name": "AKM_PROD-_MM",
           "description": "",
           "metamodelRefs": [],
@@ -2871,7 +2871,7 @@
               "name": "",
               "description": "",
               "typeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
-              "metamodelRef": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6",
+              "metamodelRef": "faba7b59-b1da-484f-5c16-d9fa3e28da88",
               "loc": "-160 -160",
               "size": "",
               "markedAsDeleted": false,
@@ -2882,7 +2882,7 @@
               "name": "",
               "description": "",
               "typeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
-              "metamodelRef": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6",
+              "metamodelRef": "faba7b59-b1da-484f-5c16-d9fa3e28da88",
               "loc": "160 -60",
               "size": "",
               "markedAsDeleted": false,
@@ -2893,7 +2893,7 @@
               "name": "",
               "description": "",
               "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-              "metamodelRef": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6",
+              "metamodelRef": "faba7b59-b1da-484f-5c16-d9fa3e28da88",
               "loc": "120 -290",
               "size": "",
               "markedAsDeleted": false,
@@ -2904,7 +2904,7 @@
               "name": "",
               "description": "",
               "typeRef": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
-              "metamodelRef": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6",
+              "metamodelRef": "faba7b59-b1da-484f-5c16-d9fa3e28da88",
               "loc": "100 120",
               "size": "",
               "markedAsDeleted": false,
@@ -2915,7 +2915,7 @@
               "name": "",
               "description": "",
               "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
-              "metamodelRef": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6",
+              "metamodelRef": "faba7b59-b1da-484f-5c16-d9fa3e28da88",
               "loc": "470 -90",
               "size": "",
               "markedAsDeleted": false,
@@ -2926,7 +2926,7 @@
               "name": "",
               "description": "",
               "typeRef": "3bc3ec69-b600-41a7-5c89-fce11ae67a9a",
-              "metamodelRef": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6",
+              "metamodelRef": "faba7b59-b1da-484f-5c16-d9fa3e28da88",
               "loc": "460 -250",
               "size": "",
               "markedAsDeleted": false,
@@ -3122,8 +3122,8 @@
           "templates": [],
           "objects": [
             {
-              "id": "da2ab97e-3f65-48cc-3ad6-25131b88ed60",
-              "name": "AKM-PROD_Startup",
+              "id": "f55a5b18-be38-419c-cc2e-51740f9abc7a",
+              "name": "AKM-PROD-_Startup",
               "description": "New project based on the AKM-CORE metamodel",
               "abstract": false,
               "viewkind": "",
@@ -3134,17 +3134,17 @@
               "markedAsDeleted": false,
               "generatedTypeId": "",
               "modified": false,
-              "nameId": "AKM-PROD_Startup",
+              "nameId": "AKM-PROD-_Startup",
               "category": "Object",
               "sourceUri": "",
               "relshipkind": "Association",
               "valueset": null,
               "copiedFromId": "",
-              "metisId": "c1cfc760-0d02-4c16-3d53-d9dd7c59698f"
+              "metisId": "81f04ad4-0a23-40d8-ca82-b8b49e180eed"
             },
             {
-              "id": "c1f1a120-e0de-49f5-2822-214016f33b39",
-              "name": "TEST_MM",
+              "id": "9686ad3b-432e-4965-a274-b2dd8b5175d1",
+              "name": "AKM_PROD-_MM",
               "description": "",
               "abstract": false,
               "viewkind": "",
@@ -3155,7 +3155,7 @@
               "markedAsDeleted": false,
               "generatedTypeId": "",
               "modified": false,
-              "nameId": "TEST_MM",
+              "nameId": "AKM_PROD-_MM",
               "category": "Object",
               "sourceUri": "",
               "relshipkind": "Association",
@@ -3164,7 +3164,7 @@
               "metamodelId": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6"
             },
             {
-              "id": "cb21358c-7e54-4257-0ea3-9d414d465819",
+              "id": "fa04e184-e613-4f7a-0190-a0304a676904",
               "name": "TEST_MODEL",
               "description": "",
               "abstract": false,
@@ -3186,7 +3186,7 @@
               "modelId": "80086337-370b-4abb-1dbd-b3ae78e85a95"
             },
             {
-              "id": "27e5b9d0-6024-4c17-3fc5-8071920ceb96",
+              "id": "cac275ef-9c4c-4152-3c29-42ce6f553db0",
               "name": "Main",
               "description": "",
               "abstract": false,
@@ -3216,13 +3216,13 @@
           ],
           "relships": [
             {
-              "id": "fb747d90-07a2-41c8-e245-80f86dbf0c0b",
+              "id": "f866f91d-096b-4ce8-ee66-524aa5b6fd7b",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
-              "fromobjectRef": "da2ab97e-3f65-48cc-3ad6-25131b88ed60",
-              "toobjectRef": "c1f1a120-e0de-49f5-2822-214016f33b39",
+              "fromobjectRef": "f55a5b18-be38-419c-cc2e-51740f9abc7a",
+              "toobjectRef": "9686ad3b-432e-4965-a274-b2dd8b5175d1",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -3234,13 +3234,13 @@
               "modified": false
             },
             {
-              "id": "04026443-aedd-4181-f3a0-3001de8b507e",
+              "id": "fda1d85f-fcd5-49ee-8cc5-f5ef2d4639d4",
               "name": "refersTo",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "a7c5a98e-82ae-438b-c5c6-e836f8d2f538",
-              "fromobjectRef": "cb21358c-7e54-4257-0ea3-9d414d465819",
-              "toobjectRef": "c1f1a120-e0de-49f5-2822-214016f33b39",
+              "fromobjectRef": "fa04e184-e613-4f7a-0190-a0304a676904",
+              "toobjectRef": "9686ad3b-432e-4965-a274-b2dd8b5175d1",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -3252,13 +3252,13 @@
               "modified": false
             },
             {
-              "id": "0d1ea833-379c-4cfd-08ce-44b80aaa215d",
+              "id": "3c474c90-a4aa-45bf-4bc6-0a2190ef35b1",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
-              "fromobjectRef": "da2ab97e-3f65-48cc-3ad6-25131b88ed60",
-              "toobjectRef": "cb21358c-7e54-4257-0ea3-9d414d465819",
+              "fromobjectRef": "f55a5b18-be38-419c-cc2e-51740f9abc7a",
+              "toobjectRef": "fa04e184-e613-4f7a-0190-a0304a676904",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -3270,13 +3270,13 @@
               "modified": false
             },
             {
-              "id": "6a10cf73-a055-4af4-157d-b8aaaf222e77",
+              "id": "79ec6f24-0646-4ed3-5110-2e4826248b48",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
-              "fromobjectRef": "cb21358c-7e54-4257-0ea3-9d414d465819",
-              "toobjectRef": "27e5b9d0-6024-4c17-3fc5-8071920ceb96",
+              "fromobjectRef": "fa04e184-e613-4f7a-0190-a0304a676904",
+              "toobjectRef": "cac275ef-9c4c-4152-3c29-42ce6f553db0",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -3301,10 +3301,10 @@
               "modelRef": "9a865f21-7b9e-4388-ccf9-7005e45cfc36",
               "objectviews": [
                 {
-                  "id": "f32e4421-062d-478d-9173-10a0a4869805",
-                  "name": "AKM-PROD_Startup",
+                  "id": "484ade3e-eef2-447e-e436-a38caecee493",
+                  "name": "AKM-PROD-_Startup",
                   "description": "",
-                  "objectRef": "da2ab97e-3f65-48cc-3ad6-25131b88ed60",
+                  "objectRef": "f55a5b18-be38-419c-cc2e-51740f9abc7a",
                   "typeviewRef": "b843eedc-b7d1-432c-4814-e24053fa3f62",
                   "group": "",
                   "viewkind": "",
@@ -3329,10 +3329,10 @@
                   "icon": ""
                 },
                 {
-                  "id": "d41cb31c-c8c2-452c-4db6-2034764c8d98",
-                  "name": "TEST_MM",
+                  "id": "b5817825-f935-4de1-b495-7bd4641a1de4",
+                  "name": "AKM_PROD-_MM",
                   "description": "",
-                  "objectRef": "c1f1a120-e0de-49f5-2822-214016f33b39",
+                  "objectRef": "9686ad3b-432e-4965-a274-b2dd8b5175d1",
                   "typeviewRef": "b307d924-aaef-416c-245b-dacdb10f4b05",
                   "group": "",
                   "viewkind": "",
@@ -3357,10 +3357,10 @@
                   "icon": ""
                 },
                 {
-                  "id": "eb126cd7-5678-448d-e5ad-417bcfaa558c",
+                  "id": "a0b07410-d96c-4f12-9243-15c80b58cbcf",
                   "name": "TEST_MODEL",
                   "description": "",
-                  "objectRef": "cb21358c-7e54-4257-0ea3-9d414d465819",
+                  "objectRef": "fa04e184-e613-4f7a-0190-a0304a676904",
                   "typeviewRef": "735c257c-39a7-4a40-c879-ac3fda1b9754",
                   "group": "",
                   "viewkind": "",
@@ -3385,10 +3385,10 @@
                   "icon": ""
                 },
                 {
-                  "id": "95b750a8-5c4a-4ca5-110f-e2b62c7819c2",
+                  "id": "848b9d48-87ce-4d14-7a50-7996d8489904",
                   "name": "Main",
                   "description": "",
-                  "objectRef": "27e5b9d0-6024-4c17-3fc5-8071920ceb96",
+                  "objectRef": "cac275ef-9c4c-4152-3c29-42ce6f553db0",
                   "typeviewRef": "f513a655-511f-4faf-e3e2-10fbe4dccb0d",
                   "group": "",
                   "viewkind": "",
@@ -3415,13 +3415,13 @@
               ],
               "relshipviews": [
                 {
-                  "id": "3d54ffdf-8515-4483-b618-b504d9eaba15",
+                  "id": "42694582-4f8c-408d-080a-a7b5603348c0",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "fb747d90-07a2-41c8-e245-80f86dbf0c0b",
+                  "relshipRef": "f866f91d-096b-4ce8-ee66-524aa5b6fd7b",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
-                  "fromobjviewRef": "f32e4421-062d-478d-9173-10a0a4869805",
-                  "toobjviewRef": "d41cb31c-c8c2-452c-4db6-2034764c8d98",
+                  "fromobjviewRef": "484ade3e-eef2-447e-e436-a38caecee493",
+                  "toobjviewRef": "b5817825-f935-4de1-b495-7bd4641a1de4",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "",
@@ -3438,13 +3438,13 @@
                   "modified": false
                 },
                 {
-                  "id": "c317d262-6867-458e-879e-9889c2567c73",
+                  "id": "4c5382f1-14fc-4b1e-e567-9c40b857b7a5",
                   "name": "refersTo",
                   "description": "",
-                  "relshipRef": "04026443-aedd-4181-f3a0-3001de8b507e",
+                  "relshipRef": "fda1d85f-fcd5-49ee-8cc5-f5ef2d4639d4",
                   "typeviewRef": "e095bbff-bd34-4d6b-d23b-d9937feaa378",
-                  "fromobjviewRef": "eb126cd7-5678-448d-e5ad-417bcfaa558c",
-                  "toobjviewRef": "d41cb31c-c8c2-452c-4db6-2034764c8d98",
+                  "fromobjviewRef": "a0b07410-d96c-4f12-9243-15c80b58cbcf",
+                  "toobjviewRef": "b5817825-f935-4de1-b495-7bd4641a1de4",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "blue",
@@ -3461,13 +3461,13 @@
                   "modified": false
                 },
                 {
-                  "id": "8cb41c0d-631c-4442-b35b-5be1fa690707",
+                  "id": "26b04e13-facb-4b86-b66c-d0ccc0b19bc2",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "0d1ea833-379c-4cfd-08ce-44b80aaa215d",
+                  "relshipRef": "3c474c90-a4aa-45bf-4bc6-0a2190ef35b1",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
-                  "fromobjviewRef": "f32e4421-062d-478d-9173-10a0a4869805",
-                  "toobjviewRef": "eb126cd7-5678-448d-e5ad-417bcfaa558c",
+                  "fromobjviewRef": "484ade3e-eef2-447e-e436-a38caecee493",
+                  "toobjviewRef": "a0b07410-d96c-4f12-9243-15c80b58cbcf",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "",
@@ -3484,13 +3484,13 @@
                   "modified": false
                 },
                 {
-                  "id": "518af728-c822-4ee7-3ef5-74a2eb49ebf1",
+                  "id": "f9137b49-9318-4621-1200-940413c63063",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "6a10cf73-a055-4af4-157d-b8aaaf222e77",
+                  "relshipRef": "79ec6f24-0646-4ed3-5110-2e4826248b48",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
-                  "fromobjviewRef": "eb126cd7-5678-448d-e5ad-417bcfaa558c",
-                  "toobjviewRef": "95b750a8-5c4a-4ca5-110f-e2b62c7819c2",
+                  "fromobjviewRef": "a0b07410-d96c-4f12-9243-15c80b58cbcf",
+                  "toobjviewRef": "848b9d48-87ce-4d14-7a50-7996d8489904",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "",
@@ -3520,7 +3520,7 @@
           "id": "80086337-370b-4abb-1dbd-b3ae78e85a95",
           "name": "TEST_MODEL",
           "description": "",
-          "metamodelRef": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6",
+          "metamodelRef": "faba7b59-b1da-484f-5c16-d9fa3e28da88",
           "sourceMetamodelRef": "",
           "targetMetamodelRef": "",
           "sourceModelRef": "",
@@ -3558,12 +3558,12 @@
           "args1": []
         }
       ],
-      "currentMetamodelRef": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6",
+      "currentMetamodelRef": "faba7b59-b1da-484f-5c16-d9fa3e28da88",
       "currentModelRef": "80086337-370b-4abb-1dbd-b3ae78e85a95",
       "currentModelviewRef": "bb38be03-ef8f-4ad7-7674-5f2c49900865",
       "currentTemplateModelRef": "",
-      "currentTargetMetamodelRef": "69ac35a8-dd4e-4426-3aab-3ac7f0e675c6",
-      "currentTargetModelRef": "26fd7411-2ec9-4d3a-29a9-90a508f8c066",
+      "currentTargetMetamodelRef": "faba7b59-b1da-484f-5c16-d9fa3e28da88",
+      "currentTargetModelRef": "",
       "currentTargetModelviewRef": "",
       "currentTaskModelRef": ""
     }
@@ -3761,6 +3761,5 @@
       }
     }
   },
-  "phSource": "GitHub: kavca-akm-models/akm-startups/AKM-PROD-_Startup.json",
-  "lastUpdate": "2022-11-25T09:24:05.730Z"
+  "lastUpdate": "2022-11-27T11:38:00.082Z"
 }
