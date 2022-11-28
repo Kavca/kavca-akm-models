@@ -5076,7 +5076,7 @@
               "name": "annotates_Association",
               "description": "",
               "typeRef": "a4fea123-cea6-4529-2c31-a38dab476e04",
-              "template": "linkTemplate1",
+              "template": "AnnotationLink",
               "strokecolor": "black",
               "strokewidth": "1",
               "textcolor": "black",
@@ -5764,7 +5764,7 @@
           "templates": [],
           "objects": [
             {
-              "id": "6b301a26-3429-4c1a-b740-a472b5bf653f",
+              "id": "4e1aa8b1-c603-4daa-8d0b-4673889f8899",
               "name": "AKM-IRTV_Startup",
               "description": "A metamodel consisting of the AKM types that support IRTV modelling.",
               "abstract": false,
@@ -5782,10 +5782,10 @@
               "relshipkind": "Association",
               "valueset": null,
               "copiedFromId": "",
-              "metisId": "e99ed3ca-52c0-4ccb-f1dc-23cc478829c5"
+              "metisId": "7900fff7-42b8-4004-d9f2-03cbac8523aa"
             },
             {
-              "id": "208b1a8b-1e29-4e54-735a-86159dd52a72",
+              "id": "fd6a0b08-62e8-40ed-6058-0cd0b28bf258",
               "name": "TEST_MM",
               "description": "",
               "abstract": false,
@@ -5806,7 +5806,7 @@
               "metamodelId": "f3e2467f-9452-4ffd-b6b8-9f906e523c70"
             },
             {
-              "id": "eba700fd-ab14-4a49-8766-769f5786d1e9",
+              "id": "51d9d5e9-9b6a-46ea-b446-ff3315ed2425",
               "name": "INIT_TEST_SM",
               "description": "",
               "abstract": false,
@@ -5828,7 +5828,7 @@
               "modelId": "26fd7411-2ec9-4d3a-29a9-90a508f8c066"
             },
             {
-              "id": "dbc57e9a-c543-423b-71a0-5826166bf213",
+              "id": "6be95108-3104-4de1-014c-080fea460ade",
               "name": "Main",
               "description": "",
               "abstract": false,
@@ -5856,7 +5856,7 @@
               "includeInheritedReltypes": null
             },
             {
-              "id": "d6a7130c-7bb9-4788-4f71-81773a113128",
+              "id": "0e792f82-de00-489b-2f88-e94c438510f9",
               "name": "AKM-IRTV_MM",
               "description": "A metamodel that supports IRTV modelling",
               "abstract": false,
@@ -5874,10 +5874,10 @@
               "relshipkind": "Association",
               "valueset": null,
               "copiedFromId": "",
-              "metamodelId": "98613adc-29a1-46f0-7c98-41d7f494a95d"
+              "metamodelId": "78179021-5cb7-4f2c-8c01-a41a03c78978"
             },
             {
-              "id": "c34687ec-4de8-443e-735a-5400f4f8ef43",
+              "id": "559e5311-43bc-4bf6-1032-035dc44cbcf9",
               "name": "INIT_CM",
               "description": "",
               "abstract": false,
@@ -5899,7 +5899,7 @@
               "modelId": "05d5b929-b985-49ac-cf92-cc095a03889z"
             },
             {
-              "id": "0b8ad062-cd96-4578-f9d0-e3c6788d8e09",
+              "id": "0daac03d-e4ea-4461-3599-9427d861279a",
               "name": "Main",
               "description": "",
               "abstract": false,
@@ -5928,13 +5928,13 @@
           ],
           "relships": [
             {
-              "id": "b2d539ca-1459-4868-b96f-ffe414f6c98b",
+              "id": "d4e5d5a8-9c3d-4ce0-33c4-b4ab091556a9",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
-              "fromobjectRef": "6b301a26-3429-4c1a-b740-a472b5bf653f",
-              "toobjectRef": "208b1a8b-1e29-4e54-735a-86159dd52a72",
+              "fromobjectRef": "4e1aa8b1-c603-4daa-8d0b-4673889f8899",
+              "toobjectRef": "fd6a0b08-62e8-40ed-6058-0cd0b28bf258",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -5946,13 +5946,13 @@
               "modified": false
             },
             {
-              "id": "8a55a52a-b133-4b7f-4066-d82d1d310f6f",
+              "id": "bfb97015-8ccc-4c22-561f-e584fc0da16a",
               "name": "refersTo",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "a7c5a98e-82ae-438b-c5c6-e836f8d2f538",
-              "fromobjectRef": "eba700fd-ab14-4a49-8766-769f5786d1e9",
-              "toobjectRef": "208b1a8b-1e29-4e54-735a-86159dd52a72",
+              "fromobjectRef": "51d9d5e9-9b6a-46ea-b446-ff3315ed2425",
+              "toobjectRef": "fd6a0b08-62e8-40ed-6058-0cd0b28bf258",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -5964,13 +5964,13 @@
               "modified": false
             },
             {
-              "id": "b7777f69-9e24-45e2-1a11-445d7a062c1f",
+              "id": "aff49b52-00b9-4490-1991-f55d62595221",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
-              "fromobjectRef": "6b301a26-3429-4c1a-b740-a472b5bf653f",
-              "toobjectRef": "eba700fd-ab14-4a49-8766-769f5786d1e9",
+              "fromobjectRef": "4e1aa8b1-c603-4daa-8d0b-4673889f8899",
+              "toobjectRef": "51d9d5e9-9b6a-46ea-b446-ff3315ed2425",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -5982,13 +5982,13 @@
               "modified": false
             },
             {
-              "id": "2ed49a02-5c6a-4e17-0a5b-a3450f851c52",
+              "id": "fd27ec77-ccbc-4727-cc27-321bcd750da6",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
-              "fromobjectRef": "eba700fd-ab14-4a49-8766-769f5786d1e9",
-              "toobjectRef": "dbc57e9a-c543-423b-71a0-5826166bf213",
+              "fromobjectRef": "51d9d5e9-9b6a-46ea-b446-ff3315ed2425",
+              "toobjectRef": "6be95108-3104-4de1-014c-080fea460ade",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -6000,13 +6000,13 @@
               "modified": false
             },
             {
-              "id": "f7f1dacc-8b84-483a-f169-1cc5b0f39879",
+              "id": "e656033d-91f3-4b78-c60a-747e495eb7ff",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
-              "fromobjectRef": "6b301a26-3429-4c1a-b740-a472b5bf653f",
-              "toobjectRef": "d6a7130c-7bb9-4788-4f71-81773a113128",
+              "fromobjectRef": "4e1aa8b1-c603-4daa-8d0b-4673889f8899",
+              "toobjectRef": "0e792f82-de00-489b-2f88-e94c438510f9",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -6018,13 +6018,13 @@
               "modified": false
             },
             {
-              "id": "4af4e5c0-2d1d-46b2-0e6e-94505cf2d94f",
+              "id": "d2db4d2c-b843-4720-884b-2968f6f9c141",
               "name": "refersTo",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "a7c5a98e-82ae-438b-c5c6-e836f8d2f538",
-              "fromobjectRef": "c34687ec-4de8-443e-735a-5400f4f8ef43",
-              "toobjectRef": "d6a7130c-7bb9-4788-4f71-81773a113128",
+              "fromobjectRef": "559e5311-43bc-4bf6-1032-035dc44cbcf9",
+              "toobjectRef": "0e792f82-de00-489b-2f88-e94c438510f9",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -6036,13 +6036,13 @@
               "modified": false
             },
             {
-              "id": "df4e2c4c-0a0f-49c8-f4b9-777c76dfd377",
+              "id": "b6fc19a2-fe8a-4c56-4268-8b88d3adf468",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
-              "fromobjectRef": "6b301a26-3429-4c1a-b740-a472b5bf653f",
-              "toobjectRef": "c34687ec-4de8-443e-735a-5400f4f8ef43",
+              "fromobjectRef": "4e1aa8b1-c603-4daa-8d0b-4673889f8899",
+              "toobjectRef": "559e5311-43bc-4bf6-1032-035dc44cbcf9",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -6054,13 +6054,13 @@
               "modified": false
             },
             {
-              "id": "c2c7c751-8888-41c3-1862-ca00eca4b376",
+              "id": "b108d71a-1cb7-4d2a-0ac9-92b70be3fa9f",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
-              "fromobjectRef": "c34687ec-4de8-443e-735a-5400f4f8ef43",
-              "toobjectRef": "0b8ad062-cd96-4578-f9d0-e3c6788d8e09",
+              "fromobjectRef": "559e5311-43bc-4bf6-1032-035dc44cbcf9",
+              "toobjectRef": "0daac03d-e4ea-4461-3599-9427d861279a",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -6085,10 +6085,10 @@
               "modelRef": "9a865f21-7b9e-4388-ccf9-7005e45cfc36",
               "objectviews": [
                 {
-                  "id": "a23fd9e1-5b7d-470e-b8bf-ec8b429daf12",
+                  "id": "dfcb17ea-dcf0-46ad-cca2-448ce1137ab9",
                   "name": "AKM-IRTV_Startup",
                   "description": "",
-                  "objectRef": "6b301a26-3429-4c1a-b740-a472b5bf653f",
+                  "objectRef": "4e1aa8b1-c603-4daa-8d0b-4673889f8899",
                   "typeviewRef": "b843eedc-b7d1-432c-4814-e24053fa3f62",
                   "group": "",
                   "viewkind": "",
@@ -6113,10 +6113,10 @@
                   "icon": ""
                 },
                 {
-                  "id": "f61c5a90-24c8-4110-cf97-686a2d576226",
+                  "id": "c60f62d8-333b-467e-93c8-ede6f2993137",
                   "name": "TEST_MM",
                   "description": "",
-                  "objectRef": "208b1a8b-1e29-4e54-735a-86159dd52a72",
+                  "objectRef": "fd6a0b08-62e8-40ed-6058-0cd0b28bf258",
                   "typeviewRef": "b307d924-aaef-416c-245b-dacdb10f4b05",
                   "group": "",
                   "viewkind": "",
@@ -6141,10 +6141,10 @@
                   "icon": ""
                 },
                 {
-                  "id": "7cb45ddd-8ccb-4dc2-3c59-e0f374b3fdc1",
+                  "id": "0b666977-d7c9-4684-ee1b-fd5dd9fdef87",
                   "name": "INIT_TEST_SM",
                   "description": "",
-                  "objectRef": "eba700fd-ab14-4a49-8766-769f5786d1e9",
+                  "objectRef": "51d9d5e9-9b6a-46ea-b446-ff3315ed2425",
                   "typeviewRef": "735c257c-39a7-4a40-c879-ac3fda1b9754",
                   "group": "",
                   "viewkind": "",
@@ -6169,10 +6169,10 @@
                   "icon": ""
                 },
                 {
-                  "id": "dcbf9af1-1282-484e-0272-505fc971c70c",
+                  "id": "f8a1352b-7b05-4923-5d64-6d94572e7fff",
                   "name": "Main",
                   "description": "",
-                  "objectRef": "dbc57e9a-c543-423b-71a0-5826166bf213",
+                  "objectRef": "6be95108-3104-4de1-014c-080fea460ade",
                   "typeviewRef": "f513a655-511f-4faf-e3e2-10fbe4dccb0d",
                   "group": "",
                   "viewkind": "",
@@ -6197,10 +6197,10 @@
                   "icon": ""
                 },
                 {
-                  "id": "2dbb20a1-fa83-4643-a759-5a034ed7ef56",
+                  "id": "62289a8c-0e05-4152-cb5c-ce8f44635365",
                   "name": "AKM-IRTV_MM",
                   "description": "",
-                  "objectRef": "d6a7130c-7bb9-4788-4f71-81773a113128",
+                  "objectRef": "0e792f82-de00-489b-2f88-e94c438510f9",
                   "typeviewRef": "b307d924-aaef-416c-245b-dacdb10f4b05",
                   "group": "",
                   "viewkind": "",
@@ -6225,10 +6225,10 @@
                   "icon": ""
                 },
                 {
-                  "id": "d6b727fc-88ab-405f-03fb-59af04429ffd",
+                  "id": "d10d9dc6-a621-4b96-3092-0f7ea8819eb7",
                   "name": "INIT_CM",
                   "description": "",
-                  "objectRef": "c34687ec-4de8-443e-735a-5400f4f8ef43",
+                  "objectRef": "559e5311-43bc-4bf6-1032-035dc44cbcf9",
                   "typeviewRef": "735c257c-39a7-4a40-c879-ac3fda1b9754",
                   "group": "",
                   "viewkind": "",
@@ -6253,10 +6253,10 @@
                   "icon": ""
                 },
                 {
-                  "id": "6cf6a4a6-5d08-4815-26f4-d1da52f38d83",
+                  "id": "d5796217-b111-4ca9-8292-2ee55bb24ee3",
                   "name": "Main",
                   "description": "",
-                  "objectRef": "0b8ad062-cd96-4578-f9d0-e3c6788d8e09",
+                  "objectRef": "0daac03d-e4ea-4461-3599-9427d861279a",
                   "typeviewRef": "f513a655-511f-4faf-e3e2-10fbe4dccb0d",
                   "group": "",
                   "viewkind": "",
@@ -6283,13 +6283,13 @@
               ],
               "relshipviews": [
                 {
-                  "id": "71d5db86-3b14-4d9a-0a61-e856268b00f5",
+                  "id": "0e2a4e22-1734-4506-c39d-b781535fd7f1",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "b2d539ca-1459-4868-b96f-ffe414f6c98b",
+                  "relshipRef": "d4e5d5a8-9c3d-4ce0-33c4-b4ab091556a9",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
-                  "fromobjviewRef": "a23fd9e1-5b7d-470e-b8bf-ec8b429daf12",
-                  "toobjviewRef": "f61c5a90-24c8-4110-cf97-686a2d576226",
+                  "fromobjviewRef": "dfcb17ea-dcf0-46ad-cca2-448ce1137ab9",
+                  "toobjviewRef": "c60f62d8-333b-467e-93c8-ede6f2993137",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "",
@@ -6306,13 +6306,13 @@
                   "modified": false
                 },
                 {
-                  "id": "5ddb6f3c-0b83-47ba-f2e4-4efcd86a4755",
+                  "id": "b1ed01d9-b6af-4c2f-ad3a-d4662e539432",
                   "name": "refersTo",
                   "description": "",
-                  "relshipRef": "8a55a52a-b133-4b7f-4066-d82d1d310f6f",
+                  "relshipRef": "bfb97015-8ccc-4c22-561f-e584fc0da16a",
                   "typeviewRef": "e095bbff-bd34-4d6b-d23b-d9937feaa378",
-                  "fromobjviewRef": "7cb45ddd-8ccb-4dc2-3c59-e0f374b3fdc1",
-                  "toobjviewRef": "f61c5a90-24c8-4110-cf97-686a2d576226",
+                  "fromobjviewRef": "0b666977-d7c9-4684-ee1b-fd5dd9fdef87",
+                  "toobjviewRef": "c60f62d8-333b-467e-93c8-ede6f2993137",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "blue",
@@ -6329,13 +6329,13 @@
                   "modified": false
                 },
                 {
-                  "id": "7ee8c928-7104-45ae-1215-be1c5c3ab17d",
+                  "id": "1d4fa4fe-8600-4b88-baca-5de3e7712887",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "b7777f69-9e24-45e2-1a11-445d7a062c1f",
+                  "relshipRef": "aff49b52-00b9-4490-1991-f55d62595221",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
-                  "fromobjviewRef": "a23fd9e1-5b7d-470e-b8bf-ec8b429daf12",
-                  "toobjviewRef": "7cb45ddd-8ccb-4dc2-3c59-e0f374b3fdc1",
+                  "fromobjviewRef": "dfcb17ea-dcf0-46ad-cca2-448ce1137ab9",
+                  "toobjviewRef": "0b666977-d7c9-4684-ee1b-fd5dd9fdef87",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "",
@@ -6352,13 +6352,13 @@
                   "modified": false
                 },
                 {
-                  "id": "bc881f5d-e114-42ea-74b3-c7373e9ef066",
+                  "id": "dbe07c15-d49d-434b-bb04-826e639ec098",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "2ed49a02-5c6a-4e17-0a5b-a3450f851c52",
+                  "relshipRef": "fd27ec77-ccbc-4727-cc27-321bcd750da6",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
-                  "fromobjviewRef": "7cb45ddd-8ccb-4dc2-3c59-e0f374b3fdc1",
-                  "toobjviewRef": "dcbf9af1-1282-484e-0272-505fc971c70c",
+                  "fromobjviewRef": "0b666977-d7c9-4684-ee1b-fd5dd9fdef87",
+                  "toobjviewRef": "f8a1352b-7b05-4923-5d64-6d94572e7fff",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "",
@@ -6375,13 +6375,13 @@
                   "modified": false
                 },
                 {
-                  "id": "c6269b94-3665-461b-696c-3de55a4b6258",
+                  "id": "5ecca0ee-7979-413e-61ae-ff4df313528f",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "f7f1dacc-8b84-483a-f169-1cc5b0f39879",
+                  "relshipRef": "e656033d-91f3-4b78-c60a-747e495eb7ff",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
-                  "fromobjviewRef": "a23fd9e1-5b7d-470e-b8bf-ec8b429daf12",
-                  "toobjviewRef": "2dbb20a1-fa83-4643-a759-5a034ed7ef56",
+                  "fromobjviewRef": "dfcb17ea-dcf0-46ad-cca2-448ce1137ab9",
+                  "toobjviewRef": "62289a8c-0e05-4152-cb5c-ce8f44635365",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "",
@@ -6398,13 +6398,13 @@
                   "modified": false
                 },
                 {
-                  "id": "fe1bf72a-d113-4dae-f4a6-11c7f9636cdd",
+                  "id": "c459ecfc-1a1b-402b-7f92-b3f40da46bf0",
                   "name": "refersTo",
                   "description": "",
-                  "relshipRef": "4af4e5c0-2d1d-46b2-0e6e-94505cf2d94f",
+                  "relshipRef": "d2db4d2c-b843-4720-884b-2968f6f9c141",
                   "typeviewRef": "e095bbff-bd34-4d6b-d23b-d9937feaa378",
-                  "fromobjviewRef": "d6b727fc-88ab-405f-03fb-59af04429ffd",
-                  "toobjviewRef": "2dbb20a1-fa83-4643-a759-5a034ed7ef56",
+                  "fromobjviewRef": "d10d9dc6-a621-4b96-3092-0f7ea8819eb7",
+                  "toobjviewRef": "62289a8c-0e05-4152-cb5c-ce8f44635365",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "blue",
@@ -6421,13 +6421,13 @@
                   "modified": false
                 },
                 {
-                  "id": "2abcce62-7051-463b-2ed7-ca097aa79d2b",
+                  "id": "b4237a13-3f5b-44af-59a0-61093423c0da",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "df4e2c4c-0a0f-49c8-f4b9-777c76dfd377",
+                  "relshipRef": "b6fc19a2-fe8a-4c56-4268-8b88d3adf468",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
-                  "fromobjviewRef": "a23fd9e1-5b7d-470e-b8bf-ec8b429daf12",
-                  "toobjviewRef": "d6b727fc-88ab-405f-03fb-59af04429ffd",
+                  "fromobjviewRef": "dfcb17ea-dcf0-46ad-cca2-448ce1137ab9",
+                  "toobjviewRef": "d10d9dc6-a621-4b96-3092-0f7ea8819eb7",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "",
@@ -6444,13 +6444,13 @@
                   "modified": false
                 },
                 {
-                  "id": "947a9229-b329-4d51-a5ff-498bd15066bb",
+                  "id": "914ed1c1-4db8-479c-ab9f-7b6d15109866",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "c2c7c751-8888-41c3-1862-ca00eca4b376",
+                  "relshipRef": "b108d71a-1cb7-4d2a-0ac9-92b70be3fa9f",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
-                  "fromobjviewRef": "d6b727fc-88ab-405f-03fb-59af04429ffd",
-                  "toobjviewRef": "6cf6a4a6-5d08-4815-26f4-d1da52f38d83",
+                  "fromobjviewRef": "d10d9dc6-a621-4b96-3092-0f7ea8819eb7",
+                  "toobjviewRef": "d5796217-b111-4ca9-8292-2ee55bb24ee3",
                   "template": "",
                   "arrowscale": "",
                   "strokecolor": "",
@@ -6734,5 +6734,5 @@
       }
     }
   },
-  "lastUpdate": "2022-11-27T11:33:31.664Z"
+  "lastUpdate": "2022-11-28T08:31:40.640Z"
 }
