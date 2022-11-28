@@ -1491,7 +1491,7 @@
       "name": "annotates_Association",
       "description": "",
       "typeRef": "a4fea123-cea6-4529-2c31-a38dab476e04",
-      "template": "linkTemplate1",
+      "template": "AnnotationLink",
       "strokecolor": "black",
       "strokewidth": "1",
       "textcolor": "black",

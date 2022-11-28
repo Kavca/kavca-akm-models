@@ -168,7 +168,7 @@
       "id": "69a15677-c416-46c1-f1a6-ba51c6819d30",
       "name": "generic",
       "description": "",
-      "typeviewRef": "d1aadf87-661b-49ae-96cc-a08122c40526",
+      "typeviewRef": "ecf9f390-a031-4fb5-2673-8fc2263975e2",
       "properties": [],
       "relshipkind": "Association",
       "viewkind": "",
@@ -204,7 +204,7 @@
       "id": "c441a883-b9df-4f08-e447-20a1ff13cbab",
       "name": "hasContent",
       "description": "",
-      "typeviewRef": "23efb710-b1d8-4053-963a-03de4a2e09e3",
+      "typeviewRef": "4f139f5f-c687-483b-6214-9237ae28b726",
       "properties": [],
       "relshipkind": "Association",
       "viewkind": "",
@@ -222,7 +222,7 @@
       "id": "9c2f4dd9-297a-4221-c694-76a7c18ab04d",
       "name": "relationshipType",
       "description": "",
-      "typeviewRef": "2ac8393a-e3ec-4854-38b3-ff31572b6978",
+      "typeviewRef": "8df84139-13e4-40a2-9337-6202ad2a2006",
       "properties": [],
       "relshipkind": "Association",
       "viewkind": "",
@@ -1149,10 +1149,10 @@
       "description": "",
       "typeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
       "metamodelRef": "a2f4cf34-f41e-4c93-179e-3dc8fff9f6aa",
-      "loc": "-270 -730",
+      "loc": "-300 -750",
       "size": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": true
     },
     {
       "id": "5a7716f9-156c-4c7c-35f0-3d5132522a02",
@@ -1160,10 +1160,10 @@
       "description": "",
       "typeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
       "metamodelRef": "a2f4cf34-f41e-4c93-179e-3dc8fff9f6aa",
-      "loc": "80 -790",
+      "loc": "50 -810",
       "size": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": true
     },
     {
       "id": "f5c07df0-7b8e-49be-7de8-e02a14e68ba9",
@@ -1171,10 +1171,10 @@
       "description": "",
       "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
       "metamodelRef": "a2f4cf34-f41e-4c93-179e-3dc8fff9f6aa",
-      "loc": "-290 -560",
+      "loc": "-320 -580",
       "size": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": true
     },
     {
       "id": "c9362930-b4c3-4d3b-f909-6e56be4d73cc",
@@ -1182,10 +1182,10 @@
       "description": "",
       "typeRef": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
       "metamodelRef": "a2f4cf34-f41e-4c93-179e-3dc8fff9f6aa",
-      "loc": "230 -630",
+      "loc": "200 -650",
       "size": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": true
     },
     {
       "id": "50a44443-fcf1-4db6-fcdc-c92cc540e64b",
@@ -1193,10 +1193,10 @@
       "description": "",
       "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
       "metamodelRef": "a2f4cf34-f41e-4c93-179e-3dc8fff9f6aa",
-      "loc": "270 -840",
+      "loc": "240 -860",
       "size": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": true
     },
     {
       "id": "c67557c1-5a7d-4441-c929-eccf976ad2a0",
@@ -1215,10 +1215,10 @@
       "description": "",
       "typeRef": "5800e823-e207-478a-c336-57ca0d73d32c",
       "metamodelRef": "a2f4cf34-f41e-4c93-179e-3dc8fff9f6aa",
-      "loc": "-590 -670",
+      "loc": "-620 -690",
       "size": "100 50",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": true
     },
     {
       "id": "5e86bed8-517a-4417-3066-8312f2d9cf02",
@@ -1863,7 +1863,7 @@
       "name": "annotates_Association",
       "description": "",
       "typeRef": "a4fea123-cea6-4529-2c31-a38dab476e04",
-      "template": "linkTemplate1",
+      "template": "AnnotationLink",
       "strokecolor": "black",
       "strokewidth": "1",
       "textcolor": "black",
@@ -1877,7 +1877,7 @@
       "modified": false
     },
     {
-      "id": "ecf9f390-a031-4fb5-2673-8fc2263975e2",
+      "id": "d1aadf87-661b-49ae-96cc-a08122c40526",
       "name": "generic_Association",
       "description": "",
       "typeRef": "69a15677-c416-46c1-f1a6-ba51c6819d30",
@@ -1895,7 +1895,7 @@
       "modified": false
     },
     {
-      "id": "4f139f5f-c687-483b-6214-9237ae28b726",
+      "id": "23efb710-b1d8-4053-963a-03de4a2e09e3",
       "name": "hasContent_Association",
       "description": "",
       "typeRef": "c441a883-b9df-4f08-e447-20a1ff13cbab",
@@ -1949,7 +1949,7 @@
       "modified": false
     },
     {
-      "id": "8df84139-13e4-40a2-9337-6202ad2a2006",
+      "id": "2ac8393a-e3ec-4854-38b3-ff31572b6978",
       "name": "relationshipType_Association",
       "description": "",
       "typeRef": "9c2f4dd9-297a-4221-c694-76a7c18ab04d",
@@ -1969,7 +1969,7 @@
   ],
   "generatedFromModelRef": "05d5b929-b985-49ac-cf92-cc095a03889d",
   "layout": "ForceDirected",
-  "routing": "AvoidsNodes",
+  "routing": "Normal",
   "linkcurve": "None",
   "markedAsDeleted": false,
   "modified": false

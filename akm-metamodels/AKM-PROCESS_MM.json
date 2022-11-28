@@ -222,7 +222,7 @@
       "id": "5718b4c7-3aa1-4ee3-0a9d-5e7cdcd18a24",
       "name": "Is",
       "description": "",
-      "typeviewRef": "e1738595-b27a-4f45-2adb-04d4c2ee2b44",
+      "typeviewRef": "78d0c6a7-e398-4791-a757-38619414c857",
       "properties": [],
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -240,7 +240,7 @@
       "id": "5c58ee46-38af-49e3-c2e0-cb58166cf9c7",
       "name": "Is",
       "description": "",
-      "typeviewRef": "fad83206-fe22-41ac-75b5-2d93f2ebba39",
+      "typeviewRef": "9e2b34e6-7fd1-4734-d1d4-f11e2c181646",
       "properties": [],
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -258,7 +258,7 @@
       "id": "69a15677-c416-46c1-f1a6-ba51c6819d30",
       "name": "generic",
       "description": "",
-      "typeviewRef": "ecf9f390-a031-4fb5-2673-8fc2263975e2",
+      "typeviewRef": "d1aadf87-661b-49ae-96cc-a08122c40526",
       "properties": [],
       "relshipkind": "Association",
       "viewkind": "",
@@ -276,7 +276,7 @@
       "id": "32f941fb-51df-431b-ffbb-5a3a75218862",
       "name": "Is",
       "description": "",
-      "typeviewRef": "c2e13524-fd55-4273-6d1f-ff122fdadc7a",
+      "typeviewRef": "07a22200-68b7-4baa-6b2d-3ac6ae33ce84",
       "properties": [],
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -294,7 +294,7 @@
       "id": "c441a883-b9df-4f08-e447-20a1ff13cbab",
       "name": "hasContent",
       "description": "",
-      "typeviewRef": "4f139f5f-c687-483b-6214-9237ae28b726",
+      "typeviewRef": "23efb710-b1d8-4053-963a-03de4a2e09e3",
       "properties": [],
       "relshipkind": "Association",
       "viewkind": "",
@@ -312,7 +312,7 @@
       "id": "9c2f4dd9-297a-4221-c694-76a7c18ab04d",
       "name": "relationshipType",
       "description": "",
-      "typeviewRef": "8df84139-13e4-40a2-9337-6202ad2a2006",
+      "typeviewRef": "2ac8393a-e3ec-4854-38b3-ff31572b6978",
       "properties": [],
       "relshipkind": "Association",
       "viewkind": "",
@@ -1787,10 +1787,10 @@
       "description": "",
       "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
       "metamodelRef": "4401447d-34db-425b-eeee-f5f21aa3e994",
-      "loc": "270 -840",
+      "loc": "360 -850",
       "size": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": true
     },
     {
       "id": "c67557c1-5a7d-4441-c929-eccf976ad2a0",
@@ -2727,7 +2727,7 @@
       "name": "annotates_Association",
       "description": "",
       "typeRef": "a4fea123-cea6-4529-2c31-a38dab476e04",
-      "template": "linkTemplate1",
+      "template": "AnnotationLink",
       "strokecolor": "black",
       "strokewidth": "1",
       "textcolor": "black",
@@ -2795,7 +2795,7 @@
       "modified": false
     },
     {
-      "id": "d1aadf87-661b-49ae-96cc-a08122c40526",
+      "id": "ecf9f390-a031-4fb5-2673-8fc2263975e2",
       "name": "generic_Association",
       "description": "",
       "typeRef": "69a15677-c416-46c1-f1a6-ba51c6819d30",
@@ -2813,7 +2813,7 @@
       "modified": false
     },
     {
-      "id": "23efb710-b1d8-4053-963a-03de4a2e09e3",
+      "id": "4f139f5f-c687-483b-6214-9237ae28b726",
       "name": "hasContent_Association",
       "description": "",
       "typeRef": "c441a883-b9df-4f08-e447-20a1ff13cbab",
@@ -2831,7 +2831,7 @@
       "modified": false
     },
     {
-      "id": "2ac8393a-e3ec-4854-38b3-ff31572b6978",
+      "id": "8df84139-13e4-40a2-9337-6202ad2a2006",
       "name": "relationshipType_Association",
       "description": "",
       "typeRef": "9c2f4dd9-297a-4221-c694-76a7c18ab04d",
