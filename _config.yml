@@ -5,3 +5,5 @@ markdown: CommonMarkGhPages
 commonmark: # To make <details> work
   options: ["UNSAFE", "SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+  kramdown:
+  input: Kramdown
