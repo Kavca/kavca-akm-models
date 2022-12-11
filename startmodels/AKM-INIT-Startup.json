@@ -6208,7 +6208,27 @@
           "isTemplate": false,
           "includeSystemtypes": true,
           "templates": [],
-          "objects": [],
+          "objects": [
+            {
+              "id": "7e259ca1-835a-4a64-1e5a-f8898a68a4b4",
+              "name": "Generic",
+              "description": "",
+              "abstract": false,
+              "viewkind": "",
+              "typeRef": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
+              "typeName": "Generic",
+              "propertyValues": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": false,
+              "nameId": "Generic",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": ""
+            }
+          ],
           "relships": [],
           "modelviews": [
             {
@@ -6222,7 +6242,36 @@
               "UseUMLrelshipkinds": false,
               "modelRef": "05d5b929-b985-49ac-cf92-cc095a03889d",
               "viewstyleRef": "d4974fe5-4e2f-4977-d2d2-deee46c57dff",
-              "objectviews": [],
+              "objectviews": [
+                {
+                  "id": "dbce5eb5-9059-4b7d-899a-abc2694951c1",
+                  "name": "Generic",
+                  "description": "",
+                  "objectRef": "7e259ca1-835a-4a64-1e5a-f8898a68a4b4",
+                  "typeviewRef": "b42be04d-f9e5-4906-0459-80f43aada183",
+                  "group": "",
+                  "viewkind": "Object",
+                  "isGroup": false,
+                  "isCollapsed": false,
+                  "loc": "-180 -170",
+                  "size": "",
+                  "scale": 1,
+                  "memberscale": 1,
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "template": "textAndIcon",
+                  "figure": "",
+                  "geometry": "",
+                  "fillcolor": "",
+                  "fillcolor2": "",
+                  "strokecolor": "",
+                  "strokecolor2": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textscale": "1",
+                  "icon": ""
+                }
+              ],
               "relshipviews": [],
               "objecttypeviews": [],
               "relshiptypeviews": [],
@@ -7252,5 +7301,6 @@
       }
     }
   },
-  "lastUpdate": "2022-10-03T13:39:11.800Z"
+  "phSource": "GitHub: kavca-akm-models/startmodels/AKM-INIT-Startup.json",
+  "lastUpdate": "2022-12-11T22:41:10.761Z"
 }
