@@ -12,7 +12,9 @@ This directory contains AKM Models that does not fit into any of the other Proje
 
 Click on the links below to open the models:
 
-- [ISPIM-Workshop-Demo_Project](project?org=Kavca&repo=kavca-akm-models&path=models&file=ISPIM-Workshop-Demo_Project.json&branch=main)
+<code>(Right-click and "Open Link in new window" to start modelling in a new window)</code>
+
+- [ISPIM-Workshop-Demo_Project](https://akmmclient-main-52oi93wic-snorres.vercel.app/project?org=Kavca&repo=kavca-akm-models&path=models&file=ISPIM-Workshop-Demo_Project.json&branch=main)
 
 ## Naming Conventions
 
