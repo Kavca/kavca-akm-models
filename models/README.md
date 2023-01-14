@@ -10,6 +10,10 @@ Each project.json file contains models and metamodels.
 
 This directory contains AKM Models that does not fit into any of the other Project directories.
 
+Click on the links below to open the models:
+
+- [ISPIM-Workshop-Demo_Project](project?org=Kavca&repo=kavca-akm-models&path=models&file=ISPIM-Workshop-Demo_Project.json&branch=main)
+
 ## Naming Conventions
 
 We recommend to use a naming convention for models like:
