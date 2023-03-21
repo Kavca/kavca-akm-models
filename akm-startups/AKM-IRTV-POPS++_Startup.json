@@ -5007,11 +5007,12 @@
               "name": "Activity",
               "description": "",
               "typeRef": "5800e823-e207-478a-c336-57ca0d73d32c",
-              "viewkind": "Object",
-              "template": "ActivityNode",
+              "viewkind": "Container",
+              "template": "groupWithPorts",
               "figure": "",
-              "geometry": "",
+              "geometry": "F1 m 0,0 l 5,0 0,3 5,-7 -5,-7 0,3 -5,0 0,5 z",
               "fillcolor": "white",
+              "fillcolor2": "lightyellow",
               "strokecolor": "black",
               "strokecolor1": "black",
               "strokecolor2": "black",
@@ -8590,18 +8591,17 @@
       "currentTargetModelRef": "",
       "currentTargetModelviewRef": "",
       "currentTaskModelRef": ""
-    }
+    },
+    "organisation": "Kavca",
+    "repository": "kavca-akm-models",
+    "path": "akm-startups"
   },
   "phFocus": {
-    "focusTab": "Modelling",
+    "focusTab": "Metamodelling",
     "focusTemplateModel": null,
     "focusTemplateModelview": null,
     "focusTargetModel": null,
     "focusTargetModelview": null,
-    "focusModel": {
-      "id": "05d5b929-b985-49ac-cf92-cc095a03889z",
-      "name": "INIT_CM"
-    },
     "focusModelview": {
       "id": "1237125b-2f1c-46d3-eb4e-520614917262",
       "name": "Main"
@@ -8659,9 +8659,34 @@
       "name": "Modeller 1",
       "tasks": [
         {
-          "id": "task00",
-          "name": "All types",
-          "description": "All types modelling",
+          "id": "AKM-IRTV-POPS++_MM",
+          "name": "IRTV-POPS++ Modelling",
+          "description": "Modelling with AKM-IRTV-POPS++ objects",
+          "workOnTypes": [
+            "Container",
+            "Information",
+            "Role",
+            "Task",
+            "View",
+            "Label",
+            "Product",
+            "Organisation",
+            "Process",
+            "System",
+            "Activity",
+            "ParrallelGate",
+            "ExclusiveGate",
+            "InclusiveGate",
+            "Gateway",
+            "Start",
+            "End",
+            "EntityType"
+          ]
+        },
+        {
+          "id": "AKM-IRTV-POPS+_MM",
+          "name": "RTV-POPS+ Modelling",
+          "description": "Modeling with AKM-IRTV-POPS+ objects",
           "workOnTypes": [
             "Container",
             "EntityType",
@@ -8669,66 +8694,110 @@
             "Role",
             "Task",
             "View",
+            "Label",
+            "Product",
+            "Organisation",
+            "Process",
+            "System",
+            "Activity",
+            "ParrallelGate",
+            "ExclusiveGate",
+            "InclusiveGate",
+            "Gateway",
+            "Start",
+            "End"
+          ]
+        },
+        {
+          "id": "AKM-IRTV-POPS_MM",
+          "name": "IRTV-POPS Modelling",
+          "description": "Modeling with AKM-IRTV-POPS objects",
+          "workOnTypes": [
+            "Container",
+            "Information",
+            "Role",
+            "Task",
+            "View",
+            "Label",
+            "Product",
+            "Organisation",
+            "Process",
+            "System",
+            "EntityType"
+          ]
+        },
+        {
+          "id": "IRTV",
+          "name": "IRTV Modelling",
+          "description": "Model IRTV objects",
+          "workOnTypes": [
+            "Container",
+            "Information",
+            "Role",
+            "Task",
+            "View",
+            "Label",
+            "EntityType"
+          ]
+        },
+        {
+          "id": "All-types",
+          "name": "All Objecttypes",
+          "description": "All Objecttypes in this  metamodel",
+          "workOnTypes": []
+        },
+        {
+          "id": "IRTV+POPS+New-types",
+          "name": "IRTV+POPS+New-types",
+          "workOnTypes": [
+            "Container",
+            "Information",
+            "Role",
+            "Task",
+            "View",
+            "Product",
+            "Organisation",
+            "Process",
+            "System",
+            "EntityType",
             false,
-            "Datatype",
-            "Element",
             "End",
             false,
             "ExclusiveGate",
-            "FieldType",
             "Gateway",
-            "Generic",
             "InclusiveGate",
             false,
-            "InputPattern",
-            "Label",
-            "Method",
-            "MethodType",
-            "Organisation",
             "ParallelGate",
-            "Process",
-            "Product",
-            "Property",
-            "RelshipType",
+            false,
             false,
             "Start",
-            "System",
             false,
-            "Unittype",
-            "Value",
-            false,
-            "ViewFormat"
+            false
           ]
         },
         {
-          "id": "Task0",
-          "name": "Modelling",
+          "id": "AKM-CORE+_MM",
+          "name": "AKM-CORE+_MM",
+          "description": "AKM-CORE+_MM modelling",
           "workOnTypes": [
             "Container",
+            "Property",
+            "Datatype",
+            "Value",
+            "Method",
+            "MethodType",
+            "ViewFormat",
+            "InputPattern",
+            "FieldType",
+            "RelshipType",
             "EntityType",
-            "Information",
-            "Role",
-            "Task",
-            "View",
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            "Process",
-            "Start",
-            "Gateway",
-            "End",
-            "ParallelGate",
-            "InclusiveGate",
-            "ExclusiveGate"
+            "Generic"
           ]
         },
         {
-          "id": "task1",
-          "name": "Entity Modelling",
-          "description": "Create New Entity using objecttype: EntityType",
+          "id": "Property",
+          "name": "Property Modelling",
+          "description": "Create New Entity using objecttype: EntityType and add properties",
           "workOnTypes": [
             "Container",
             "EntityType",
@@ -8743,71 +8812,43 @@
           ]
         },
         {
-          "id": "task2",
-          "name": "Property Modelling",
-          "description": "Add property to EtityType definitions",
+          "id": "IRTV+New-types",
+          "name": "IRTV + New types",
+          "description": "Modelling",
           "workOnTypes": [
             "Container",
-            "EntityType",
-            "Property",
-            "Datatype"
-          ]
-        },
-        {
-          "id": "task3",
-          "name": "Task Modelling",
-          "description": "Add property to EtityType definitions",
-          "workOnTypes": [
-            "Container",
-            "EntityType",
             "Information",
             "Role",
             "Task",
-            "View"
+            "View",
+            "Label",
+            "Property",
+            "Generic",
+            "EntityType",
+            "Gateway",
+            "Process",
+            "Function",
+            "Activity",
+            "Start",
+            "End",
+            "ExclusiveGate",
+            "InclusiveGate",
+            "ParallelGate",
+            "Datatype",
+            "InputPattern",
+            "FieldType",
+            "Unittype",
+            "Value",
+            "ViewFormat",
+            "Method",
+            "MethodType",
+            "RelshipType"
           ]
         }
       ]
-    },
-    "focusTask": {
-      "id": "Task4",
-      "name": "Modelling",
-      "description": "Modelling",
-      "workOnTypes": [
-        "Container",
-        "EntityType",
-        "Information",
-        "Role",
-        "Task",
-        "View",
-        "Label",
-        "Property",
-        "Generic",
-        "Label",
-        "Element",
-        "Gateway",
-        "Organisation",
-        "Product",
-        "System",
-        "Process",
-        "Function",
-        "Activity",
-        "Start",
-        "End",
-        "ExclusiveGate",
-        "InclusiveGate",
-        "ParallelGate",
-        "Datatype",
-        "InputPattern",
-        "FieldType",
-        "Unittype",
-        "Value",
-        "ViewFormat",
-        "Method",
-        "MethodType",
-        "RelshipType"
-      ]
     }
   },
+  "phSource": "GitHub: kavca-akm-models/akm-startups/AKM-IRTV-POPS++_Startup.json",
   "phUser": {
     "focusUser": {
       "id": "email",
@@ -8819,6 +8860,5 @@
         "zoomToFocus": false
       }
     }
-  },
-  "lastUpdate": "2022-11-27T11:48:40.255Z"
+  }
 }
