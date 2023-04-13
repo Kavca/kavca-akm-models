@@ -647,8 +647,7 @@
               "description": "",
               "allowedValues": [
                 "Object",
-                "Container",
-                "Subprocess"
+                "Container"
               ],
               "defaultValue": "Object",
               "value": "",
@@ -4337,8 +4336,7 @@
               "description": "",
               "allowedValues": [
                 "Object",
-                "Container",
-                "Subprocess"
+                "Container"
               ],
               "defaultValue": "Object",
               "value": "",
