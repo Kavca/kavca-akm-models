@@ -1891,7 +1891,7 @@
               "properties": [
                 {
                   "id": "707d03a4-3124-47c9-5960-c5648c0f34ef",
-                  "name": "Draft",
+                  "name": "draft",
                   "defaultValue": "",
                   "inputPattern": "",
                   "viewFormat": "",
@@ -3850,7 +3850,7 @@
               "properties": [
                 {
                   "id": "707d03a4-3124-47c9-5960-c5648c0f34ef",
-                  "name": "Draft",
+                  "name": "draft",
                   "defaultValue": "",
                   "inputPattern": "",
                   "viewFormat": "",
