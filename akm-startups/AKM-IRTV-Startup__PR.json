@@ -5586,7 +5586,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": 1,
+              "memberscale": 0.8,
               "icon": "./../images/info.svg",
               "markedAsDeleted": false,
               "modified": false
@@ -5607,7 +5607,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": 1,
+              "memberscale": 0.8,
               "icon": "https://img.icons8.com/color/2x/admin-settings-male.png",
               "markedAsDeleted": false,
               "modified": false
@@ -5628,7 +5628,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": 1,
+              "memberscale": 0.8,
               "icon": "https://img.icons8.com/color/2x/task.png",
               "markedAsDeleted": false,
               "modified": false
@@ -5649,7 +5649,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": 1,
+              "memberscale": 0.8,
               "icon": "https://img.icons8.com/color/2x/view-file.png",
               "markedAsDeleted": false,
               "modified": false
@@ -5670,7 +5670,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": 1,
+              "memberscale": 0.8,
               "icon": "https://img.icons8.com/cotton/72/tear-off-calendar.png",
               "markedAsDeleted": false,
               "modified": false

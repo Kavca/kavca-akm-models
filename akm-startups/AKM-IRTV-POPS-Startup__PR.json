@@ -5223,7 +5223,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": "1",
+              "memberscale": 0.8,
               "icon": "./../images/info.svg",
               "markedAsDeleted": false,
               "modified": false
@@ -5245,7 +5245,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": 1,
+              "memberscale": 0.8,
               "icon": "https://img.icons8.com/color/2x/admin-settings-male.png",
               "markedAsDeleted": false,
               "modified": false
@@ -5267,7 +5267,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": 1,
+              "memberscale": 0.8,
               "icon": "https://img.icons8.com/color/2x/task.png",
               "markedAsDeleted": false,
               "modified": false
@@ -5289,7 +5289,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": 1,
+              "memberscale": 0.8,
               "icon": "https://img.icons8.com/color/2x/view-file.png",
               "markedAsDeleted": false,
               "modified": false
@@ -5311,7 +5311,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": 1,
+              "memberscale": 0.8,
               "icon": "https://gogeticons.com/frontend/web/icons/data/1/9/4/7/5/3/box_product_icon_128.png",
               "markedAsDeleted": false,
               "modified": false
@@ -5333,7 +5333,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": 1,
+              "memberscale": 0.8,
               "icon": "https://gogeticons.com/frontend/web/icons/data/2/4/8/5/9/5/gear_settings_system_icon_512.png",
               "markedAsDeleted": false,
               "modified": false
@@ -5377,7 +5377,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": 1,
+              "memberscale": 0.8,
               "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-organization-structure-public-relations-agency-flaticons-lineal-color-flat-icons.png",
               "markedAsDeleted": false,
               "modified": false
@@ -5641,7 +5641,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": "1",
+              "memberscale": "0.8",
               "icon": "https://img.icons8.com/color/2x/add-property-1.png",
               "markedAsDeleted": false,
               "modified": false
@@ -5751,7 +5751,7 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": "1",
+              "memberscale": "0.8",
               "icon": "https://static.thenounproject.com/png/749127-200.png",
               "markedAsDeleted": false,
               "modified": false
