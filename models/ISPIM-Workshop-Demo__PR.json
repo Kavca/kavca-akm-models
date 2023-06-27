@@ -38832,7 +38832,13 @@
     },
     "focusProj": {
       "id": "ISPIM-Workshop-Demo",
-      "name": "ISPIM-Workshop-Demo"
+      "name": "ISPIM-Workshop-Demo",
+      "org": "kavca",
+      "repo": "kavca-akm-models",
+      "path": "models",
+      "file": "kavISPIM-Workshop-Demo_Project.json",
+      "branch": "main",
+      "projectNumber": "1"
     },
     "focusRole": {
       "id": "Modeller1",
@@ -38931,7 +38937,7 @@
       "name": ""
     },
     "focusRefresh": {
-      "id": "suz4dl",
+      "id": "jcfujo",
       "name": "name"
     },
     "focusTargetMetamodel": {
