@@ -1872,7 +1872,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "707d03a4-3124-47c9-5960-c5648c0f34ef",
+                  "id": "c6f82fee-ab70-41e9-7aa7-ddcdc4e17f02",
                   "name": "proposedType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -1891,7 +1891,7 @@
                   "typeName": "Information",
                   "propName": "proposedType",
                   "name": "Information.proposedType",
-                  "propRef": "707d03a4-3124-47c9-5960-c5648c0f34ef"
+                  "propRef": "c6f82fee-ab70-41e9-7aa7-ddcdc4e17f02"
                 }
               ],
               "methods": [],
@@ -2033,7 +2033,7 @@
               "id": "759ebaa4-43e5-499d-67a4-237eace5e525",
               "name": "Organisation",
               "abstract": false,
-              "viewkind": "Object",
+              "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "1130f3dc-6dc3-4e26-8905-752283419df4",
@@ -2081,7 +2081,7 @@
               "id": "3bc3ec69-b600-41a7-5c89-fce11ae67a9a",
               "name": "Product",
               "abstract": false,
-              "viewkind": "Object",
+              "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "7e5b4161-b46c-4f4d-1c99-10cc2b5e345b",
@@ -2129,13 +2129,35 @@
               "id": "0006897b-07c2-4824-683f-2c10146e1a4a",
               "name": "Role",
               "abstract": false,
-              "viewkind": "Object",
+              "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "067f2ae0-90d2-4694-10dc-8e6c27b9c2ec",
-              "description": "The Role Object Type represent a process role, i.e. the role that is responsible for, performs or participate in a task.",
-              "properties": [],
-              "attributes": [],
+              "description": "",
+              "properties": [
+                {
+                  "id": "37a65d39-1795-44a9-1187-de949bcc39bf",
+                  "name": "proposedType",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": "",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                }
+              ],
+              "attributes": [
+                {
+                  "typeName": "Role",
+                  "propName": "proposedType",
+                  "name": "Role.proposedType",
+                  "propRef": "37a65d39-1795-44a9-1187-de949bcc39bf"
+                }
+              ],
               "methods": [],
               "ports": [],
               "markedAsDeleted": false,
@@ -2177,13 +2199,35 @@
               "id": "a7661dac-4deb-4668-81f3-0248d46f1c7e",
               "name": "Task",
               "abstract": false,
-              "viewkind": "Object",
+              "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "23c99b6f-b4ec-4f02-0165-fb5349605112",
-              "description": "Task is performed by a person, a robot, a programmed routine, etc.",
-              "properties": [],
-              "attributes": [],
+              "description": "",
+              "properties": [
+                {
+                  "id": "df553cfb-2857-4e07-40e6-fbcdfe60c020",
+                  "name": "proposedType",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": "",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                }
+              ],
+              "attributes": [
+                {
+                  "typeName": "Task",
+                  "propName": "proposedType",
+                  "name": "Task.proposedType",
+                  "propRef": "df553cfb-2857-4e07-40e6-fbcdfe60c020"
+                }
+              ],
               "methods": [],
               "ports": [],
               "markedAsDeleted": false,
@@ -2225,13 +2269,35 @@
               "id": "3808df57-878a-4738-dc95-644370cd1b08",
               "name": "View",
               "abstract": false,
-              "viewkind": "Object",
+              "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "2ced4fa1-ed8f-4d9b-3d63-0b7b451153d9",
               "description": "",
-              "properties": [],
-              "attributes": [],
+              "properties": [
+                {
+                  "id": "76e615fd-da51-49b7-85ab-ada66bd1e108",
+                  "name": "proposedType",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": "",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                }
+              ],
+              "attributes": [
+                {
+                  "typeName": "View",
+                  "propName": "proposedType",
+                  "name": "View.proposedType",
+                  "propRef": "76e615fd-da51-49b7-85ab-ada66bd1e108"
+                }
+              ],
               "methods": [],
               "ports": [],
               "markedAsDeleted": false,
@@ -3824,6 +3890,39 @@
               "nameTo": "",
               "markedAsDeleted": false,
               "modified": true
+            },
+            {
+              "id": "9c0adee9-2b23-4fd3-3f7f-2f813a3b475a",
+              "name": "contains",
+              "relshipkind": "Association",
+              "viewkind": "",
+              "fromobjtypeRef": "05ea3e5c-e9a1-43f5-31a4-042acc4dbdbb",
+              "toobjtypeRef": "05ea3e5c-e9a1-43f5-31a4-042acc4dbdbb",
+              "typeviewRef": "7a418607-7442-437d-b6d8-ef2ebc15e165",
+              "description": "",
+              "properties": [
+                {
+                  "id": "5132cd57-53c0-4c76-4f0a-d7dc1bfe78f4",
+                  "name": "proposedType",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": "",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                }
+              ],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "modified": true
             }
           ],
           "objecttypes0": [
@@ -3838,7 +3937,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "707d03a4-3124-47c9-5960-c5648c0f34ef",
+                  "id": "c6f82fee-ab70-41e9-7aa7-ddcdc4e17f02",
                   "name": "proposedType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -3857,7 +3956,7 @@
                   "typeName": "Information",
                   "propName": "proposedType",
                   "name": "Information.proposedType",
-                  "propRef": "707d03a4-3124-47c9-5960-c5648c0f34ef"
+                  "propRef": "c6f82fee-ab70-41e9-7aa7-ddcdc4e17f02"
                 }
               ],
               "methods": [],
@@ -3869,13 +3968,35 @@
               "id": "0006897b-07c2-4824-683f-2c10146e1a4a",
               "name": "Role",
               "abstract": false,
-              "viewkind": "Object",
+              "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "067f2ae0-90d2-4694-10dc-8e6c27b9c2ec",
-              "description": "The Role Object Type represent a process role, i.e. the role that is responsible for, performs or participate in a task.",
-              "properties": [],
-              "attributes": [],
+              "description": "",
+              "properties": [
+                {
+                  "id": "37a65d39-1795-44a9-1187-de949bcc39bf",
+                  "name": "proposedType",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": "",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                }
+              ],
+              "attributes": [
+                {
+                  "typeName": "Role",
+                  "propName": "proposedType",
+                  "name": "Role.proposedType",
+                  "propRef": "37a65d39-1795-44a9-1187-de949bcc39bf"
+                }
+              ],
               "methods": [],
               "ports": [],
               "markedAsDeleted": false,
@@ -3885,13 +4006,35 @@
               "id": "a7661dac-4deb-4668-81f3-0248d46f1c7e",
               "name": "Task",
               "abstract": false,
-              "viewkind": "Object",
+              "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "23c99b6f-b4ec-4f02-0165-fb5349605112",
-              "description": "Task is performed by a person, a robot, a programmed routine, etc.",
-              "properties": [],
-              "attributes": [],
+              "description": "",
+              "properties": [
+                {
+                  "id": "df553cfb-2857-4e07-40e6-fbcdfe60c020",
+                  "name": "proposedType",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": "",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                }
+              ],
+              "attributes": [
+                {
+                  "typeName": "Task",
+                  "propName": "proposedType",
+                  "name": "Task.proposedType",
+                  "propRef": "df553cfb-2857-4e07-40e6-fbcdfe60c020"
+                }
+              ],
               "methods": [],
               "ports": [],
               "markedAsDeleted": false,
@@ -3901,13 +4044,35 @@
               "id": "3808df57-878a-4738-dc95-644370cd1b08",
               "name": "View",
               "abstract": false,
-              "viewkind": "Object",
+              "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "2ced4fa1-ed8f-4d9b-3d63-0b7b451153d9",
               "description": "",
-              "properties": [],
-              "attributes": [],
+              "properties": [
+                {
+                  "id": "76e615fd-da51-49b7-85ab-ada66bd1e108",
+                  "name": "proposedType",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": "",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                }
+              ],
+              "attributes": [
+                {
+                  "typeName": "View",
+                  "propName": "proposedType",
+                  "name": "View.proposedType",
+                  "propRef": "76e615fd-da51-49b7-85ab-ada66bd1e108"
+                }
+              ],
               "methods": [],
               "ports": [],
               "markedAsDeleted": false,
@@ -4056,82 +4221,57 @@
               "ports": [],
               "markedAsDeleted": false,
               "modified": true
+            },
+            {
+              "id": "3bc3ec69-b600-41a7-5c89-fce11ae67a9a",
+              "name": "Product",
+              "abstract": false,
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "7e5b4161-b46c-4f4d-1c99-10cc2b5e345b",
+              "description": "",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "759ebaa4-43e5-499d-67a4-237eace5e525",
+              "name": "Organisation",
+              "abstract": false,
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "1130f3dc-6dc3-4e26-8905-752283419df4",
+              "description": "",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "def5a36d-06c8-4ac4-be91-d2dfd1e5a90a",
+              "name": "System",
+              "abstract": false,
+              "viewkind": "Object",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "2ecd212f-6317-493b-e963-3eeec3894763",
+              "description": "",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
             }
           ],
-          "relshiptypes0": [
-            {
-              "id": "5718b4c7-3aa1-4ee3-0a9d-5e7cdcd18a24",
-              "name": "Is",
-              "relshipkind": "Generalization",
-              "viewkind": "",
-              "fromobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-              "toobjtypeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
-              "typeviewRef": "e21eaaea-c181-4e64-f264-205ff06efa49",
-              "description": "",
-              "properties": [],
-              "cardinality": "",
-              "cardinalityFrom": "",
-              "cardinalityTo": "",
-              "nameFrom": "",
-              "nameTo": "",
-              "markedAsDeleted": false,
-              "modified": false
-            },
-            {
-              "id": "5c58ee46-38af-49e3-c2e0-cb58166cf9c7",
-              "name": "Is",
-              "relshipkind": "Generalization",
-              "viewkind": "",
-              "fromobjtypeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
-              "toobjtypeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
-              "typeviewRef": "ba6444b8-baf0-44ca-efa1-645ac465e08e",
-              "description": "",
-              "properties": [],
-              "cardinality": "",
-              "cardinalityFrom": "",
-              "cardinalityTo": "",
-              "nameFrom": "",
-              "nameTo": "",
-              "markedAsDeleted": false,
-              "modified": false
-            },
-            {
-              "id": "69a15677-c416-46c1-f1a6-ba51c6819d30",
-              "name": "generic",
-              "relshipkind": "Association",
-              "viewkind": "",
-              "fromobjtypeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
-              "toobjtypeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
-              "typeviewRef": "ecf9f390-a031-4fb5-2673-8fc2263975e2",
-              "description": "",
-              "properties": [],
-              "cardinality": "",
-              "cardinalityFrom": "",
-              "cardinalityTo": "",
-              "nameFrom": "",
-              "nameTo": "",
-              "markedAsDeleted": false,
-              "modified": false
-            },
-            {
-              "id": "32f941fb-51df-431b-ffbb-5a3a75218862",
-              "name": "Is",
-              "relshipkind": "Generalization",
-              "viewkind": "",
-              "fromobjtypeRef": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
-              "toobjtypeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
-              "typeviewRef": "183e6e3b-79dd-44d9-8eb0-ba99e41023e9",
-              "description": "",
-              "properties": [],
-              "cardinality": "",
-              "cardinalityFrom": "",
-              "cardinalityTo": "",
-              "nameFrom": "",
-              "nameTo": "",
-              "markedAsDeleted": false,
-              "modified": false
-            }
-          ],
+          "relshiptypes0": [],
           "properties": [
             {
               "id": "d210b11b-84eb-471d-aa93-15cb25b9f5db",
@@ -4192,6 +4332,62 @@
             {
               "id": "ed7f1d92-88ed-46bc-7dc9-0e5c55f83bdb",
               "name": "viewFormat",
+              "defaultValue": "",
+              "inputPattern": "",
+              "viewFormat": "",
+              "example": "",
+              "markedAsDeleted": false,
+              "modified": false,
+              "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+              "methodRef": "",
+              "unitCategoryRef": ""
+            },
+            {
+              "id": "37a65d39-1795-44a9-1187-de949bcc39bf",
+              "name": "proposedType",
+              "defaultValue": "",
+              "inputPattern": "",
+              "viewFormat": "",
+              "example": "",
+              "markedAsDeleted": false,
+              "modified": false,
+              "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+              "methodRef": "",
+              "unitCategoryRef": ""
+            },
+            {
+              "id": "c6f82fee-ab70-41e9-7aa7-ddcdc4e17f02",
+              "name": "proposedType",
+              "defaultValue": "",
+              "inputPattern": "",
+              "viewFormat": "",
+              "example": "",
+              "markedAsDeleted": false,
+              "modified": false,
+              "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+              "methodRef": "",
+              "unitCategoryRef": ""
+            },
+            {
+              "id": "df553cfb-2857-4e07-40e6-fbcdfe60c020",
+              "name": "proposedType",
+              "defaultValue": "",
+              "inputPattern": "",
+              "viewFormat": "",
+              "example": "",
+              "markedAsDeleted": false,
+              "modified": false,
+              "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+              "methodRef": "",
+              "unitCategoryRef": ""
+            },
+            {
+              "id": "76e615fd-da51-49b7-85ab-ada66bd1e108",
+              "name": "proposedType",
               "defaultValue": "",
               "inputPattern": "",
               "viewFormat": "",
@@ -5259,7 +5455,7 @@
               "template": "textAndIcon",
               "figure": "",
               "geometry": "",
-              "fillcolor": "#ffffe0",
+              "fillcolor": "white",
               "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
@@ -5281,7 +5477,7 @@
               "template": "textAndIcon",
               "figure": "",
               "geometry": "",
-              "fillcolor": "#ffffff",
+              "fillcolor": "white",
               "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
@@ -5303,7 +5499,7 @@
               "template": "textAndIcon",
               "figure": "",
               "geometry": "",
-              "fillcolor": "#938a8a",
+              "fillcolor": "#f5f5f5",
               "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
@@ -5312,7 +5508,7 @@
               "textcolor": "black",
               "textscale": "1",
               "memberscale": 0.8,
-              "icon": "https://gogeticons.com/frontend/web/icons/data/1/9/4/7/5/3/box_product_icon_128.png",
+              "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-organization-structure-public-relations-agency-flaticons-lineal-color-flat-icons.png",
               "markedAsDeleted": false,
               "modified": false
             },
@@ -5344,19 +5540,19 @@
               "description": "",
               "typeRef": "5800e823-e207-478a-c336-57ca0d73d32c",
               "viewkind": "Container",
-              "template": "groupWithPorts",
+              "template": "textAndIcon",
               "figure": "",
               "geometry": "F1 m 0,0 l 0,2.5 4,0 0,1.5 4,-3 -4,-3 0,1.5 -4,0 0,2.5 z",
               "fillcolor": "white",
-              "fillcolor2": "lightyellow",
+              "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
               "strokecolor2": "black",
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
-              "memberscale": "0.8",
-              "icon": "",
+              "memberscale": 0.8,
+              "icon": "https://img.icons8.com/?size=2x&id=UBnbROoNxRJK&format=png",
               "markedAsDeleted": false,
               "modified": false
             },
@@ -6527,6 +6723,303 @@
               "description": "",
               "markedAsDeleted": false,
               "modified": false
+            },
+            {
+              "id": "c17b469e-a73b-46ed-55d4-4f9c1408e506",
+              "name": "",
+              "typeRef": "05ea3e5c-e9a1-43f5-31a4-042acc4dbdbb",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "c5095350-ad53-44e9-0f8e-fded3b8935cc",
+              "name": "",
+              "typeRef": "0006897b-07c2-4824-683f-2c10146e1a4a",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "773478e9-841d-4f0c-e7f4-a2daed5f2475",
+              "name": "",
+              "typeRef": "a7661dac-4deb-4668-81f3-0248d46f1c7e",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "f9ffc0bb-8335-4470-94c1-2a1a3cdbb5d5",
+              "name": "",
+              "typeRef": "3808df57-878a-4738-dc95-644370cd1b08",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "7fcfaeee-ed51-49b6-4071-002fee8b59ba",
+              "name": "",
+              "typeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "1db592e2-a111-42c8-5dd6-19e27e97db12",
+              "name": "",
+              "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "c6b21ffc-b426-456f-c8ef-c60966c86736",
+              "name": "",
+              "typeRef": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "1ba5cf73-8793-419b-1d42-f38e86fd5a65",
+              "name": "",
+              "typeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "4ab71d13-84a7-4f53-ac30-5653f0a323fd",
+              "name": "",
+              "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "6f5fd39e-8d79-4b6b-b90a-e513f2932a52",
+              "name": "",
+              "typeRef": "05ea3e5c-e9a1-43f5-31a4-042acc4dbdbb",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "965d8ded-361e-43b5-2371-7598e4a34998",
+              "name": "",
+              "typeRef": "0006897b-07c2-4824-683f-2c10146e1a4a",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "e973ca67-e831-49ff-d946-1773e3dba324",
+              "name": "",
+              "typeRef": "a7661dac-4deb-4668-81f3-0248d46f1c7e",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "e1524308-1bad-4c92-ad84-290e275f39d4",
+              "name": "",
+              "typeRef": "3808df57-878a-4738-dc95-644370cd1b08",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "4ed1d999-efba-4c1a-c6f7-fc4e562235d3",
+              "name": "",
+              "typeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "78d76288-e8d2-4bca-1939-03942ec1ddd3",
+              "name": "",
+              "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "82b20a58-53d6-4a91-1951-81d89ecf1171",
+              "name": "",
+              "typeRef": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "e72d902c-a683-474c-8c74-e1b2a88874ea",
+              "name": "",
+              "typeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "48a9824f-a6f6-42b8-d5db-ce53fb13f25e",
+              "name": "",
+              "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "612d0273-19f7-482a-d0d5-c4e16ea31b72",
+              "name": "",
+              "typeRef": "05ea3e5c-e9a1-43f5-31a4-042acc4dbdbb",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "cf440aa0-f2df-4966-bb5b-6e956b5bf332",
+              "name": "",
+              "typeRef": "0006897b-07c2-4824-683f-2c10146e1a4a",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "925575a0-c75c-4442-3b21-e12898f03c57",
+              "name": "",
+              "typeRef": "a7661dac-4deb-4668-81f3-0248d46f1c7e",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "2d0dc123-8b91-4a5c-7cf5-3bb761204920",
+              "name": "",
+              "typeRef": "3808df57-878a-4738-dc95-644370cd1b08",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "3ac492c2-4a5f-461c-b1e1-4d0add087432",
+              "name": "",
+              "typeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "dc633027-4aa1-4aed-e8b2-08a60795f544",
+              "name": "",
+              "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "6d9a6a63-177e-4bed-20f4-967f4bb453d1",
+              "name": "",
+              "typeRef": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "206b748a-644d-468e-4c0a-25ef8a9d4ace",
+              "name": "",
+              "typeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "e7e23186-1560-4d35-8a8b-e94a92aff541",
+              "name": "",
+              "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
+              "metamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
+              "loc": "",
+              "size": "",
+              "description": "",
+              "markedAsDeleted": false,
+              "modified": false
             }
           ],
           "relshiptypeviews": [
@@ -7518,6 +8011,27 @@
               "modified": false
             },
             {
+              "id": "7a418607-7442-437d-b6d8-ef2ebc15e165",
+              "name": "contains_Association",
+              "description": "",
+              "typeRef": "9c0adee9-2b23-4fd3-3f7f-2f813a3b475a",
+              "template": "linkTemplate1",
+              "strokecolor": "black",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textscale": "1",
+              "dash": "None",
+              "fromArrow": "",
+              "toArrow": "OpenTriangle",
+              "fromArrowColor": "",
+              "toArrowColor": "white",
+              "routing": "Normal",
+              "corner": "0",
+              "curve": "0",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
               "id": "8ab0a96d-84ca-43de-4f6c-32b294a10bf6",
               "name": "fills_Association",
               "description": "",
@@ -7964,9 +8478,9 @@
               "description": "",
               "typeRef": "0f3b6357-d2ea-4ef3-927e-4f00f0f12b93",
               "template": "linkTemplate1",
-              "strokecolor": "darkblue",
+              "strokecolor": "black",
               "strokewidth": "1",
-              "textcolor": "blue",
+              "textcolor": "black",
               "textscale": "1",
               "dash": "None",
               "fromArrow": "",
@@ -7985,9 +8499,9 @@
               "description": "",
               "typeRef": "d67821d1-8478-4a24-da95-1e5eada368ab",
               "template": "linkTemplate1",
-              "strokecolor": "darkblue",
+              "strokecolor": "black",
               "strokewidth": "1",
-              "textcolor": "blue",
+              "textcolor": "black",
               "textscale": "1",
               "dash": "None",
               "fromArrow": "",
@@ -8002,7 +8516,7 @@
             },
             {
               "id": "55dc4fd6-d0d5-43dc-9b29-06614309ca65",
-              "name": "hasMember_Association",
+              "name": "hasMember_Aggregation",
               "description": "",
               "typeRef": "85d1de6f-6d52-42c4-0335-7ce3a7f058cd",
               "template": "linkTemplate1",
@@ -8027,9 +8541,9 @@
               "description": "",
               "typeRef": "ef25d26e-2324-4633-2d9a-1e9f2ca82ea4",
               "template": "linkTemplate1",
-              "strokecolor": "darkred",
+              "strokecolor": "black",
               "strokewidth": "1",
-              "textcolor": "darkred",
+              "textcolor": "black",
               "textscale": "1",
               "dash": "None",
               "fromArrow": "",
@@ -8050,7 +8564,7 @@
               "template": "linkTemplate1",
               "strokecolor": "black",
               "strokewidth": "1",
-              "textcolor": "darkred",
+              "textcolor": "black",
               "textscale": "1",
               "dash": "None",
               "fromArrow": "",
@@ -8086,7 +8600,7 @@
             },
             {
               "id": "9ac1ade7-7ac2-4265-c465-88cff617b4ef",
-              "name": "hasPart_Association",
+              "name": "hasPart_Composition",
               "description": "",
               "typeRef": "a06c1286-5029-4db5-ed55-09ececf381e6",
               "template": "linkTemplate1",
@@ -8106,10 +8620,10 @@
               "modified": false
             },
             {
-              "id": "166e7408-ccdd-4618-3d56-fb7205a46c22",
+              "id": "f87bf8cc-f2e2-4fd6-a7d9-198e9af39dff",
               "name": "has_Association",
               "description": "",
-              "typeRef": "8870e2f2-0303-4cee-ae2e-4d03de1c52ea",
+              "typeRef": "1165d437-5ae7-4af4-8afb-37ae3430fd93",
               "template": "linkTemplate1",
               "strokecolor": "black",
               "strokewidth": "1",
@@ -8131,6 +8645,27 @@
               "name": "has_Association",
               "description": "",
               "typeRef": "22f50fa8-90be-4738-8f71-670a19668fe0",
+              "template": "linkTemplate1",
+              "strokecolor": "black",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textscale": "1",
+              "dash": "None",
+              "fromArrow": "",
+              "toArrow": "OpenTriangle",
+              "fromArrowColor": "",
+              "toArrowColor": "white",
+              "routing": "Normal",
+              "corner": "0",
+              "curve": "0",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "166e7408-ccdd-4618-3d56-fb7205a46c22",
+              "name": "has_Association",
+              "description": "",
+              "typeRef": "8870e2f2-0303-4cee-ae2e-4d03de1c52ea",
               "template": "linkTemplate1",
               "strokecolor": "black",
               "strokewidth": "1",
@@ -8257,27 +8792,6 @@
               "name": "has_Association",
               "description": "",
               "typeRef": "2c019c92-ca60-47fb-c5c2-daaeed8e9c03",
-              "template": "linkTemplate1",
-              "strokecolor": "black",
-              "strokewidth": "1",
-              "textcolor": "black",
-              "textscale": "1",
-              "dash": "None",
-              "fromArrow": "",
-              "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
-              "toArrowColor": "white",
-              "routing": "Normal",
-              "corner": "0",
-              "curve": "0",
-              "markedAsDeleted": false,
-              "modified": false
-            },
-            {
-              "id": "f87bf8cc-f2e2-4fd6-a7d9-198e9af39dff",
-              "name": "has_Association",
-              "description": "",
-              "typeRef": "1165d437-5ae7-4af4-8afb-37ae3430fd93",
               "template": "linkTemplate1",
               "strokecolor": "black",
               "strokewidth": "1",
@@ -8652,8 +9166,9 @@
               "modified": false
             }
           ],
-          "generatedFromModelRef": "7f400ca1-76fe-40cd-f70f-9040581387eb",
-          "includeInheritedReltypes": true,
+          "generatedFromModelRef": "05d5b929-b985-49ac-cf92-cc095a03889d",
+          "includeInheritedReltypes": false,
+          "includeSystemtypes": false,
           "layout": "ForceDirected",
           "routing": "Normal",
           "linkcurve": "None",
@@ -8698,7 +9213,8 @@
             }
           ],
           "markedAsDeleted": false,
-          "modified": false
+          "modified": false,
+          "args2": []
         },
         {
           "id": "9a865f21-7b9e-4388-ccf9-7005e45cfc36",
@@ -8715,7 +9231,7 @@
           "templates": [],
           "objects": [
             {
-              "id": "05e71419-9968-425c-7b4f-c3a52c1f8180",
+              "id": "e3eccb39-39b0-443f-c311-2389d59e8b1d",
               "name": "AKM-IRTV-POPS-Startup",
               "description": "AKM-IRTV++  startup project",
               "abstract": false,
@@ -8734,10 +9250,10 @@
               "relshipkind": "Association",
               "valueset": null,
               "copiedFromId": "",
-              "metisId": "8afa304d-e6ad-48a0-fa80-37972454dd3e"
+              "metisId": "483fd390-c260-4026-eaab-71a94f7cb618"
             },
             {
-              "id": "2c19962d-9807-4285-cfcb-eebc5557ea88",
+              "id": "267e73e5-98e7-48d3-454d-b44981b695a2",
               "name": "TEST_MM",
               "description": "",
               "abstract": false,
@@ -8759,7 +9275,7 @@
               "metamodelId": "f3e2467f-9452-4ffd-b6b8-9f906e523c70"
             },
             {
-              "id": "ccda6253-4aec-4937-f1ed-238c7b370aaf",
+              "id": "8442bf1b-b6ed-44a4-bdd8-1e96d04a67ab",
               "name": "INIT_TEST_SM",
               "description": "",
               "abstract": false,
@@ -8782,7 +9298,7 @@
               "modelId": "26fd7411-2ec9-4d3a-29a9-90a508f8c066"
             },
             {
-              "id": "0c3b6743-26af-46d0-5a25-e938be558258",
+              "id": "c39c3657-db17-40a6-5ac3-405559b8357d",
               "name": "Main",
               "description": "",
               "abstract": false,
@@ -8811,7 +9327,7 @@
               "includeInheritedReltypes": null
             },
             {
-              "id": "52c08281-2bf6-40f9-d34f-d4d8e1039069",
+              "id": "70ddc686-403f-4743-c284-75a2d317a282",
               "name": "AKM-IRTV-POPS_MM",
               "description": "A metamodel combining IRTV and POPS and Process modeling",
               "abstract": false,
@@ -8833,7 +9349,7 @@
               "metamodelId": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda"
             },
             {
-              "id": "28436b32-dd71-4665-3a87-b130839dedff",
+              "id": "ea9d8bba-8975-492f-5d15-587ab4ea2d5b",
               "name": "INIT_CM",
               "description": "",
               "abstract": false,
@@ -8856,7 +9372,7 @@
               "modelId": "05d5b929-b985-49ac-cf92-cc095a03889d"
             },
             {
-              "id": "0a32e6f9-31f6-4894-61ad-ad2f01bb13c7",
+              "id": "130a9619-32af-4ef5-9970-1b64af073be2",
               "name": "Main",
               "description": "",
               "abstract": false,
@@ -8887,12 +9403,12 @@
           ],
           "relships": [
             {
-              "id": "f846af07-e44d-4a5b-e508-924f075623a8",
+              "id": "5b5931e0-adad-4757-9910-c8e9c48296bc",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
-              "fromobjectRef": "05e71419-9968-425c-7b4f-c3a52c1f8180",
-              "toobjectRef": "2c19962d-9807-4285-cfcb-eebc5557ea88",
+              "fromobjectRef": "e3eccb39-39b0-443f-c311-2389d59e8b1d",
+              "toobjectRef": "267e73e5-98e7-48d3-454d-b44981b695a2",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
               "propvalues": [],
               "cardinality": "",
@@ -8907,12 +9423,12 @@
               "modified": false
             },
             {
-              "id": "5d2bc353-529d-45b3-04cc-42e0238a43b2",
+              "id": "a299d46c-19d0-401c-7704-1b678127bdd0",
               "name": "refersTo",
               "description": "",
               "relshipkind": "Association",
-              "fromobjectRef": "ccda6253-4aec-4937-f1ed-238c7b370aaf",
-              "toobjectRef": "2c19962d-9807-4285-cfcb-eebc5557ea88",
+              "fromobjectRef": "8442bf1b-b6ed-44a4-bdd8-1e96d04a67ab",
+              "toobjectRef": "267e73e5-98e7-48d3-454d-b44981b695a2",
               "typeRef": "a7c5a98e-82ae-438b-c5c6-e836f8d2f538",
               "propvalues": [],
               "cardinality": "",
@@ -8927,12 +9443,12 @@
               "modified": false
             },
             {
-              "id": "44f6d2e1-67dc-446d-deb5-25c9d66de77e",
+              "id": "dc17a432-dab2-4ab3-357b-922688c62dfa",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
-              "fromobjectRef": "05e71419-9968-425c-7b4f-c3a52c1f8180",
-              "toobjectRef": "ccda6253-4aec-4937-f1ed-238c7b370aaf",
+              "fromobjectRef": "e3eccb39-39b0-443f-c311-2389d59e8b1d",
+              "toobjectRef": "8442bf1b-b6ed-44a4-bdd8-1e96d04a67ab",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
               "propvalues": [],
               "cardinality": "",
@@ -8947,12 +9463,12 @@
               "modified": false
             },
             {
-              "id": "98c3e5c2-5ae4-4b37-5b07-33714660251b",
+              "id": "c8b1d001-a33d-4dee-dbf1-a2b7f15a4676",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
-              "fromobjectRef": "ccda6253-4aec-4937-f1ed-238c7b370aaf",
-              "toobjectRef": "0c3b6743-26af-46d0-5a25-e938be558258",
+              "fromobjectRef": "8442bf1b-b6ed-44a4-bdd8-1e96d04a67ab",
+              "toobjectRef": "c39c3657-db17-40a6-5ac3-405559b8357d",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
               "propvalues": [],
               "cardinality": "",
@@ -8967,12 +9483,12 @@
               "modified": false
             },
             {
-              "id": "6a95c71b-8b40-4b7e-177a-b87e06480ef8",
+              "id": "91d0cf3a-ce33-4d7c-a8b7-4bf1bccc4b9b",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
-              "fromobjectRef": "05e71419-9968-425c-7b4f-c3a52c1f8180",
-              "toobjectRef": "52c08281-2bf6-40f9-d34f-d4d8e1039069",
+              "fromobjectRef": "e3eccb39-39b0-443f-c311-2389d59e8b1d",
+              "toobjectRef": "70ddc686-403f-4743-c284-75a2d317a282",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
               "propvalues": [],
               "cardinality": "",
@@ -8987,12 +9503,12 @@
               "modified": false
             },
             {
-              "id": "8bc76f09-15f7-40f3-6a5f-e9507f57e924",
+              "id": "5b443253-265a-49dc-708a-79a3b427b50e",
               "name": "refersTo",
               "description": "",
               "relshipkind": "Association",
-              "fromobjectRef": "28436b32-dd71-4665-3a87-b130839dedff",
-              "toobjectRef": "52c08281-2bf6-40f9-d34f-d4d8e1039069",
+              "fromobjectRef": "ea9d8bba-8975-492f-5d15-587ab4ea2d5b",
+              "toobjectRef": "70ddc686-403f-4743-c284-75a2d317a282",
               "typeRef": "a7c5a98e-82ae-438b-c5c6-e836f8d2f538",
               "propvalues": [],
               "cardinality": "",
@@ -9007,12 +9523,12 @@
               "modified": false
             },
             {
-              "id": "0c1dcc52-efac-4f13-1238-69cabe0ef595",
+              "id": "3a2404aa-8383-4a6c-434b-3a33cfb848c3",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
-              "fromobjectRef": "05e71419-9968-425c-7b4f-c3a52c1f8180",
-              "toobjectRef": "28436b32-dd71-4665-3a87-b130839dedff",
+              "fromobjectRef": "e3eccb39-39b0-443f-c311-2389d59e8b1d",
+              "toobjectRef": "ea9d8bba-8975-492f-5d15-587ab4ea2d5b",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
               "propvalues": [],
               "cardinality": "",
@@ -9027,13 +9543,33 @@
               "modified": false
             },
             {
-              "id": "30f0add5-a7b5-47f9-e8cd-347916aa7b68",
+              "id": "b4661c05-f70a-419e-131e-89a1266f6ca8",
               "name": "has",
               "description": "",
               "relshipkind": "Association",
-              "fromobjectRef": "28436b32-dd71-4665-3a87-b130839dedff",
-              "toobjectRef": "0a32e6f9-31f6-4894-61ad-ad2f01bb13c7",
+              "fromobjectRef": "ea9d8bba-8975-492f-5d15-587ab4ea2d5b",
+              "toobjectRef": "130a9619-32af-4ef5-9970-1b64af073be2",
               "typeRef": "3246328d-de43-4d24-40bf-0c5d50ef3bbe",
+              "propvalues": [],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "fromPortid": "",
+              "toPortid": "",
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": false
+            },
+            {
+              "id": "ff58973e-490a-4469-d7c3-7c5e29b517c2",
+              "name": "generatedFrom",
+              "description": "",
+              "relshipkind": "Association",
+              "fromobjectRef": "70ddc686-403f-4743-c284-75a2d317a282",
+              "toobjectRef": "ea9d8bba-8975-492f-5d15-587ab4ea2d5b",
+              "typeRef": "238c279a-bb0a-428b-4f27-b233c43bf733",
               "propvalues": [],
               "cardinality": "",
               "cardinalityFrom": "",
@@ -9060,10 +9596,10 @@
               "UseUMLrelshipkinds": false,
               "objectviews": [
                 {
-                  "id": "6a813c43-250a-492d-d1f5-ee9f1c98c11f",
+                  "id": "b406cd22-6593-4fd5-8603-02ab1a3bcdae",
                   "name": "AKM-IRTV-POPS-Startup",
                   "description": "",
-                  "objectRef": "05e71419-9968-425c-7b4f-c3a52c1f8180",
+                  "objectRef": "e3eccb39-39b0-443f-c311-2389d59e8b1d",
                   "typeviewRef": "b843eedc-b7d1-432c-4814-e24053fa3f62",
                   "group": "",
                   "viewkind": "",
@@ -9089,10 +9625,10 @@
                   "modified": false
                 },
                 {
-                  "id": "0f4ab72c-1ae0-4bbc-3736-50a1ee794a21",
+                  "id": "d23063bb-056d-4d33-054c-48286c39f59e",
                   "name": "TEST_MM",
                   "description": "",
-                  "objectRef": "2c19962d-9807-4285-cfcb-eebc5557ea88",
+                  "objectRef": "267e73e5-98e7-48d3-454d-b44981b695a2",
                   "typeviewRef": "b307d924-aaef-416c-245b-dacdb10f4b05",
                   "group": "",
                   "viewkind": "",
@@ -9118,10 +9654,10 @@
                   "modified": false
                 },
                 {
-                  "id": "a41ceae3-9218-44ea-7315-f5cec9ce0101",
+                  "id": "ef77197c-8289-42d5-d994-7a41a22ff39e",
                   "name": "INIT_TEST_SM",
                   "description": "",
-                  "objectRef": "ccda6253-4aec-4937-f1ed-238c7b370aaf",
+                  "objectRef": "8442bf1b-b6ed-44a4-bdd8-1e96d04a67ab",
                   "typeviewRef": "735c257c-39a7-4a40-c879-ac3fda1b9754",
                   "group": "",
                   "viewkind": "",
@@ -9147,10 +9683,10 @@
                   "modified": false
                 },
                 {
-                  "id": "6c74e2fd-f63d-43b8-2edb-fc66b9735040",
+                  "id": "125ef089-2273-4125-70b2-2ddb6c85c028",
                   "name": "Main",
                   "description": "",
-                  "objectRef": "0c3b6743-26af-46d0-5a25-e938be558258",
+                  "objectRef": "c39c3657-db17-40a6-5ac3-405559b8357d",
                   "typeviewRef": "f513a655-511f-4faf-e3e2-10fbe4dccb0d",
                   "group": "",
                   "viewkind": "",
@@ -9176,10 +9712,10 @@
                   "modified": false
                 },
                 {
-                  "id": "75265d48-5fdb-4d42-560c-a40c927b81c3",
+                  "id": "58f28c69-5fa5-4802-3f1c-3d2e4e5ab813",
                   "name": "AKM-IRTV-POPS_MM",
                   "description": "",
-                  "objectRef": "52c08281-2bf6-40f9-d34f-d4d8e1039069",
+                  "objectRef": "70ddc686-403f-4743-c284-75a2d317a282",
                   "typeviewRef": "b307d924-aaef-416c-245b-dacdb10f4b05",
                   "group": "",
                   "viewkind": "",
@@ -9205,10 +9741,10 @@
                   "modified": false
                 },
                 {
-                  "id": "09f8cdd1-fda6-4f94-9e39-ed09b79cfde3",
+                  "id": "3bed3bd2-9c05-4ffe-6a88-acc9637dbeba",
                   "name": "INIT_CM",
                   "description": "",
-                  "objectRef": "28436b32-dd71-4665-3a87-b130839dedff",
+                  "objectRef": "ea9d8bba-8975-492f-5d15-587ab4ea2d5b",
                   "typeviewRef": "735c257c-39a7-4a40-c879-ac3fda1b9754",
                   "group": "",
                   "viewkind": "",
@@ -9234,10 +9770,10 @@
                   "modified": false
                 },
                 {
-                  "id": "1c56a734-ab68-468b-e681-9e1e0ffdcd7d",
+                  "id": "dd8a444e-75ca-436d-b377-60aaf1296f57",
                   "name": "Main",
                   "description": "",
-                  "objectRef": "0a32e6f9-31f6-4894-61ad-ad2f01bb13c7",
+                  "objectRef": "130a9619-32af-4ef5-9970-1b64af073be2",
                   "typeviewRef": "f513a655-511f-4faf-e3e2-10fbe4dccb0d",
                   "group": "",
                   "viewkind": "",
@@ -9265,10 +9801,10 @@
               ],
               "relshipviews": [
                 {
-                  "id": "a39c2a53-ef59-4a93-9b52-49e358fcb330",
+                  "id": "f71f4644-b862-40f9-3281-3e0b7ba5e9c5",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "f846af07-e44d-4a5b-e508-924f075623a8",
+                  "relshipRef": "5b5931e0-adad-4757-9910-c8e9c48296bc",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
                   "template": "",
                   "arrowscale": "",
@@ -9281,11 +9817,11 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "fromobjviewRef": "6a813c43-250a-492d-d1f5-ee9f1c98c11f",
-                  "toobjviewRef": "0f4ab72c-1ae0-4bbc-3736-50a1ee794a21",
+                  "fromobjviewRef": "b406cd22-6593-4fd5-8603-02ab1a3bcdae",
+                  "toobjviewRef": "d23063bb-056d-4d33-054c-48286c39f59e",
                   "fromPortid": "",
                   "toPortid": "",
-                  "points": null,
+                  "points": [],
                   "routing": "",
                   "curve": "",
                   "corner": "",
@@ -9293,10 +9829,10 @@
                   "modified": false
                 },
                 {
-                  "id": "17a63c69-6801-43cc-b162-2d2b42ea45af",
+                  "id": "78266642-200d-4fb0-4dde-65d79349c6b4",
                   "name": "refersTo",
                   "description": "",
-                  "relshipRef": "5d2bc353-529d-45b3-04cc-42e0238a43b2",
+                  "relshipRef": "a299d46c-19d0-401c-7704-1b678127bdd0",
                   "typeviewRef": "e095bbff-bd34-4d6b-d23b-d9937feaa378",
                   "template": "",
                   "arrowscale": "",
@@ -9309,11 +9845,11 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "fromobjviewRef": "a41ceae3-9218-44ea-7315-f5cec9ce0101",
-                  "toobjviewRef": "0f4ab72c-1ae0-4bbc-3736-50a1ee794a21",
+                  "fromobjviewRef": "ef77197c-8289-42d5-d994-7a41a22ff39e",
+                  "toobjviewRef": "d23063bb-056d-4d33-054c-48286c39f59e",
                   "fromPortid": "",
                   "toPortid": "",
-                  "points": null,
+                  "points": [],
                   "routing": "",
                   "curve": "",
                   "corner": "",
@@ -9321,10 +9857,10 @@
                   "modified": false
                 },
                 {
-                  "id": "65e73cfa-7334-4317-d3d9-63c93e7aecf8",
+                  "id": "ceb1bcb8-c564-417a-f4f9-40b5049ad526",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "44f6d2e1-67dc-446d-deb5-25c9d66de77e",
+                  "relshipRef": "dc17a432-dab2-4ab3-357b-922688c62dfa",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
                   "template": "",
                   "arrowscale": "",
@@ -9337,11 +9873,11 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "fromobjviewRef": "6a813c43-250a-492d-d1f5-ee9f1c98c11f",
-                  "toobjviewRef": "a41ceae3-9218-44ea-7315-f5cec9ce0101",
+                  "fromobjviewRef": "b406cd22-6593-4fd5-8603-02ab1a3bcdae",
+                  "toobjviewRef": "ef77197c-8289-42d5-d994-7a41a22ff39e",
                   "fromPortid": "",
                   "toPortid": "",
-                  "points": null,
+                  "points": [],
                   "routing": "",
                   "curve": "",
                   "corner": "",
@@ -9349,10 +9885,10 @@
                   "modified": false
                 },
                 {
-                  "id": "27d77725-86cb-44eb-de69-5f82c210d53f",
+                  "id": "4276e7d6-0bcf-4187-5ad6-ed80f78a705b",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "98c3e5c2-5ae4-4b37-5b07-33714660251b",
+                  "relshipRef": "c8b1d001-a33d-4dee-dbf1-a2b7f15a4676",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
                   "template": "",
                   "arrowscale": "",
@@ -9365,11 +9901,11 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "fromobjviewRef": "a41ceae3-9218-44ea-7315-f5cec9ce0101",
-                  "toobjviewRef": "6c74e2fd-f63d-43b8-2edb-fc66b9735040",
+                  "fromobjviewRef": "ef77197c-8289-42d5-d994-7a41a22ff39e",
+                  "toobjviewRef": "125ef089-2273-4125-70b2-2ddb6c85c028",
                   "fromPortid": "",
                   "toPortid": "",
-                  "points": null,
+                  "points": [],
                   "routing": "",
                   "curve": "",
                   "corner": "",
@@ -9377,10 +9913,10 @@
                   "modified": false
                 },
                 {
-                  "id": "e9c7b965-6507-4fd6-7f1d-020c206cc5bb",
+                  "id": "eb5a5e07-ec06-4a91-adb0-b503547a5353",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "6a95c71b-8b40-4b7e-177a-b87e06480ef8",
+                  "relshipRef": "91d0cf3a-ce33-4d7c-a8b7-4bf1bccc4b9b",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
                   "template": "",
                   "arrowscale": "",
@@ -9393,11 +9929,11 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "fromobjviewRef": "6a813c43-250a-492d-d1f5-ee9f1c98c11f",
-                  "toobjviewRef": "75265d48-5fdb-4d42-560c-a40c927b81c3",
+                  "fromobjviewRef": "b406cd22-6593-4fd5-8603-02ab1a3bcdae",
+                  "toobjviewRef": "58f28c69-5fa5-4802-3f1c-3d2e4e5ab813",
                   "fromPortid": "",
                   "toPortid": "",
-                  "points": null,
+                  "points": [],
                   "routing": "",
                   "curve": "",
                   "corner": "",
@@ -9405,10 +9941,10 @@
                   "modified": false
                 },
                 {
-                  "id": "a0ebc488-d939-4f05-7f0d-ac4cc5311387",
+                  "id": "47d84af1-1709-4412-0eb0-c5539c37641f",
                   "name": "refersTo",
                   "description": "",
-                  "relshipRef": "8bc76f09-15f7-40f3-6a5f-e9507f57e924",
+                  "relshipRef": "5b443253-265a-49dc-708a-79a3b427b50e",
                   "typeviewRef": "e095bbff-bd34-4d6b-d23b-d9937feaa378",
                   "template": "",
                   "arrowscale": "",
@@ -9421,11 +9957,11 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "fromobjviewRef": "09f8cdd1-fda6-4f94-9e39-ed09b79cfde3",
-                  "toobjviewRef": "75265d48-5fdb-4d42-560c-a40c927b81c3",
+                  "fromobjviewRef": "3bed3bd2-9c05-4ffe-6a88-acc9637dbeba",
+                  "toobjviewRef": "58f28c69-5fa5-4802-3f1c-3d2e4e5ab813",
                   "fromPortid": "",
                   "toPortid": "",
-                  "points": null,
+                  "points": [],
                   "routing": "",
                   "curve": "",
                   "corner": "",
@@ -9433,10 +9969,10 @@
                   "modified": false
                 },
                 {
-                  "id": "f5603d77-43e3-4d93-2324-e079c28410a6",
+                  "id": "bd47ee99-ecdb-4e36-6f7b-f19dce851e4b",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "0c1dcc52-efac-4f13-1238-69cabe0ef595",
+                  "relshipRef": "3a2404aa-8383-4a6c-434b-3a33cfb848c3",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
                   "template": "",
                   "arrowscale": "",
@@ -9449,11 +9985,11 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "fromobjviewRef": "6a813c43-250a-492d-d1f5-ee9f1c98c11f",
-                  "toobjviewRef": "09f8cdd1-fda6-4f94-9e39-ed09b79cfde3",
+                  "fromobjviewRef": "b406cd22-6593-4fd5-8603-02ab1a3bcdae",
+                  "toobjviewRef": "3bed3bd2-9c05-4ffe-6a88-acc9637dbeba",
                   "fromPortid": "",
                   "toPortid": "",
-                  "points": null,
+                  "points": [],
                   "routing": "",
                   "curve": "",
                   "corner": "",
@@ -9461,10 +9997,10 @@
                   "modified": false
                 },
                 {
-                  "id": "cba18f71-b5fc-4a8c-973c-79d788ad4e06",
+                  "id": "b93cbcf2-0da9-4e5e-d1fc-d46d47780c06",
                   "name": "has",
                   "description": "",
-                  "relshipRef": "30f0add5-a7b5-47f9-e8cd-347916aa7b68",
+                  "relshipRef": "b4661c05-f70a-419e-131e-89a1266f6ca8",
                   "typeviewRef": "7ea93d5c-b1ba-4f1d-7829-4bfe9c6c4fcb",
                   "template": "",
                   "arrowscale": "",
@@ -9477,11 +10013,39 @@
                   "toArrow": "",
                   "fromArrowColor": "",
                   "toArrowColor": "",
-                  "fromobjviewRef": "09f8cdd1-fda6-4f94-9e39-ed09b79cfde3",
-                  "toobjviewRef": "1c56a734-ab68-468b-e681-9e1e0ffdcd7d",
+                  "fromobjviewRef": "3bed3bd2-9c05-4ffe-6a88-acc9637dbeba",
+                  "toobjviewRef": "dd8a444e-75ca-436d-b377-60aaf1296f57",
                   "fromPortid": "",
                   "toPortid": "",
-                  "points": null,
+                  "points": [],
+                  "routing": "",
+                  "curve": "",
+                  "corner": "",
+                  "markedAsDeleted": false,
+                  "modified": false
+                },
+                {
+                  "id": "ad3ebff7-6791-4409-7039-f2e514eea201",
+                  "name": "generatedFrom",
+                  "description": "",
+                  "relshipRef": "ff58973e-490a-4469-d7c3-7c5e29b517c2",
+                  "typeviewRef": "636db603-6483-47fc-256b-5a25a652fd4d",
+                  "template": "",
+                  "arrowscale": "",
+                  "strokecolor": "red",
+                  "strokewidth": "",
+                  "textcolor": "",
+                  "textscale": "",
+                  "dash": "",
+                  "fromArrow": "BackwardOpenTriangle",
+                  "toArrow": "None",
+                  "fromArrowColor": "",
+                  "toArrowColor": "black",
+                  "fromobjviewRef": "58f28c69-5fa5-4802-3f1c-3d2e4e5ab813",
+                  "toobjviewRef": "3bed3bd2-9c05-4ffe-6a88-acc9637dbeba",
+                  "fromPortid": "",
+                  "toPortid": "",
+                  "points": [],
                   "routing": "",
                   "curve": "",
                   "corner": "",
@@ -9496,7 +10060,8 @@
             }
           ],
           "markedAsDeleted": false,
-          "modified": false
+          "modified": false,
+          "args2": []
         },
         {
           "id": "26fd7411-2ec9-4d3a-29a9-90a508f8c066",
@@ -9536,7 +10101,8 @@
           ],
           "markedAsDeleted": false,
           "modified": false,
-          "args1": []
+          "args1": [],
+          "args2": []
         }
       ],
       "currentMetamodelRef": "62801c8f-b53b-42a3-a5d9-4e5c9a11bfda",
@@ -9564,11 +10130,11 @@
       "name": "Main"
     },
     "focusObject": {
-      "id": "50347f90-d4e4-4848-e9b5-a61827805f0c",
+      "id": "c9cd8612-d4ae-46da-1eec-368064097668",
       "name": "Information"
     },
     "focusObjectview": {
-      "id": "de0f9557-80ee-4ee3-af65-ddc1f8f9ee04",
+      "id": "941600f5-6e23-499f-2ab6-2634b7242f19",
       "name": "Information"
     },
     "focusRelship": {
@@ -9616,11 +10182,28 @@
       "name": "Modeller 1",
       "tasks": [
         {
+          "id": "AKM-IRTV-POPS_MM",
+          "name": "IRTV-POPS Modelling",
+          "description": "Modeling with AKM-IRTV-POPS objects",
+          "workOnTypes": [
+            "Container",
+            "Information",
+            "Role",
+            "Task",
+            "View",
+            "Label",
+            "Product",
+            "Organisation",
+            "Process",
+            "System",
+            "Actor"
+          ]
+        },
+        {
           "id": "Process",
           "name": "Process Modelling",
           "description": "Modelling with AKM-IRTV-POPS Process objects",
           "workOnTypes": [
-            "Container",
             "Process",
             "Activity",
             "ParrallelGate",
@@ -9633,37 +10216,15 @@
           ]
         },
         {
-          "id": "AKM-IRTV-POPS_MM",
-          "name": "IRTV-POPS Modelling",
-          "description": "Modeling with AKM-IRTV-POPS objects",
-          "workOnTypes": [
-            "Container",
-            "Actor",
-            "Information",
-            "Role",
-            "Task",
-            "View",
-            "Label",
-            "Product",
-            "Organisation",
-            "Process",
-            "System",
-            "Actor",
-            "EntityType"
-          ]
-        },
-        {
           "id": "IRTV",
           "name": "IRTV Modelling",
           "description": "Model IRTV objects",
           "workOnTypes": [
-            "Container",
             "Information",
             "Role",
             "Task",
             "View",
-            "Label",
-            "EntityType"
+            "Label"
           ]
         },
         {
@@ -9676,26 +10237,13 @@
           "id": "New-types",
           "name": "New-types",
           "workOnTypes": [
-            "Container"
-          ]
-        },
-        {
-          "id": "AKM-CORE+_MM",
-          "name": "AKM-CORE+_MM",
-          "description": "AKM-CORE+_MM modelling",
-          "workOnTypes": [
             "Container",
-            "Property",
-            "Datatype",
-            "Value",
-            "Method",
-            "MethodType",
-            "ViewFormat",
-            "InputPattern",
-            "FieldType",
-            "RelshipType",
-            "EntityType",
-            "Generic"
+            "Information",
+            "Role",
+            "Information",
+            "Task",
+            "View",
+            "Label"
           ]
         },
         {
@@ -9703,7 +10251,6 @@
           "name": "Property Modelling",
           "description": "Create New Entity using objecttype: EntityType and add properties",
           "workOnTypes": [
-            "Container",
             "EntityType",
             "Property",
             "Datatype",
@@ -9714,40 +10261,6 @@
             "FieldType",
             "Unittype"
           ]
-        },
-        {
-          "id": "IRTV+New-types",
-          "name": "IRTV + New types",
-          "description": "Modelling",
-          "workOnTypes": [
-            "Container",
-            "Information",
-            "Role",
-            "Task",
-            "View",
-            "Label",
-            "Property",
-            "Generic",
-            "EntityType",
-            "Gateway",
-            "Process",
-            "Function",
-            "Activity",
-            "Start",
-            "End",
-            "ExclusiveGate",
-            "InclusiveGate",
-            "ParallelGate",
-            "Datatype",
-            "InputPattern",
-            "FieldType",
-            "Unittype",
-            "Value",
-            "ViewFormat",
-            "Method",
-            "MethodType",
-            "RelshipType"
-          ]
         }
       ]
     },
@@ -9756,7 +10269,7 @@
       "name": "IRTV-POPS Modelling"
     }
   },
-  "phSource": "AKM-IRTV-POPS-Startup__PR (1).json",
+  "phSource": "AKM-IRTV-POPS-Startup_PR",
   "phUser": {
     "focusUser": {
       "id": "email",
