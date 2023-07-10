@@ -407,7 +407,7 @@
     {
       "id": "73c4b6c4-3117-497d-c66f-fb766564a402",
       "name": "hasMember",
-      "relshipkind": "Association",
+      "relshipkind": "Aggregation",
       "viewkind": "",
       "fromobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
