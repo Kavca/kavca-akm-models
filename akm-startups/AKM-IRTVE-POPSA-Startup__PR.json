@@ -1824,7 +1824,7 @@
             {
               "id": "73c4b6c4-3117-497d-c66f-fb766564a402",
               "name": "hasMember",
-              "relshipkind": "Association",
+              "relshipkind": "Aggregation",
               "viewkind": "",
               "fromobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
               "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
@@ -1839,7 +1839,7 @@
               "markedAsDeleted": false,
               "modified": false
             },
-            {
+                    {
               "id": "e2716cf9-d9fc-4508-6706-91b2eb6bdbb8",
               "name": "hasPart",
               "relshipkind": "Composition",
@@ -3538,7 +3538,7 @@
             },
             {
               "id": "dd5fddd9-01de-45e2-f745-62129afec529",
-              "name": "hasMember_Association",
+              "name": "hasMember_Aggregation",
               "description": "",
               "typeRef": "73c4b6c4-3117-497d-c66f-fb766564a402",
               "template": "linkTemplate1",
@@ -3547,9 +3547,9 @@
               "textcolor": "black",
               "textscale": "1",
               "dash": "None",
-              "fromArrow": "",
+              "fromArrow": "StretchedDiamond",
               "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
+              "fromArrowColor": "white",
               "toArrowColor": "white",
               "routing": "Normal",
               "corner": "0",
@@ -3557,7 +3557,7 @@
               "markedAsDeleted": false,
               "modified": false
             },
-            {
+                    {
               "id": "09d442f2-52c8-495b-5088-7c8354e3d8d6",
               "name": "hasOutput_Association",
               "description": "",
