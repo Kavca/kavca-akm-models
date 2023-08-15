@@ -6235,7 +6235,10 @@
       "currentTargetModelRef": "",
       "currentTargetModelviewRef": "",
       "currentTaskModelRef": ""
-    }
+    },
+    "organisation": "Kavca",
+    "repository": "kavca-akm-models",
+    "path": "akm-startups"
   },
   "phFocus": {
     "focusTab": "Modelling",
@@ -6288,16 +6291,22 @@
       "name": ""
     },
     "focusProj": {
-      "id": null,
-      "name": ""
+      "id": "Kavcakavca-akm-modelsakm-startupsAKM-CORE+_Startup__PR.jsonmain",
+      "name": "kavca-akm-models",
+      "org": "Kavca",
+      "repo": "kavca-akm-models",
+      "path": "akm-startups",
+      "file": "AKM-CORE+_Startup__PR.json",
+      "branch": "main",
+      "projectNumber": "1"
     },
     "focusSource": {
       "id": null,
       "name": ""
     },
     "focusRefresh": {
-      "id": "kb842x",
-      "name": "1name"
+      "id": "hyk6v",
+      "name": "name"
     },
     "focusRole": {
       "id": "Modeller1",
