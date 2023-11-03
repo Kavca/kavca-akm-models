@@ -3403,7 +3403,7 @@
                 {
                   "id": "77bc9058-2005-401d-ef24-631416754e23",
                   "name": "Download json file(s)",
-                  "description": "# Download Schema from OSDU\n\nIn OSDU\n\nOSDU Schema is stored as JSON-files.\n\n\nYou can find the Schema here:\n[OSDU Schema](https://community.opengroup.org/osdu/data/data-definitions/-/tree/master/Generated)\n",
+                  "description": "#### Download Schema from OSDU\n\nOSDU Schema is stored as JSON-files in: \n[https://community.opengroup.org/osdu/data/data-definitions/Generated](https://community.opengroup.org/osdu/data/data-definitions/-/tree/master/Generated)\n\nCick on the Downlad-button ( upper-right ) and you can download the whole directory.\nUnpack the zip-file, and you now have a folder with all OSDU Schema- types\n\n",
                   "abstract": false,
                   "viewkind": "",
                   "typeRef": "f02d8b8c-d693-4e6b-1291-4d69f63dc8d7",
@@ -3426,7 +3426,7 @@
                 {
                   "id": "beb1a215-f30f-4b95-0a91-b33cb93973c8",
                   "name": "Import json file(s)",
-                  "description": "",
+                  "description": "### Import Schema files into AKM Modeller\n\nClick on the OSDU (blue button) in the Modelling bar.\n\nClick \"Choose files\" and locate the folder where you downloaded the OSDU json-files.\n\nSelect one or more files to be imported.\n\nClick on the blue  \"Done\" button at the down-right.\nClick on the \"Reload\" button in the Modelling bar.\n\nOpen the \"Objects\" pane to the left (next to the modeling area)\n\nDrag and drop the Schema-types (white objects) into the modelling area.\n\nClick on the \"OSDU\" button in the Modeling bar again.\n\nClick on \"GENERATE RELATIONSHIPS BETWEEN ENTITYTYPES (PROPERTYLINKS)\" to generate relationship between the types.\n\nRight-Click on the background and select: \"Add Missing Relationship Views\"\n\nArrange the objects (You can make Containers to organize the Objects)\n",
                   "abstract": false,
                   "viewkind": "",
                   "typeRef": "f02d8b8c-d693-4e6b-1291-4d69f63dc8d7",
@@ -3466,6 +3466,29 @@
                   "relshipkind": "Association",
                   "valueset": null,
                   "copiedFromId": ""
+                },
+                {
+                  "id": "42d2b007-12bb-4849-4199-8652f1f6d359",
+                  "name": "View the Properties",
+                  "description": "### View the Propertes of the Type (EntityType)\n\nFirst make a new Modelview (You can name it \"2-Properties\")\n\nCopy one or more of the EntityTypes.\n\nOpen the new Modelview and \"Paste as view\"\nArrange the objectviews with some distance.\n\nRight-click one of them and select \"Add Connected Objects\"\n\nKeep the sublevels = 1\n(this will add the properties of the EntityType)\n\n",
+                  "abstract": false,
+                  "viewkind": "",
+                  "typeRef": "f02d8b8c-d693-4e6b-1291-4d69f63dc8d7",
+                  "typeName": "Task",
+                  "typeDescription": "",
+                  "propertyValues": [],
+                  "ports": [],
+                  "markedAsDeleted": false,
+                  "generatedTypeId": "",
+                  "modified": true,
+                  "nameId": "Task",
+                  "category": "Object",
+                  "sourceUri": "",
+                  "relshipkind": "Association",
+                  "valueset": null,
+                  "copiedFromId": "",
+                  "proposedType": "",
+                  "text": ""
                 }
               ],
               "relships": [
@@ -5616,6 +5639,26 @@
                   "relshipkind": "Association",
                   "fromobjectRef": "277a748c-81ba-456b-8a46-4d2a016a5aee",
                   "toobjectRef": "277a748c-81ba-456b-8a46-4d2a016a5aee",
+                  "typeRef": "73c4b6c4-3117-497d-c66f-fb766564a402",
+                  "propvalues": [],
+                  "cardinality": "",
+                  "cardinalityFrom": "",
+                  "cardinalityTo": "",
+                  "nameFrom": "",
+                  "nameTo": "",
+                  "fromPortid": "",
+                  "toPortid": "",
+                  "markedAsDeleted": false,
+                  "generatedTypeId": "",
+                  "modified": false
+                },
+                {
+                  "id": "d96c8eb5-18ee-4b83-03fe-65453691befa",
+                  "name": "hasMember",
+                  "description": "",
+                  "relshipkind": "Association",
+                  "fromobjectRef": "277a748c-81ba-456b-8a46-4d2a016a5aee",
+                  "toobjectRef": "42d2b007-12bb-4849-4199-8652f1f6d359",
                   "typeRef": "73c4b6c4-3117-497d-c66f-fb766564a402",
                   "propvalues": [],
                   "cardinality": "",
@@ -9144,7 +9187,7 @@
                 {
                   "id": "a2dab0b5-a88e-43ab-ae9c-8874a1336095",
                   "name": "7-OSDU",
-                  "description": "",
+                  "description": "Import Schema from Osdu (JSON-files)",
                   "layout": "Tree",
                   "routing": "Normal",
                   "linkcurve": "None",
@@ -9346,17 +9389,17 @@
                       "isGroup": true,
                       "isExpanded": true,
                       "isSelected": false,
-                      "loc": "-790 -290",
-                      "template": "",
+                      "loc": "-750 -290",
+                      "template": "textAndIcon",
                       "figure": "",
                       "geometry": "",
-                      "fillcolor": "",
-                      "fillcolor2": "",
-                      "strokecolor": "",
-                      "strokecolor2": "",
+                      "fillcolor": "white",
+                      "fillcolor2": "white",
+                      "strokecolor": "black",
+                      "strokecolor2": "black",
                       "strokewidth": "1",
-                      "textcolor": "",
-                      "icon": "",
+                      "textcolor": "black",
+                      "icon": "https://img.icons8.com/color/2x/object.png",
                       "size": "260 620",
                       "scale": 1,
                       "memberscale": 1,
@@ -9376,17 +9419,17 @@
                       "isGroup": false,
                       "isExpanded": true,
                       "isSelected": false,
-                      "loc": "-760 -230",
-                      "template": "",
+                      "loc": "-720 -210",
+                      "template": "textAndIcon",
                       "figure": "",
                       "geometry": "",
-                      "fillcolor": "",
-                      "fillcolor2": "",
-                      "strokecolor": "",
-                      "strokecolor2": "",
+                      "fillcolor": "#ffffe0",
+                      "fillcolor2": "white",
+                      "strokecolor": "black",
+                      "strokecolor2": "black",
                       "strokewidth": "1",
-                      "textcolor": "",
-                      "icon": "",
+                      "textcolor": "black",
+                      "icon": "Task.jpeg",
                       "size": "160 70",
                       "scale": 1,
                       "memberscale": 1,
@@ -9406,17 +9449,17 @@
                       "isGroup": false,
                       "isExpanded": true,
                       "isSelected": false,
-                      "loc": "-760 -140",
-                      "template": "",
+                      "loc": "-720 -120",
+                      "template": "textAndIcon",
                       "figure": "",
                       "geometry": "",
-                      "fillcolor": "",
-                      "fillcolor2": "",
-                      "strokecolor": "",
-                      "strokecolor2": "",
+                      "fillcolor": "#ffffe0",
+                      "fillcolor2": "white",
+                      "strokecolor": "black",
+                      "strokecolor2": "black",
                       "strokewidth": "1",
-                      "textcolor": "",
-                      "icon": "",
+                      "textcolor": "black",
+                      "icon": "Task.jpeg",
                       "size": "160 70",
                       "scale": 1,
                       "memberscale": 1,
@@ -9447,6 +9490,36 @@
                       "strokewidth": "1",
                       "textcolor": "",
                       "icon": "",
+                      "size": "160 70",
+                      "scale": 1,
+                      "memberscale": 1,
+                      "textscale": "1",
+                      "arrowscale": "1.3",
+                      "markedAsDeleted": false,
+                      "modified": true
+                    },
+                    {
+                      "id": "2f6afa0a-30de-4637-5733-e9111d94bbc6",
+                      "name": "View the Properties",
+                      "description": "",
+                      "objectRef": "42d2b007-12bb-4849-4199-8652f1f6d359",
+                      "typeviewRef": "54479bf9-3d17-4762-059d-c2f29f26687a",
+                      "group": "bfbc5ce6-0438-4394-5594-1ad23e22dd8b",
+                      "viewkind": "Object",
+                      "isGroup": false,
+                      "isExpanded": true,
+                      "isSelected": false,
+                      "loc": "-720 -20",
+                      "template": "textAndIcon",
+                      "figure": "",
+                      "geometry": "",
+                      "fillcolor": "#ffffe0",
+                      "fillcolor2": "white",
+                      "strokecolor": "black",
+                      "strokecolor2": "black",
+                      "strokewidth": "1",
+                      "textcolor": "black",
+                      "icon": "Task.jpeg",
                       "size": "160 70",
                       "scale": 1,
                       "memberscale": 1,
@@ -9488,7 +9561,7 @@
                       "curve": "",
                       "corner": "",
                       "markedAsDeleted": "",
-                      "modified": false
+                      "modified": ""
                     },
                     {
                       "id": "b11da0c1-c47a-4dde-8a5c-ce47aba37636",
@@ -9521,7 +9594,7 @@
                       "curve": "",
                       "corner": "",
                       "markedAsDeleted": "",
-                      "modified": false
+                      "modified": ""
                     },
                     {
                       "id": "2da33007-3bd0-4c9a-18f7-d7cdcd842849",
@@ -9554,7 +9627,7 @@
                       "curve": "",
                       "corner": "",
                       "markedAsDeleted": "",
-                      "modified": false
+                      "modified": ""
                     },
                     {
                       "id": "87d6ad34-ae01-46f1-e976-66c94da52615",
@@ -9587,7 +9660,7 @@
                       "curve": "None",
                       "corner": "",
                       "markedAsDeleted": "",
-                      "modified": false
+                      "modified": ""
                     },
                     {
                       "id": "b72eef4a-59ef-4ac0-acc3-30f9202e83aa",
@@ -9620,7 +9693,7 @@
                       "curve": "None",
                       "corner": "",
                       "markedAsDeleted": "",
-                      "modified": false
+                      "modified": ""
                     },
                     {
                       "id": "c57d94a7-67f9-4c14-7ec9-eccc830a7a70",
@@ -9653,7 +9726,7 @@
                       "curve": "None",
                       "corner": "",
                       "markedAsDeleted": "",
-                      "modified": false
+                      "modified": ""
                     },
                     {
                       "id": "f6c49827-49ad-481d-347d-329f2f4ee430",
@@ -9686,7 +9759,7 @@
                       "curve": "None",
                       "corner": "",
                       "markedAsDeleted": "",
-                      "modified": false
+                      "modified": ""
                     },
                     {
                       "id": "c077b632-3c75-4ec3-d81d-34a10fcdc5dd",
@@ -9719,7 +9792,7 @@
                       "curve": "",
                       "corner": "",
                       "markedAsDeleted": "",
-                      "modified": false
+                      "modified": ""
                     },
                     {
                       "id": "75ca3d42-a97a-4eee-c87e-8e1e515a397a",
@@ -9752,7 +9825,7 @@
                       "curve": "None",
                       "corner": "",
                       "markedAsDeleted": "",
-                      "modified": false
+                      "modified": ""
                     },
                     {
                       "id": "c62dd03e-774d-465d-f638-81af07f05653",
@@ -9762,9 +9835,9 @@
                       "typeviewRef": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
                       "template": "",
                       "arrowscale": "",
-                      "strokecolor": "#c8c8c8",
+                      "strokecolor": "",
                       "strokewidth": "1",
-                      "textcolor": "lightgrey",
+                      "textcolor": "",
                       "textscale": 1,
                       "dash": "",
                       "fromArrow": "",
@@ -9782,10 +9855,10 @@
                         -134.525737416097
                       ],
                       "routing": "",
-                      "curve": "None",
+                      "curve": "",
                       "corner": "",
-                      "markedAsDeleted": false,
-                      "modified": false
+                      "markedAsDeleted": "",
+                      "modified": ""
                     },
                     {
                       "id": "9110cf76-0467-4f7c-3380-456ec8a32e30",
@@ -9809,16 +9882,16 @@
                       "fromPortid": "",
                       "toPortid": "",
                       "points": [
-                        -418.99993120824115,
-                        17.173019720917786,
-                        -530.0000343958794,
-                        18.475073717253736
+                        -418.9999117124473,
+                        17.328902481228532,
+                        -490.0000441437764,
+                        18.272425835797662
                       ],
                       "routing": "",
                       "curve": "",
                       "corner": "",
                       "markedAsDeleted": "",
-                      "modified": false
+                      "modified": ""
                     }
                   ],
                   "objecttypeviews": [],
@@ -18881,7 +18954,7 @@
       ],
       "models": [
         {
-          "id": "4ee2a86c-a513-46fd-93a9-0aae2ef69e6e",
+          "id": "abbc7966-f143-405e-a276-f202696511d8",
           "name": "New-Model",
           "description": "New Model to start modelling",
           "metamodelRef": "6bf4bf6f-13c5-41d6-c887-cd57fff6003c",
@@ -18895,7 +18968,7 @@
           "relships": [],
           "modelviews": [
             {
-              "id": "32265771-19fc-43b0-9193-e5cee7ac8163",
+              "id": "a526f08d-9d70-47b1-904e-63777f2563eb",
               "name": "0-Main",
               "objectviews": [],
               "relshipviews": []
@@ -21623,8 +21696,8 @@
         }
       ],
       "currentMetamodelRef": "6bf4bf6f-13c5-41d6-c887-cd57fff6003c",
-      "currentModelRef": "4ee2a86c-a513-46fd-93a9-0aae2ef69e6e",
-      "currentModelviewRef": "32265771-19fc-43b0-9193-e5cee7ac8163",
+      "currentModelRef": "abbc7966-f143-405e-a276-f202696511d8",
+      "currentModelviewRef": "a526f08d-9d70-47b1-904e-63777f2563eb",
       "currentTemplateModelRef": "",
       "currentTargetMetamodelRef": "",
       "currentTargetModelRef": "",
@@ -21639,11 +21712,11 @@
     "focusTargetModel": null,
     "focusTargetModelview": null,
     "focusModel": {
-      "id": "4ee2a86c-a513-46fd-93a9-0aae2ef69e6e",
+      "id": "abbc7966-f143-405e-a276-f202696511d8",
       "name": "New-Model"
     },
     "focusModelview": {
-      "id": "32265771-19fc-43b0-9193-e5cee7ac8163",
+      "id": "a526f08d-9d70-47b1-904e-63777f2563eb",
       "name": "0-Main"
     },
     "focusObject": {
@@ -21808,5 +21881,5 @@
     }
   },
   "phSource": "New Project Template",
-  "lastUpdate": "2023-11-03T11:39:17.218Z"
+  "lastUpdate": "2023-11-03T14:55:06.969Z"
 }
