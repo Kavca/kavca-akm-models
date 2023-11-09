@@ -23737,7 +23737,7 @@
             },
             {
               "id": "8ada8407-df19-4c62-0b99-b937fdfa19a1",
-              "name": "Model",
+              "name": "Build a Test Model",
               "description": "",
               "abstract": false,
               "viewkind": "",
@@ -23754,7 +23754,8 @@
               "sourceUri": "",
               "relshipkind": "Association",
               "valueset": null,
-              "copiedFromId": ""
+              "copiedFromId": "",
+              "text": ""
             },
             {
               "id": "60dbcb8d-4ce4-446c-76a3-e5acf3a2d85d",
@@ -31348,7 +31349,7 @@
                 },
                 {
                   "id": "cd1dbbe6-12e8-463c-1bf7-a0a3fbbf7a5e",
-                  "name": "Model",
+                  "name": "Build a Test Model",
                   "description": "",
                   "objectRef": "8ada8407-df19-4c62-0b99-b937fdfa19a1",
                   "typeviewRef": "735c257c-39a7-4a40-c879-ac3fda1b9754",
@@ -31374,7 +31375,8 @@
                   "textscale": "1",
                   "arrowscale": "1.3",
                   "markedAsDeleted": false,
-                  "modified": true
+                  "modified": true,
+                  "text": ""
                 },
                 {
                   "id": "4084b290-ce0e-4acf-48ca-659fb4ae7898",
@@ -40716,16 +40718,16 @@
       "args2": []
     },
     "focusModelview": {
-      "id": "3d010104-5c18-43cb-f44c-469a7533658b",
-      "name": "1-AKM Core"
+      "id": "33f4abef-3dc1-46d0-2645-39d5433b4051",
+      "name": "7-OSDU"
     },
     "focusObject": {
-      "id": "7e54835d-90e7-4086-d478-b6ca9ab5d7c8",
-      "name": "Property"
+      "id": "8ada8407-df19-4c62-0b99-b937fdfa19a1",
+      "name": "Build a test model"
     },
     "focusObjectview": {
-      "id": "c02d2539-f2bb-41c5-0192-cbc88146f22f",
-      "name": "Property"
+      "id": "cd1dbbe6-12e8-463c-1bf7-a0a3fbbf7a5e",
+      "name": "Build a test model"
     },
     "focusRelship": {
       "id": null,
@@ -40762,7 +40764,10 @@
       "repo": "kavca-akm-models",
       "file": "AKM-Core-Type-Definitions_PR.json",
       "branch": "main",
-      "projectNumber": "1"
+      "projectNumber": "1",
+      "path": "",
+      "username": "kavca",
+      "filename": "AKM-Type-Definitions_PR.json"
     },
     "focusSource": {
       "id": null,
@@ -40890,5 +40895,5 @@
     }
   },
   "phSource": "AKM-Type-Definitions_PR",
-  "lastUpdate": "2023-11-09T18:42:19.834Z"
+  "lastUpdate": "2023-11-09T20:44:27.629Z"
 }
