@@ -30858,7 +30858,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "images/types/Property.jpeg",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -30890,7 +30889,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "https://img.icons8.com/color/2x/data-.png",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -30922,7 +30920,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "images/Select.png",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -30954,7 +30951,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "images/RegExp.png",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -30986,7 +30982,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "./../images/Format.png",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31018,7 +31013,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "https://img.icons8.com/color/2x/variable.png",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31050,7 +31044,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31082,7 +31075,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31114,7 +31106,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "Metamodel.jpeg",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31146,7 +31137,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "images/types/Metamodel.jpeg",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31163,12 +31153,12 @@
                   "objectRef": "7a9e083f-6847-49a6-9393-af320ad04871",
                   "typeviewRef": "735c257c-39a7-4a40-c879-ac3fda1b9754",
                   "group": "",
-                  "viewkind": "Object",
+                  "viewkind": "Container",
                   "isGroup": true,
                   "isExpanded": true,
-                  "isSelected": false,
+                  "isSelected": true,
                   "loc": "-2000 -100",
-                  "template": "textAndIcon",
+                  "template": "groupNoPorts",
                   "figure": "",
                   "geometry": "",
                   "fillcolor": "white",
@@ -31178,8 +31168,7 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "https://img.icons8.com/color/2x/object.png",
-                  "href": "",
-                  "image": "",
+                  "image": "Task.jpeg",
                   "size": "360 670",
                   "scale": 1,
                   "memberscale": 1,
@@ -31210,7 +31199,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "960 900",
                   "scale": 1,
@@ -31240,7 +31228,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31270,7 +31257,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31300,7 +31286,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31330,7 +31315,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31360,7 +31344,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31392,7 +31375,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "images/Method.png",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31424,7 +31406,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "images/Method.png",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31454,7 +31435,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31486,7 +31466,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "https://img.icons8.com/color/2x/object.png",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31503,12 +31482,12 @@
                   "objectRef": "d1485b28-5e2e-4941-f0ad-0b1a915b5bee",
                   "typeviewRef": "735c257c-39a7-4a40-c879-ac3fda1b9754",
                   "group": "",
-                  "viewkind": "",
+                  "viewkind": "Container",
                   "isGroup": true,
                   "isExpanded": true,
                   "isSelected": false,
                   "loc": "-1990 -860",
-                  "template": "textAndIcon",
+                  "template": "groupNoPorts",
                   "figure": "",
                   "geometry": "",
                   "fillcolor": "white",
@@ -31518,8 +31497,7 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "https://img.icons8.com/color/2x/object.png",
-                  "href": "",
-                  "image": "",
+                  "image": "Task.jpeg",
                   "size": "360 660",
                   "scale": 1,
                   "memberscale": 1,
@@ -31548,7 +31526,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31578,7 +31555,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31608,7 +31584,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31638,7 +31613,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31668,7 +31642,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31700,7 +31673,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31732,7 +31704,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31764,7 +31735,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31796,7 +31766,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31828,7 +31797,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31860,7 +31828,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -31892,7 +31859,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "Task.jpeg",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31924,7 +31890,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31956,7 +31921,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -31988,7 +31952,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -32020,7 +31983,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -32067,7 +32029,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "1c52e08a-9c3d-4691-d58c-da92127f5d88",
@@ -32100,7 +32062,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "0cf45307-282f-4224-345c-9e6ad4d1672b",
@@ -32133,7 +32095,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "5aeaa479-3097-4a4d-4bf0-53ec7765884f",
@@ -32166,7 +32128,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "6604764b-a30f-4f23-5694-264f6e16232d",
@@ -32199,7 +32161,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "11971b46-38f7-470a-1152-61169fdc3d2f",
@@ -32232,7 +32194,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "5e46040c-1b37-4208-cc83-48d40a6398bf",
@@ -32265,7 +32227,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "65efd052-fbe1-4305-5b45-7071d7fdb757",
@@ -32298,7 +32260,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "2d6c0ace-bacb-4ecb-7186-27750b891c9d",
@@ -32335,7 +32297,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "f0ef8490-29cb-4bb8-a3de-185675bcdfe6",
@@ -32368,7 +32330,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "eae1bf98-18e8-466c-a744-621915d0c1bc",
@@ -32401,7 +32363,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "1f578504-aaaa-4902-ddbe-171191ff0bf6",
@@ -32434,7 +32396,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "e95f5786-ac9d-4269-5990-5c2812d6d876",
@@ -32467,7 +32429,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "c4bf87c8-d290-48d5-8068-f908dd25d8d2",
@@ -32500,7 +32462,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "18620049-20af-47ed-ba41-22b775ede9d7",
@@ -32533,7 +32495,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "628660a7-8aa4-43c0-8e3a-c154f46cb660",
@@ -32566,7 +32528,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "96224961-b320-4db8-ffed-497b3af474e5",
@@ -32599,7 +32561,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "006e642a-9147-448b-43d1-c3e60d1eba55",
@@ -32632,7 +32594,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "eb3013e7-53c6-45cb-6a50-ec662ecab68d",
@@ -32665,7 +32627,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "8784d690-670a-43be-1037-0c0a1f435d29",
@@ -32698,7 +32660,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "c24f4a9f-eba1-4c9a-a66d-8cfe8f1a6530",
@@ -32731,7 +32693,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "05645e52-4801-4117-9f10-f40cf2ca2670",
@@ -32764,7 +32726,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "ecabfb76-1734-4756-a3ec-b97051a382ea",
@@ -32797,7 +32759,7 @@
                   "curve": "None",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "bec36569-f83e-4c52-a871-c9703b572190",
@@ -32830,7 +32792,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "653de825-aa32-4bc6-60b2-69cc7bea8c74",
@@ -32863,7 +32825,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "f631224a-89c0-4350-c02d-0c318b0d3b7f",
@@ -32896,7 +32858,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "b6a0d995-90ae-4e6b-8b86-6fadaee7387e",
@@ -32929,7 +32891,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "cc429519-64cf-466a-7849-e97a4fd4c6c6",
@@ -32962,7 +32924,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "2c927a14-071b-4d57-0de6-73fa0f6a0584",
@@ -32995,7 +32957,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "f8d16abd-011f-478d-d49c-1fe71ea685cf",
@@ -33030,7 +32992,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "ef9e71e6-f34b-46ff-ac8c-4f9081466107",
@@ -33065,7 +33027,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "e3379bea-9498-4cf7-69a4-ef31b995f73e",
@@ -33102,7 +33064,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "10703dc2-4e9c-4383-88ac-92d1abd3e3c5",
@@ -33139,7 +33101,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "da36c8ed-8c7b-48fd-6260-cc763989c816",
@@ -33174,7 +33136,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "051a7304-e39f-492e-0523-51a59cc78ab2",
@@ -33209,7 +33171,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "ecd29029-14d2-43f5-877f-68b786e4ea39",
@@ -33246,7 +33208,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 }
               ],
               "objecttypeviews": [],
@@ -33278,7 +33240,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isExpanded": true,
-                  "isSelected": true,
+                  "isSelected": false,
                   "loc": "-30 -280",
                   "template": "textAndIcon",
                   "figure": "",
@@ -33290,7 +33252,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "Information.jpeg",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33322,7 +33283,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "Role.jpeg",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33354,7 +33314,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "Task.jpeg",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33386,7 +33345,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "Information.jpeg",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33418,7 +33376,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "Event.jpeg",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33450,7 +33407,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33482,7 +33438,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33514,7 +33469,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33546,7 +33500,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33576,7 +33529,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -33593,12 +33545,12 @@
                   "objectRef": "c9e3334f-f528-4029-7fd5-edf932eec7fe",
                   "typeviewRef": "735c257c-39a7-4a40-c879-ac3fda1b9754",
                   "group": "",
-                  "viewkind": "Object",
+                  "viewkind": "Container",
                   "isGroup": true,
                   "isExpanded": true,
-                  "isSelected": false,
+                  "isSelected": true,
                   "loc": "-1270 -390",
-                  "template": "textAndIcon",
+                  "template": "groupNoPorts",
                   "figure": "",
                   "geometry": "",
                   "fillcolor": "white",
@@ -33608,8 +33560,7 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "https://img.icons8.com/color/2x/object.png",
-                  "href": "",
-                  "image": "",
+                  "image": "Task.jpeg",
                   "size": "400 730",
                   "scale": 1,
                   "memberscale": 1,
@@ -33640,7 +33591,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "1110 880",
                   "scale": 1,
@@ -33670,7 +33620,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -33700,7 +33649,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -33730,7 +33678,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -33760,7 +33707,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -33790,7 +33736,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -33820,7 +33765,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -33850,7 +33794,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -33882,7 +33825,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33914,7 +33856,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33946,7 +33887,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -33978,7 +33918,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -34010,7 +33949,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -34042,7 +33980,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -34074,7 +34011,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -34106,7 +34042,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -34701,7 +34636,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "2ddce22d-feb0-4d93-50af-a69585daf369",
@@ -34976,7 +34911,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "690 590",
                   "scale": 1,
@@ -35008,7 +34942,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35040,7 +34973,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "images/types/Property.jpeg",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35072,7 +35004,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35104,7 +35035,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35136,7 +35066,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35168,7 +35097,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35200,7 +35128,6 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "Metamodel.jpeg",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -35217,23 +35144,22 @@
                   "objectRef": "76bd06c7-4790-49a3-b258-d488e439665b",
                   "typeviewRef": "735c257c-39a7-4a40-c879-ac3fda1b9754",
                   "group": "",
-                  "viewkind": "Object",
+                  "viewkind": "Container",
                   "isGroup": true,
                   "isExpanded": true,
-                  "isSelected": false,
+                  "isSelected": true,
                   "loc": "-1140 -360",
-                  "template": "",
+                  "template": "groupNoPorts",
                   "figure": "",
                   "geometry": "",
-                  "fillcolor": "",
-                  "fillcolor2": "",
-                  "strokecolor": "",
-                  "strokecolor2": "",
+                  "fillcolor": "white",
+                  "fillcolor2": "white",
+                  "strokecolor": "black",
+                  "strokecolor2": "black",
                   "strokewidth": "1",
-                  "textcolor": "",
-                  "icon": "",
-                  "href": "",
-                  "image": "",
+                  "textcolor": "black",
+                  "icon": "https://img.icons8.com/color/2x/object.png",
+                  "image": "Task.jpeg",
                   "size": "340 540",
                   "scale": 1,
                   "memberscale": 1,
@@ -35264,7 +35190,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35296,7 +35221,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35328,7 +35252,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35404,7 +35327,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "11328b3b-18da-461f-1b9c-524cc1c6aa30",
@@ -35437,7 +35360,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "624b67b6-3fc8-4ff0-0792-a3cbb76f1831",
@@ -35470,7 +35393,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "8a420d7d-16fb-40b7-5824-e914cf19c45f",
@@ -35503,7 +35426,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "cf1cf1a5-a057-49b6-d45a-4a33e742a3ad",
@@ -35569,7 +35492,7 @@
                   "curve": "None",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "62df1912-feff-42ae-8876-cd4a787b8c8c",
@@ -35602,7 +35525,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "65e12279-20da-4204-366e-b662642e1d76",
@@ -35674,7 +35597,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35706,7 +35628,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35738,7 +35659,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35770,7 +35690,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35787,12 +35706,12 @@
                   "objectRef": "8ada8407-df19-4c62-0b99-b937fdfa19a1",
                   "typeviewRef": "735c257c-39a7-4a40-c879-ac3fda1b9754",
                   "group": "",
-                  "viewkind": "Object",
+                  "viewkind": "Container",
                   "isGroup": true,
                   "isExpanded": true,
                   "isSelected": true,
                   "loc": "-910 -460",
-                  "template": "textAndIcon",
+                  "template": "groupNoPorts",
                   "figure": "",
                   "geometry": "",
                   "fillcolor": "white",
@@ -35802,8 +35721,7 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "https://img.icons8.com/color/2x/object.png",
-                  "href": "",
-                  "image": "",
+                  "image": "Task.jpeg",
                   "size": "280 370",
                   "scale": 1,
                   "memberscale": 1,
@@ -35832,7 +35750,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -35862,7 +35779,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "",
                   "scale": 1,
@@ -35894,7 +35810,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35926,7 +35841,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -35958,7 +35872,6 @@
                   "strokewidth": "1",
                   "textcolor": "",
                   "icon": "",
-                  "href": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -36001,7 +35914,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "a192c248-ce1e-4c39-b5ca-96d026cb9502",
@@ -36104,7 +36017,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "8841c568-95fb-46d9-6a2b-fc937a3c6d83",
@@ -36117,7 +36030,7 @@
                   "strokecolor": "",
                   "strokewidth": "1",
                   "textcolor": "",
-                  "textscale": "1",
+                  "textscale": "",
                   "dash": "",
                   "fromArrow": "",
                   "toArrow": "",
@@ -36170,7 +36083,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 }
               ],
               "objecttypeviews": [],
@@ -45540,12 +45453,12 @@
       "name": "1-AKM Core"
     },
     "focusObject": {
-      "id": "095ac752-cbcd-470d-72d6-ed32bfd2f588",
-      "name": "Information"
+      "id": "d1485b28-5e2e-4941-f0ad-0b1a915b5bee",
+      "name": "Generic Tasks"
     },
     "focusObjectview": {
-      "id": "c80afbe0-8d9f-4c71-cfa1-0b963db9f084",
-      "name": "Information"
+      "id": "5f0d8a04-60af-4baf-df81-72cd4222d1c4",
+      "name": "Generic Tasks"
     },
     "focusRelship": {
       "id": null,
@@ -45700,7 +45613,7 @@
       "name": "AKM-Core_MM"
     }
   },
-  "phSource": "AKM-Type-Definitions_PR",
+  "phSource": "GitHub: kavca-akm-models//AKM-Type-Definitions_PR.json",
   "phUser": {
     "focusUser": {
       "diagram": {
