@@ -1,7 +1,7 @@
 {
   "phData": {
     "metis": {
-      "name": "New-Project",
+      "name": "AKM-OSDU-Startmodel",
       "description": "New Project to start modelling",
       "allowGenerateCurrentMetamodel": false,
       "metamodels": [
@@ -39998,18 +39998,50 @@
           "linkcurve": "None",
           "markedAsDeleted": false,
           "modified": false
+        },
+        {
+          "id": "902606df-9092-4426-ecea-0ef591d4b626",
+          "name": "EntityType_MM",
+          "description": "",
+          "metamodelRefs": [],
+          "subMetamodelRefs": [],
+          "subModelRefs": [],
+          "subMetamodels": [],
+          "subModels": [],
+          "viewstyles": [],
+          "geometries": [],
+          "objecttypes": [],
+          "relshiptypes": [],
+          "objecttypes0": [],
+          "relshiptypes0": [],
+          "properties": [],
+          "datatypes": [],
+          "methodtypes": [],
+          "methods": [],
+          "units": [],
+          "objecttypeviews": [],
+          "objtypegeos": [],
+          "relshiptypeviews": [],
+          "generatedFromModelRef": "",
+          "includeInheritedReltypes": false,
+          "includeSystemtypes": false,
+          "layout": "ForceDirected",
+          "routing": "Normal",
+          "linkcurve": "None",
+          "markedAsDeleted": false,
+          "modified": false
         }
       ],
       "models": [
         {
           "id": "8bb0ef46-1bc4-4944-94ca-54f108a6d727",
-          "name": "New-Model_CM",
-          "description": "Concept Model, modelling with the AKM-IRTV Metamodel",
+          "name": "EntityType-Model_TD",
+          "description": "Typedefinition Model, modelling with the OSDU Metamodel",
           "metamodelRef": "584bf01d-3c09-4991-1cf9-25bfd32f3838",
           "sourceMetamodelRef": "",
           "targetMetamodelRef": "",
           "targetModelRef": "",
-          "includeSystemtypes": false,
+          "includeSystemtypes": true,
           "isTemplate": false,
           "templates": [],
           "objects": [],
@@ -40018,12 +40050,21 @@
             {
               "id": "0f6c6e80-2385-4d46-8320-547b813cf0ef",
               "name": "0-Main",
+              "description": "",
+              "modelRef": "8bb0ef46-1bc4-4944-94ca-54f108a6d727",
+              "includeInheritedReltypes": false,
+              "UseUMLrelshipkinds": false,
               "objectviews": [],
-              "relshipviews": []
+              "relshipviews": [],
+              "objecttypeviews": [],
+              "relshiptypeviews": [],
+              "markedAsDeleted": false,
+              "modified": false
             }
           ],
           "markedAsDeleted": false,
-          "modified": false
+          "modified": false,
+          "args2": []
         },
         {
           "id": "9a865f21-7b9e-4388-ccf9-7005e45cfc36",
@@ -41947,6 +41988,48 @@
           "markedAsDeleted": false,
           "modified": false,
           "args2": []
+        },
+        {
+          "id": "d40d70f8-8736-4b4d-84e2-dc191bd4e468",
+          "name": "EntityType_SM",
+          "description": "",
+          "metamodelRef": "902606df-9092-4426-ecea-0ef591d4b626",
+          "sourceMetamodelRef": "",
+          "targetMetamodelRef": "",
+          "sourceModelRef": "",
+          "targetModelRef": "",
+          "includeSystemtypes": true,
+          "includeRelshipkind": false,
+          "isTemplate": false,
+          "templates": [],
+          "objects": [],
+          "relships": [],
+          "modelviews": [
+            {
+              "id": "c99fb5aa-3735-4137-a6c0-7f7d71cbd791",
+              "name": "0-Main",
+              "description": "",
+              "layout": "Tree",
+              "routing": "Normal",
+              "linkcurve": "None",
+              "modelRef": "d40d70f8-8736-4b4d-84e2-dc191bd4e468",
+              "showCardinality": false,
+              "showRelshipNames": true,
+              "askForRelshipName": false,
+              "includeInheritedReltypes": null,
+              "UseUMLrelshipkinds": false,
+              "objectviews": [],
+              "relshipviews": [],
+              "objecttypeviews": [],
+              "relshiptypeviews": [],
+              "markedAsDeleted": false,
+              "modified": false
+            }
+          ],
+          "markedAsDeleted": false,
+          "modified": false,
+          "args1": [],
+          "args2": []
         }
       ],
       "submodels": [],
@@ -42011,16 +42094,8 @@
       "name": ""
     },
     "focusProj": {
-      "id": "AKM-Type-Definitions",
-      "name": "AKM-Type-Definitions",
-      "org": "kavca",
-      "repo": "kavca-akm-models",
-      "file": "AKM-Core-Type-Definitions_PR.json",
-      "branch": "main",
-      "projectNumber": "1",
-      "path": "",
-      "username": "kavca",
-      "filename": "AKM-Type-Definitions_PR.json"
+      "id": "AKM-OSDU-Project",
+      "name": "AKM-OSDU-Project"
     },
     "focusSource": {
       "id": null,
@@ -42135,6 +42210,7 @@
       "name": "AKM-OSDU_MM"
     }
   },
+  "phSource": "AKM-OSDU-Project_PR",
   "phUser": {
     "focusUser": {
       "diagram": {
@@ -42142,7 +42218,5 @@
         "zoomToFocus": false
       }
     }
-  },
-  "phSource": "New Project Template",
-  "lastUpdate": "2023-12-02T11:28:06.652Z"
+  }
 }
