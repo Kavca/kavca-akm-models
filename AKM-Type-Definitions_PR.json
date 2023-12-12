@@ -18368,94 +18368,10 @@
               "modified": false
             },
             {
-              "id": "1ca7851f-f1d9-4965-ab51-72ba7ea3ec56",
-              "name": "isDefault_Association",
-              "description": "",
-              "typeRef": "54e8e8e8-5138-45ec-9ef9-93b6b391235f",
-              "template": "linkTemplate1",
-              "strokecolor": "black",
-              "strokewidth": "1",
-              "textcolor": "black",
-              "textscale": "1",
-              "dash": "None",
-              "fromArrow": "",
-              "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
-              "toArrowColor": "white",
-              "routing": "Normal",
-              "corner": "0",
-              "curve": "0",
-              "markedAsDeleted": false,
-              "modified": false
-            },
-            {
               "id": "54c8e777-6f6c-4250-3e0c-cfe6e406bcc3",
               "name": "isOf_Association",
               "description": "",
               "typeRef": "b1706580-fc46-41b2-2339-7fea9eba9634",
-              "template": "linkTemplate1",
-              "strokecolor": "black",
-              "strokewidth": "1",
-              "textcolor": "black",
-              "textscale": "1",
-              "dash": "None",
-              "fromArrow": "",
-              "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
-              "toArrowColor": "white",
-              "routing": "Normal",
-              "corner": "0",
-              "curve": "0",
-              "markedAsDeleted": false,
-              "modified": false
-            },
-            {
-              "id": "399fbde1-1c9f-4c32-769d-fca04daf2159",
-              "name": "isOf_Association",
-              "description": "",
-              "typeRef": "1ef01bf6-c3d6-4a6e-1354-d4d833199052",
-              "template": "linkTemplate1",
-              "strokecolor": "black",
-              "strokewidth": "1",
-              "textcolor": "black",
-              "textscale": "1",
-              "dash": "None",
-              "fromArrow": "",
-              "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
-              "toArrowColor": "white",
-              "routing": "Normal",
-              "corner": "0",
-              "curve": "0",
-              "markedAsDeleted": false,
-              "modified": false
-            },
-            {
-              "id": "be59cc7b-5c00-41d4-c48d-834202171b45",
-              "name": "isOf_Association",
-              "description": "",
-              "typeRef": "f91bc898-4d25-4617-8ed6-bb9d071c468c",
-              "template": "linkTemplate1",
-              "strokecolor": "black",
-              "strokewidth": "1",
-              "textcolor": "black",
-              "textscale": "1",
-              "dash": "None",
-              "fromArrow": "",
-              "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
-              "toArrowColor": "white",
-              "routing": "Normal",
-              "corner": "0",
-              "curve": "0",
-              "markedAsDeleted": false,
-              "modified": false
-            },
-            {
-              "id": "b8c49fd7-65af-42c6-c895-5f7ad9d247f4",
-              "name": "to_Association",
-              "description": "",
-              "typeRef": "38be5614-3a23-4193-0aec-311c45f1f6a3",
               "template": "linkTemplate1",
               "strokecolor": "black",
               "strokewidth": "1",
@@ -37169,7 +37085,7 @@
             },
             {
               "id": "4658440c-0765-4771-b4ec-b6d32dbd2a18",
-              "name": "typecondition",
+              "name": "objtypecondition",
               "description": "",
               "abstract": false,
               "viewkind": "",
@@ -37180,7 +37096,7 @@
               "ports": [],
               "markedAsDeleted": false,
               "generatedTypeId": "",
-              "modified": false,
+              "modified": true,
               "nameId": "Property",
               "category": "Object",
               "sourceUri": "",
@@ -37662,6 +37578,29 @@
               "relshipkind": "Association",
               "valueset": null,
               "copiedFromId": "",
+              "text": ""
+            },
+            {
+              "id": "7fda292f-cc2e-4394-24fd-4f62a72308cb",
+              "name": "reltypecondition",
+              "description": "",
+              "abstract": false,
+              "viewkind": "",
+              "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+              "typeName": "Property",
+              "typeDescription": "",
+              "propertyValues": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true,
+              "nameId": "Property",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": "",
+              "readOnly": "",
               "text": ""
             }
           ],
@@ -40685,6 +40624,46 @@
               "markedAsDeleted": false,
               "generatedTypeId": "",
               "modified": true
+            },
+            {
+              "id": "062cf548-026f-4113-1cce-fde3a58be164",
+              "name": "has",
+              "description": "",
+              "relshipkind": "Association",
+              "fromobjectRef": "8c9adcdb-911e-4a9b-5bec-8b47be1e41c8",
+              "toobjectRef": "7fda292f-cc2e-4394-24fd-4f62a72308cb",
+              "typeRef": "22f50fa8-90be-4738-8f71-670a19668fe0",
+              "propvalues": [],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "fromPortid": "",
+              "toPortid": "",
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true
+            },
+            {
+              "id": "c990807c-5875-4f18-4630-18baa1bf248c",
+              "name": "isOf",
+              "description": "",
+              "relshipkind": "Association",
+              "fromobjectRef": "7fda292f-cc2e-4394-24fd-4f62a72308cb",
+              "toobjectRef": "e0364408-48c0-4eb2-3944-c6cabdd88769",
+              "typeRef": "b1706580-fc46-41b2-2339-7fea9eba9634",
+              "propvalues": [],
+              "cardinality": "0-1",
+              "cardinalityFrom": "0",
+              "cardinalityTo": "1",
+              "nameFrom": "",
+              "nameTo": "",
+              "fromPortid": "",
+              "toPortid": "",
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true
             }
           ],
           "modelviews": [
@@ -42431,7 +42410,7 @@
                 },
                 {
                   "id": "8d6513b0-16d3-4242-f821-6842e935ee5b",
-                  "name": "typecondition",
+                  "name": "objtypecondition",
                   "description": "",
                   "objectRef": "4658440c-0765-4771-b4ec-b6d32dbd2a18",
                   "typeviewRef": "3e2a6b00-3b20-43de-2651-2acc432d3dff",
@@ -42471,7 +42450,7 @@
                   "isGroup": false,
                   "isExpanded": true,
                   "isSelected": false,
-                  "loc": "-808 201",
+                  "loc": "-810 310",
                   "template": "textAndIcon",
                   "figure": "",
                   "geometry": "",
@@ -42502,7 +42481,7 @@
                   "isGroup": false,
                   "isExpanded": true,
                   "isSelected": false,
-                  "loc": "-808 301",
+                  "loc": "-810 410",
                   "template": "textAndIcon",
                   "figure": "",
                   "geometry": "",
@@ -42533,7 +42512,7 @@
                   "isGroup": false,
                   "isExpanded": true,
                   "isSelected": false,
-                  "loc": "-808 401",
+                  "loc": "-810 510",
                   "template": "textAndIcon",
                   "figure": "",
                   "geometry": "",
@@ -42966,7 +42945,7 @@
                   "viewkind": "Object",
                   "isGroup": false,
                   "isExpanded": true,
-                  "isSelected": true,
+                  "isSelected": false,
                   "loc": "-550 -730",
                   "template": "textAndIcon",
                   "figure": "",
@@ -42978,6 +42957,37 @@
                   "strokewidth": "1",
                   "textcolor": "black",
                   "icon": "Metamodel.jpeg",
+                  "image": "",
+                  "size": "160 70",
+                  "scale": 1,
+                  "memberscale": 1,
+                  "textscale": "1",
+                  "arrowscale": "1.3",
+                  "markedAsDeleted": false,
+                  "modified": true
+                },
+                {
+                  "id": "5697df2f-c613-4060-bc6e-047972e92886",
+                  "name": "reltypecondition",
+                  "description": "",
+                  "objectRef": "7fda292f-cc2e-4394-24fd-4f62a72308cb",
+                  "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
+                  "group": "",
+                  "viewkind": "Object",
+                  "isGroup": false,
+                  "isExpanded": true,
+                  "isSelected": false,
+                  "loc": "-810 200",
+                  "template": "",
+                  "figure": "",
+                  "geometry": "",
+                  "fillcolor": "#90ee90",
+                  "fillcolor2": "",
+                  "strokecolor": "black",
+                  "strokecolor2": "",
+                  "strokewidth": "1",
+                  "textcolor": "black",
+                  "icon": "",
                   "image": "",
                   "size": "160 70",
                   "scale": 1,
@@ -43374,10 +43384,10 @@
                   "fromPortid": "",
                   "toPortid": "",
                   "points": [
-                    -1138.3677188050938,
-                    21.95893234549996,
-                    -776.1565731870937,
-                    203.06450515450004
+                    -1158.8919435402154,
+                    22.583703238158492,
+                    -757.1080564597847,
+                    311.4162967618415
                   ],
                   "routing": "",
                   "curve": "",
@@ -43407,10 +43417,10 @@
                   "fromPortid": "",
                   "toPortid": "",
                   "points": [
-                    -1157.8714855041462,
-                    22.085181094363335,
-                    -756.6528064880414,
-                    302.93825640563665
+                    -1169.2945188540432,
+                    22.67692844347036,
+                    -746.7054811459568,
+                    411.3230715565296
                   ],
                   "routing": "",
                   "curve": "",
@@ -43440,10 +43450,10 @@
                   "fromPortid": "",
                   "toPortid": "",
                   "points": [
-                    -1168.7410740720688,
-                    22.180683481622452,
-                    -745.7832179201187,
-                    402.84275401837755
+                    -1175.9900576468467,
+                    22.74607998606338,
+                    -740.0099423531533,
+                    511.25392001393664
                   ],
                   "routing": "",
                   "curve": "",
@@ -43550,7 +43560,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "fc082feb-1781-4567-ff2d-18ec8f9c324b",
@@ -43585,7 +43595,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "68dbe6bc-0f05-47ed-ad7e-b275df4c8e7e",
@@ -43618,7 +43628,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "cbba3213-2434-4a49-c030-4bd19ae3d3de",
@@ -43651,7 +43661,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "e9b45d3b-1c9c-41e1-9506-60b08fb35b9d",
@@ -43741,10 +43751,10 @@
                   "fromPortid": "",
                   "toPortid": "",
                   "points": [
-                    -607.2653307175576,
-                    229.51197352771712,
-                    -307.2589612746299,
-                    205.51146397228288
+                    -609.2079226686125,
+                    316.38043919845273,
+                    -306.79207733138753,
+                    226.6195608015473
                   ],
                   "routing": "",
                   "curve": "",
@@ -43783,7 +43793,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "7535f0e6-cea7-46f6-16dd-6ecdb7601694",
@@ -43816,7 +43826,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "76ac412d-92bd-47a4-18c7-81738d9d2eba",
@@ -43840,10 +43850,10 @@
                   "fromPortid": "",
                   "toPortid": "",
                   "points": [
-                    -607.2692691576068,
-                    349.5108639706184,
-                    -307.2550228345807,
-                    385.5125735293816
+                    -609.0047300404374,
+                    436.23950552187534,
+                    -306.9952699595626,
+                    406.76049447812466
                   ],
                   "routing": "",
                   "curve": "",
@@ -43873,10 +43883,10 @@
                   "fromPortid": "",
                   "toPortid": "",
                   "points": [
-                    -607.2653307175576,
-                    429.5119735277171,
-                    -307.2589612746299,
-                    405.5114639722829
+                    -609.2079226686125,
+                    516.3804391984527,
+                    -306.79207733138753,
+                    426.6195608015473
                   ],
                   "routing": "",
                   "curve": "",
@@ -43981,7 +43991,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
-                  "modified": false
+                  "modified": ""
                 },
                 {
                   "id": "008e2315-0740-4e93-7f07-e8c8fab7d0b2",
@@ -44049,6 +44059,62 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": "",
+                  "modified": true
+                },
+                {
+                  "id": "93a42f8c-7466-4581-9a94-a42cee95a06f",
+                  "name": "has",
+                  "description": "",
+                  "relshipRef": "062cf548-026f-4113-1cce-fde3a58be164",
+                  "typeviewRef": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
+                  "template": "linkTemplate1",
+                  "arrowscale": "1.3",
+                  "strokecolor": "#b8b8b8",
+                  "strokewidth": "1",
+                  "textcolor": "lightgrey",
+                  "textscale": "1",
+                  "dash": "None",
+                  "fromArrow": "",
+                  "toArrow": "OpenTriangle",
+                  "fromArrowColor": "",
+                  "toArrowColor": "white",
+                  "fromobjviewRef": "9909e532-a587-49b5-817e-7ad170e3db79",
+                  "toobjviewRef": "5697df2f-c613-4060-bc6e-047972e92886",
+                  "fromPortid": "",
+                  "toPortid": "",
+                  "points": [],
+                  "routing": "Normal",
+                  "curve": "None",
+                  "corner": "0",
+                  "markedAsDeleted": false,
+                  "modified": true
+                },
+                {
+                  "id": "4d1d411b-f67a-4090-3a5e-e9b0c97198dd",
+                  "name": "isOf",
+                  "description": "",
+                  "relshipRef": "c990807c-5875-4f18-4630-18baa1bf248c",
+                  "typeviewRef": "54c8e777-6f6c-4250-3e0c-cfe6e406bcc3",
+                  "template": "linkTemplate1",
+                  "arrowscale": "1.3",
+                  "strokecolor": "black",
+                  "strokewidth": "1",
+                  "textcolor": "black",
+                  "textscale": "1",
+                  "dash": "None",
+                  "fromArrow": "",
+                  "toArrow": "OpenTriangle",
+                  "fromArrowColor": "",
+                  "toArrowColor": "white",
+                  "fromobjviewRef": "5697df2f-c613-4060-bc6e-047972e92886",
+                  "toobjviewRef": "29e07c2c-8d51-4631-4ef5-8a4dcf0a5c63",
+                  "fromPortid": "",
+                  "toPortid": "",
+                  "points": [],
+                  "routing": "Normal",
+                  "curve": "0",
+                  "corner": "0",
+                  "markedAsDeleted": false,
                   "modified": true
                 }
               ],
@@ -51870,12 +51936,12 @@
       "name": "1-AKM Core"
     },
     "focusObject": {
-      "id": "50176c3d-082b-4aff-2be9-ad0ecf1a3746",
-      "name": "EntityType"
+      "id": "4658440c-0765-4771-b4ec-b6d32dbd2a18",
+      "name": "typecondition"
     },
     "focusObjectview": {
-      "id": "4a5f1c38-9391-4657-9bd9-3cdb6c4f1e2d",
-      "name": "EntityType"
+      "id": "",
+      "name": ""
     },
     "focusRelship": {
       "id": null,
@@ -52030,7 +52096,7 @@
       "name": "AKM-Core_MM"
     }
   },
-  "phSource": "AKM-Type-Definitions_PR",
+  "phSource": "GitHub: kavca-akm-models//AKM-Type-Definitions_PR.json",
   "phUser": {
     "focusUser": {
       "diagram": {
