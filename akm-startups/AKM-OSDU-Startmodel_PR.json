@@ -1,7 +1,7 @@
 {
   "phData": {
     "metis": {
-      "name": "New-Project",
+      "name": "<New AKM-OSDU_MM Modelproject>",
       "description": "New Project to start modelling",
       "allowGenerateCurrentMetamodel": false,
       "metamodels": [
@@ -44024,7 +44024,7 @@
       ],
       "models": [
         {
-          "id": "35e00d7f-6755-44a4-87cb-3953c4b7d28a",
+          "id": "4b21b64b-3c65-4b32-aeb0-6aadf9b583ed",
           "name": "New-Model_CM",
           "description": "Concept Model, modelling with the AKM-IRTV Metamodel",
           "metamodelRef": "584bf01d-3c09-4991-1cf9-25bfd32f3838",
@@ -44038,7 +44038,7 @@
           "relships": [],
           "modelviews": [
             {
-              "id": "0f43654b-d3a5-48f5-b6f6-6fcf1f712c8f",
+              "id": "436f54f9-304f-44e1-8912-1b4f685b160b",
               "name": "0-Main",
               "objectviews": [],
               "relshipviews": []
@@ -46081,8 +46081,8 @@
       ],
       "submodels": [],
       "currentMetamodelRef": "584bf01d-3c09-4991-1cf9-25bfd32f3838",
-      "currentModelRef": "35e00d7f-6755-44a4-87cb-3953c4b7d28a",
-      "currentModelviewRef": "0f43654b-d3a5-48f5-b6f6-6fcf1f712c8f",
+      "currentModelRef": "4b21b64b-3c65-4b32-aeb0-6aadf9b583ed",
+      "currentModelviewRef": "436f54f9-304f-44e1-8912-1b4f685b160b",
       "currentTemplateModelRef": "",
       "currentTargetMetamodelRef": "",
       "currentTargetModelRef": "",
@@ -46097,11 +46097,11 @@
     "focusTargetModel": null,
     "focusTargetModelview": null,
     "focusModel": {
-      "id": "35e00d7f-6755-44a4-87cb-3953c4b7d28a",
+      "id": "4b21b64b-3c65-4b32-aeb0-6aadf9b583ed",
       "name": "New-Model_CM"
     },
     "focusModelview": {
-      "id": "0f43654b-d3a5-48f5-b6f6-6fcf1f712c8f",
+      "id": "436f54f9-304f-44e1-8912-1b4f685b160b",
       "name": "0-Main"
     },
     "focusObject": {
@@ -46274,5 +46274,5 @@
     }
   },
   "phSource": "New Project Template",
-  "lastUpdate": "2023-12-13T10:31:38.000Z"
+  "lastUpdate": "2023-12-13T15:25:55.217Z"
 }
