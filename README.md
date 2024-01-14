@@ -13,7 +13,7 @@ AKM Modelling can also be done as a collaborate task with several team members w
 
 ### Links to OSDU documentation
 
-[OSDU Schema Documentations](https://community.opengroup.org/osdu/data/data-definitions/-/tree/master/Guides)
+[OSDU Schema Documentation](https://community.opengroup.org/osdu/data/data-definitions/-/tree/master/Guides)
 
 ## Lets get started
 
