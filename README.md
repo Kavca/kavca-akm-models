@@ -11,6 +11,10 @@ AKM Modelling can also be done as a collaborate task with several team members w
 
 ***If you have an Issue, click on Issues above, and file an Issue report.***
 
+### Links to OSDU documentation
+
+[OSDU Schema Documentations](https://community.opengroup.org/osdu/data/data-definitions/-/tree/master/Guides)
+
 ## Lets get started
 
 (Tips: You can duplicate this browser-tab and move it on the side, to have it available when doing the procedure)
