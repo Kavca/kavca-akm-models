@@ -3096,7 +3096,7 @@
               "properties": [
                 {
                   "fs_collection": "properties",
-                  "id": "d195b9f6-6826-4593-88f4-cc9c5bd2b90c",
+                  "id": "ffb1fd98-7874-43a3-9bbc-b6b6d26d8142",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -3138,7 +3138,7 @@
                 },
                 {
                   "fs_collection": "properties",
-                  "id": "e8e8e73c-0231-456b-9c22-a967e3acd14f",
+                  "id": "22f7f5f3-dc07-4101-dbff-76916942c90e",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -3180,7 +3180,7 @@
                 },
                 {
                   "fs_collection": "properties",
-                  "id": "9fa0f3ab-b357-4f6c-893a-2f6ce53574b6",
+                  "id": "764aea1a-144b-486f-0e71-221b806b90f5",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -3226,7 +3226,7 @@
                 },
                 {
                   "fs_collection": "properties",
-                  "id": "051c96b5-29bb-4a06-7e9a-5eeb22f66dcc",
+                  "id": "0bc733d2-474f-4675-4303-b68a8352af2b",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -3277,7 +3277,7 @@
               "properties": [
                 {
                   "fs_collection": "properties",
-                  "id": "d4f57839-8a89-4e70-2f6c-3c145f945e88",
+                  "id": "a53b3249-143a-4416-cee4-9427fec41ada",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -3328,7 +3328,7 @@
               "properties": [
                 {
                   "fs_collection": "properties",
-                  "id": "da0830d9-20a5-4039-9c13-d5b1b827dd47",
+                  "id": "38f8c4c7-2b6b-4f34-745c-2efdedd2af51",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -3370,7 +3370,7 @@
                 },
                 {
                   "fs_collection": "properties",
-                  "id": "0155c2be-9607-47f9-6c1d-ba6c2325a91c",
+                  "id": "96cfef60-f670-4db7-ffae-7512fc6d4fe5",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -3412,7 +3412,7 @@
                 },
                 {
                   "fs_collection": "properties",
-                  "id": "987c4bbc-6a98-4b9b-2c06-8298909c342c",
+                  "id": "64820a1d-a5e9-423e-0fab-551b3c50ec6d",
                   "name": "valueconditions",
                   "nameId": "valueconditions",
                   "category": "Property",
@@ -3454,7 +3454,7 @@
                 },
                 {
                   "fs_collection": "properties",
-                  "id": "83e3a1f0-c7d3-43e2-e756-fd04664f0da5",
+                  "id": "8bbe5cd7-b199-4de1-f7bb-a932bc8d14d4",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -3496,7 +3496,7 @@
                 },
                 {
                   "fs_collection": "properties",
-                  "id": "831c5f02-dc7c-4089-9f7d-edc172b42193",
+                  "id": "215d1d8f-0e39-49f4-e71c-024abd1fd0e6",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -3538,7 +3538,7 @@
                 },
                 {
                   "fs_collection": "properties",
-                  "id": "2d6dc5ee-c43c-4dc3-1d69-94abe2f69422",
+                  "id": "916389ef-5687-4045-7d66-40ee79647ceb",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -3580,7 +3580,7 @@
                 },
                 {
                   "fs_collection": "properties",
-                  "id": "ff9a405e-7232-4032-7433-4d506510e7a4",
+                  "id": "b2aa95b0-7d71-481a-d17c-3de9e6cd40f2",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -3626,7 +3626,7 @@
                 },
                 {
                   "fs_collection": "properties",
-                  "id": "29bfafcb-cd8c-4194-d23b-371a8a7c0888",
+                  "id": "52acfc07-603b-4c11-9a26-246b1b2baf4d",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -6994,7 +6994,7 @@
           "properties": [
             {
               "fs_collection": "properties",
-              "id": "d195b9f6-6826-4593-88f4-cc9c5bd2b90c",
+              "id": "ffb1fd98-7874-43a3-9bbc-b6b6d26d8142",
               "name": "objtypes",
               "nameId": "objtypes",
               "category": "Property",
@@ -7036,7 +7036,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "e8e8e73c-0231-456b-9c22-a967e3acd14f",
+              "id": "22f7f5f3-dc07-4101-dbff-76916942c90e",
               "name": "reltypes",
               "nameId": "reltypes",
               "category": "Property",
@@ -7078,7 +7078,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "9fa0f3ab-b357-4f6c-893a-2f6ce53574b6",
+              "id": "764aea1a-144b-486f-0e71-221b806b90f5",
               "name": "reldir",
               "nameId": "reldir",
               "category": "Property",
@@ -7124,7 +7124,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "051c96b5-29bb-4a06-7e9a-5eeb22f66dcc",
+              "id": "0bc733d2-474f-4675-4303-b68a8352af2b",
               "name": "expression",
               "nameId": "expression",
               "category": "Property",
@@ -7175,7 +7175,7 @@
           "properties": [
             {
               "fs_collection": "properties",
-              "id": "d4f57839-8a89-4e70-2f6c-3c145f945e88",
+              "id": "a53b3249-143a-4416-cee4-9427fec41ada",
               "name": "expression",
               "nameId": "expression",
               "category": "Property",
@@ -7226,7 +7226,7 @@
           "properties": [
             {
               "fs_collection": "properties",
-              "id": "da0830d9-20a5-4039-9c13-d5b1b827dd47",
+              "id": "38f8c4c7-2b6b-4f34-745c-2efdedd2af51",
               "name": "postaction",
               "nameId": "postaction",
               "category": "Property",
@@ -7268,7 +7268,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "0155c2be-9607-47f9-6c1d-ba6c2325a91c",
+              "id": "96cfef60-f670-4db7-ffae-7512fc6d4fe5",
               "name": "preaction",
               "nameId": "preaction",
               "category": "Property",
@@ -7310,7 +7310,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "987c4bbc-6a98-4b9b-2c06-8298909c342c",
+              "id": "64820a1d-a5e9-423e-0fab-551b3c50ec6d",
               "name": "valueconditions",
               "nameId": "valueconditions",
               "category": "Property",
@@ -7352,7 +7352,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "83e3a1f0-c7d3-43e2-e756-fd04664f0da5",
+              "id": "8bbe5cd7-b199-4de1-f7bb-a932bc8d14d4",
               "name": "nolevels",
               "nameId": "nolevels",
               "category": "Property",
@@ -7394,7 +7394,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "831c5f02-dc7c-4089-9f7d-edc172b42193",
+              "id": "215d1d8f-0e39-49f4-e71c-024abd1fd0e6",
               "name": "objtypes",
               "nameId": "objtypes",
               "category": "Property",
@@ -7436,7 +7436,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "2d6dc5ee-c43c-4dc3-1d69-94abe2f69422",
+              "id": "916389ef-5687-4045-7d66-40ee79647ceb",
               "name": "reltypes",
               "nameId": "reltypes",
               "category": "Property",
@@ -7478,7 +7478,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "ff9a405e-7232-4032-7433-4d506510e7a4",
+              "id": "b2aa95b0-7d71-481a-d17c-3de9e6cd40f2",
               "name": "reldir",
               "nameId": "reldir",
               "category": "Property",
@@ -7524,7 +7524,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "29bfafcb-cd8c-4194-d23b-371a8a7c0888",
+              "id": "52acfc07-603b-4c11-9a26-246b1b2baf4d",
               "name": "expression",
               "nameId": "expression",
               "category": "Property",
@@ -11904,7 +11904,7 @@
           "properties": [
             {
               "fs_collection": "properties",
-              "id": "d195b9f6-6826-4593-88f4-cc9c5bd2b90c",
+              "id": "ffb1fd98-7874-43a3-9bbc-b6b6d26d8142",
               "name": "objtypes",
               "nameId": "objtypes",
               "category": "Property",
@@ -11946,7 +11946,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "e8e8e73c-0231-456b-9c22-a967e3acd14f",
+              "id": "22f7f5f3-dc07-4101-dbff-76916942c90e",
               "name": "reltypes",
               "nameId": "reltypes",
               "category": "Property",
@@ -11988,7 +11988,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "9fa0f3ab-b357-4f6c-893a-2f6ce53574b6",
+              "id": "764aea1a-144b-486f-0e71-221b806b90f5",
               "name": "reldir",
               "nameId": "reldir",
               "category": "Property",
@@ -12034,7 +12034,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "051c96b5-29bb-4a06-7e9a-5eeb22f66dcc",
+              "id": "0bc733d2-474f-4675-4303-b68a8352af2b",
               "name": "expression",
               "nameId": "expression",
               "category": "Property",
@@ -12085,7 +12085,7 @@
           "properties": [
             {
               "fs_collection": "properties",
-              "id": "d4f57839-8a89-4e70-2f6c-3c145f945e88",
+              "id": "a53b3249-143a-4416-cee4-9427fec41ada",
               "name": "expression",
               "nameId": "expression",
               "category": "Property",
@@ -12136,7 +12136,7 @@
           "properties": [
             {
               "fs_collection": "properties",
-              "id": "da0830d9-20a5-4039-9c13-d5b1b827dd47",
+              "id": "38f8c4c7-2b6b-4f34-745c-2efdedd2af51",
               "name": "postaction",
               "nameId": "postaction",
               "category": "Property",
@@ -12178,7 +12178,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "0155c2be-9607-47f9-6c1d-ba6c2325a91c",
+              "id": "96cfef60-f670-4db7-ffae-7512fc6d4fe5",
               "name": "preaction",
               "nameId": "preaction",
               "category": "Property",
@@ -12220,7 +12220,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "987c4bbc-6a98-4b9b-2c06-8298909c342c",
+              "id": "64820a1d-a5e9-423e-0fab-551b3c50ec6d",
               "name": "valueconditions",
               "nameId": "valueconditions",
               "category": "Property",
@@ -12262,7 +12262,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "83e3a1f0-c7d3-43e2-e756-fd04664f0da5",
+              "id": "8bbe5cd7-b199-4de1-f7bb-a932bc8d14d4",
               "name": "nolevels",
               "nameId": "nolevels",
               "category": "Property",
@@ -12304,7 +12304,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "831c5f02-dc7c-4089-9f7d-edc172b42193",
+              "id": "215d1d8f-0e39-49f4-e71c-024abd1fd0e6",
               "name": "objtypes",
               "nameId": "objtypes",
               "category": "Property",
@@ -12346,7 +12346,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "2d6dc5ee-c43c-4dc3-1d69-94abe2f69422",
+              "id": "916389ef-5687-4045-7d66-40ee79647ceb",
               "name": "reltypes",
               "nameId": "reltypes",
               "category": "Property",
@@ -12388,7 +12388,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "ff9a405e-7232-4032-7433-4d506510e7a4",
+              "id": "b2aa95b0-7d71-481a-d17c-3de9e6cd40f2",
               "name": "reldir",
               "nameId": "reldir",
               "category": "Property",
@@ -12434,7 +12434,7 @@
             },
             {
               "fs_collection": "properties",
-              "id": "29bfafcb-cd8c-4194-d23b-371a8a7c0888",
+              "id": "52acfc07-603b-4c11-9a26-246b1b2baf4d",
               "name": "expression",
               "nameId": "expression",
               "category": "Property",
@@ -13318,13 +13318,13 @@
   "geometries": [],
   "objecttypes": [
     {
-      "id": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
-      "name": "Container",
+      "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "name": "Property",
       "abstract": "",
-      "viewkind": "Container",
+      "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "a3112875-e4fe-4100-b290-5634d8b8acfc",
+      "typeviewRef": "e05d9ee2-7592-4313-4b53-865f7964294a",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -13334,13 +13334,45 @@
       "modified": true
     },
     {
-      "id": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
-      "name": "Element",
-      "abstract": true,
+      "id": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "name": "PropLink",
+      "abstract": "",
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "6aad4796-8648-4c1b-b31e-7501afdcb19d",
+      "typeviewRef": "19da1e25-c135-45d3-fdf4-4479cbfe6411",
+      "description": "",
+      "properties": [],
+      "attributes": [],
+      "methods": [],
+      "ports": [],
+      "markedAsDeleted": false,
+      "modified": true
+    },
+    {
+      "id": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "name": "Collection",
+      "abstract": "",
+      "viewkind": "",
+      "typename": "Object type",
+      "typedescription": "",
+      "typeviewRef": "0f109f47-f647-4475-1591-b8729353c0bb",
+      "description": "",
+      "properties": [],
+      "attributes": [],
+      "methods": [],
+      "ports": [],
+      "markedAsDeleted": false,
+      "modified": true
+    },
+    {
+      "id": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "name": "Item",
+      "abstract": "",
+      "viewkind": "",
+      "typename": "Object type",
+      "typedescription": "",
+      "typeviewRef": "5bcbf2f0-c04e-4bfb-4117-439985140111",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -13548,6 +13580,38 @@
       "modified": true
     },
     {
+      "id": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
+      "name": "Container",
+      "abstract": "",
+      "viewkind": "Container",
+      "typename": "Object type",
+      "typedescription": "",
+      "typeviewRef": "a3112875-e4fe-4100-b290-5634d8b8acfc",
+      "description": "",
+      "properties": [],
+      "attributes": [],
+      "methods": [],
+      "ports": [],
+      "markedAsDeleted": false,
+      "modified": true
+    },
+    {
+      "id": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
+      "name": "Element",
+      "abstract": true,
+      "viewkind": "Object",
+      "typename": "Object type",
+      "typedescription": "",
+      "typeviewRef": "6aad4796-8648-4c1b-b31e-7501afdcb19d",
+      "description": "",
+      "properties": [],
+      "attributes": [],
+      "methods": [],
+      "ports": [],
+      "markedAsDeleted": false,
+      "modified": true
+    },
+    {
       "id": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
       "name": "Generic",
       "abstract": false,
@@ -13596,86 +13660,6 @@
           "propRef": "f2a07c3b-025f-483c-327a-7e6a8f6b283b"
         }
       ],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "4ccd52d4-fbbe-46d6-fea5-83d67a9aff33",
-      "name": "Metamodel",
-      "abstract": false,
-      "viewkind": "",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "80523c26-916e-4a0b-cb0a-a758e0713fe4",
-      "description": "",
-      "properties": [],
-      "attributes": [],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
-      "name": "Property",
-      "abstract": "",
-      "viewkind": "",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "e05d9ee2-7592-4313-4b53-865f7964294a",
-      "description": "",
-      "properties": [],
-      "attributes": [],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
-      "name": "PropLink",
-      "abstract": "",
-      "viewkind": "",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "19da1e25-c135-45d3-fdf4-4479cbfe6411",
-      "description": "",
-      "properties": [],
-      "attributes": [],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "9d75cede-4a10-4fe0-a962-a24149012b93",
-      "name": "Collection",
-      "abstract": "",
-      "viewkind": "",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "0f109f47-f647-4475-1591-b8729353c0bb",
-      "description": "",
-      "properties": [],
-      "attributes": [],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "25f5a03f-9310-4037-6de8-1fd9302fa289",
-      "name": "Item",
-      "abstract": "",
-      "viewkind": "",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "5bcbf2f0-c04e-4bfb-4117-439985140111",
-      "description": "",
-      "properties": [],
-      "attributes": [],
       "methods": [],
       "ports": [],
       "markedAsDeleted": false,
@@ -14350,7 +14334,7 @@
       "modified": true
     },
     {
-      "id": "74633384-a15a-452f-d7ce-f42aa2be54bc",
+      "id": "58c775ad-1ebe-4524-e88e-1349e52d0e03",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -14368,7 +14352,7 @@
       "modified": true
     },
     {
-      "id": "aa7bfbeb-3ce2-449b-2620-cfab9df5b4b5",
+      "id": "cd5cb526-2a56-40ea-b498-86413e956da0",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -14386,7 +14370,7 @@
       "modified": true
     },
     {
-      "id": "bc92c1ab-637c-4afb-0efd-f56497368616",
+      "id": "9433be50-fbce-475e-c5c6-801cb27552af",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -14460,13 +14444,13 @@
   ],
   "objecttypes0": [
     {
-      "id": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
-      "name": "Container",
+      "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "name": "Property",
       "abstract": "",
-      "viewkind": "Container",
+      "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "a3112875-e4fe-4100-b290-5634d8b8acfc",
+      "typeviewRef": "e05d9ee2-7592-4313-4b53-865f7964294a",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -14476,13 +14460,45 @@
       "modified": true
     },
     {
-      "id": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
-      "name": "Element",
-      "abstract": true,
+      "id": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "name": "PropLink",
+      "abstract": "",
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "6aad4796-8648-4c1b-b31e-7501afdcb19d",
+      "typeviewRef": "19da1e25-c135-45d3-fdf4-4479cbfe6411",
+      "description": "",
+      "properties": [],
+      "attributes": [],
+      "methods": [],
+      "ports": [],
+      "markedAsDeleted": false,
+      "modified": true
+    },
+    {
+      "id": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "name": "Collection",
+      "abstract": "",
+      "viewkind": "",
+      "typename": "Object type",
+      "typedescription": "",
+      "typeviewRef": "0f109f47-f647-4475-1591-b8729353c0bb",
+      "description": "",
+      "properties": [],
+      "attributes": [],
+      "methods": [],
+      "ports": [],
+      "markedAsDeleted": false,
+      "modified": true
+    },
+    {
+      "id": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "name": "Item",
+      "abstract": "",
+      "viewkind": "",
+      "typename": "Object type",
+      "typedescription": "",
+      "typeviewRef": "5bcbf2f0-c04e-4bfb-4117-439985140111",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -14684,140 +14700,6 @@
           "propRef": "25502d70-981d-4341-33f0-6b30e87608ea"
         }
       ],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
-      "name": "Generic",
-      "abstract": false,
-      "viewkind": "Object",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "b42be04d-f9e5-4906-0459-80f43aada183",
-      "description": "",
-      "properties": [],
-      "attributes": [],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
-      "name": "Label",
-      "abstract": false,
-      "viewkind": "Object",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "4be6622d-82a6-4b8c-a872-df6e9fcc8d3a",
-      "description": "",
-      "properties": [
-        {
-          "id": "f2a07c3b-025f-483c-327a-7e6a8f6b283b",
-          "name": "text",
-          "defaultValue": "",
-          "inputPattern": "",
-          "viewFormat": "",
-          "example": "",
-          "markedAsDeleted": false,
-          "modified": false,
-          "description": "",
-          "datatypeRef": "7c4672a0-c6ee-48a2-0bc5-e344d1564cbb",
-          "methodRef": "",
-          "unitCategoryRef": ""
-        }
-      ],
-      "attributes": [
-        {
-          "typeName": "Label",
-          "propName": "text",
-          "name": "Label.text",
-          "propRef": "f2a07c3b-025f-483c-327a-7e6a8f6b283b"
-        }
-      ],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "4ccd52d4-fbbe-46d6-fea5-83d67a9aff33",
-      "name": "Metamodel",
-      "abstract": false,
-      "viewkind": "",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "80523c26-916e-4a0b-cb0a-a758e0713fe4",
-      "description": "",
-      "properties": [],
-      "attributes": [],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
-      "name": "Property",
-      "abstract": "",
-      "viewkind": "",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "e05d9ee2-7592-4313-4b53-865f7964294a",
-      "description": "",
-      "properties": [],
-      "attributes": [],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
-      "name": "PropLink",
-      "abstract": "",
-      "viewkind": "",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "19da1e25-c135-45d3-fdf4-4479cbfe6411",
-      "description": "",
-      "properties": [],
-      "attributes": [],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "9d75cede-4a10-4fe0-a962-a24149012b93",
-      "name": "Collection",
-      "abstract": "",
-      "viewkind": "",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "0f109f47-f647-4475-1591-b8729353c0bb",
-      "description": "",
-      "properties": [],
-      "attributes": [],
-      "methods": [],
-      "ports": [],
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "25f5a03f-9310-4037-6de8-1fd9302fa289",
-      "name": "Item",
-      "abstract": "",
-      "viewkind": "",
-      "typename": "Object type",
-      "typedescription": "",
-      "typeviewRef": "5bcbf2f0-c04e-4bfb-4117-439985140111",
-      "description": "",
-      "properties": [],
-      "attributes": [],
       "methods": [],
       "ports": [],
       "markedAsDeleted": false,
@@ -15623,7 +15505,7 @@
       "properties": [
         {
           "fs_collection": "properties",
-          "id": "d195b9f6-6826-4593-88f4-cc9c5bd2b90c",
+          "id": "ffb1fd98-7874-43a3-9bbc-b6b6d26d8142",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -15665,7 +15547,7 @@
         },
         {
           "fs_collection": "properties",
-          "id": "e8e8e73c-0231-456b-9c22-a967e3acd14f",
+          "id": "22f7f5f3-dc07-4101-dbff-76916942c90e",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -15707,7 +15589,7 @@
         },
         {
           "fs_collection": "properties",
-          "id": "9fa0f3ab-b357-4f6c-893a-2f6ce53574b6",
+          "id": "764aea1a-144b-486f-0e71-221b806b90f5",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -15753,7 +15635,7 @@
         },
         {
           "fs_collection": "properties",
-          "id": "051c96b5-29bb-4a06-7e9a-5eeb22f66dcc",
+          "id": "0bc733d2-474f-4675-4303-b68a8352af2b",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -15804,7 +15686,7 @@
       "properties": [
         {
           "fs_collection": "properties",
-          "id": "d4f57839-8a89-4e70-2f6c-3c145f945e88",
+          "id": "a53b3249-143a-4416-cee4-9427fec41ada",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -15855,7 +15737,7 @@
       "properties": [
         {
           "fs_collection": "properties",
-          "id": "da0830d9-20a5-4039-9c13-d5b1b827dd47",
+          "id": "38f8c4c7-2b6b-4f34-745c-2efdedd2af51",
           "name": "postaction",
           "nameId": "postaction",
           "category": "Property",
@@ -15897,7 +15779,7 @@
         },
         {
           "fs_collection": "properties",
-          "id": "0155c2be-9607-47f9-6c1d-ba6c2325a91c",
+          "id": "96cfef60-f670-4db7-ffae-7512fc6d4fe5",
           "name": "preaction",
           "nameId": "preaction",
           "category": "Property",
@@ -15939,7 +15821,7 @@
         },
         {
           "fs_collection": "properties",
-          "id": "987c4bbc-6a98-4b9b-2c06-8298909c342c",
+          "id": "64820a1d-a5e9-423e-0fab-551b3c50ec6d",
           "name": "valueconditions",
           "nameId": "valueconditions",
           "category": "Property",
@@ -15981,7 +15863,7 @@
         },
         {
           "fs_collection": "properties",
-          "id": "83e3a1f0-c7d3-43e2-e756-fd04664f0da5",
+          "id": "8bbe5cd7-b199-4de1-f7bb-a932bc8d14d4",
           "name": "nolevels",
           "nameId": "nolevels",
           "category": "Property",
@@ -16023,7 +15905,7 @@
         },
         {
           "fs_collection": "properties",
-          "id": "831c5f02-dc7c-4089-9f7d-edc172b42193",
+          "id": "215d1d8f-0e39-49f4-e71c-024abd1fd0e6",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -16065,7 +15947,7 @@
         },
         {
           "fs_collection": "properties",
-          "id": "2d6dc5ee-c43c-4dc3-1d69-94abe2f69422",
+          "id": "916389ef-5687-4045-7d66-40ee79647ceb",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -16107,7 +15989,7 @@
         },
         {
           "fs_collection": "properties",
-          "id": "ff9a405e-7232-4032-7433-4d506510e7a4",
+          "id": "b2aa95b0-7d71-481a-d17c-3de9e6cd40f2",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -16153,7 +16035,7 @@
         },
         {
           "fs_collection": "properties",
-          "id": "29bfafcb-cd8c-4194-d23b-371a8a7c0888",
+          "id": "52acfc07-603b-4c11-9a26-246b1b2baf4d",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -16208,8 +16090,6 @@
       "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "figure": "",
-      "geometry": "",
       "fillcolor": "#90ee90",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -16219,10 +16099,11 @@
       "textcolor": "black",
       "textscale": "1",
       "memberscale": 1,
-      "icon": "Property.jpeg",
+      "icon": "./../images/types/Property.png",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "19da1e25-c135-45d3-fdf4-4479cbfe6411",
@@ -16231,10 +16112,8 @@
       "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "figure": "",
-      "geometry": "",
-      "fillcolor": "#d8ffdc",
-      "fillcolor2": "#ffffff",
+      "fillcolor": "#90ee90",
+      "fillcolor2": "white",
       "strokecolor": "black",
       "strokecolor1": "black",
       "strokecolor2": "black",
@@ -16242,10 +16121,11 @@
       "textcolor": "black",
       "textscale": "1",
       "memberscale": 1,
-      "icon": "images/link.png",
+      "icon": "./../images/types/PropLink.png",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "0f109f47-f647-4475-1591-b8729353c0bb",
@@ -16254,8 +16134,6 @@
       "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "figure": "",
-      "geometry": "",
       "fillcolor": "#d8ffdc",
       "fillcolor2": "#ffffff",
       "strokecolor": "black",
@@ -16265,10 +16143,11 @@
       "textcolor": "black",
       "textscale": "1",
       "memberscale": 1,
-      "icon": "images/array.png",
+      "icon": "./../images/types/Collection.png",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "2970b95c-f760-42c4-2c70-40723a79d921",
@@ -16277,8 +16156,6 @@
       "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "figure": "",
-      "geometry": "",
       "fillcolor": "white",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -16291,7 +16168,8 @@
       "icon": "",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "5bcbf2f0-c04e-4bfb-4117-439985140111",
@@ -16300,9 +16178,7 @@
       "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "figure": "",
-      "geometry": "",
-      "fillcolor": "#d8ffdc",
+      "fillcolor": "#90ee90",
       "fillcolor2": "white",
       "strokecolor": "black",
       "strokecolor1": "black",
@@ -16311,10 +16187,11 @@
       "textcolor": "black",
       "textscale": "1",
       "memberscale": 1,
-      "icon": "images/array-item.png",
+      "icon": "./../images/types/Item.png",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "a3112875-e4fe-4100-b290-5634d8b8acfc",
@@ -16323,8 +16200,6 @@
       "typeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
       "viewkind": "Container",
       "template": "groupNoPorts",
-      "figure": "",
-      "geometry": "",
       "fillcolor": "white",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -16337,7 +16212,8 @@
       "icon": "",
       "image": "./../images/blank.png",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "6aad4796-8648-4c1b-b31e-7501afdcb19d",
@@ -16346,8 +16222,6 @@
       "typeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "figure": "",
-      "geometry": "",
       "fillcolor": "lightgray",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -16360,7 +16234,8 @@
       "icon": "",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "b42be04d-f9e5-4906-0459-80f43aada183",
@@ -16369,8 +16244,6 @@
       "typeRef": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "figure": "",
-      "geometry": "",
       "fillcolor": "#96c5b9",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -16383,7 +16256,8 @@
       "icon": "./../images/default.png",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "4be6622d-82a6-4b8c-a872-df6e9fcc8d3a",
@@ -16392,8 +16266,6 @@
       "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
       "viewkind": "Object",
       "template": "Annotation",
-      "figure": "",
-      "geometry": "",
       "fillcolor": "lightgrey",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -16406,7 +16278,8 @@
       "icon": "",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "80523c26-916e-4a0b-cb0a-a758e0713fe4",
@@ -16415,8 +16288,6 @@
       "typeRef": "4ccd52d4-fbbe-46d6-fea5-83d67a9aff33",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "figure": "",
-      "geometry": "",
       "fillcolor": "#d392c5",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -16429,7 +16300,8 @@
       "icon": "images/types/Metamodel.jpeg",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     }
   ],
   "objtypegeos": [
@@ -16566,7 +16438,7 @@
       "modified": false
     },
     {
-      "id": "2ccb1c5b-d75c-40d0-4225-a24a92f2efd5",
+      "id": "bf992dba-0a91-40e4-042d-e78233e5d7d3",
       "name": "",
       "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16577,7 +16449,7 @@
       "modified": false
     },
     {
-      "id": "fc127a6d-d6c3-493d-620f-c9faa04af108",
+      "id": "8b73a3a9-4eed-4a71-a71a-cdc199e823f9",
       "name": "",
       "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16588,7 +16460,7 @@
       "modified": false
     },
     {
-      "id": "37637831-cc8b-4894-bab5-dccf5db9399b",
+      "id": "6ce8358e-cfe5-47fa-13d7-ec936d0e157d",
       "name": "",
       "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16599,7 +16471,7 @@
       "modified": false
     },
     {
-      "id": "6fb16581-95bb-4221-9768-ba34ed9eac10",
+      "id": "8d3fa30c-30c1-47eb-765f-375595f57b92",
       "name": "",
       "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16610,7 +16482,7 @@
       "modified": false
     },
     {
-      "id": "8c4f83b0-2a0b-4ddf-06c8-df2d6be8661f",
+      "id": "22662dc5-2bb8-4a26-e232-51190296e2cc",
       "name": "",
       "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16621,7 +16493,403 @@
       "modified": false
     },
     {
-      "id": "6f9decf7-5d0f-4ac3-8633-ce3d11b69edc",
+      "id": "8f96119b-fda3-4027-ff0b-82c70dc64a4e",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "222160db-d9fd-4f71-4b29-80559ffbdd80",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "21452750-ddd6-4276-f21d-e8089f65fc72",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "0f517278-b548-45bf-9544-93a645d8b5e6",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "f0ad170d-3be3-46d1-a7e4-08d844cc486e",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "7ba5ba0b-286b-4fce-4196-e4e253545d7e",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "ad3c8267-fa92-4ced-88af-cd596eb85dde",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "6fbb7130-3e71-4275-7c1b-1d7ba3916097",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "25184b48-1dda-4010-4474-12a40f475897",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "5307cf00-7128-4f28-4c7c-1b5b559d852e",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "9a666cb1-dab3-4b81-32b7-453322259598",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "2adc5b72-0732-4bfd-b1d0-19ede44827b6",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "808f5c52-2137-459c-1781-31528d4b30ba",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "cea271db-45a2-4e34-0588-f6033d5ebca1",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "6f1e07e4-493c-4015-6144-3346872366c3",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "b9840f98-befc-4acc-da63-787cbb99f013",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "1faa65f2-5439-43d2-374a-41a9f46f7db2",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "05e9e18e-d954-4a2e-169e-cb6dae9fd241",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "99ed8db6-f9b7-4905-db34-1e77de018ac8",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "24f532ff-40f7-4e69-cb80-76412b012b9a",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "7ffddee1-16f7-4ebc-23ee-cb2c5cd8f918",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "cc93341c-5181-4ba7-675e-44ad9d224262",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "1e01ce27-4c2d-4828-e9ca-43bd539d36ce",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "78761249-cfcb-413e-5e7a-d8f7d87c2b1d",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "c30be185-0748-4436-7e40-3f03f5f23137",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "6bd2a9e2-950a-4c73-67e1-b88028c36a7f",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "7d27b3ec-826b-489e-d66b-5dba0a95cf16",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "e1df334c-c4c8-450b-b72d-f9e621231c43",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "ffeaf593-77a7-40ef-042b-975fa0f41da3",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "a103e4ed-4378-45f1-5e66-f775cd6c0c59",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "c5ce790e-546b-45b4-d461-1d3863ccec96",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "b839bb08-6780-4f4b-5ce2-258ad119ace7",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "5d17e090-eee1-4861-c4b7-7903ad84dc1d",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "c7f1a1f0-c821-4e02-d7ae-2d795127e118",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "5afe2c67-c418-47d7-0764-a39a7a3375e3",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "0813a675-8bfc-45cb-84d5-10e8bb999619",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "a9192421-a9e0-4dbf-b3ce-6083ecefdb4f",
       "name": "",
       "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16764,7 +17032,7 @@
       "modified": false
     },
     {
-      "id": "2ccb1c5b-d75c-40d0-4225-a24a92f2efd5",
+      "id": "bf992dba-0a91-40e4-042d-e78233e5d7d3",
       "name": "",
       "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16775,7 +17043,7 @@
       "modified": false
     },
     {
-      "id": "fc127a6d-d6c3-493d-620f-c9faa04af108",
+      "id": "8b73a3a9-4eed-4a71-a71a-cdc199e823f9",
       "name": "",
       "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16786,7 +17054,7 @@
       "modified": false
     },
     {
-      "id": "37637831-cc8b-4894-bab5-dccf5db9399b",
+      "id": "6ce8358e-cfe5-47fa-13d7-ec936d0e157d",
       "name": "",
       "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16797,7 +17065,7 @@
       "modified": false
     },
     {
-      "id": "6fb16581-95bb-4221-9768-ba34ed9eac10",
+      "id": "8d3fa30c-30c1-47eb-765f-375595f57b92",
       "name": "",
       "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16808,7 +17076,7 @@
       "modified": false
     },
     {
-      "id": "8c4f83b0-2a0b-4ddf-06c8-df2d6be8661f",
+      "id": "22662dc5-2bb8-4a26-e232-51190296e2cc",
       "name": "",
       "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16819,7 +17087,403 @@
       "modified": false
     },
     {
-      "id": "6f9decf7-5d0f-4ac3-8633-ce3d11b69edc",
+      "id": "8f96119b-fda3-4027-ff0b-82c70dc64a4e",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "222160db-d9fd-4f71-4b29-80559ffbdd80",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "21452750-ddd6-4276-f21d-e8089f65fc72",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "0f517278-b548-45bf-9544-93a645d8b5e6",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "f0ad170d-3be3-46d1-a7e4-08d844cc486e",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "7ba5ba0b-286b-4fce-4196-e4e253545d7e",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "ad3c8267-fa92-4ced-88af-cd596eb85dde",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "6fbb7130-3e71-4275-7c1b-1d7ba3916097",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "25184b48-1dda-4010-4474-12a40f475897",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "5307cf00-7128-4f28-4c7c-1b5b559d852e",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "9a666cb1-dab3-4b81-32b7-453322259598",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "2adc5b72-0732-4bfd-b1d0-19ede44827b6",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "808f5c52-2137-459c-1781-31528d4b30ba",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "cea271db-45a2-4e34-0588-f6033d5ebca1",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "6f1e07e4-493c-4015-6144-3346872366c3",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "b9840f98-befc-4acc-da63-787cbb99f013",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "1faa65f2-5439-43d2-374a-41a9f46f7db2",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "05e9e18e-d954-4a2e-169e-cb6dae9fd241",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "99ed8db6-f9b7-4905-db34-1e77de018ac8",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "24f532ff-40f7-4e69-cb80-76412b012b9a",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "7ffddee1-16f7-4ebc-23ee-cb2c5cd8f918",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "cc93341c-5181-4ba7-675e-44ad9d224262",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "1e01ce27-4c2d-4828-e9ca-43bd539d36ce",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "78761249-cfcb-413e-5e7a-d8f7d87c2b1d",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "c30be185-0748-4436-7e40-3f03f5f23137",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "6bd2a9e2-950a-4c73-67e1-b88028c36a7f",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "7d27b3ec-826b-489e-d66b-5dba0a95cf16",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "e1df334c-c4c8-450b-b72d-f9e621231c43",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "ffeaf593-77a7-40ef-042b-975fa0f41da3",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "a103e4ed-4378-45f1-5e66-f775cd6c0c59",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "c5ce790e-546b-45b4-d461-1d3863ccec96",
+      "name": "",
+      "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "b839bb08-6780-4f4b-5ce2-258ad119ace7",
+      "name": "",
+      "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "5d17e090-eee1-4861-c4b7-7903ad84dc1d",
+      "name": "",
+      "typeRef": "33fef97e-b6e9-4b7a-11b6-cd87ebeb49ea",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "c7f1a1f0-c821-4e02-d7ae-2d795127e118",
+      "name": "",
+      "typeRef": "9d75cede-4a10-4fe0-a962-a24149012b93",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "5afe2c67-c418-47d7-0764-a39a7a3375e3",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "0813a675-8bfc-45cb-84d5-10e8bb999619",
+      "name": "",
+      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
+      "loc": "0 0",
+      "size": "100 50",
+      "description": "",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "a9192421-a9e0-4dbf-b3ce-6083ecefdb4f",
       "name": "",
       "typeRef": "25f5a03f-9310-4037-6de8-1fd9302fa289",
       "metamodelRef": "aef50247-3b92-4e29-4c55-f985de4c47b5",
@@ -16832,6 +17496,69 @@
   ],
   "relshiptypeviews": [
     {
+      "id": "dd5fddd9-01de-45e2-f745-62129afec529",
+      "name": "hasMember_Association",
+      "description": "",
+      "typeRef": "73c4b6c4-3117-497d-c66f-fb766564a402",
+      "template": "linkTemplate1",
+      "strokecolor": "black",
+      "strokewidth": "1",
+      "textcolor": "black",
+      "textscale": "1",
+      "dash": "None",
+      "fromArrow": "",
+      "toArrow": "OpenTriangle",
+      "fromArrowColor": "",
+      "toArrowColor": "white",
+      "routing": "Normal",
+      "corner": "0",
+      "curve": "0",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "8ea662df-2205-468a-3c86-b26c82062515",
+      "name": "hasPart_Composition",
+      "description": "",
+      "typeRef": "e2716cf9-d9fc-4508-6706-91b2eb6bdbb8",
+      "template": "linkTemplate1",
+      "strokecolor": "black",
+      "strokewidth": "1",
+      "textcolor": "black",
+      "textscale": "1",
+      "dash": "None",
+      "fromArrow": "StretchedDiamond",
+      "toArrow": "OpenTriangle",
+      "fromArrowColor": "black",
+      "toArrowColor": "white",
+      "routing": "Normal",
+      "corner": "0",
+      "curve": "0",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
+      "id": "fec42fee-5cd3-44a1-811f-fc521704172b",
+      "name": "hasSub_Association",
+      "description": "",
+      "typeRef": "1dbbbafa-866a-4d68-84a4-50a26cd4f733",
+      "template": "linkTemplate1",
+      "strokecolor": "black",
+      "strokewidth": "1",
+      "textcolor": "black",
+      "textscale": "1",
+      "dash": "None",
+      "fromArrow": "",
+      "toArrow": "OpenTriangle",
+      "fromArrowColor": "",
+      "toArrowColor": "white",
+      "routing": "Normal",
+      "corner": "0",
+      "curve": "0",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
       "id": "e1965627-dde2-4387-e02a-ef1edb4c3b93",
       "name": "has_Association",
       "description": "",
@@ -16840,7 +17567,7 @@
       "strokecolor": "#aaaaaa",
       "strokewidth": "1",
       "textcolor": "lightgrey",
-      "textscale": "1",
+      "textscale": 1,
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
@@ -16861,28 +17588,7 @@
       "strokecolor": "#aaaaaa",
       "strokewidth": "1",
       "textcolor": "lightgrey",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "None",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "c7aadfbf-ebe9-45c6-43f4-fa7b1eee4309",
-      "name": "has_Association",
-      "description": "",
-      "typeRef": "2edc8e34-b667-4bf4-6346-d901b6448342",
-      "template": "linkTemplate1",
-      "strokecolor": "#aaaaaa",
-      "strokewidth": "1",
-      "textcolor": "lightgrey",
-      "textscale": "1",
+      "textscale": 1,
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
@@ -16896,7 +17602,7 @@
     }
   ],
   "generatedFromModelRef": "05d5b929-b985-49ac-cf92-cc095a03889z",
-  "includeInheritedReltypes": true,
+  "includeInheritedReltypes": false,
   "includeSystemtypes": false,
   "layout": "ForceDirected",
   "routing": "Normal",
