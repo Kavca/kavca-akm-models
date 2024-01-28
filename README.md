@@ -21,7 +21,7 @@ AKM Modelling can also be done as a collaborate task with several team members w
 
 Open the webpage:  
 
-<https://akmclient-beta.herokuapp.com/modelling> latest version with newest features
+<https://akmclient-beta.herokuapp.com/modelling target="_blank"> latest version with newest features
 
 <https://akmclient.herokuapp.com/modelling> previous more tested version
 
