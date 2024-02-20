@@ -14,12 +14,12 @@
             "b9f5b34e-2ea4-4f68-6421-2e1253c2322d"
           ],
           "subModelRefs": [
-            "333c751d-69c2-476f-b62a-85276d252127"
+            "b1a72aba-d37b-4c05-2839-9e799ef4a0c6"
           ],
           "subMetamodels": [],
           "subModels": [
             {
-              "id": "333c751d-69c2-476f-b62a-85276d252127",
+              "id": "b1a72aba-d37b-4c05-2839-9e799ef4a0c6",
               "name": "Build a Concept Model",
               "description": "",
               "metamodelRef": "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
@@ -744,12 +744,12 @@
             {
               "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "name": "Property",
-              "abstract": "",
+              "abstract": false,
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-              "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+              "description": "",
               "properties": [
                 {
                   "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -1467,9 +1467,9 @@
               "modified": true
             },
             {
-              "id": "c62b848e-390e-447d-9383-ada7682548bf",
+              "id": "12c6ad8b-e2c6-4ddc-67a9-1dcf99399acd",
               "name": "Is",
-              "relshipkind": "Generalization",
+              "relshipkind": "Association",
               "viewkind": "",
               "fromobjtypeRef": "058cbb1b-018e-4959-2a33-a27889543209",
               "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
@@ -1482,12 +1482,12 @@
               "nameFrom": "",
               "nameTo": "",
               "markedAsDeleted": false,
-              "modified": true
+              "modified": false
             },
             {
-              "id": "350cd162-4986-434e-74eb-6edab0bdea87",
+              "id": "6aafb4d3-912d-486a-2f30-162c5d52eb42",
               "name": "Is",
-              "relshipkind": "Generalization",
+              "relshipkind": "Association",
               "viewkind": "",
               "fromobjtypeRef": "bbb60f1c-b5a3-41dc-dff6-2b594f54a2dd",
               "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
@@ -1500,12 +1500,12 @@
               "nameFrom": "",
               "nameTo": "",
               "markedAsDeleted": false,
-              "modified": true
+              "modified": false
             },
             {
-              "id": "28a6c94f-81b9-4f27-dc72-ae4b1192ba13",
+              "id": "f6df0999-1a63-4b9d-b556-1f4a2e23022b",
               "name": "Is",
-              "relshipkind": "Generalization",
+              "relshipkind": "Association",
               "viewkind": "",
               "fromobjtypeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
               "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
@@ -1518,12 +1518,12 @@
               "nameFrom": "",
               "nameTo": "",
               "markedAsDeleted": false,
-              "modified": true
+              "modified": false
             },
             {
-              "id": "c70fe08e-3810-424c-9770-3efd10c5b395",
+              "id": "c77262a3-a2f8-4db6-ccb7-fd44933f775a",
               "name": "Is",
-              "relshipkind": "Generalization",
+              "relshipkind": "Association",
               "viewkind": "",
               "fromobjtypeRef": "30c1934a-f11d-41c5-7c44-81ddaf3ed998",
               "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
@@ -1536,12 +1536,12 @@
               "nameFrom": "",
               "nameTo": "",
               "markedAsDeleted": false,
-              "modified": true
+              "modified": false
             },
             {
-              "id": "07f2084c-7469-4433-531c-9518b1298a67",
+              "id": "55f07971-c4af-4b11-42d3-d58f648f3db9",
               "name": "Is",
-              "relshipkind": "Generalization",
+              "relshipkind": "Association",
               "viewkind": "",
               "fromobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
               "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
@@ -1554,7 +1554,7 @@
               "nameFrom": "",
               "nameTo": "",
               "markedAsDeleted": false,
-              "modified": true
+              "modified": false
             },
             {
               "id": "d5f471ae-ec5b-4543-1a9b-acf4853ecff2",
@@ -1737,13 +1737,13 @@
               "modified": true
             },
             {
-              "id": "4f673acd-ca6c-4309-0235-d1d7767c826d",
-              "name": "worksOn",
+              "id": "0f5dcee3-0d16-4199-0bdd-a781410b2f9e",
+              "name": "includes",
               "relshipkind": "Association",
               "viewkind": "",
-              "fromobjtypeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-              "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-              "typeviewRef": "6048d2a0-b639-4dd9-9fa6-e63be4fc04f3",
+              "fromobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
+              "toobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
+              "typeviewRef": "13bc15a6-7c6e-4056-df42-aa489188e40e",
               "description": "",
               "properties": [],
               "cardinality": "",
@@ -1869,12 +1869,12 @@
             {
               "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "name": "Property",
-              "abstract": "",
+              "abstract": false,
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-              "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+              "description": "",
               "properties": [
                 {
                   "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -2241,13 +2241,13 @@
               "modified": true
             },
             {
-              "id": "4f673acd-ca6c-4309-0235-d1d7767c826d",
-              "name": "worksOn",
+              "id": "0f5dcee3-0d16-4199-0bdd-a781410b2f9e",
+              "name": "includes",
               "relshipkind": "Association",
               "viewkind": "",
-              "fromobjtypeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-              "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-              "typeviewRef": "6048d2a0-b639-4dd9-9fa6-e63be4fc04f3",
+              "fromobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
+              "toobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
+              "typeviewRef": "13bc15a6-7c6e-4056-df42-aa489188e40e",
               "description": "",
               "properties": [],
               "cardinality": "",
@@ -2940,7 +2940,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "3b463d9a-522e-4371-a5f6-75adfa757409",
+                  "id": "5797a141-0f90-475b-c868-50e12a3847b3",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -2988,8 +2988,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -3003,7 +3002,7 @@
                   "example": ""
                 },
                 {
-                  "id": "3301cab5-1cf4-4d46-c5f3-72dfcc9b1d31",
+                  "id": "8b314176-8bfa-4aab-aa4d-7887399915a0",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -3049,7 +3048,7 @@
                   "example": ""
                 },
                 {
-                  "id": "c3b1a347-9125-4a57-3674-bc4e557071a9",
+                  "id": "7c7b1182-c39c-449c-8a8f-3567b35dbfff",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -3097,8 +3096,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -3112,7 +3110,7 @@
                   "example": ""
                 },
                 {
-                  "id": "cb9f9255-98d1-4fdb-d40c-f1cb4f6e3606",
+                  "id": "d531a2a4-0386-40e3-013e-dc09de8907b2",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -3163,7 +3161,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "0378a58c-959e-4e54-c05a-cb3148968757",
+                  "id": "05a1abb0-5cbe-4967-178d-51b01f026898",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -3214,7 +3212,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "7c2508b6-8140-4074-82ae-b5528d25b186",
+                  "id": "7eefea80-5c14-4003-562e-e55d2cb0bf5e",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -3262,8 +3260,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -3277,7 +3274,7 @@
                   "example": ""
                 },
                 {
-                  "id": "1d0d61c1-4f05-4757-f9b5-ce97de908cb0",
+                  "id": "1383acd8-bb8a-4f9a-0afe-eb298e0bc4d2",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -3323,7 +3320,7 @@
                   "example": ""
                 },
                 {
-                  "id": "702dd933-0385-4d3d-ecfa-66095dc900c4",
+                  "id": "568b21ba-f20f-43ab-927f-d03144bacbf3",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -3371,8 +3368,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -3386,7 +3382,7 @@
                   "example": ""
                 },
                 {
-                  "id": "65caee72-d9e8-4e54-d5da-614fbeab0758",
+                  "id": "a7bb1a5b-472b-44eb-8a9a-a065efb617ae",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -3428,7 +3424,7 @@
                   "example": ""
                 },
                 {
-                  "id": "5459e3b5-a9d3-4ea7-0667-0a8e72f9f5c7",
+                  "id": "c6cab9fc-62d7-4c27-5ad2-4cde3c549a9a",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -3470,7 +3466,7 @@
                   "example": ""
                 },
                 {
-                  "id": "b5504597-2ebc-4117-a995-3c395115574d",
+                  "id": "82a03ee2-a2f6-4acf-3975-77cf3feadd26",
                   "name": "typecondition",
                   "nameId": "typecondition",
                   "category": "Property",
@@ -3518,8 +3514,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -3533,7 +3528,7 @@
                   "example": ""
                 },
                 {
-                  "id": "a3b3f2fd-4821-4295-6e93-b532d2c78b79",
+                  "id": "ca678773-6ca6-45a0-c088-168455772966",
                   "name": "vauecondition",
                   "nameId": "vauecondition",
                   "category": "Property",
@@ -3581,8 +3576,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -3596,7 +3590,7 @@
                   "example": ""
                 },
                 {
-                  "id": "2ba876af-28bd-4af8-fba4-b2d5036b76eb",
+                  "id": "39276441-9ec4-46a8-a84c-6eb91a8a0271",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -3644,8 +3638,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -3659,7 +3652,7 @@
                   "example": ""
                 },
                 {
-                  "id": "d3ee8a07-5390-4fe9-969d-c70f78791fc3",
+                  "id": "94d96146-b2a8-46e3-a4dd-9ac71b02e151",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -3707,8 +3700,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -3966,11 +3958,11 @@
               "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "viewkind": "Object",
               "template": "textAndIcon",
-              "fillcolor": "#90ee90",
+              "fillcolor": "#90ee91",
               "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
-              "strokecolor2": "black",
+              "strokecolor2": "lightgrey",
               "strokewidth": "1",
               "textcolor": "black",
               "textcolor2": "black",
@@ -4334,6 +4326,27 @@
               "modified": false
             },
             {
+              "id": "13bc15a6-7c6e-4056-df42-aa489188e40e",
+              "name": "includes_Association",
+              "description": "",
+              "typeRef": "0f5dcee3-0d16-4199-0bdd-a781410b2f9e",
+              "template": "linkTemplate1",
+              "strokecolor": "black",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textscale": "1",
+              "dash": "None",
+              "fromArrow": "",
+              "toArrow": "OpenTriangle",
+              "fromArrowColor": "",
+              "toArrowColor": "white",
+              "routing": "Normal",
+              "corner": "0",
+              "curve": "0",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
               "id": "cb5077c2-ba85-45fc-a086-b2ca2e75ede2",
               "name": "manages_Association",
               "description": "",
@@ -4464,27 +4477,6 @@
               "name": "triggers_Association",
               "description": "",
               "typeRef": "147250de-d71b-484b-57c7-7331c77f88f8",
-              "template": "linkTemplate1",
-              "strokecolor": "black",
-              "strokewidth": "1",
-              "textcolor": "black",
-              "textscale": "1",
-              "dash": "None",
-              "fromArrow": "",
-              "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
-              "toArrowColor": "white",
-              "routing": "Normal",
-              "corner": "0",
-              "curve": "0",
-              "markedAsDeleted": false,
-              "modified": false
-            },
-            {
-              "id": "6048d2a0-b639-4dd9-9fa6-e63be4fc04f3",
-              "name": "worksOn_Association",
-              "description": "",
-              "typeRef": "4f673acd-ca6c-4309-0235-d1d7767c826d",
               "template": "linkTemplate1",
               "strokecolor": "black",
               "strokewidth": "1",
@@ -5499,7 +5491,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "a36860cc-ec8b-4c40-7826-1d3816ee991a",
+                  "id": "5fc9241c-bab3-41e7-83d9-015b88144c2c",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -5547,8 +5539,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -5562,7 +5553,7 @@
                   "example": ""
                 },
                 {
-                  "id": "ad21171e-612d-497b-7848-92973f96b8b3",
+                  "id": "a23461b3-d2dd-4eeb-f039-8e96ec635b36",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -5608,7 +5599,7 @@
                   "example": ""
                 },
                 {
-                  "id": "4676379c-3315-40ec-0b3c-7584eab97c95",
+                  "id": "0064bd68-72e3-47f8-629f-5704be4c8bb1",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -5656,8 +5647,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -5671,7 +5661,7 @@
                   "example": ""
                 },
                 {
-                  "id": "3c21100c-c1db-4d7d-d255-3486f2f37925",
+                  "id": "18475fa6-61b6-4b8a-98f8-65c676204e2a",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -5722,7 +5712,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "42438d39-5bc6-461a-1b9a-71e14dc7e7bc",
+                  "id": "5dc53eed-7c5c-4e59-b8a7-89590d14233a",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -5773,7 +5763,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "5f37feea-ca53-4dff-3467-b7a3719f53a5",
+                  "id": "86937796-ad23-4889-e4f3-85cca2575c74",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -5821,8 +5811,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -5836,7 +5825,7 @@
                   "example": ""
                 },
                 {
-                  "id": "6b58f162-87c1-4802-6a42-05b43345618e",
+                  "id": "0a1f6810-84fa-426a-7841-e1e454735f17",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -5882,7 +5871,7 @@
                   "example": ""
                 },
                 {
-                  "id": "d3fb0355-7e58-4d09-6139-fb6e7b7740b8",
+                  "id": "65c32f63-5d79-4027-46d2-716c5488c461",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -5930,8 +5919,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -5945,7 +5933,7 @@
                   "example": ""
                 },
                 {
-                  "id": "ec65d6a5-5a06-4747-7ed0-77edf9145413",
+                  "id": "df40848c-b57c-4acd-c981-eefe15cdebf3",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -5987,7 +5975,7 @@
                   "example": ""
                 },
                 {
-                  "id": "9722a9b3-023d-4eae-09cd-1e9d3b341b26",
+                  "id": "d9b3a987-0cf3-4af1-2cf2-ab49909bde7a",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -6029,7 +6017,7 @@
                   "example": ""
                 },
                 {
-                  "id": "75fe4fc9-852f-4f8f-bfa9-a8bf87914382",
+                  "id": "f9c04088-5eca-4688-85c5-86f6f0e460ec",
                   "name": "typecondition",
                   "nameId": "typecondition",
                   "category": "Property",
@@ -6077,8 +6065,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -6092,7 +6079,7 @@
                   "example": ""
                 },
                 {
-                  "id": "393c70f5-9197-41cd-bb18-6dcd8209b8e4",
+                  "id": "b6f03e72-2b30-4b07-469d-611d5c312397",
                   "name": "vauecondition",
                   "nameId": "vauecondition",
                   "category": "Property",
@@ -6140,8 +6127,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -6155,7 +6141,7 @@
                   "example": ""
                 },
                 {
-                  "id": "58ab4d23-e39f-46fa-b8ed-e88e28fe9669",
+                  "id": "85ad63c1-56d3-434c-098c-6f40217e19ab",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -6203,8 +6189,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -6218,7 +6203,7 @@
                   "example": ""
                 },
                 {
-                  "id": "5cf7ef83-1944-4761-f90b-f763a7986ae2",
+                  "id": "a1af7187-69a9-403f-4704-2ae7dc630982",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -6266,8 +6251,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -6987,7 +6971,6 @@
               "id": "eff84e5a-2226-4a23-b3af-d31a91837df1",
               "name": "Getting started",
               "description": "",
-              "metamodelRef": "b9f5b34e-2ea4-4f68-6421-2e1253c2322d",
               "sourceMetamodelRef": "",
               "targetMetamodelRef": "",
               "sourceModelRef": "",
@@ -6996,123 +6979,7 @@
               "includeRelshipkind": false,
               "isTemplate": false,
               "templates": [],
-              "objects": [
-                {
-                  "id": "4f5a136a-3f5c-4f2f-5c02-a1653706291d",
-                  "name": "Create a new Object ...",
-                  "description": "1.  1 - From the Palette (left pane) drag the Object Type and drop it into the modelling area. Give the type a name and description. (canvas).\n<a href=\"images/help/Create-EntityType-2023-10-05.png\" target=\"_blank\"><code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![image001](images/help/Create-EntityType-2023-10-05.png)</font></code>\n</span>Click on the picture to open in New Tab!</a><hr />\n\n1.  2 - Click on the name to edit and give the Object a new name.<hr />\n\n1.  3 - Right-Click or Double-Click on the object to open the properties panel, where you can edit: Name, description etc.\n<a href=\"images/help/Edit-Attributes-2023-10-05.png\" target=\"_blank\"><code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![image001](images/help/Edit-Attributes-2023-10-05.png)</font></code>\n</span>Click on the picture to open in New Tab!</a><hr />",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "9ad9909d-6d52-458f-c526-1f314b432abb",
-                  "name": "Make a new Objectview of existing Object",
-                  "description": "1.  1 - Open the Object panel to the left. Drag one \n      or more objects into the canvas.<hr />\n      \n\n\n1.  (Note: if you change name or other properties \n      of the object, all other objectviews of the \n      same object will also be changed)<hr />\n      ",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "b2263812-d7bc-4d2d-c6c0-0916731046d3",
-                  "name": "Create a new Relationship ...",
-                  "description": "1.  1 - Click on the edge of an Object and drag the cursor to another object.\n<a href=\"images/help/Add-Property-2023-10-05.png\" target=\"_blank\"><code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![image001](images/help/Add-Property-2023-10-05.png)</font></code>\n</span>Click on the picture to open in New Tab...</a><hr />\n\n1.  2 - Click on the name of the Relationship to edit.<hr />\n\n1.  3 - Right-Click on the relationship to open the properties panel, where you can edit Name, description etc.<hr />",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "15d73150-249a-486d-3268-0bdfc7d536ab",
-                  "name": "More documentation ...",
-                  "description": "  ##### Naming conventions for Models and Metamodels\n\n  ###### Models\n\n    -Concept models:  modelname_CM\n    -Type-Definitions: modelname_TD\n    -Solution models: modelname_SM\n\n  ##### Metamodels\n\n    -metamodelname_MM\n<hr />\n  \n  ### Type-Definitions_TD Model\n\n  To make a new Metamodel, we need to define the Object- and Relationship types we want to be in the Metamodel.\n  \n  In order to create these types, we use the EntityType and RelshipType from the \n  ##### AKM-CORE_MM Metamodel\n  \n  ![image001](images/posts/CustomMeta/Picture1.png)\n  \n  \n  More info : \n  <a href=\"http://localhost:3000/helpblog/002-BuildCustomMetamodels#AKMM%20Help\" target=\"_blank\"><code style=\"color: blue\"> <font size=\"2\" weight=\"bold\"> How to make Custom Metamodels...</font></code>\n  </span></a> <hr />",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "b36bb488-2f91-473f-b4c9-0e701f204872",
-                  "name": "Example model ...",
-                  "description": "\n### The example\n\nIn this chapter we will use an example metamodel as defined below. It has four different object types, \"*Person*\", \"*House*\", \"*Apartment*\" and \"*Car*\", with relationship types \"*owns*\" and \"*rents*\" as shown in the next model diagram.\n\nThere are four “*EntityType*” objects, each representing an object type in the intended new metamodel. Their names are the planned object type names.\nThere are six “*isRelatedTo*” relationships, each representing a relationship type in the new metamodel. Each “*isRelatedTo*” relationship is renamed to its planned relationship type names. These are the names you see in the diagram.\n\n![alt text](/images/posts/modelling/image_model031.png)\n\nThis small type definition model is enough to generate a new metamodel, that will allow you to model people, houses, apartments and cars, and link them together with the appropriate relationships. ",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                }
-              ],
+              "objects": [],
               "relships": [],
               "modelviews": [],
               "markedAsDeleted": false,
@@ -7124,7 +6991,6 @@
               "id": "ce1e69f7-0d3b-466a-99fe-db04e40d62fb",
               "name": "Metamodelling Tasks",
               "description": "",
-              "metamodelRef": "b9f5b34e-2ea4-4f68-6421-2e1253c2322d",
               "sourceMetamodelRef": "",
               "targetMetamodelRef": "",
               "sourceModelRef": "",
@@ -7133,123 +6999,7 @@
               "includeRelshipkind": false,
               "isTemplate": false,
               "templates": [],
-              "objects": [
-                {
-                  "id": "0d4a1f56-6c9f-4c5f-50d4-922070d0b3d2",
-                  "name": "Build a Type-definition model ...",
-                  "description": "## Build Type Definition Models (TD)\n\nTo build the new Metamodel we have to define the **ObjectTypes** and **RelationshipsTypes** we want to use.\nThis is done by building a **Type-definition-model_TD** based on the **AKM-CORE_MM** metamodel. \n\n<details>  <summary>Create Initial Containers ...</summary>\n\n\nLet us start with an empty model and the built-in ***AKM-Core_MM*** metamodel:\n\n![Initial page with blank modelling area and AKM-Core_MM types in the Palette](/images/posts/modelling/image_model001.png)\n\nThe left pane contains the object types in the initial metamodel, that the user can use to build a type definition model.\n\n\nFrom the Palette (left pane) drag the ***Container*** type and drop it into the Modelling area.\n\nClick on the name and edit ***name*** ( Name it  ***\"Domain Types\"*** i.e. ***\"Bikerental Types\"***).\n\nRight-Click the object to edit  ***description***.\n\n\n\n\n<a href=\"images/help/Create-EntityType.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">\n![Create EntityType](images/help/Create-EntityType.png)</font>\n</code>\n</span>Click on the picture to open in New Tab!</a>\n</details>\n\n---\n\n<details>  <summary>Create EntityTypes ...</summary>\n\nFrom the Palette (left pane) drag the ***EntityType*** and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description*** and ***proposedType***.\n\nThe attribute \"proposedType\" is used to give the Concept-/ Information-object a proposed TypeName.\n\n<a href=\"images/help/Create-EntityType.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">\n![Create EntityType](images/help/Create-EntityType.png)</font>\n</code>\n</span>Click on the picture to open in New Tab!</a>\n</details>\n\n---\n\n\n<details>  <summary>Create Relationship types ...</summary>\n\n1.  1 - Click on the edge of an Object and drag the cursor to another object.\n<a href=\"images/help/Add-Property-2023-10-05.png\" target=\"_blank\"><code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![image001](images/help/Add-Property-2023-10-05.png)</font></code>\n</span>Click on the picture to open in New Tab...</a><hr />\n\n1.  2 - Click on the name of the Relationship to edit.<hr />\n\n1.  3 - Right-Click on the relationship to open the properties panel, where you can edit Name, description etc.<hr />\n</details>\n\n---\n\n<details>  <summary>Add Properties ...</summary>\n\nFrom the Palette (left pane) drag the ***Property*** type and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description***.\n\n<a href=\"images/help/Add-Property.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-Property.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>\n\n---\n\n<details>  <summary>Add Values ...</summary>\n\nFrom the Palette (left pane) drag the ***Value*** type and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description***.\n\n<a href=\"images/help/Add-Value.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-Value.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>\n\n---\n\n<details>  <summary>Add Fieldtype ...</summary>\n\nFrom the Palette (left pane) drag the ***Fieldtype*** type and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description***.\n\n<a href=\"images/help/Add-Fieldtype.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-Fieldtype.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>\n\n---\n\n<details>  <summary>Add InputPattern ...</summary>\n\nFrom the Palette (left pane) drag the ***InputPattern*** type and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description***.\n\n<a href=\"images/help/Add-InputPattern.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-InputPattern.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>\n\n---\n\n<details>  <summary>Add ViewFormat ...</summary>\n\nFrom the Palette (left pane) drag the ***ViewFormat*** type and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description***.\n\n<a href=\"images/help/Add-ViewFormat.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-ViewFormat.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>\n\n---\n\n<details>  <summary>Add Metamodel Object ...</summary>\n\nFrom the Palette (left pane) drag the ***Metamodel*** type and drop outside the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit ***description***.\n\nDrag a relationship with type ***contains*** from til ***Metamodel*** object to the EntityType objects to be included in the new Metamodel.\n\n<a href=\"images/help/Add-Metamodel.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-Metamodel.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "96a5d3af-0c53-400c-5f56-4582eec58d71",
-                  "name": "Modify the Type-definition Model --",
-                  "description": "\nIf something is wrong, or you want to change anything, go back to the type definition model, do the necessary changes, and generate the metamodel again.\n\nIf you want to add symbols and colors to your types, go back to your type definition model to add view specifications, and generate the metamodel again.\n\nThe view specifications are done by editing “*Object View*” of the “*EntityType*” objects and by editing “*Relationship View*” of the “*relationshipType*” relationships. \nThe “*Object View*” and “*Relationship View*” definitions are used to define the corresponding “*Object Typeview*” and “*Relationship Typeview*” definitions in the generated metamodel.\n\n<a href=\"images/help/Add-Metamodel.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-Metamodel.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "09792e02-08fe-404b-9d3f-8bebd5d21e44",
-                  "name": "Generate a new Metamodel ...",
-                  "description": "### Generate the new Metamodel\n \nThe first time you want to generate a metamodel from the type definition model, there are a few things you need to do:\n\nGenerate the metamodel content by right clicking the background and choose “***Generate Metamodel***”. Follow the dialog questions:\n\n- “***Do you want to exclude system types***”? Click “*Ok*”.\n- “***Select Target Metamodel***”. Confirm the metamodel in the list.  \n\nYou should then get the message: “***Target metamodel has been successfully generated!***”.\n\nNow it is time to verify your metamodel, to see if you are able to build the desired model based on the type definitions you just created.\n(see next step)",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "272c0cc5-786d-4a4e-46a5-6726489c7455",
-                  "name": "Build a Use-case Model ",
-                  "description": "\nWe build our model by first dragging and dropping first \"*Person*\" and then \"*Car*\". We click on each of them to edit their names:\n\n![alt text](/images/posts/modelling/image_model004.png)\n\nThen when we draw a relationship between the two objects, we are asked to choose a relationship type: \n\n![alt text](/images/posts/modelling/image_model005.png)\n\nWe choose ***owns*** in the modal dialog that pops up, clicks on ***Done*** and the relationship is created. (If you click on the “*x*” in the top right corner of the dialog, the operation is canceled.)\n\nWe continue modeling objects and relationships and may end up with a model like this:\n\n![alt text](/images/posts/modelling/image_model006.png)\n\n\n### Modifying object and relationship views\n\nHow objects and relationships is visualized in the model (icon, fillcolor, framecolor, etc.) is defined in the typeview definitions for each the type. The appearance can be overridden by defining objectviews and relationshipviews.\n\n\nThe objectview of the person “*Me*” looks like this:\n\n![alt text](/images/posts/modelling/image_model007.png)\n\nWe see that we can modify the fillcolor of the object, the “*strokecolor*”, the “*icon*” as so on, and then give the object a specialized look that differs from the default appearance. \n\nWe can do the same with relationships, and modify the color, the arrowheads, and so on, when we want to deviate from the default. \n",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "e5c31cc7-a39b-4943-9bed-35b4e137d32f",
-                  "name": "More about The Core Metamodel ...",
-                  "description": "### AKM-CORE_MM Metamodel\n\n![image001](images/posts/CustomMeta/Picture1.png)\n\n### Links\n\nYou can find more info following this link : \n<a href=\"/helpblog/002-BuildCustomMetamodels#AKMM%20Help\" target=\"_blank\">\n\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\"> How to make Custom Metamodels...</font></code>\n\n</span></a> \n\n</details>",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                }
-              ],
+              "objects": [],
               "relships": [],
               "modelviews": [],
               "markedAsDeleted": false,
@@ -7708,12 +7458,12 @@
             {
               "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "name": "Property",
-              "abstract": "",
+              "abstract": false,
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-              "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+              "description": "",
               "properties": [
                 {
                   "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -9051,12 +8801,12 @@
             {
               "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "name": "Property",
-              "abstract": "",
+              "abstract": false,
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-              "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+              "description": "",
               "properties": [
                 {
                   "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -10179,6 +9929,7 @@
               "id": "da7e1125-75bf-448a-6fba-67952120f5b7",
               "name": "today",
               "description": "",
+              "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
               "allowedValues": [
                 "now"
               ],
@@ -10223,6 +9974,7 @@
               "id": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
               "name": "condition",
               "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
               "allowedValues": null,
               "defaultValue": "",
               "readOnly": false,
@@ -10237,6 +9989,7 @@
               "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
               "name": "typenames",
               "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
               "allowedValues": null,
               "defaultValue": "",
               "readOnly": false,
@@ -10255,7 +10008,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "3b463d9a-522e-4371-a5f6-75adfa757409",
+                  "id": "5797a141-0f90-475b-c868-50e12a3847b3",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -10303,8 +10056,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -10318,7 +10070,7 @@
                   "example": ""
                 },
                 {
-                  "id": "3301cab5-1cf4-4d46-c5f3-72dfcc9b1d31",
+                  "id": "8b314176-8bfa-4aab-aa4d-7887399915a0",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -10364,7 +10116,7 @@
                   "example": ""
                 },
                 {
-                  "id": "c3b1a347-9125-4a57-3674-bc4e557071a9",
+                  "id": "7c7b1182-c39c-449c-8a8f-3567b35dbfff",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -10412,8 +10164,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -10427,7 +10178,7 @@
                   "example": ""
                 },
                 {
-                  "id": "cb9f9255-98d1-4fdb-d40c-f1cb4f6e3606",
+                  "id": "d531a2a4-0386-40e3-013e-dc09de8907b2",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -10478,7 +10229,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "0378a58c-959e-4e54-c05a-cb3148968757",
+                  "id": "05a1abb0-5cbe-4967-178d-51b01f026898",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -10529,7 +10280,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "7c2508b6-8140-4074-82ae-b5528d25b186",
+                  "id": "7eefea80-5c14-4003-562e-e55d2cb0bf5e",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -10577,8 +10328,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -10592,7 +10342,7 @@
                   "example": ""
                 },
                 {
-                  "id": "1d0d61c1-4f05-4757-f9b5-ce97de908cb0",
+                  "id": "1383acd8-bb8a-4f9a-0afe-eb298e0bc4d2",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -10638,7 +10388,7 @@
                   "example": ""
                 },
                 {
-                  "id": "702dd933-0385-4d3d-ecfa-66095dc900c4",
+                  "id": "568b21ba-f20f-43ab-927f-d03144bacbf3",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -10686,8 +10436,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
@@ -10701,7 +10450,7 @@
                   "example": ""
                 },
                 {
-                  "id": "65caee72-d9e8-4e54-d5da-614fbeab0758",
+                  "id": "a7bb1a5b-472b-44eb-8a9a-a065efb617ae",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -10743,7 +10492,7 @@
                   "example": ""
                 },
                 {
-                  "id": "5459e3b5-a9d3-4ea7-0667-0a8e72f9f5c7",
+                  "id": "c6cab9fc-62d7-4c27-5ad2-4cde3c549a9a",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -10785,7 +10534,7 @@
                   "example": ""
                 },
                 {
-                  "id": "b5504597-2ebc-4117-a995-3c395115574d",
+                  "id": "82a03ee2-a2f6-4acf-3975-77cf3feadd26",
                   "name": "typecondition",
                   "nameId": "typecondition",
                   "category": "Property",
@@ -10833,8 +10582,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -10848,7 +10596,7 @@
                   "example": ""
                 },
                 {
-                  "id": "a3b3f2fd-4821-4295-6e93-b532d2c78b79",
+                  "id": "ca678773-6ca6-45a0-c088-168455772966",
                   "name": "vauecondition",
                   "nameId": "vauecondition",
                   "category": "Property",
@@ -10896,8 +10644,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -10911,7 +10658,7 @@
                   "example": ""
                 },
                 {
-                  "id": "2ba876af-28bd-4af8-fba4-b2d5036b76eb",
+                  "id": "39276441-9ec4-46a8-a84c-6eb91a8a0271",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -10959,8 +10706,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -10974,7 +10720,7 @@
                   "example": ""
                 },
                 {
-                  "id": "d3ee8a07-5390-4fe9-969d-c70f78791fc3",
+                  "id": "94d96146-b2a8-46e3-a4dd-9ac71b02e151",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -11022,8 +10768,7 @@
                     "defaultValue": "",
                     "value": "",
                     "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                    "pointerCriteria": ""
                   },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
@@ -11314,11 +11059,11 @@
               "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "viewkind": "Object",
               "template": "textAndIcon",
-              "fillcolor": "#90ee90",
+              "fillcolor": "#90ee91",
               "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
-              "strokecolor2": "black",
+              "strokecolor2": "lightgrey",
               "strokewidth": "1",
               "textcolor": "black",
               "textcolor2": "black",
@@ -12457,7 +12202,7 @@
       ],
       "models": [
         {
-          "id": "56c9db65-a72c-41ff-8df7-2bd8a3b3b90b",
+          "id": "a526d2c7-30bc-47dc-9c3f-b6a089dd603f",
           "name": "Conceptmodel_CM",
           "description": "Concept Model, modeling based on AKM-IRTV_MM Metamodel",
           "metamodelRef": "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
@@ -12471,7 +12216,7 @@
           "relships": [],
           "modelviews": [
             {
-              "id": "67495464-4b91-4c42-9de4-969b4c6d4e6f",
+              "id": "e5fe71e2-4d13-40f0-bf7f-dd054eb5af45",
               "name": "0-Main",
               "objectviews": [],
               "relshipviews": []
@@ -13777,8 +13522,8 @@
       ],
       "submodels": [],
       "currentMetamodelRef": "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
-      "currentModelRef": "56c9db65-a72c-41ff-8df7-2bd8a3b3b90b",
-      "currentModelviewRef": "67495464-4b91-4c42-9de4-969b4c6d4e6f",
+      "currentModelRef": "a526d2c7-30bc-47dc-9c3f-b6a089dd603f",
+      "currentModelviewRef": "e5fe71e2-4d13-40f0-bf7f-dd054eb5af45",
       "currentTemplateModelRef": "",
       "currentTargetMetamodelRef": "",
       "currentTargetModelRef": "",
@@ -13793,7 +13538,7 @@
     "focusTargetModel": null,
     "focusTargetModelview": null,
     "focusModel": {
-      "id": "56c9db65-a72c-41ff-8df7-2bd8a3b3b90b",
+      "id": "a526d2c7-30bc-47dc-9c3f-b6a089dd603f",
       "name": "Conceptmodel_CM"
     },
     "focusObject": {
@@ -13951,11 +13696,11 @@
       "name": "New-types"
     },
     "focusTargetMetamodel": {
-      "id": "09b32323-83a7-444a-f4ca-1257bd520bc0",
-      "name": "AKM-OSDU_MM"
+      "id": "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
+      "name": "AKM-IRTV_MM"
     },
     "focusModelview": {
-      "id": "67495464-4b91-4c42-9de4-969b4c6d4e6f",
+      "id": "e5fe71e2-4d13-40f0-bf7f-dd054eb5af45",
       "name": "0-Main"
     }
   },
@@ -13967,5 +13712,5 @@
     }
   },
   "phSource": "AKM-IRTV-Conceptmodelling-Template",
-  "lastUpdate": "2024-02-20T14:04:19.953Z"
+  "lastUpdate": "2024-02-20T14:12:39.736Z"
 }
