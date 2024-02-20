@@ -7,12 +7,12 @@
     "b9f5b34e-2ea4-4f68-6421-2e1253c2322d"
   ],
   "subModelRefs": [
-    "333c751d-69c2-476f-b62a-85276d252127"
+    "b1a72aba-d37b-4c05-2839-9e799ef4a0c6"
   ],
   "subMetamodels": [],
   "subModels": [
     {
-      "id": "333c751d-69c2-476f-b62a-85276d252127",
+      "id": "b1a72aba-d37b-4c05-2839-9e799ef4a0c6",
       "name": "Build a Concept Model",
       "description": "",
       "metamodelRef": "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
@@ -737,12 +737,12 @@
     {
       "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "name": "Property",
-      "abstract": "",
+      "abstract": false,
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-      "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+      "description": "",
       "properties": [
         {
           "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -1460,9 +1460,9 @@
       "modified": true
     },
     {
-      "id": "c62b848e-390e-447d-9383-ada7682548bf",
+      "id": "12c6ad8b-e2c6-4ddc-67a9-1dcf99399acd",
       "name": "Is",
-      "relshipkind": "Generalization",
+      "relshipkind": "Association",
       "viewkind": "",
       "fromobjtypeRef": "058cbb1b-018e-4959-2a33-a27889543209",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
@@ -1475,12 +1475,12 @@
       "nameFrom": "",
       "nameTo": "",
       "markedAsDeleted": false,
-      "modified": true
+      "modified": false
     },
     {
-      "id": "350cd162-4986-434e-74eb-6edab0bdea87",
+      "id": "6aafb4d3-912d-486a-2f30-162c5d52eb42",
       "name": "Is",
-      "relshipkind": "Generalization",
+      "relshipkind": "Association",
       "viewkind": "",
       "fromobjtypeRef": "bbb60f1c-b5a3-41dc-dff6-2b594f54a2dd",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
@@ -1493,12 +1493,12 @@
       "nameFrom": "",
       "nameTo": "",
       "markedAsDeleted": false,
-      "modified": true
+      "modified": false
     },
     {
-      "id": "28a6c94f-81b9-4f27-dc72-ae4b1192ba13",
+      "id": "f6df0999-1a63-4b9d-b556-1f4a2e23022b",
       "name": "Is",
-      "relshipkind": "Generalization",
+      "relshipkind": "Association",
       "viewkind": "",
       "fromobjtypeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
@@ -1511,12 +1511,12 @@
       "nameFrom": "",
       "nameTo": "",
       "markedAsDeleted": false,
-      "modified": true
+      "modified": false
     },
     {
-      "id": "c70fe08e-3810-424c-9770-3efd10c5b395",
+      "id": "c77262a3-a2f8-4db6-ccb7-fd44933f775a",
       "name": "Is",
-      "relshipkind": "Generalization",
+      "relshipkind": "Association",
       "viewkind": "",
       "fromobjtypeRef": "30c1934a-f11d-41c5-7c44-81ddaf3ed998",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
@@ -1529,12 +1529,12 @@
       "nameFrom": "",
       "nameTo": "",
       "markedAsDeleted": false,
-      "modified": true
+      "modified": false
     },
     {
-      "id": "07f2084c-7469-4433-531c-9518b1298a67",
+      "id": "55f07971-c4af-4b11-42d3-d58f648f3db9",
       "name": "Is",
-      "relshipkind": "Generalization",
+      "relshipkind": "Association",
       "viewkind": "",
       "fromobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
@@ -1547,7 +1547,7 @@
       "nameFrom": "",
       "nameTo": "",
       "markedAsDeleted": false,
-      "modified": true
+      "modified": false
     },
     {
       "id": "d5f471ae-ec5b-4543-1a9b-acf4853ecff2",
@@ -1730,13 +1730,13 @@
       "modified": true
     },
     {
-      "id": "4f673acd-ca6c-4309-0235-d1d7767c826d",
-      "name": "worksOn",
+      "id": "0f5dcee3-0d16-4199-0bdd-a781410b2f9e",
+      "name": "includes",
       "relshipkind": "Association",
       "viewkind": "",
-      "fromobjtypeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-      "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "6048d2a0-b639-4dd9-9fa6-e63be4fc04f3",
+      "fromobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
+      "toobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
+      "typeviewRef": "13bc15a6-7c6e-4056-df42-aa489188e40e",
       "description": "",
       "properties": [],
       "cardinality": "",
@@ -1862,12 +1862,12 @@
     {
       "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "name": "Property",
-      "abstract": "",
+      "abstract": false,
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-      "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+      "description": "",
       "properties": [
         {
           "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -2234,13 +2234,13 @@
       "modified": true
     },
     {
-      "id": "4f673acd-ca6c-4309-0235-d1d7767c826d",
-      "name": "worksOn",
+      "id": "0f5dcee3-0d16-4199-0bdd-a781410b2f9e",
+      "name": "includes",
       "relshipkind": "Association",
       "viewkind": "",
-      "fromobjtypeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-      "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "6048d2a0-b639-4dd9-9fa6-e63be4fc04f3",
+      "fromobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
+      "toobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
+      "typeviewRef": "13bc15a6-7c6e-4056-df42-aa489188e40e",
       "description": "",
       "properties": [],
       "cardinality": "",
@@ -2933,7 +2933,7 @@
       "description": "",
       "properties": [
         {
-          "id": "3b463d9a-522e-4371-a5f6-75adfa757409",
+          "id": "5797a141-0f90-475b-c868-50e12a3847b3",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -2981,8 +2981,7 @@
             "defaultValue": "",
             "value": "",
             "pointerType": null,
-            "pointerCriteria": "",
-            "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+            "pointerCriteria": ""
           },
           "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
           "method": null,
@@ -2996,7 +2995,7 @@
           "example": ""
         },
         {
-          "id": "3301cab5-1cf4-4d46-c5f3-72dfcc9b1d31",
+          "id": "8b314176-8bfa-4aab-aa4d-7887399915a0",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -3042,7 +3041,7 @@
           "example": ""
         },
         {
-          "id": "c3b1a347-9125-4a57-3674-bc4e557071a9",
+          "id": "7c7b1182-c39c-449c-8a8f-3567b35dbfff",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -3090,8 +3089,7 @@
             "defaultValue": "",
             "value": "",
             "pointerType": null,
-            "pointerCriteria": "",
-            "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+            "pointerCriteria": ""
           },
           "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
           "method": null,
@@ -3105,7 +3103,7 @@
           "example": ""
         },
         {
-          "id": "cb9f9255-98d1-4fdb-d40c-f1cb4f6e3606",
+          "id": "d531a2a4-0386-40e3-013e-dc09de8907b2",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -3156,7 +3154,7 @@
       "description": "",
       "properties": [
         {
-          "id": "0378a58c-959e-4e54-c05a-cb3148968757",
+          "id": "05a1abb0-5cbe-4967-178d-51b01f026898",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -3207,7 +3205,7 @@
       "description": "",
       "properties": [
         {
-          "id": "7c2508b6-8140-4074-82ae-b5528d25b186",
+          "id": "7eefea80-5c14-4003-562e-e55d2cb0bf5e",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -3255,8 +3253,7 @@
             "defaultValue": "",
             "value": "",
             "pointerType": null,
-            "pointerCriteria": "",
-            "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+            "pointerCriteria": ""
           },
           "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
           "method": null,
@@ -3270,7 +3267,7 @@
           "example": ""
         },
         {
-          "id": "1d0d61c1-4f05-4757-f9b5-ce97de908cb0",
+          "id": "1383acd8-bb8a-4f9a-0afe-eb298e0bc4d2",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -3316,7 +3313,7 @@
           "example": ""
         },
         {
-          "id": "702dd933-0385-4d3d-ecfa-66095dc900c4",
+          "id": "568b21ba-f20f-43ab-927f-d03144bacbf3",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -3364,8 +3361,7 @@
             "defaultValue": "",
             "value": "",
             "pointerType": null,
-            "pointerCriteria": "",
-            "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+            "pointerCriteria": ""
           },
           "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
           "method": null,
@@ -3379,7 +3375,7 @@
           "example": ""
         },
         {
-          "id": "65caee72-d9e8-4e54-d5da-614fbeab0758",
+          "id": "a7bb1a5b-472b-44eb-8a9a-a065efb617ae",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -3421,7 +3417,7 @@
           "example": ""
         },
         {
-          "id": "5459e3b5-a9d3-4ea7-0667-0a8e72f9f5c7",
+          "id": "c6cab9fc-62d7-4c27-5ad2-4cde3c549a9a",
           "name": "nolevels",
           "nameId": "nolevels",
           "category": "Property",
@@ -3463,7 +3459,7 @@
           "example": ""
         },
         {
-          "id": "b5504597-2ebc-4117-a995-3c395115574d",
+          "id": "82a03ee2-a2f6-4acf-3975-77cf3feadd26",
           "name": "typecondition",
           "nameId": "typecondition",
           "category": "Property",
@@ -3511,8 +3507,7 @@
             "defaultValue": "",
             "value": "",
             "pointerType": null,
-            "pointerCriteria": "",
-            "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+            "pointerCriteria": ""
           },
           "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
           "method": null,
@@ -3526,7 +3521,7 @@
           "example": ""
         },
         {
-          "id": "a3b3f2fd-4821-4295-6e93-b532d2c78b79",
+          "id": "ca678773-6ca6-45a0-c088-168455772966",
           "name": "vauecondition",
           "nameId": "vauecondition",
           "category": "Property",
@@ -3574,8 +3569,7 @@
             "defaultValue": "",
             "value": "",
             "pointerType": null,
-            "pointerCriteria": "",
-            "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+            "pointerCriteria": ""
           },
           "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
           "method": null,
@@ -3589,7 +3583,7 @@
           "example": ""
         },
         {
-          "id": "2ba876af-28bd-4af8-fba4-b2d5036b76eb",
+          "id": "39276441-9ec4-46a8-a84c-6eb91a8a0271",
           "name": "preaction",
           "nameId": "preaction",
           "category": "Property",
@@ -3637,8 +3631,7 @@
             "defaultValue": "",
             "value": "",
             "pointerType": null,
-            "pointerCriteria": "",
-            "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+            "pointerCriteria": ""
           },
           "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
           "method": null,
@@ -3652,7 +3645,7 @@
           "example": ""
         },
         {
-          "id": "d3ee8a07-5390-4fe9-969d-c70f78791fc3",
+          "id": "94d96146-b2a8-46e3-a4dd-9ac71b02e151",
           "name": "postaction",
           "nameId": "postaction",
           "category": "Property",
@@ -3700,8 +3693,7 @@
             "defaultValue": "",
             "value": "",
             "pointerType": null,
-            "pointerCriteria": "",
-            "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+            "pointerCriteria": ""
           },
           "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
           "method": null,
@@ -3959,11 +3951,11 @@
       "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "fillcolor": "#90ee90",
+      "fillcolor": "#90ee91",
       "fillcolor2": "white",
       "strokecolor": "black",
       "strokecolor1": "black",
-      "strokecolor2": "black",
+      "strokecolor2": "lightgrey",
       "strokewidth": "1",
       "textcolor": "black",
       "textcolor2": "black",
@@ -4327,6 +4319,27 @@
       "modified": false
     },
     {
+      "id": "13bc15a6-7c6e-4056-df42-aa489188e40e",
+      "name": "includes_Association",
+      "description": "",
+      "typeRef": "0f5dcee3-0d16-4199-0bdd-a781410b2f9e",
+      "template": "linkTemplate1",
+      "strokecolor": "black",
+      "strokewidth": "1",
+      "textcolor": "black",
+      "textscale": "1",
+      "dash": "None",
+      "fromArrow": "",
+      "toArrow": "OpenTriangle",
+      "fromArrowColor": "",
+      "toArrowColor": "white",
+      "routing": "Normal",
+      "corner": "0",
+      "curve": "0",
+      "markedAsDeleted": false,
+      "modified": false
+    },
+    {
       "id": "cb5077c2-ba85-45fc-a086-b2ca2e75ede2",
       "name": "manages_Association",
       "description": "",
@@ -4457,27 +4470,6 @@
       "name": "triggers_Association",
       "description": "",
       "typeRef": "147250de-d71b-484b-57c7-7331c77f88f8",
-      "template": "linkTemplate1",
-      "strokecolor": "black",
-      "strokewidth": "1",
-      "textcolor": "black",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "6048d2a0-b639-4dd9-9fa6-e63be4fc04f3",
-      "name": "worksOn_Association",
-      "description": "",
-      "typeRef": "4f673acd-ca6c-4309-0235-d1d7767c826d",
       "template": "linkTemplate1",
       "strokecolor": "black",
       "strokewidth": "1",
