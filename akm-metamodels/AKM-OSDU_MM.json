@@ -8,12 +8,12 @@
     "b9f5b34e-2ea4-4f68-6421-2e1253c2322d"
   ],
   "subModelRefs": [
-    "b1333772-eb76-432a-ade2-f365a5395cd9"
+    "c3f57ec3-1a64-4cc2-297b-cee783fec0b8"
   ],
   "subMetamodels": [],
   "subModels": [
     {
-      "id": "b1333772-eb76-432a-ade2-f365a5395cd9",
+      "id": "c3f57ec3-1a64-4cc2-297b-cee783fec0b8",
       "name": "Import OSDU Schema",
       "description": "",
       "metamodelRef": "09b32323-83a7-444a-f4ca-1257bd520bc0",
@@ -29,7 +29,7 @@
         {
           "id": "625e2225-4f89-4dce-46f8-08fd40fcd372",
           "name": "Download json file(s)",
-          "description": "",
+          "description": "#### Download Schema from OSDU\n\nOSDU Schema is stored as JSON-files in: \n\n[https://community.opengroup.org/osdu/data/data-definitions/Generated](https://community.opengroup.org/osdu/data/data-definitions/-/tree/master/Generated)\n\n - Cick on the Downlad-button ( upper-right ) and you can download the whole directory.\nUnpack the zip-file, and you now have a folder with all OSDU Schema- types\n\n",
           "abstract": false,
           "viewkind": "",
           "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
@@ -52,8 +52,8 @@
         {
           "id": "57434e8a-6f7e-4271-66f6-545ee40ca145",
           "name": "Import json (files)",
-          "description": "",
-          "abstract": false,
+          "description": "### Import Schema files into AKM Modeller\n\n    1.  Click on the OSDU (blue button) in the Modelling bar.\n\n  2. Select the EntityType Groups and Property/PropertyLinks etc. you want to include in the import.\n\n  3. Click \"Choose files\" and locate the folder where you downloaded the OSDU json-files.\n\n  4. Select one or more files to be imported. (You can alternative select a directory (all files in the directory will be imported)\n\n  5. Click on the blue  \"Done\" button at the down-right.\nClick on the \"Reload\" button in the Modelling bar.\n\n  6. Open the \"Objects\" pane to the left (next to the modeling area)\n\n  7. Drag and drop the Schema-types (white objects) into the modelling area.\n\n  8. Click on the \"OSDU\" button in the Modeling bar again.\n\n  9. Click on \"CONVERT PROPERTYLINKS (OBJECTS) TO RELATIONSHIPS BETWEEN ENTITYTYPES\" to generate relationship between the types. Click \"DONE\" button.\n\n  10. Right-Click on the background and select: \"Add Missing Relationship Views\" to view the relationships.\n\n  11. Arrange the objects (You can also add Containers to organize the Objects)\n",
+          "abstract": "",
           "viewkind": "",
           "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
           "typeName": "Task",
@@ -70,13 +70,23 @@
           "valueset": null,
           "copiedFromId": "",
           "proposedType": "",
-          "text": ""
+          "text": "",
+          "created": "",
+          "image": "",
+          "textcolor": "",
+          "fillcolor": "",
+          "strokecolor": "",
+          "icon": "",
+          "href": "",
+          "strokecolor2": "",
+          "fillcolor2": "",
+          "textcolor2": ""
         },
         {
           "id": "1f6a48d4-3a60-41d6-9104-22c49b76c41d",
           "name": "View the Properties",
-          "description": "",
-          "abstract": false,
+          "description": "### View the Propertes of the Type (EntityType)\n\n - First make a new Modelview (You can name it \"2-Properties\")\n\n - Copy one or more of the EntityTypes.\n\n - Open the new Modelview and \"Paste as view\"\nArrange the objectviews with some distance.\n\n - Right-click one of them and select \"Add Connected Objects\"\n\nKeep the sublevels: \"1\"\n(this will add the properties of the EntityType)\n\n",
+          "abstract": "",
           "viewkind": "",
           "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
           "typeName": "Task",
@@ -93,7 +103,17 @@
           "valueset": null,
           "copiedFromId": "",
           "proposedType": "",
-          "text": ""
+          "text": "",
+          "created": "",
+          "image": "",
+          "textcolor": "",
+          "fillcolor": "",
+          "strokecolor": "",
+          "icon": "",
+          "href": "",
+          "strokecolor2": "",
+          "fillcolor2": "",
+          "textcolor2": ""
         }
       ],
       "relships": [],
@@ -550,12 +570,12 @@
     {
       "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "name": "Property",
-      "abstract": "",
+      "abstract": false,
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-      "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+      "description": "",
       "properties": [
         {
           "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -1817,12 +1837,12 @@
     {
       "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "name": "Property",
-      "abstract": "",
+      "abstract": false,
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-      "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+      "description": "",
       "properties": [
         {
           "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -2660,7 +2680,7 @@
       "description": "",
       "properties": [
         {
-          "id": "3b463d9a-522e-4371-a5f6-75adfa757409",
+          "id": "ea3469f0-8271-4b83-eb6d-6eb92c4832cb",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -2723,7 +2743,7 @@
           "example": ""
         },
         {
-          "id": "3301cab5-1cf4-4d46-c5f3-72dfcc9b1d31",
+          "id": "ae881ede-baa1-4bbb-fb27-312f9508d442",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -2769,7 +2789,7 @@
           "example": ""
         },
         {
-          "id": "c3b1a347-9125-4a57-3674-bc4e557071a9",
+          "id": "0f4dfd3e-71e1-4484-5eca-5bd5a7c78488",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -2832,7 +2852,7 @@
           "example": ""
         },
         {
-          "id": "cb9f9255-98d1-4fdb-d40c-f1cb4f6e3606",
+          "id": "b5d9f60b-c4bc-4d92-6229-301525a13864",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -2883,7 +2903,7 @@
       "description": "",
       "properties": [
         {
-          "id": "0378a58c-959e-4e54-c05a-cb3148968757",
+          "id": "167a8fa1-916f-4754-7a09-dbfc6313629b",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -2934,7 +2954,7 @@
       "description": "",
       "properties": [
         {
-          "id": "7c2508b6-8140-4074-82ae-b5528d25b186",
+          "id": "2ba6844a-285d-4c91-f388-0e6dcd2e4ac7",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -2997,7 +3017,7 @@
           "example": ""
         },
         {
-          "id": "1d0d61c1-4f05-4757-f9b5-ce97de908cb0",
+          "id": "0507db9f-9d09-41e4-40fc-969e84df5368",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -3043,7 +3063,7 @@
           "example": ""
         },
         {
-          "id": "702dd933-0385-4d3d-ecfa-66095dc900c4",
+          "id": "cdd8f673-5094-43ae-b094-af7f05a59bdd",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -3106,7 +3126,7 @@
           "example": ""
         },
         {
-          "id": "65caee72-d9e8-4e54-d5da-614fbeab0758",
+          "id": "cd15da06-7ef9-41ef-6fd0-7f4a8ea8f020",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -3148,7 +3168,7 @@
           "example": ""
         },
         {
-          "id": "5459e3b5-a9d3-4ea7-0667-0a8e72f9f5c7",
+          "id": "8a044925-5e29-455c-833f-1afc8e679666",
           "name": "nolevels",
           "nameId": "nolevels",
           "category": "Property",
@@ -3190,7 +3210,7 @@
           "example": ""
         },
         {
-          "id": "b5504597-2ebc-4117-a995-3c395115574d",
+          "id": "07ebfada-1e32-4dcf-ad7c-7108f7351588",
           "name": "typecondition",
           "nameId": "typecondition",
           "category": "Property",
@@ -3253,7 +3273,7 @@
           "example": ""
         },
         {
-          "id": "a3b3f2fd-4821-4295-6e93-b532d2c78b79",
+          "id": "34338ddb-268b-461d-c3f3-75b2baf39f95",
           "name": "vauecondition",
           "nameId": "vauecondition",
           "category": "Property",
@@ -3316,7 +3336,7 @@
           "example": ""
         },
         {
-          "id": "2ba876af-28bd-4af8-fba4-b2d5036b76eb",
+          "id": "7f359316-b7ad-4665-cbdf-eb7867623763",
           "name": "preaction",
           "nameId": "preaction",
           "category": "Property",
@@ -3379,7 +3399,7 @@
           "example": ""
         },
         {
-          "id": "d3ee8a07-5390-4fe9-969d-c70f78791fc3",
+          "id": "0aec4d14-fa21-4d60-b41c-ea748dfe6618",
           "name": "postaction",
           "nameId": "postaction",
           "category": "Property",
@@ -3469,7 +3489,8 @@
       "icon": "",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "b42be04d-f9e5-4906-0459-80f43aada183",
@@ -3491,7 +3512,8 @@
       "icon": "./../images/default.png",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "4be6622d-82a6-4b8c-a872-df6e9fcc8d3a",
@@ -3513,7 +3535,8 @@
       "icon": "",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "a3112875-e4fe-4100-b290-5634d8b8acfc",
@@ -3535,7 +3558,8 @@
       "icon": "",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "92119852-4462-4f9b-2780-5131f1b83a3a",
@@ -3557,7 +3581,8 @@
       "icon": "./../images/types/Collection.png",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "db44e219-d298-4431-336d-2a55f449d935",
@@ -3579,7 +3604,8 @@
       "icon": "./../images/types/PropLink.png",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "99b6e92e-d807-46a4-0d94-37d41eacd334",
@@ -3601,7 +3627,8 @@
       "icon": "./../images/types/Item.png",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
@@ -3610,11 +3637,11 @@
       "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "fillcolor": "#90ee90",
+      "fillcolor": "#90ee91",
       "fillcolor2": "white",
       "strokecolor": "black",
       "strokecolor1": "black",
-      "strokecolor2": "black",
+      "strokecolor2": "lightgrey",
       "strokewidth": "1",
       "textcolor": "black",
       "textcolor2": "black",
@@ -3623,7 +3650,8 @@
       "icon": "./../images/types/Property.png",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     },
     {
       "id": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
@@ -3636,7 +3664,7 @@
       "fillcolor2": "white",
       "strokecolor": "black",
       "strokecolor1": "black",
-      "strokecolor2": "black",
+      "strokecolor2": "lightgrey",
       "strokewidth": "1",
       "textcolor": "black",
       "textcolor2": "black",
@@ -3645,7 +3673,8 @@
       "icon": "",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false
+      "modified": false,
+      "geometry": ""
     }
   ],
   "objtypegeos": [
