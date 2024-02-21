@@ -15,12 +15,12 @@
             "b9f5b34e-2ea4-4f68-6421-2e1253c2322d"
           ],
           "subModelRefs": [
-            "b1333772-eb76-432a-ade2-f365a5395cd9"
+            "c3f57ec3-1a64-4cc2-297b-cee783fec0b8"
           ],
           "subMetamodels": [],
           "subModels": [
             {
-              "id": "b1333772-eb76-432a-ade2-f365a5395cd9",
+              "id": "c3f57ec3-1a64-4cc2-297b-cee783fec0b8",
               "name": "Import OSDU Schema",
               "description": "",
               "metamodelRef": "09b32323-83a7-444a-f4ca-1257bd520bc0",
@@ -36,7 +36,7 @@
                 {
                   "id": "625e2225-4f89-4dce-46f8-08fd40fcd372",
                   "name": "Download json file(s)",
-                  "description": "",
+                  "description": "#### Download Schema from OSDU\n\nOSDU Schema is stored as JSON-files in: \n\n[https://community.opengroup.org/osdu/data/data-definitions/Generated](https://community.opengroup.org/osdu/data/data-definitions/-/tree/master/Generated)\n\n - Cick on the Downlad-button ( upper-right ) and you can download the whole directory.\nUnpack the zip-file, and you now have a folder with all OSDU Schema- types\n\n",
                   "abstract": false,
                   "viewkind": "",
                   "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
@@ -59,8 +59,8 @@
                 {
                   "id": "57434e8a-6f7e-4271-66f6-545ee40ca145",
                   "name": "Import json (files)",
-                  "description": "",
-                  "abstract": false,
+                  "description": "### Import Schema files into AKM Modeller\n\n    1.  Click on the OSDU (blue button) in the Modelling bar.\n\n  2. Select the EntityType Groups and Property/PropertyLinks etc. you want to include in the import.\n\n  3. Click \"Choose files\" and locate the folder where you downloaded the OSDU json-files.\n\n  4. Select one or more files to be imported. (You can alternative select a directory (all files in the directory will be imported)\n\n  5. Click on the blue  \"Done\" button at the down-right.\nClick on the \"Reload\" button in the Modelling bar.\n\n  6. Open the \"Objects\" pane to the left (next to the modeling area)\n\n  7. Drag and drop the Schema-types (white objects) into the modelling area.\n\n  8. Click on the \"OSDU\" button in the Modeling bar again.\n\n  9. Click on \"CONVERT PROPERTYLINKS (OBJECTS) TO RELATIONSHIPS BETWEEN ENTITYTYPES\" to generate relationship between the types. Click \"DONE\" button.\n\n  10. Right-Click on the background and select: \"Add Missing Relationship Views\" to view the relationships.\n\n  11. Arrange the objects (You can also add Containers to organize the Objects)\n",
+                  "abstract": "",
                   "viewkind": "",
                   "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
                   "typeName": "Task",
@@ -77,13 +77,23 @@
                   "valueset": null,
                   "copiedFromId": "",
                   "proposedType": "",
-                  "text": ""
+                  "text": "",
+                  "created": "",
+                  "image": "",
+                  "textcolor": "",
+                  "fillcolor": "",
+                  "strokecolor": "",
+                  "icon": "",
+                  "href": "",
+                  "strokecolor2": "",
+                  "fillcolor2": "",
+                  "textcolor2": ""
                 },
                 {
                   "id": "1f6a48d4-3a60-41d6-9104-22c49b76c41d",
                   "name": "View the Properties",
-                  "description": "",
-                  "abstract": false,
+                  "description": "### View the Propertes of the Type (EntityType)\n\n - First make a new Modelview (You can name it \"2-Properties\")\n\n - Copy one or more of the EntityTypes.\n\n - Open the new Modelview and \"Paste as view\"\nArrange the objectviews with some distance.\n\n - Right-click one of them and select \"Add Connected Objects\"\n\nKeep the sublevels: \"1\"\n(this will add the properties of the EntityType)\n\n",
+                  "abstract": "",
                   "viewkind": "",
                   "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
                   "typeName": "Task",
@@ -100,7 +110,17 @@
                   "valueset": null,
                   "copiedFromId": "",
                   "proposedType": "",
-                  "text": ""
+                  "text": "",
+                  "created": "",
+                  "image": "",
+                  "textcolor": "",
+                  "fillcolor": "",
+                  "strokecolor": "",
+                  "icon": "",
+                  "href": "",
+                  "strokecolor2": "",
+                  "fillcolor2": "",
+                  "textcolor2": ""
                 }
               ],
               "relships": [],
@@ -557,12 +577,12 @@
             {
               "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "name": "Property",
-              "abstract": "",
+              "abstract": false,
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-              "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+              "description": "",
               "properties": [
                 {
                   "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -1824,12 +1844,12 @@
             {
               "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "name": "Property",
-              "abstract": "",
+              "abstract": false,
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-              "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+              "description": "",
               "properties": [
                 {
                   "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -2667,7 +2687,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "3b463d9a-522e-4371-a5f6-75adfa757409",
+                  "id": "ea3469f0-8271-4b83-eb6d-6eb92c4832cb",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -2730,7 +2750,7 @@
                   "example": ""
                 },
                 {
-                  "id": "3301cab5-1cf4-4d46-c5f3-72dfcc9b1d31",
+                  "id": "ae881ede-baa1-4bbb-fb27-312f9508d442",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -2776,7 +2796,7 @@
                   "example": ""
                 },
                 {
-                  "id": "c3b1a347-9125-4a57-3674-bc4e557071a9",
+                  "id": "0f4dfd3e-71e1-4484-5eca-5bd5a7c78488",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -2839,7 +2859,7 @@
                   "example": ""
                 },
                 {
-                  "id": "cb9f9255-98d1-4fdb-d40c-f1cb4f6e3606",
+                  "id": "b5d9f60b-c4bc-4d92-6229-301525a13864",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -2890,7 +2910,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "0378a58c-959e-4e54-c05a-cb3148968757",
+                  "id": "167a8fa1-916f-4754-7a09-dbfc6313629b",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -2941,7 +2961,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "7c2508b6-8140-4074-82ae-b5528d25b186",
+                  "id": "2ba6844a-285d-4c91-f388-0e6dcd2e4ac7",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -3004,7 +3024,7 @@
                   "example": ""
                 },
                 {
-                  "id": "1d0d61c1-4f05-4757-f9b5-ce97de908cb0",
+                  "id": "0507db9f-9d09-41e4-40fc-969e84df5368",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -3050,7 +3070,7 @@
                   "example": ""
                 },
                 {
-                  "id": "702dd933-0385-4d3d-ecfa-66095dc900c4",
+                  "id": "cdd8f673-5094-43ae-b094-af7f05a59bdd",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -3113,7 +3133,7 @@
                   "example": ""
                 },
                 {
-                  "id": "65caee72-d9e8-4e54-d5da-614fbeab0758",
+                  "id": "cd15da06-7ef9-41ef-6fd0-7f4a8ea8f020",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -3155,7 +3175,7 @@
                   "example": ""
                 },
                 {
-                  "id": "5459e3b5-a9d3-4ea7-0667-0a8e72f9f5c7",
+                  "id": "8a044925-5e29-455c-833f-1afc8e679666",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -3197,7 +3217,7 @@
                   "example": ""
                 },
                 {
-                  "id": "b5504597-2ebc-4117-a995-3c395115574d",
+                  "id": "07ebfada-1e32-4dcf-ad7c-7108f7351588",
                   "name": "typecondition",
                   "nameId": "typecondition",
                   "category": "Property",
@@ -3260,7 +3280,7 @@
                   "example": ""
                 },
                 {
-                  "id": "a3b3f2fd-4821-4295-6e93-b532d2c78b79",
+                  "id": "34338ddb-268b-461d-c3f3-75b2baf39f95",
                   "name": "vauecondition",
                   "nameId": "vauecondition",
                   "category": "Property",
@@ -3323,7 +3343,7 @@
                   "example": ""
                 },
                 {
-                  "id": "2ba876af-28bd-4af8-fba4-b2d5036b76eb",
+                  "id": "7f359316-b7ad-4665-cbdf-eb7867623763",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -3386,7 +3406,7 @@
                   "example": ""
                 },
                 {
-                  "id": "d3ee8a07-5390-4fe9-969d-c70f78791fc3",
+                  "id": "0aec4d14-fa21-4d60-b41c-ea748dfe6618",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -3476,7 +3496,8 @@
               "icon": "",
               "image": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": false,
+              "geometry": ""
             },
             {
               "id": "b42be04d-f9e5-4906-0459-80f43aada183",
@@ -3498,7 +3519,8 @@
               "icon": "./../images/default.png",
               "image": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": false,
+              "geometry": ""
             },
             {
               "id": "4be6622d-82a6-4b8c-a872-df6e9fcc8d3a",
@@ -3520,7 +3542,8 @@
               "icon": "",
               "image": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": false,
+              "geometry": ""
             },
             {
               "id": "a3112875-e4fe-4100-b290-5634d8b8acfc",
@@ -3542,7 +3565,8 @@
               "icon": "",
               "image": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": false,
+              "geometry": ""
             },
             {
               "id": "92119852-4462-4f9b-2780-5131f1b83a3a",
@@ -3564,7 +3588,8 @@
               "icon": "./../images/types/Collection.png",
               "image": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": false,
+              "geometry": ""
             },
             {
               "id": "db44e219-d298-4431-336d-2a55f449d935",
@@ -3586,7 +3611,8 @@
               "icon": "./../images/types/PropLink.png",
               "image": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": false,
+              "geometry": ""
             },
             {
               "id": "99b6e92e-d807-46a4-0d94-37d41eacd334",
@@ -3608,7 +3634,8 @@
               "icon": "./../images/types/Item.png",
               "image": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": false,
+              "geometry": ""
             },
             {
               "id": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
@@ -3617,11 +3644,11 @@
               "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "viewkind": "Object",
               "template": "textAndIcon",
-              "fillcolor": "#90ee90",
+              "fillcolor": "#90ee91",
               "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
-              "strokecolor2": "black",
+              "strokecolor2": "lightgrey",
               "strokewidth": "1",
               "textcolor": "black",
               "textcolor2": "black",
@@ -3630,7 +3657,8 @@
               "icon": "./../images/types/Property.png",
               "image": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": false,
+              "geometry": ""
             },
             {
               "id": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
@@ -3643,7 +3671,7 @@
               "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
-              "strokecolor2": "black",
+              "strokecolor2": "lightgrey",
               "strokewidth": "1",
               "textcolor": "black",
               "textcolor2": "black",
@@ -3652,7 +3680,8 @@
               "icon": "",
               "image": "",
               "markedAsDeleted": false,
-              "modified": false
+              "modified": false,
+              "geometry": ""
             }
           ],
           "objtypegeos": [
@@ -5187,7 +5216,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "a36860cc-ec8b-4c40-7826-1d3816ee991a",
+                  "id": "ea3469f0-8271-4b83-eb6d-6eb92c4832cb",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -5250,7 +5279,7 @@
                   "example": ""
                 },
                 {
-                  "id": "ad21171e-612d-497b-7848-92973f96b8b3",
+                  "id": "ae881ede-baa1-4bbb-fb27-312f9508d442",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -5296,7 +5325,7 @@
                   "example": ""
                 },
                 {
-                  "id": "4676379c-3315-40ec-0b3c-7584eab97c95",
+                  "id": "0f4dfd3e-71e1-4484-5eca-5bd5a7c78488",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -5359,7 +5388,7 @@
                   "example": ""
                 },
                 {
-                  "id": "3c21100c-c1db-4d7d-d255-3486f2f37925",
+                  "id": "b5d9f60b-c4bc-4d92-6229-301525a13864",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -5410,7 +5439,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "42438d39-5bc6-461a-1b9a-71e14dc7e7bc",
+                  "id": "167a8fa1-916f-4754-7a09-dbfc6313629b",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -5461,7 +5490,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "5f37feea-ca53-4dff-3467-b7a3719f53a5",
+                  "id": "2ba6844a-285d-4c91-f388-0e6dcd2e4ac7",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -5524,7 +5553,7 @@
                   "example": ""
                 },
                 {
-                  "id": "6b58f162-87c1-4802-6a42-05b43345618e",
+                  "id": "0507db9f-9d09-41e4-40fc-969e84df5368",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -5570,7 +5599,7 @@
                   "example": ""
                 },
                 {
-                  "id": "d3fb0355-7e58-4d09-6139-fb6e7b7740b8",
+                  "id": "cdd8f673-5094-43ae-b094-af7f05a59bdd",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -5633,7 +5662,7 @@
                   "example": ""
                 },
                 {
-                  "id": "ec65d6a5-5a06-4747-7ed0-77edf9145413",
+                  "id": "cd15da06-7ef9-41ef-6fd0-7f4a8ea8f020",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -5675,7 +5704,7 @@
                   "example": ""
                 },
                 {
-                  "id": "9722a9b3-023d-4eae-09cd-1e9d3b341b26",
+                  "id": "8a044925-5e29-455c-833f-1afc8e679666",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -5717,7 +5746,7 @@
                   "example": ""
                 },
                 {
-                  "id": "75fe4fc9-852f-4f8f-bfa9-a8bf87914382",
+                  "id": "07ebfada-1e32-4dcf-ad7c-7108f7351588",
                   "name": "typecondition",
                   "nameId": "typecondition",
                   "category": "Property",
@@ -5780,7 +5809,7 @@
                   "example": ""
                 },
                 {
-                  "id": "393c70f5-9197-41cd-bb18-6dcd8209b8e4",
+                  "id": "34338ddb-268b-461d-c3f3-75b2baf39f95",
                   "name": "vauecondition",
                   "nameId": "vauecondition",
                   "category": "Property",
@@ -5843,7 +5872,7 @@
                   "example": ""
                 },
                 {
-                  "id": "58ab4d23-e39f-46fa-b8ed-e88e28fe9669",
+                  "id": "7f359316-b7ad-4665-cbdf-eb7867623763",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -5906,7 +5935,7 @@
                   "example": ""
                 },
                 {
-                  "id": "5cf7ef83-1944-4761-f90b-f763a7986ae2",
+                  "id": "0aec4d14-fa21-4d60-b41c-ea748dfe6618",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -6240,7 +6269,7 @@
               "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
-              "strokecolor2": "black",
+              "strokecolor2": "lightgrey",
               "strokewidth": "1",
               "textcolor": "black",
               "textcolor2": "black",
@@ -6675,7 +6704,6 @@
               "id": "eff84e5a-2226-4a23-b3af-d31a91837df1",
               "name": "Getting started",
               "description": "",
-              "metamodelRef": "b9f5b34e-2ea4-4f68-6421-2e1253c2322d",
               "sourceMetamodelRef": "",
               "targetMetamodelRef": "",
               "sourceModelRef": "",
@@ -6684,123 +6712,7 @@
               "includeRelshipkind": false,
               "isTemplate": false,
               "templates": [],
-              "objects": [
-                {
-                  "id": "4f5a136a-3f5c-4f2f-5c02-a1653706291d",
-                  "name": "Create a new Object ...",
-                  "description": "1.  1 - From the Palette (left pane) drag the Object Type and drop it into the modelling area. Give the type a name and description. (canvas).\n<a href=\"images/help/Create-EntityType-2023-10-05.png\" target=\"_blank\"><code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![image001](images/help/Create-EntityType-2023-10-05.png)</font></code>\n</span>Click on the picture to open in New Tab!</a><hr />\n\n1.  2 - Click on the name to edit and give the Object a new name.<hr />\n\n1.  3 - Right-Click or Double-Click on the object to open the properties panel, where you can edit: Name, description etc.\n<a href=\"images/help/Edit-Attributes-2023-10-05.png\" target=\"_blank\"><code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![image001](images/help/Edit-Attributes-2023-10-05.png)</font></code>\n</span>Click on the picture to open in New Tab!</a><hr />",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "9ad9909d-6d52-458f-c526-1f314b432abb",
-                  "name": "Make a new Objectview of existing Object",
-                  "description": "1.  1 - Open the Object panel to the left. Drag one \n      or more objects into the canvas.<hr />\n      \n\n\n1.  (Note: if you change name or other properties \n      of the object, all other objectviews of the \n      same object will also be changed)<hr />\n      ",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "b2263812-d7bc-4d2d-c6c0-0916731046d3",
-                  "name": "Create a new Relationship ...",
-                  "description": "1.  1 - Click on the edge of an Object and drag the cursor to another object.\n<a href=\"images/help/Add-Property-2023-10-05.png\" target=\"_blank\"><code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![image001](images/help/Add-Property-2023-10-05.png)</font></code>\n</span>Click on the picture to open in New Tab...</a><hr />\n\n1.  2 - Click on the name of the Relationship to edit.<hr />\n\n1.  3 - Right-Click on the relationship to open the properties panel, where you can edit Name, description etc.<hr />",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "15d73150-249a-486d-3268-0bdfc7d536ab",
-                  "name": "More documentation ...",
-                  "description": "  ##### Naming conventions for Models and Metamodels\n\n  ###### Models\n\n    -Concept models:  modelname_CM\n    -Type-Definitions: modelname_TD\n    -Solution models: modelname_SM\n\n  ##### Metamodels\n\n    -metamodelname_MM\n<hr />\n  \n  ### Type-Definitions_TD Model\n\n  To make a new Metamodel, we need to define the Object- and Relationship types we want to be in the Metamodel.\n  \n  In order to create these types, we use the EntityType and RelshipType from the \n  ##### AKM-CORE_MM Metamodel\n  \n  ![image001](images/posts/CustomMeta/Picture1.png)\n  \n  \n  More info : \n  <a href=\"http://localhost:3000/helpblog/002-BuildCustomMetamodels#AKMM%20Help\" target=\"_blank\"><code style=\"color: blue\"> <font size=\"2\" weight=\"bold\"> How to make Custom Metamodels...</font></code>\n  </span></a> <hr />",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "b36bb488-2f91-473f-b4c9-0e701f204872",
-                  "name": "Example model ...",
-                  "description": "\n### The example\n\nIn this chapter we will use an example metamodel as defined below. It has four different object types, \"*Person*\", \"*House*\", \"*Apartment*\" and \"*Car*\", with relationship types \"*owns*\" and \"*rents*\" as shown in the next model diagram.\n\nThere are four “*EntityType*” objects, each representing an object type in the intended new metamodel. Their names are the planned object type names.\nThere are six “*isRelatedTo*” relationships, each representing a relationship type in the new metamodel. Each “*isRelatedTo*” relationship is renamed to its planned relationship type names. These are the names you see in the diagram.\n\n![alt text](/images/posts/modelling/image_model031.png)\n\nThis small type definition model is enough to generate a new metamodel, that will allow you to model people, houses, apartments and cars, and link them together with the appropriate relationships. ",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                }
-              ],
+              "objects": [],
               "relships": [],
               "modelviews": [],
               "markedAsDeleted": false,
@@ -6812,7 +6724,6 @@
               "id": "ce1e69f7-0d3b-466a-99fe-db04e40d62fb",
               "name": "Metamodelling Tasks",
               "description": "",
-              "metamodelRef": "b9f5b34e-2ea4-4f68-6421-2e1253c2322d",
               "sourceMetamodelRef": "",
               "targetMetamodelRef": "",
               "sourceModelRef": "",
@@ -6821,123 +6732,7 @@
               "includeRelshipkind": false,
               "isTemplate": false,
               "templates": [],
-              "objects": [
-                {
-                  "id": "0d4a1f56-6c9f-4c5f-50d4-922070d0b3d2",
-                  "name": "Build a Type-definition model ...",
-                  "description": "## Build Type Definition Models (TD)\n\nTo build the new Metamodel we have to define the **ObjectTypes** and **RelationshipsTypes** we want to use.\nThis is done by building a **Type-definition-model_TD** based on the **AKM-CORE_MM** metamodel. \n\n<details>  <summary>Create Initial Containers ...</summary>\n\n\nLet us start with an empty model and the built-in ***AKM-Core_MM*** metamodel:\n\n![Initial page with blank modelling area and AKM-Core_MM types in the Palette](/images/posts/modelling/image_model001.png)\n\nThe left pane contains the object types in the initial metamodel, that the user can use to build a type definition model.\n\n\nFrom the Palette (left pane) drag the ***Container*** type and drop it into the Modelling area.\n\nClick on the name and edit ***name*** ( Name it  ***\"Domain Types\"*** i.e. ***\"Bikerental Types\"***).\n\nRight-Click the object to edit  ***description***.\n\n\n\n\n<a href=\"images/help/Create-EntityType.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">\n![Create EntityType](images/help/Create-EntityType.png)</font>\n</code>\n</span>Click on the picture to open in New Tab!</a>\n</details>\n\n---\n\n<details>  <summary>Create EntityTypes ...</summary>\n\nFrom the Palette (left pane) drag the ***EntityType*** and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description*** and ***proposedType***.\n\nThe attribute \"proposedType\" is used to give the Concept-/ Information-object a proposed TypeName.\n\n<a href=\"images/help/Create-EntityType.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">\n![Create EntityType](images/help/Create-EntityType.png)</font>\n</code>\n</span>Click on the picture to open in New Tab!</a>\n</details>\n\n---\n\n\n<details>  <summary>Create Relationship types ...</summary>\n\n1.  1 - Click on the edge of an Object and drag the cursor to another object.\n<a href=\"images/help/Add-Property-2023-10-05.png\" target=\"_blank\"><code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![image001](images/help/Add-Property-2023-10-05.png)</font></code>\n</span>Click on the picture to open in New Tab...</a><hr />\n\n1.  2 - Click on the name of the Relationship to edit.<hr />\n\n1.  3 - Right-Click on the relationship to open the properties panel, where you can edit Name, description etc.<hr />\n</details>\n\n---\n\n<details>  <summary>Add Properties ...</summary>\n\nFrom the Palette (left pane) drag the ***Property*** type and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description***.\n\n<a href=\"images/help/Add-Property.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-Property.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>\n\n---\n\n<details>  <summary>Add Values ...</summary>\n\nFrom the Palette (left pane) drag the ***Value*** type and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description***.\n\n<a href=\"images/help/Add-Value.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-Value.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>\n\n---\n\n<details>  <summary>Add Fieldtype ...</summary>\n\nFrom the Palette (left pane) drag the ***Fieldtype*** type and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description***.\n\n<a href=\"images/help/Add-Fieldtype.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-Fieldtype.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>\n\n---\n\n<details>  <summary>Add InputPattern ...</summary>\n\nFrom the Palette (left pane) drag the ***InputPattern*** type and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description***.\n\n<a href=\"images/help/Add-InputPattern.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-InputPattern.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>\n\n---\n\n<details>  <summary>Add ViewFormat ...</summary>\n\nFrom the Palette (left pane) drag the ***ViewFormat*** type and drop it into the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit  ***description***.\n\n<a href=\"images/help/Add-ViewFormat.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-ViewFormat.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>\n\n---\n\n<details>  <summary>Add Metamodel Object ...</summary>\n\nFrom the Palette (left pane) drag the ***Metamodel*** type and drop outside the Container ***\"Domain\" Types***. Click on the name and edit ***name***.\nRight-Click the object to edit ***description***.\n\nDrag a relationship with type ***contains*** from til ***Metamodel*** object to the EntityType objects to be included in the new Metamodel.\n\n<a href=\"images/help/Add-Metamodel.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-Metamodel.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n</details>",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "96a5d3af-0c53-400c-5f56-4582eec58d71",
-                  "name": "Modify the Type-definition Model --",
-                  "description": "\nIf something is wrong, or you want to change anything, go back to the type definition model, do the necessary changes, and generate the metamodel again.\n\nIf you want to add symbols and colors to your types, go back to your type definition model to add view specifications, and generate the metamodel again.\n\nThe view specifications are done by editing “*Object View*” of the “*EntityType*” objects and by editing “*Relationship View*” of the “*relationshipType*” relationships. \nThe “*Object View*” and “*Relationship View*” definitions are used to define the corresponding “*Object Typeview*” and “*Relationship Typeview*” definitions in the generated metamodel.\n\n<a href=\"images/help/Add-Metamodel.png\" target=\"_blank\">\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\">![Create EntityType](images/help/Add-Metamodel.png)</font></code>\nClick on the picture to open in New Tab!</a>\n\n",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "09792e02-08fe-404b-9d3f-8bebd5d21e44",
-                  "name": "Generate a new Metamodel ...",
-                  "description": "### Generate the new Metamodel\n \nThe first time you want to generate a metamodel from the type definition model, there are a few things you need to do:\n\nGenerate the metamodel content by right clicking the background and choose “***Generate Metamodel***”. Follow the dialog questions:\n\n- “***Do you want to exclude system types***”? Click “*Ok*”.\n- “***Select Target Metamodel***”. Confirm the metamodel in the list.  \n\nYou should then get the message: “***Target metamodel has been successfully generated!***”.\n\nNow it is time to verify your metamodel, to see if you are able to build the desired model based on the type definitions you just created.\n(see next step)",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "272c0cc5-786d-4a4e-46a5-6726489c7455",
-                  "name": "Build a Use-case Model ",
-                  "description": "\nWe build our model by first dragging and dropping first \"*Person*\" and then \"*Car*\". We click on each of them to edit their names:\n\n![alt text](/images/posts/modelling/image_model004.png)\n\nThen when we draw a relationship between the two objects, we are asked to choose a relationship type: \n\n![alt text](/images/posts/modelling/image_model005.png)\n\nWe choose ***owns*** in the modal dialog that pops up, clicks on ***Done*** and the relationship is created. (If you click on the “*x*” in the top right corner of the dialog, the operation is canceled.)\n\nWe continue modeling objects and relationships and may end up with a model like this:\n\n![alt text](/images/posts/modelling/image_model006.png)\n\n\n### Modifying object and relationship views\n\nHow objects and relationships is visualized in the model (icon, fillcolor, framecolor, etc.) is defined in the typeview definitions for each the type. The appearance can be overridden by defining objectviews and relationshipviews.\n\n\nThe objectview of the person “*Me*” looks like this:\n\n![alt text](/images/posts/modelling/image_model007.png)\n\nWe see that we can modify the fillcolor of the object, the “*strokecolor*”, the “*icon*” as so on, and then give the object a specialized look that differs from the default appearance. \n\nWe can do the same with relationships, and modify the color, the arrowheads, and so on, when we want to deviate from the default. \n",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                },
-                {
-                  "id": "e5c31cc7-a39b-4943-9bed-35b4e137d32f",
-                  "name": "More about The Core Metamodel ...",
-                  "description": "### AKM-CORE_MM Metamodel\n\n![image001](images/posts/CustomMeta/Picture1.png)\n\n### Links\n\nYou can find more info following this link : \n<a href=\"/helpblog/002-BuildCustomMetamodels#AKMM%20Help\" target=\"_blank\">\n\n<code style=\"color: blue\"> <font size=\"2\" weight=\"bold\"> How to make Custom Metamodels...</font></code>\n\n</span></a> \n\n</details>",
-                  "abstract": false,
-                  "viewkind": "",
-                  "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-                  "typeName": "Task",
-                  "typeDescription": "",
-                  "propertyValues": [],
-                  "ports": [],
-                  "markedAsDeleted": false,
-                  "generatedTypeId": "",
-                  "modified": true,
-                  "nameId": "Task",
-                  "category": "Object",
-                  "sourceUri": "",
-                  "relshipkind": "Association",
-                  "valueset": null,
-                  "copiedFromId": "",
-                  "proposedType": "",
-                  "text": ""
-                }
-              ],
+              "objects": [],
               "relships": [],
               "modelviews": [],
               "markedAsDeleted": false,
@@ -7396,12 +7191,12 @@
             {
               "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "name": "Property",
-              "abstract": "",
+              "abstract": false,
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-              "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+              "description": "",
               "properties": [
                 {
                   "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -8739,12 +8534,12 @@
             {
               "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "name": "Property",
-              "abstract": "",
+              "abstract": false,
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-              "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+              "description": "",
               "properties": [
                 {
                   "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -9867,6 +9662,7 @@
               "id": "da7e1125-75bf-448a-6fba-67952120f5b7",
               "name": "today",
               "description": "",
+              "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
               "allowedValues": [
                 "now"
               ],
@@ -9911,6 +9707,7 @@
               "id": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
               "name": "condition",
               "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
               "allowedValues": null,
               "defaultValue": "",
               "readOnly": false,
@@ -9925,6 +9722,7 @@
               "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
               "name": "typenames",
               "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
               "allowedValues": null,
               "defaultValue": "",
               "readOnly": false,
@@ -9943,7 +9741,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "3b463d9a-522e-4371-a5f6-75adfa757409",
+                  "id": "ea3469f0-8271-4b83-eb6d-6eb92c4832cb",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -10006,7 +9804,7 @@
                   "example": ""
                 },
                 {
-                  "id": "3301cab5-1cf4-4d46-c5f3-72dfcc9b1d31",
+                  "id": "ae881ede-baa1-4bbb-fb27-312f9508d442",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -10052,7 +9850,7 @@
                   "example": ""
                 },
                 {
-                  "id": "c3b1a347-9125-4a57-3674-bc4e557071a9",
+                  "id": "0f4dfd3e-71e1-4484-5eca-5bd5a7c78488",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -10115,7 +9913,7 @@
                   "example": ""
                 },
                 {
-                  "id": "cb9f9255-98d1-4fdb-d40c-f1cb4f6e3606",
+                  "id": "b5d9f60b-c4bc-4d92-6229-301525a13864",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -10166,7 +9964,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "0378a58c-959e-4e54-c05a-cb3148968757",
+                  "id": "167a8fa1-916f-4754-7a09-dbfc6313629b",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -10217,7 +10015,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "7c2508b6-8140-4074-82ae-b5528d25b186",
+                  "id": "2ba6844a-285d-4c91-f388-0e6dcd2e4ac7",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -10280,7 +10078,7 @@
                   "example": ""
                 },
                 {
-                  "id": "1d0d61c1-4f05-4757-f9b5-ce97de908cb0",
+                  "id": "0507db9f-9d09-41e4-40fc-969e84df5368",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -10326,7 +10124,7 @@
                   "example": ""
                 },
                 {
-                  "id": "702dd933-0385-4d3d-ecfa-66095dc900c4",
+                  "id": "cdd8f673-5094-43ae-b094-af7f05a59bdd",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -10389,7 +10187,7 @@
                   "example": ""
                 },
                 {
-                  "id": "65caee72-d9e8-4e54-d5da-614fbeab0758",
+                  "id": "cd15da06-7ef9-41ef-6fd0-7f4a8ea8f020",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -10431,7 +10229,7 @@
                   "example": ""
                 },
                 {
-                  "id": "5459e3b5-a9d3-4ea7-0667-0a8e72f9f5c7",
+                  "id": "8a044925-5e29-455c-833f-1afc8e679666",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -10473,7 +10271,7 @@
                   "example": ""
                 },
                 {
-                  "id": "b5504597-2ebc-4117-a995-3c395115574d",
+                  "id": "07ebfada-1e32-4dcf-ad7c-7108f7351588",
                   "name": "typecondition",
                   "nameId": "typecondition",
                   "category": "Property",
@@ -10536,7 +10334,7 @@
                   "example": ""
                 },
                 {
-                  "id": "a3b3f2fd-4821-4295-6e93-b532d2c78b79",
+                  "id": "34338ddb-268b-461d-c3f3-75b2baf39f95",
                   "name": "vauecondition",
                   "nameId": "vauecondition",
                   "category": "Property",
@@ -10599,7 +10397,7 @@
                   "example": ""
                 },
                 {
-                  "id": "2ba876af-28bd-4af8-fba4-b2d5036b76eb",
+                  "id": "7f359316-b7ad-4665-cbdf-eb7867623763",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -10662,7 +10460,7 @@
                   "example": ""
                 },
                 {
-                  "id": "d3ee8a07-5390-4fe9-969d-c70f78791fc3",
+                  "id": "0aec4d14-fa21-4d60-b41c-ea748dfe6618",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -11002,11 +10800,11 @@
               "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "viewkind": "Object",
               "template": "textAndIcon",
-              "fillcolor": "#90ee90",
+              "fillcolor": "#90ee91",
               "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
-              "strokecolor2": "black",
+              "strokecolor2": "lightgrey",
               "strokewidth": "1",
               "textcolor": "black",
               "textcolor2": "black",
@@ -11029,7 +10827,7 @@
               "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
-              "strokecolor2": "black",
+              "strokecolor2": "lightgrey",
               "strokewidth": "1",
               "textcolor": "black",
               "textcolor2": "black",
@@ -12092,27 +11890,6 @@
               "modified": false
             },
             {
-              "id": "f558c7c8-3f47-4eb4-795e-9cd173810c6b",
-              "name": "hasSub_Association",
-              "description": "",
-              "typeRef": "7fc5fdc6-fd18-4818-5552-fca61402a193",
-              "template": "linkTemplate1",
-              "strokecolor": "black",
-              "strokewidth": "1",
-              "textcolor": "black",
-              "textscale": "1",
-              "dash": "Dotted",
-              "fromArrow": "",
-              "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
-              "toArrowColor": "white",
-              "routing": "Normal",
-              "corner": "0",
-              "curve": "0",
-              "markedAsDeleted": false,
-              "modified": false
-            },
-            {
               "id": "5dc3f83b-597e-4618-8eae-184c71530d03",
               "name": "to_Association",
               "description": "",
@@ -12150,12 +11927,12 @@
             "b9f5b34e-2ea4-4f68-6421-2e1253c2322d"
           ],
           "subModelRefs": [
-            "333c751d-69c2-476f-b62a-85276d252127"
+            "50c8e858-8239-4194-47f1-559c65caa3c1"
           ],
           "subMetamodels": [],
           "subModels": [
             {
-              "id": "333c751d-69c2-476f-b62a-85276d252127",
+              "id": "50c8e858-8239-4194-47f1-559c65caa3c1",
               "name": "Build a Concept Model",
               "description": "",
               "metamodelRef": "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
@@ -12880,12 +12657,12 @@
             {
               "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "name": "Property",
-              "abstract": "",
+              "abstract": false,
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-              "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+              "description": "",
               "properties": [
                 {
                   "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -13603,7 +13380,7 @@
               "modified": true
             },
             {
-              "id": "c62b848e-390e-447d-9383-ada7682548bf",
+              "id": "d5dcb31b-8508-4483-6be7-02d28d63279e",
               "name": "Is",
               "relshipkind": "Generalization",
               "viewkind": "",
@@ -13621,7 +13398,7 @@
               "modified": true
             },
             {
-              "id": "350cd162-4986-434e-74eb-6edab0bdea87",
+              "id": "43081f1e-8479-45ad-3297-8fae2b0509c0",
               "name": "Is",
               "relshipkind": "Generalization",
               "viewkind": "",
@@ -13639,7 +13416,7 @@
               "modified": true
             },
             {
-              "id": "28a6c94f-81b9-4f27-dc72-ae4b1192ba13",
+              "id": "45b04be6-9075-4bb3-d170-6603d671aa47",
               "name": "Is",
               "relshipkind": "Generalization",
               "viewkind": "",
@@ -13657,7 +13434,7 @@
               "modified": true
             },
             {
-              "id": "c70fe08e-3810-424c-9770-3efd10c5b395",
+              "id": "50bb09bf-9f8f-4cb5-c794-4c7922dd45d3",
               "name": "Is",
               "relshipkind": "Generalization",
               "viewkind": "",
@@ -13675,7 +13452,7 @@
               "modified": true
             },
             {
-              "id": "07f2084c-7469-4433-531c-9518b1298a67",
+              "id": "300407db-c3a1-409c-f2e8-b3203a10b09b",
               "name": "Is",
               "relshipkind": "Generalization",
               "viewkind": "",
@@ -13873,13 +13650,13 @@
               "modified": true
             },
             {
-              "id": "4f673acd-ca6c-4309-0235-d1d7767c826d",
+              "id": "5289eb89-c816-4664-2b74-0fce8be8b4ef",
               "name": "worksOn",
               "relshipkind": "Association",
               "viewkind": "",
               "fromobjtypeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
               "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-              "typeviewRef": "6048d2a0-b639-4dd9-9fa6-e63be4fc04f3",
+              "typeviewRef": "ccef0cf0-642d-497f-c084-b407dd69f210",
               "description": "",
               "properties": [],
               "cardinality": "",
@@ -14005,12 +13782,12 @@
             {
               "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "name": "Property",
-              "abstract": "",
+              "abstract": false,
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
               "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-              "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
+              "description": "",
               "properties": [
                 {
                   "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -14377,13 +14154,31 @@
               "modified": true
             },
             {
-              "id": "4f673acd-ca6c-4309-0235-d1d7767c826d",
+              "id": "0f5dcee3-0d16-4199-0bdd-a781410b2f9e",
+              "name": "includes",
+              "relshipkind": "Association",
+              "viewkind": "",
+              "fromobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
+              "toobjtypeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
+              "typeviewRef": "13bc15a6-7c6e-4056-df42-aa489188e40e",
+              "description": "",
+              "properties": [],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "5289eb89-c816-4664-2b74-0fce8be8b4ef",
               "name": "worksOn",
               "relshipkind": "Association",
               "viewkind": "",
               "fromobjtypeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
               "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-              "typeviewRef": "6048d2a0-b639-4dd9-9fa6-e63be4fc04f3",
+              "typeviewRef": "ccef0cf0-642d-497f-c084-b407dd69f210",
               "description": "",
               "properties": [],
               "cardinality": "",
@@ -14403,7 +14198,7 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
+              "readOnly": "",
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14463,7 +14258,6 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14478,7 +14272,7 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
+              "readOnly": "",
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14493,7 +14287,7 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
+              "readOnly": "",
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14508,7 +14302,7 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
+              "readOnly": "",
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14523,7 +14317,7 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
+              "readOnly": "",
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14538,7 +14332,7 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
+              "readOnly": "",
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14553,7 +14347,7 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
+              "readOnly": "",
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14568,7 +14362,7 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
+              "readOnly": "",
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14583,7 +14377,7 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
+              "readOnly": "",
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14598,7 +14392,7 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
+              "readOnly": "",
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14613,7 +14407,7 @@
               "inputPattern": "",
               "viewFormat": "",
               "example": "",
-              "readOnly": false,
+              "readOnly": "",
               "markedAsDeleted": false,
               "modified": false,
               "description": " ",
@@ -14762,6 +14556,7 @@
               "id": "da7e1125-75bf-448a-6fba-67952120f5b7",
               "name": "today",
               "description": "",
+              "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
               "allowedValues": [
                 "now"
               ],
@@ -14866,6 +14661,7 @@
               "id": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
               "name": "condition",
               "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
               "allowedValues": null,
               "defaultValue": "",
               "readOnly": false,
@@ -14894,6 +14690,7 @@
               "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
               "name": "typenames",
               "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
               "allowedValues": null,
               "defaultValue": "",
               "readOnly": false,
@@ -15076,7 +14873,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "3b463d9a-522e-4371-a5f6-75adfa757409",
+                  "id": "ea3469f0-8271-4b83-eb6d-6eb92c4832cb",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -15139,7 +14936,7 @@
                   "example": ""
                 },
                 {
-                  "id": "3301cab5-1cf4-4d46-c5f3-72dfcc9b1d31",
+                  "id": "ae881ede-baa1-4bbb-fb27-312f9508d442",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -15185,7 +14982,7 @@
                   "example": ""
                 },
                 {
-                  "id": "c3b1a347-9125-4a57-3674-bc4e557071a9",
+                  "id": "0f4dfd3e-71e1-4484-5eca-5bd5a7c78488",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -15248,7 +15045,7 @@
                   "example": ""
                 },
                 {
-                  "id": "cb9f9255-98d1-4fdb-d40c-f1cb4f6e3606",
+                  "id": "b5d9f60b-c4bc-4d92-6229-301525a13864",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -15299,7 +15096,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "0378a58c-959e-4e54-c05a-cb3148968757",
+                  "id": "167a8fa1-916f-4754-7a09-dbfc6313629b",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -15350,7 +15147,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "7c2508b6-8140-4074-82ae-b5528d25b186",
+                  "id": "2ba6844a-285d-4c91-f388-0e6dcd2e4ac7",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -15413,7 +15210,7 @@
                   "example": ""
                 },
                 {
-                  "id": "1d0d61c1-4f05-4757-f9b5-ce97de908cb0",
+                  "id": "0507db9f-9d09-41e4-40fc-969e84df5368",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -15459,7 +15256,7 @@
                   "example": ""
                 },
                 {
-                  "id": "702dd933-0385-4d3d-ecfa-66095dc900c4",
+                  "id": "cdd8f673-5094-43ae-b094-af7f05a59bdd",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -15522,7 +15319,7 @@
                   "example": ""
                 },
                 {
-                  "id": "65caee72-d9e8-4e54-d5da-614fbeab0758",
+                  "id": "cd15da06-7ef9-41ef-6fd0-7f4a8ea8f020",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -15564,7 +15361,7 @@
                   "example": ""
                 },
                 {
-                  "id": "5459e3b5-a9d3-4ea7-0667-0a8e72f9f5c7",
+                  "id": "8a044925-5e29-455c-833f-1afc8e679666",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -15606,7 +15403,7 @@
                   "example": ""
                 },
                 {
-                  "id": "b5504597-2ebc-4117-a995-3c395115574d",
+                  "id": "07ebfada-1e32-4dcf-ad7c-7108f7351588",
                   "name": "typecondition",
                   "nameId": "typecondition",
                   "category": "Property",
@@ -15669,7 +15466,7 @@
                   "example": ""
                 },
                 {
-                  "id": "a3b3f2fd-4821-4295-6e93-b532d2c78b79",
+                  "id": "34338ddb-268b-461d-c3f3-75b2baf39f95",
                   "name": "vauecondition",
                   "nameId": "vauecondition",
                   "category": "Property",
@@ -15732,7 +15529,7 @@
                   "example": ""
                 },
                 {
-                  "id": "2ba876af-28bd-4af8-fba4-b2d5036b76eb",
+                  "id": "7f359316-b7ad-4665-cbdf-eb7867623763",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -15795,7 +15592,7 @@
                   "example": ""
                 },
                 {
-                  "id": "d3ee8a07-5390-4fe9-969d-c70f78791fc3",
+                  "id": "0aec4d14-fa21-4d60-b41c-ea748dfe6618",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -15958,29 +15755,6 @@
               "geometry": ""
             },
             {
-              "id": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
-              "name": "EntityType",
-              "description": "",
-              "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-              "viewkind": "Object",
-              "template": "textAndIcon",
-              "fillcolor": "#ffffff",
-              "fillcolor2": "white",
-              "strokecolor": "black",
-              "strokecolor1": "black",
-              "strokecolor2": "black",
-              "strokewidth": "1",
-              "textcolor": "black",
-              "textcolor2": "black",
-              "textscale": "1",
-              "memberscale": 1,
-              "icon": "",
-              "image": "",
-              "markedAsDeleted": false,
-              "modified": false,
-              "geometry": ""
-            },
-            {
               "id": "97cd539e-ff8c-4727-1640-2d9bca03a1ff",
               "name": "Information",
               "description": "./../images/types/Information.png",
@@ -16102,17 +15876,40 @@
               "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
               "viewkind": "Object",
               "template": "textAndIcon",
-              "fillcolor": "#90ee90",
+              "fillcolor": "#90ee91",
               "fillcolor2": "white",
               "strokecolor": "black",
               "strokecolor1": "black",
-              "strokecolor2": "black",
+              "strokecolor2": "lightgrey",
               "strokewidth": "1",
               "textcolor": "black",
               "textcolor2": "black",
               "textscale": "1",
               "memberscale": 1,
               "icon": "./../images/types/Property.png",
+              "image": "",
+              "markedAsDeleted": false,
+              "modified": false,
+              "geometry": ""
+            },
+            {
+              "id": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
+              "name": "EntityType",
+              "description": "",
+              "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+              "viewkind": "Object",
+              "template": "textAndIcon",
+              "fillcolor": "#ffffff",
+              "fillcolor2": "white",
+              "strokecolor": "black",
+              "strokecolor1": "black",
+              "strokecolor2": "lightgrey",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textcolor2": "black",
+              "textscale": "1",
+              "memberscale": 1,
+              "icon": "",
               "image": "",
               "markedAsDeleted": false,
               "modified": false,
@@ -16373,7 +16170,7 @@
               "strokecolor": "black",
               "strokewidth": "1",
               "textcolor": "black",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -16394,7 +16191,7 @@
               "strokecolor": "black",
               "strokewidth": "1",
               "textcolor": "black",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -16415,7 +16212,7 @@
               "strokecolor": "#006600",
               "strokewidth": "1",
               "textcolor": "darkgreen",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -16436,7 +16233,7 @@
               "strokecolor": "#a31800",
               "strokewidth": "1",
               "textcolor": "darkred",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -16449,6 +16246,48 @@
               "modified": false
             },
             {
+              "id": "f558c7c8-3f47-4eb4-795e-9cd173810c6b",
+              "name": "hasSub_Association",
+              "description": "",
+              "typeRef": "7fc5fdc6-fd18-4818-5552-fca61402a193",
+              "template": "linkTemplate1",
+              "strokecolor": "black",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textscale": "1",
+              "dash": "None",
+              "fromArrow": "",
+              "toArrow": "OpenTriangle",
+              "fromArrowColor": "",
+              "toArrowColor": "white",
+              "routing": "Normal",
+              "corner": "0",
+              "curve": "0",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "13bc15a6-7c6e-4056-df42-aa489188e40e",
+              "name": "includes_Association",
+              "description": "",
+              "typeRef": "0f5dcee3-0d16-4199-0bdd-a781410b2f9e",
+              "template": "linkTemplate1",
+              "strokecolor": "black",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textscale": "1",
+              "dash": "None",
+              "fromArrow": "",
+              "toArrow": "OpenTriangle",
+              "fromArrowColor": "",
+              "toArrowColor": "white",
+              "routing": "Normal",
+              "corner": "0",
+              "curve": "0",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
               "id": "fb093c86-4519-4a06-46a5-92fb260564b5",
               "name": "includes_Association",
               "description": "",
@@ -16457,7 +16296,7 @@
               "strokecolor": "black",
               "strokewidth": "1",
               "textcolor": "black",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -16617,10 +16456,10 @@
               "modified": false
             },
             {
-              "id": "6048d2a0-b639-4dd9-9fa6-e63be4fc04f3",
+              "id": "ccef0cf0-642d-497f-c084-b407dd69f210",
               "name": "worksOn_Association",
               "description": "",
-              "typeRef": "4f673acd-ca6c-4309-0235-d1d7767c826d",
+              "typeRef": "5289eb89-c816-4664-2b74-0fce8be8b4ef",
               "template": "linkTemplate1",
               "strokecolor": "black",
               "strokewidth": "1",
@@ -16650,7 +16489,7 @@
       ],
       "models": [
         {
-          "id": "e97c4a99-3467-4d84-99ee-02677990062d",
+          "id": "570f3be2-4aa4-4b48-a6ca-d450ebbd81f7",
           "name": "OSDU-Schema-model_TD",
           "description": "OSDU Entity Type Model, modeling with the OSDU EntityTypes based on AKM-OSDU_MM Metamodel",
           "metamodelRef": "09b32323-83a7-444a-f4ca-1257bd520bc0",
@@ -16664,7 +16503,7 @@
           "relships": [],
           "modelviews": [
             {
-              "id": "71518ebb-c635-48d2-b943-c949124081a6",
+              "id": "2e2ab807-0774-494d-b6a3-b5594afdef79",
               "name": "0-Main",
               "objectviews": [],
               "relshipviews": []
@@ -17970,8 +17809,8 @@
       ],
       "submodels": [],
       "currentMetamodelRef": "09b32323-83a7-444a-f4ca-1257bd520bc0",
-      "currentModelRef": "e97c4a99-3467-4d84-99ee-02677990062d",
-      "currentModelviewRef": "71518ebb-c635-48d2-b943-c949124081a6",
+      "currentModelRef": "570f3be2-4aa4-4b48-a6ca-d450ebbd81f7",
+      "currentModelviewRef": "2e2ab807-0774-494d-b6a3-b5594afdef79",
       "currentTemplateModelRef": "",
       "currentTargetMetamodelRef": "",
       "currentTargetModelRef": "",
@@ -17986,7 +17825,7 @@
     "focusTargetModel": null,
     "focusTargetModelview": null,
     "focusModel": {
-      "id": "e97c4a99-3467-4d84-99ee-02677990062d",
+      "id": "570f3be2-4aa4-4b48-a6ca-d450ebbd81f7",
       "name": "OSDU-Schema-model_TD"
     },
     "focusObject": {
@@ -18144,11 +17983,11 @@
       "name": "New-types"
     },
     "focusTargetMetamodel": {
-      "id": "09b32323-83a7-444a-f4ca-1257bd520bc0",
-      "name": "AKM-OSDU_MM"
+      "id": "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
+      "name": "AKM-IRTV_MM"
     },
     "focusModelview": {
-      "id": "71518ebb-c635-48d2-b943-c949124081a6",
+      "id": "2e2ab807-0774-494d-b6a3-b5594afdef79",
       "name": "0-Main"
     }
   },
@@ -18160,5 +17999,5 @@
     }
   },
   "phSource": "AKM-OSDU-Schemamodelling-Template",
-  "lastUpdate": "2024-02-20T14:04:08.136Z"
+  "lastUpdate": "2024-02-21T15:50:52.681Z"
 }
