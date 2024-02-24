@@ -4,16 +4,16 @@
   "description": "",
   "metamodelRefs": [],
   "subMetamodelRefs": [
-    "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
-    "b9f5b34e-2ea4-4f68-6421-2e1253c2322d"
+    "b9f5b34e-2ea4-4f68-6421-2e1253c2322d",
+    "42c16e69-49ec-45b9-080e-0ca3ab8e0223"
   ],
   "subModelRefs": [
-    "c3f57ec3-1a64-4cc2-297b-cee783fec0b8"
+    "1155c841-de6a-40ff-bfe8-68cdc27535e4"
   ],
   "subMetamodels": [],
   "subModels": [
     {
-      "id": "c3f57ec3-1a64-4cc2-297b-cee783fec0b8",
+      "id": "1155c841-de6a-40ff-bfe8-68cdc27535e4",
       "name": "Import OSDU Schema",
       "description": "",
       "metamodelRef": "09b32323-83a7-444a-f4ca-1257bd520bc0",
@@ -25,97 +25,7 @@
       "includeRelshipkind": false,
       "isTemplate": false,
       "templates": [],
-      "objects": [
-        {
-          "id": "625e2225-4f89-4dce-46f8-08fd40fcd372",
-          "name": "Download json file(s)",
-          "description": "#### Download Schema from OSDU\n\nOSDU Schema is stored as JSON-files in: \n\n[https://community.opengroup.org/osdu/data/data-definitions/Generated](https://community.opengroup.org/osdu/data/data-definitions/-/tree/master/Generated)\n\n - Cick on the Downlad-button ( upper-right ) and you can download the whole directory.\nUnpack the zip-file, and you now have a folder with all OSDU Schema- types\n\n",
-          "abstract": false,
-          "viewkind": "",
-          "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-          "typeName": "Task",
-          "typeDescription": "",
-          "propertyValues": [],
-          "ports": [],
-          "markedAsDeleted": false,
-          "generatedTypeId": "",
-          "modified": true,
-          "nameId": "Task",
-          "category": "Object",
-          "sourceUri": "",
-          "relshipkind": "Association",
-          "valueset": null,
-          "copiedFromId": "",
-          "proposedType": "",
-          "text": ""
-        },
-        {
-          "id": "57434e8a-6f7e-4271-66f6-545ee40ca145",
-          "name": "Import json (files)",
-          "description": "### Import Schema files into AKM Modeller\n\n    1.  Click on the OSDU (blue button) in the Modelling bar.\n\n  2. Select the EntityType Groups and Property/PropertyLinks etc. you want to include in the import.\n\n  3. Click \"Choose files\" and locate the folder where you downloaded the OSDU json-files.\n\n  4. Select one or more files to be imported. (You can alternative select a directory (all files in the directory will be imported)\n\n  5. Click on the blue  \"Done\" button at the down-right.\nClick on the \"Reload\" button in the Modelling bar.\n\n  6. Open the \"Objects\" pane to the left (next to the modeling area)\n\n  7. Drag and drop the Schema-types (white objects) into the modelling area.\n\n  8. Click on the \"OSDU\" button in the Modeling bar again.\n\n  9. Click on \"CONVERT PROPERTYLINKS (OBJECTS) TO RELATIONSHIPS BETWEEN ENTITYTYPES\" to generate relationship between the types. Click \"DONE\" button.\n\n  10. Right-Click on the background and select: \"Add Missing Relationship Views\" to view the relationships.\n\n  11. Arrange the objects (You can also add Containers to organize the Objects)\n",
-          "abstract": "",
-          "viewkind": "",
-          "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-          "typeName": "Task",
-          "typeDescription": "",
-          "propertyValues": [],
-          "ports": [],
-          "markedAsDeleted": false,
-          "generatedTypeId": "",
-          "modified": true,
-          "nameId": "Task",
-          "category": "Object",
-          "sourceUri": "",
-          "relshipkind": "Association",
-          "valueset": null,
-          "copiedFromId": "",
-          "proposedType": "",
-          "text": "",
-          "created": "",
-          "image": "",
-          "textcolor": "",
-          "fillcolor": "",
-          "strokecolor": "",
-          "icon": "",
-          "href": "",
-          "strokecolor2": "",
-          "fillcolor2": "",
-          "textcolor2": ""
-        },
-        {
-          "id": "1f6a48d4-3a60-41d6-9104-22c49b76c41d",
-          "name": "View the Properties",
-          "description": "### View the Propertes of the Type (EntityType)\n\n - First make a new Modelview (You can name it \"2-Properties\")\n\n - Copy one or more of the EntityTypes.\n\n - Open the new Modelview and \"Paste as view\"\nArrange the objectviews with some distance.\n\n - Right-click one of them and select \"Add Connected Objects\"\n\nKeep the sublevels: \"1\"\n(this will add the properties of the EntityType)\n\n",
-          "abstract": "",
-          "viewkind": "",
-          "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
-          "typeName": "Task",
-          "typeDescription": "",
-          "propertyValues": [],
-          "ports": [],
-          "markedAsDeleted": false,
-          "generatedTypeId": "",
-          "modified": true,
-          "nameId": "Task",
-          "category": "Object",
-          "sourceUri": "",
-          "relshipkind": "Association",
-          "valueset": null,
-          "copiedFromId": "",
-          "proposedType": "",
-          "text": "",
-          "created": "",
-          "image": "",
-          "textcolor": "",
-          "fillcolor": "",
-          "strokecolor": "",
-          "icon": "",
-          "href": "",
-          "strokecolor2": "",
-          "fillcolor2": "",
-          "textcolor2": ""
-        }
-      ],
+      "objects": [],
       "relships": [],
       "modelviews": [],
       "markedAsDeleted": false,
@@ -172,7 +82,7 @@
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "da7e1125-75bf-448a-6fba-67952120f5b7",
+          "datatypeRef": "7dadf943-db4e-4607-1521-353170321449",
           "methodRef": "",
           "unitCategoryRef": ""
         },
@@ -201,7 +111,7 @@
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "da7e1125-75bf-448a-6fba-67952120f5b7",
+          "datatypeRef": "7dadf943-db4e-4607-1521-353170321449",
           "methodRef": "",
           "unitCategoryRef": ""
         },
@@ -539,7 +449,7 @@
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": false,
+          "readOnly": "",
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -570,12 +480,12 @@
     {
       "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "name": "Property",
-      "abstract": false,
+      "abstract": "",
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-      "description": "",
+      "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
       "properties": [
         {
           "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -1309,7 +1219,7 @@
       "modified": true
     },
     {
-      "id": "80d7bc3e-28a6-4b24-9134-419f9f7fc087",
+      "id": "d4cd100f-4cd7-4284-b448-41d2839099da",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -1327,7 +1237,7 @@
       "modified": true
     },
     {
-      "id": "b5be987c-6a7d-44c5-4410-68ea8d2c3210",
+      "id": "1e9901e8-dd66-46bb-4cf6-5b17ca6a97ad",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -1345,7 +1255,7 @@
       "modified": true
     },
     {
-      "id": "5a473d8e-eb6d-43f0-eb26-b8a1731f4432",
+      "id": "12169d53-0b01-4ba3-aed5-7c01c998ec8e",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -1381,13 +1291,13 @@
       "modified": true
     },
     {
-      "id": "ff4b7244-0b10-4da0-5a7f-4903dfa858c5",
+      "id": "424f9f4a-209b-4890-fa13-f98c53b7171e",
       "name": "has",
       "relshipkind": "Association",
       "viewkind": "",
       "fromobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "toobjtypeRef": "6eafcc35-1250-4e18-4fd9-9be41256ff1f",
-      "typeviewRef": "db3a2caf-1215-4c03-6d46-094e74b73ba5",
+      "toobjtypeRef": "55838cca-0fe5-4f63-5d16-58bc546b7c1f",
+      "typeviewRef": "a3765619-c6a0-4428-7e10-2e5bf79b2209",
       "description": "",
       "properties": [],
       "cardinality": "",
@@ -1399,13 +1309,13 @@
       "modified": true
     },
     {
-      "id": "0da3107e-b1ba-4838-a067-e7b898103805",
+      "id": "b1020dc2-7b58-4a24-c7ed-eeedc6b103c6",
       "name": "has",
       "relshipkind": "Association",
       "viewkind": "",
       "fromobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "toobjtypeRef": "55838cca-0fe5-4f63-5d16-58bc546b7c1f",
-      "typeviewRef": "1a22eb40-8a82-4b24-bff7-28c9c1144a59",
+      "toobjtypeRef": "6eafcc35-1250-4e18-4fd9-9be41256ff1f",
+      "typeviewRef": "d7255783-8edd-44c0-2691-bed50fc2db69",
       "description": "",
       "properties": [],
       "cardinality": "",
@@ -1471,7 +1381,7 @@
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "da7e1125-75bf-448a-6fba-67952120f5b7",
+          "datatypeRef": "7dadf943-db4e-4607-1521-353170321449",
           "methodRef": "",
           "unitCategoryRef": ""
         },
@@ -1500,7 +1410,7 @@
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "da7e1125-75bf-448a-6fba-67952120f5b7",
+          "datatypeRef": "7dadf943-db4e-4607-1521-353170321449",
           "methodRef": "",
           "unitCategoryRef": ""
         },
@@ -1806,7 +1716,7 @@
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": false,
+          "readOnly": "",
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -1837,12 +1747,12 @@
     {
       "id": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "name": "Property",
-      "abstract": false,
+      "abstract": "",
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "8f3d8906-ea8c-4cd3-c95b-573f05f25d50",
-      "description": "",
+      "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
       "properties": [
         {
           "id": "f7fb44a4-d92f-4c0d-ac61-b6fb14994785",
@@ -1948,13 +1858,13 @@
       "modified": true
     },
     {
-      "id": "ff4b7244-0b10-4da0-5a7f-4903dfa858c5",
+      "id": "424f9f4a-209b-4890-fa13-f98c53b7171e",
       "name": "has",
       "relshipkind": "Association",
       "viewkind": "",
       "fromobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "toobjtypeRef": "6eafcc35-1250-4e18-4fd9-9be41256ff1f",
-      "typeviewRef": "db3a2caf-1215-4c03-6d46-094e74b73ba5",
+      "toobjtypeRef": "55838cca-0fe5-4f63-5d16-58bc546b7c1f",
+      "typeviewRef": "a3765619-c6a0-4428-7e10-2e5bf79b2209",
       "description": "",
       "properties": [],
       "cardinality": "",
@@ -1966,13 +1876,13 @@
       "modified": true
     },
     {
-      "id": "0da3107e-b1ba-4838-a067-e7b898103805",
+      "id": "b1020dc2-7b58-4a24-c7ed-eeedc6b103c6",
       "name": "has",
       "relshipkind": "Association",
       "viewkind": "",
       "fromobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "toobjtypeRef": "55838cca-0fe5-4f63-5d16-58bc546b7c1f",
-      "typeviewRef": "1a22eb40-8a82-4b24-bff7-28c9c1144a59",
+      "toobjtypeRef": "6eafcc35-1250-4e18-4fd9-9be41256ff1f",
+      "typeviewRef": "d7255783-8edd-44c0-2691-bed50fc2db69",
       "description": "",
       "properties": [],
       "cardinality": "",
@@ -2041,7 +1951,7 @@
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
-      "datatypeRef": "da7e1125-75bf-448a-6fba-67952120f5b7",
+      "datatypeRef": "7dadf943-db4e-4607-1521-353170321449",
       "methodRef": "",
       "unitCategoryRef": ""
     },
@@ -2071,7 +1981,7 @@
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
-      "datatypeRef": "da7e1125-75bf-448a-6fba-67952120f5b7",
+      "datatypeRef": "7dadf943-db4e-4607-1521-353170321449",
       "methodRef": "",
       "unitCategoryRef": ""
     },
@@ -2211,7 +2121,22 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "8e2f6401-2f31-4687-9adc-1ec3b9b6383f",
+      "id": "4dd11801-4872-4523-e55c-5b7bfd8051d8",
+      "name": "linkID",
+      "defaultValue": "",
+      "inputPattern": "",
+      "viewFormat": "",
+      "example": "",
+      "readOnly": false,
+      "markedAsDeleted": false,
+      "modified": false,
+      "description": " ",
+      "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+      "methodRef": "",
+      "unitCategoryRef": ""
+    },
+    {
+      "id": "f6d8fa7b-9604-4009-0dda-1b38e9c3db48",
       "name": "expression",
       "defaultValue": "",
       "inputPattern": "",
@@ -2226,7 +2151,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "922fe41d-38a6-4b79-a1bd-0c1eb4d24954",
+      "id": "9221113d-54ce-4c6f-db99-a6c17fbbd18b",
       "name": "reltypes",
       "defaultValue": "",
       "inputPattern": "",
@@ -2241,7 +2166,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "ae96d52d-c309-4ef3-39b5-12e3d3dfe942",
+      "id": "6d28dad6-6bac-4021-4bf9-19cde75b2e56",
       "name": "reldir",
       "defaultValue": "",
       "inputPattern": "",
@@ -2256,7 +2181,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "e8ac6c09-df15-4466-24c7-9a72332cbf45",
+      "id": "bfea2dc2-108c-4bb5-eb35-3ad70e8de7e6",
       "name": "objtypes",
       "defaultValue": "",
       "inputPattern": "",
@@ -2271,7 +2196,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "819b4702-1a68-4fc4-c78c-30c3f96cff9b",
+      "id": "0e963a58-3e3c-448c-73af-58452e30974c",
       "name": "nolevels",
       "defaultValue": "",
       "inputPattern": "",
@@ -2286,7 +2211,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "26b539e4-adb0-40ab-f7d1-55ce1b01dc71",
+      "id": "42373f24-cf07-4994-44d2-b6c48418771b",
       "name": "typecondition",
       "defaultValue": "",
       "inputPattern": "",
@@ -2301,7 +2226,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "efb33b81-bf3d-4cc7-c030-2d12d0612cb0",
+      "id": "fd8c9761-7c99-47fe-102f-75d964de4cf9",
       "name": "vauecondition",
       "defaultValue": "",
       "inputPattern": "",
@@ -2316,7 +2241,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "ad2cf4e0-14d1-4f15-d4ed-c0a65d3c4a0c",
+      "id": "a5009204-4749-4de5-e053-bca08da50e96",
       "name": "preaction",
       "defaultValue": "",
       "inputPattern": "",
@@ -2331,7 +2256,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "79c9faa7-1824-420f-0c8b-9cab5609cf6f",
+      "id": "86e8eebe-63ae-4662-d56d-0f1d93860027",
       "name": "postaction",
       "defaultValue": "",
       "inputPattern": "",
@@ -2344,40 +2269,9 @@
       "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
       "methodRef": "",
       "unitCategoryRef": ""
-    },
-    {
-      "id": "4dd11801-4872-4523-e55c-5b7bfd8051d8",
-      "name": "linkID",
-      "defaultValue": "",
-      "inputPattern": "",
-      "viewFormat": "",
-      "example": "",
-      "readOnly": false,
-      "markedAsDeleted": false,
-      "modified": false,
-      "description": " ",
-      "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
-      "methodRef": "",
-      "unitCategoryRef": ""
     }
   ],
   "datatypes": [
-    {
-      "id": "da7e1125-75bf-448a-6fba-67952120f5b7",
-      "name": "today",
-      "description": "",
-      "allowedValues": [
-        "now"
-      ],
-      "defaultValue": "now",
-      "readOnly": false,
-      "value": "",
-      "inputPattern": "",
-      "viewFormat": "%s",
-      "fieldType": "date",
-      "markedAsDeleted": false,
-      "modified": false
-    },
     {
       "id": "518ec255-7792-4e1d-627d-4d8e85b6b2c3",
       "name": "url",
@@ -2680,7 +2574,7 @@
       "description": "",
       "properties": [
         {
-          "id": "ea3469f0-8271-4b83-eb6d-6eb92c4832cb",
+          "id": "fc8491e1-5d3a-417d-cf6b-865be2f2917c",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -2743,7 +2637,7 @@
           "example": ""
         },
         {
-          "id": "ae881ede-baa1-4bbb-fb27-312f9508d442",
+          "id": "b22441a7-46e4-43c2-7b02-dd7b269da215",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -2789,7 +2683,7 @@
           "example": ""
         },
         {
-          "id": "0f4dfd3e-71e1-4484-5eca-5bd5a7c78488",
+          "id": "9e878747-bd69-4baf-5f72-2ab25325d90b",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -2852,7 +2746,7 @@
           "example": ""
         },
         {
-          "id": "b5d9f60b-c4bc-4d92-6229-301525a13864",
+          "id": "d3295f09-641e-4147-44c9-1476519fd6f4",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -2903,7 +2797,7 @@
       "description": "",
       "properties": [
         {
-          "id": "167a8fa1-916f-4754-7a09-dbfc6313629b",
+          "id": "edae1bfe-7494-4d16-9e57-22be49a7eda6",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -2954,7 +2848,7 @@
       "description": "",
       "properties": [
         {
-          "id": "2ba6844a-285d-4c91-f388-0e6dcd2e4ac7",
+          "id": "301d2174-d8fa-4096-1ebf-fd6d404039a5",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -3017,7 +2911,7 @@
           "example": ""
         },
         {
-          "id": "0507db9f-9d09-41e4-40fc-969e84df5368",
+          "id": "c4b44ad7-3a5e-42d5-395e-92abde127485",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -3063,7 +2957,7 @@
           "example": ""
         },
         {
-          "id": "cdd8f673-5094-43ae-b094-af7f05a59bdd",
+          "id": "a24fbd6d-0045-467c-3bfb-00f6e83082ac",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -3126,7 +3020,7 @@
           "example": ""
         },
         {
-          "id": "cd15da06-7ef9-41ef-6fd0-7f4a8ea8f020",
+          "id": "3d3a2e21-314d-4847-66e8-6911a0624f82",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -3168,7 +3062,7 @@
           "example": ""
         },
         {
-          "id": "8a044925-5e29-455c-833f-1afc8e679666",
+          "id": "29bdb63e-397e-47e0-1b1c-18ba8e4c1cf0",
           "name": "nolevels",
           "nameId": "nolevels",
           "category": "Property",
@@ -3210,7 +3104,7 @@
           "example": ""
         },
         {
-          "id": "07ebfada-1e32-4dcf-ad7c-7108f7351588",
+          "id": "a9678e4b-615d-4ba8-c7fc-6fda88dce2f5",
           "name": "typecondition",
           "nameId": "typecondition",
           "category": "Property",
@@ -3273,7 +3167,7 @@
           "example": ""
         },
         {
-          "id": "34338ddb-268b-461d-c3f3-75b2baf39f95",
+          "id": "7ec84395-261a-47dd-e57a-e88f3e61eef9",
           "name": "vauecondition",
           "nameId": "vauecondition",
           "category": "Property",
@@ -3336,7 +3230,7 @@
           "example": ""
         },
         {
-          "id": "7f359316-b7ad-4665-cbdf-eb7867623763",
+          "id": "e9e725a2-b904-48a7-55d6-ba37bcda60e9",
           "name": "preaction",
           "nameId": "preaction",
           "category": "Property",
@@ -3399,7 +3293,7 @@
           "example": ""
         },
         {
-          "id": "0aec4d14-fa21-4d60-b41c-ea748dfe6618",
+          "id": "16f9ad46-98f7-438a-04e5-4cfc3a5a36e5",
           "name": "postaction",
           "nameId": "postaction",
           "category": "Property",
@@ -3556,7 +3450,7 @@
       "textscale": "1",
       "memberscale": 1,
       "icon": "",
-      "image": "",
+      "image": "./../images/blank.png",
       "markedAsDeleted": false,
       "modified": false,
       "geometry": ""
@@ -3637,11 +3531,11 @@
       "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "fillcolor": "#90ee91",
+      "fillcolor": "#90ee90",
       "fillcolor2": "white",
       "strokecolor": "black",
       "strokecolor1": "black",
-      "strokecolor2": "lightgrey",
+      "strokecolor2": "black",
       "strokewidth": "1",
       "textcolor": "black",
       "textcolor2": "black",
@@ -3664,7 +3558,7 @@
       "fillcolor2": "white",
       "strokecolor": "black",
       "strokecolor1": "black",
-      "strokecolor2": "lightgrey",
+      "strokecolor2": "black",
       "strokewidth": "1",
       "textcolor": "black",
       "textcolor2": "black",
@@ -3690,17 +3584,6 @@
       "modified": false
     },
     {
-      "id": "8032639d-6177-4e8a-1087-eff955c34f47",
-      "name": "",
-      "typeRef": "",
-      "metamodelRef": "",
-      "loc": "",
-      "size": "",
-      "description": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
       "id": "9b1a0200-fd5e-4bb0-10b4-ba3aeff78f6f",
       "name": "",
       "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
@@ -3718,28 +3601,6 @@
       "metamodelRef": "09b32323-83a7-444a-f4ca-1257bd520bc0",
       "loc": "0 0",
       "size": "100 50",
-      "description": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "9d2d6196-d45f-4697-44e3-2dc427b3d99d",
-      "name": "",
-      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "metamodelRef": "09b32323-83a7-444a-f4ca-1257bd520bc0",
-      "loc": "0 0",
-      "size": "100 50",
-      "description": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "d652eeeb-c129-4f30-2c5b-fc59113d9480",
-      "name": "",
-      "typeRef": "",
-      "metamodelRef": "",
-      "loc": "",
-      "size": "",
       "description": "",
       "markedAsDeleted": false,
       "modified": false
@@ -3756,17 +3617,6 @@
       "modified": false
     },
     {
-      "id": "8032639d-6177-4e8a-1087-eff955c34f47",
-      "name": "",
-      "typeRef": "",
-      "metamodelRef": "",
-      "loc": "",
-      "size": "",
-      "description": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
       "id": "9b1a0200-fd5e-4bb0-10b4-ba3aeff78f6f",
       "name": "",
       "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
@@ -3784,28 +3634,6 @@
       "metamodelRef": "09b32323-83a7-444a-f4ca-1257bd520bc0",
       "loc": "0 0",
       "size": "100 50",
-      "description": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "9d2d6196-d45f-4697-44e3-2dc427b3d99d",
-      "name": "",
-      "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "metamodelRef": "09b32323-83a7-444a-f4ca-1257bd520bc0",
-      "loc": "0 0",
-      "size": "100 50",
-      "description": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "d652eeeb-c129-4f30-2c5b-fc59113d9480",
-      "name": "",
-      "typeRef": "",
-      "metamodelRef": "",
-      "loc": "",
-      "size": "",
       "description": "",
       "markedAsDeleted": false,
       "modified": false
@@ -3876,180 +3704,12 @@
       "modified": false
     },
     {
-      "id": "636537bb-6309-4b82-439c-69daa14d8013",
-      "name": "hasSub_Association",
-      "description": "",
-      "typeRef": "397ca6fb-374a-4007-e385-4dbce368e983",
-      "template": "linkTemplate1",
-      "strokecolor": "black",
-      "strokewidth": "1",
-      "textcolor": "black",
-      "textscale": "1",
-      "dash": "Dotted",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "None",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "f9c14c3a-cf70-43c3-28cd-f8933e17e1a4",
-      "name": "has_Association",
-      "description": "",
-      "typeRef": "c1716ead-9945-44d8-b7a8-f699ccaae48b",
-      "template": "linkTemplate1",
-      "strokecolor": "#aaaaaa",
-      "strokewidth": "1",
-      "textcolor": "lightgrey",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "None",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "e1b136c7-018d-4dd8-33bd-82e075b322b2",
-      "name": "has_Association",
-      "description": "",
-      "typeRef": "89116b67-d68e-4d41-b69e-6f679e3a5ec2",
-      "template": "linkTemplate1",
-      "strokecolor": "lightgray",
-      "strokewidth": "1",
-      "textcolor": "lightgray",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "b48b2cb8-0d9c-4bc8-baae-61c5d916b2d0",
-      "name": "has_Association",
-      "description": "",
-      "typeRef": "dd48d94f-bfd9-4785-14a4-540f9334a85e",
-      "template": "linkTemplate1",
-      "strokecolor": "lightgray",
-      "strokewidth": "1",
-      "textcolor": "lightgray",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "063bfe99-b439-4ffa-f1cd-a4438cb8c29e",
-      "name": "has_Association",
-      "description": "",
-      "typeRef": "8397f4a4-f8f5-4958-cf78-e99f506e0792",
-      "template": "linkTemplate1",
-      "strokecolor": "#aaaaaa",
-      "strokewidth": "1",
-      "textcolor": "lightgrey",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "None",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "e9911cf7-3271-4ef7-35f7-9fdafa8dfe67",
-      "name": "has_Association",
-      "description": "",
-      "typeRef": "2c019c92-ca60-47fb-c5c2-daaeed8e9c03",
-      "template": "linkTemplate1",
-      "strokecolor": "lightgray",
-      "strokewidth": "1",
-      "textcolor": "lightgray",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "f87bf8cc-f2e2-4fd6-a7d9-198e9af39dff",
-      "name": "has_Association",
-      "description": "",
-      "typeRef": "1165d437-5ae7-4af4-8afb-37ae3430fd93",
-      "template": "linkTemplate1",
-      "strokecolor": "lightgray",
-      "strokewidth": "1",
-      "textcolor": "lightgray",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "45b14633-4607-4a1d-211d-81d16f477382",
-      "name": "has_Association",
-      "description": "",
-      "typeRef": "5aaa76f8-6aea-4ff9-40d1-5ee224a5a36e",
-      "template": "linkTemplate1",
-      "strokecolor": "lightgray",
-      "strokewidth": "1",
-      "textcolor": "lightgray",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
       "id": "a5525a4c-c35b-4429-690a-f7ffe06e20c8",
       "name": "has_Association",
       "description": "",
       "typeRef": "dd89ea0e-93ca-4a5c-2d8e-814f62690751",
       "template": "linkTemplate1",
-      "strokecolor": "#aaaaaa",
+      "strokecolor": "grey",
       "strokewidth": "1",
       "textcolor": "grey",
       "textscale": "1",
@@ -4065,12 +3725,12 @@
       "modified": false
     },
     {
-      "id": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
+      "id": "a3765619-c6a0-4428-7e10-2e5bf79b2209",
       "name": "has_Association",
       "description": "",
-      "typeRef": "22f50fa8-90be-4738-8f71-670a19668fe0",
+      "typeRef": "424f9f4a-209b-4890-fa13-f98c53b7171e",
       "template": "linkTemplate1",
-      "strokecolor": "#aaaaaa",
+      "strokecolor": "grey",
       "strokewidth": "1",
       "textcolor": "grey",
       "textscale": "1",
@@ -4086,12 +3746,12 @@
       "modified": false
     },
     {
-      "id": "db3a2caf-1215-4c03-6d46-094e74b73ba5",
+      "id": "d7255783-8edd-44c0-2691-bed50fc2db69",
       "name": "has_Association",
       "description": "",
-      "typeRef": "ff4b7244-0b10-4da0-5a7f-4903dfa858c5",
+      "typeRef": "b1020dc2-7b58-4a24-c7ed-eeedc6b103c6",
       "template": "linkTemplate1",
-      "strokecolor": "#aaaaaa",
+      "strokecolor": "grey",
       "strokewidth": "1",
       "textcolor": "grey",
       "textscale": "1",
@@ -4103,111 +3763,6 @@
       "routing": "Normal",
       "corner": "0",
       "curve": "None",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "1a22eb40-8a82-4b24-bff7-28c9c1144a59",
-      "name": "has_Association",
-      "description": "",
-      "typeRef": "0da3107e-b1ba-4838-a067-e7b898103805",
-      "template": "linkTemplate1",
-      "strokecolor": "black",
-      "strokewidth": "1",
-      "textcolor": "black",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "1ca7851f-f1d9-4965-ab51-72ba7ea3ec56",
-      "name": "isDefault_Association",
-      "description": "",
-      "typeRef": "54e8e8e8-5138-45ec-9ef9-93b6b391235f",
-      "template": "linkTemplate1",
-      "strokecolor": "black",
-      "strokewidth": "1",
-      "textcolor": "black",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "54c8e777-6f6c-4250-3e0c-cfe6e406bcc3",
-      "name": "isOf_Association",
-      "description": "",
-      "typeRef": "b1706580-fc46-41b2-2339-7fea9eba9634",
-      "template": "linkTemplate1",
-      "strokecolor": "#aaaaaa",
-      "strokewidth": "1",
-      "textcolor": "lightgrey",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "None",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "399fbde1-1c9f-4c32-769d-fca04daf2159",
-      "name": "isOf_Association",
-      "description": "",
-      "typeRef": "1ef01bf6-c3d6-4a6e-1354-d4d833199052",
-      "template": "linkTemplate1",
-      "strokecolor": "#aaaaaa",
-      "strokewidth": "1",
-      "textcolor": "lightgrey",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "None",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "be59cc7b-5c00-41d4-c48d-834202171b45",
-      "name": "isOf_Association",
-      "description": "",
-      "typeRef": "f91bc898-4d25-4617-8ed6-bb9d071c468c",
-      "template": "linkTemplate1",
-      "strokecolor": "black",
-      "strokewidth": "1",
-      "textcolor": "black",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
       "markedAsDeleted": false,
       "modified": false
     }
