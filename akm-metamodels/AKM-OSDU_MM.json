@@ -522,7 +522,7 @@
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "62c3146b-0bdf-419b-9830-9342ad62ec54",
+          "datatypeRef": "669c19fd-9c49-4bba-b22c-082b35823937",
           "methodRef": "",
           "unitCategoryRef": ""
         },
@@ -537,7 +537,7 @@
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "62c3146b-0bdf-419b-9830-9342ad62ec54",
+          "datatypeRef": "669c19fd-9c49-4bba-b22c-082b35823937",
           "methodRef": "",
           "unitCategoryRef": ""
         }
@@ -1816,7 +1816,7 @@
       "supertypes": [],
       "properties": [
         {
-          "id": "4f06cf29-faf1-470d-2af2-75d7957180f4",
+          "id": "2bb1dd20-a9bc-4282-1c4f-06b740f54ad8",
           "name": "isRequired",
           "defaultValue": "",
           "inputPattern": "",
@@ -1831,7 +1831,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "2bdab0f8-efe2-4f05-f24a-a3efc009c984",
+          "id": "1154b11c-f981-4194-6c1a-3e0c9a677add",
           "name": "isDerived",
           "defaultValue": "",
           "inputPattern": "",
@@ -1846,7 +1846,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "4dd1ff80-af45-4663-043a-933c95bb76f3",
+          "id": "5dc64edf-82c9-4400-810d-2e9b686a127c",
           "name": "isIndexed",
           "defaultValue": "",
           "inputPattern": "",
@@ -1861,7 +1861,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "1c47a96a-1653-4c7c-b66c-a44fecf6325a",
+          "id": "4f2c120f-cf30-4c2c-f456-ed2ebe37fc5a",
           "name": "referenceObject",
           "defaultValue": "",
           "inputPattern": "",
@@ -1876,7 +1876,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "ff64c6cf-a407-40ab-47a5-fec53d228ff8",
+          "id": "0e6d62f7-fe3a-4260-dd0b-eeafbc5f954d",
           "name": "refGroupType",
           "defaultValue": "",
           "inputPattern": "",
@@ -1891,7 +1891,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "6fbbb9d5-e9fc-4bda-5b9a-ecc624106f6f",
+          "id": "e6bdf538-e1a6-471f-9886-905d4c4eb479",
           "name": "refVersion",
           "defaultValue": "",
           "inputPattern": "",
@@ -2401,7 +2401,7 @@
       "supertypes": [],
       "properties": [
         {
-          "id": "77f871e2-8bfd-4156-abb1-c6ee3384935a",
+          "id": "a982fa87-297d-4b57-152e-5d30bec08810",
           "name": "referenceObject",
           "defaultValue": "",
           "inputPattern": "",
@@ -2416,7 +2416,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "58c0bb2b-8ac6-42ef-f5c3-7dc9b7f78eda",
+          "id": "e8ef2991-cef1-4d9a-8b4e-02bd7ea3ab8c",
           "name": "refGroupType",
           "defaultValue": "",
           "inputPattern": "",
@@ -2431,7 +2431,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "3b52ccb2-437f-4383-75a3-1fb9e87cebc8",
+          "id": "dbda2378-f0b0-47a9-ed52-b1b21159df74",
           "name": "refVersion",
           "defaultValue": "",
           "inputPattern": "",
@@ -2645,7 +2645,7 @@
       "modified": true
     },
     {
-      "id": "13fee537-c7ec-4c80-589b-330c67eacd43",
+      "id": "ef8833ea-113c-4a9d-be42-2790201470eb",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -2664,7 +2664,7 @@
       "modified": false
     },
     {
-      "id": "c1abf37c-300d-49d1-e1c9-974835621e7f",
+      "id": "afb0e3d7-8797-4d88-0e01-f9570b288939",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -2683,7 +2683,7 @@
       "modified": false
     },
     {
-      "id": "c752a6a2-d7bf-47f2-9b29-354e3c961034",
+      "id": "3eaea348-4daa-488f-5cdd-88af7309dac4",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -2702,7 +2702,7 @@
       "modified": false
     },
     {
-      "id": "4bf448f3-cda8-4d86-ba18-da532e229b73",
+      "id": "76519ede-5bb8-40e0-00e3-67d28dd55484",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -2721,7 +2721,7 @@
       "modified": false
     },
     {
-      "id": "dc02a897-fb5e-425b-9b60-1ea5ce22e2dc",
+      "id": "74a69ab2-1129-4fba-6690-9fdadc5f83ba",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -2740,7 +2740,7 @@
       "modified": false
     },
     {
-      "id": "31122b18-3a8e-48e9-95ad-06cfc309dfe1",
+      "id": "fa94c690-4dc4-4bc4-4d6d-016e323d7bc5",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -2759,7 +2759,7 @@
       "modified": false
     },
     {
-      "id": "91beb91e-b624-45e2-9635-927a6b631b62",
+      "id": "7dc37f17-32f0-4fc2-616a-db5413551092",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -2778,7 +2778,7 @@
       "modified": false
     },
     {
-      "id": "e6fb0e06-fdec-4c5d-b747-f9e1123c792d",
+      "id": "dbbc252f-92a5-45ac-c4af-ab5352693f31",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -2797,7 +2797,7 @@
       "modified": false
     },
     {
-      "id": "4f908e3c-2875-47db-7d1f-061306edae38",
+      "id": "ef106ce1-064e-4964-9d93-6383cf263cd3",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -2816,7 +2816,7 @@
       "modified": false
     },
     {
-      "id": "534a0ecb-b1a3-40e0-04c9-92844302ed8b",
+      "id": "d6dd8ef0-e5b6-4bf5-293e-9da3cedc4a1f",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -2835,7 +2835,7 @@
       "modified": false
     },
     {
-      "id": "d80f3ea0-ec35-4596-63f6-529bc94fd6c8",
+      "id": "e3d8d8f8-a720-42aa-33ec-1bdfe87d07fc",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -2854,7 +2854,7 @@
       "modified": false
     },
     {
-      "id": "5fa85ac8-6b16-4f9a-51d9-66b0b80fc330",
+      "id": "b7e961da-d51b-46cc-d398-aa4889b19b03",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -3307,7 +3307,7 @@
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "62c3146b-0bdf-419b-9830-9342ad62ec54",
+          "datatypeRef": "669c19fd-9c49-4bba-b22c-082b35823937",
           "methodRef": "",
           "unitCategoryRef": ""
         },
@@ -3322,7 +3322,7 @@
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "62c3146b-0bdf-419b-9830-9342ad62ec54",
+          "datatypeRef": "669c19fd-9c49-4bba-b22c-082b35823937",
           "methodRef": "",
           "unitCategoryRef": ""
         }
@@ -4069,7 +4069,7 @@
       "supertypes": [],
       "properties": [
         {
-          "id": "4f06cf29-faf1-470d-2af2-75d7957180f4",
+          "id": "2bb1dd20-a9bc-4282-1c4f-06b740f54ad8",
           "name": "isRequired",
           "defaultValue": "",
           "inputPattern": "",
@@ -4084,7 +4084,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "2bdab0f8-efe2-4f05-f24a-a3efc009c984",
+          "id": "1154b11c-f981-4194-6c1a-3e0c9a677add",
           "name": "isDerived",
           "defaultValue": "",
           "inputPattern": "",
@@ -4099,7 +4099,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "4dd1ff80-af45-4663-043a-933c95bb76f3",
+          "id": "5dc64edf-82c9-4400-810d-2e9b686a127c",
           "name": "isIndexed",
           "defaultValue": "",
           "inputPattern": "",
@@ -4114,7 +4114,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "1c47a96a-1653-4c7c-b66c-a44fecf6325a",
+          "id": "4f2c120f-cf30-4c2c-f456-ed2ebe37fc5a",
           "name": "referenceObject",
           "defaultValue": "",
           "inputPattern": "",
@@ -4129,7 +4129,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "ff64c6cf-a407-40ab-47a5-fec53d228ff8",
+          "id": "0e6d62f7-fe3a-4260-dd0b-eeafbc5f954d",
           "name": "refGroupType",
           "defaultValue": "",
           "inputPattern": "",
@@ -4144,7 +4144,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "6fbbb9d5-e9fc-4bda-5b9a-ecc624106f6f",
+          "id": "e6bdf538-e1a6-471f-9886-905d4c4eb479",
           "name": "refVersion",
           "defaultValue": "",
           "inputPattern": "",
@@ -4628,7 +4628,7 @@
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
-      "datatypeRef": "62c3146b-0bdf-419b-9830-9342ad62ec54",
+      "datatypeRef": "669c19fd-9c49-4bba-b22c-082b35823937",
       "methodRef": "",
       "unitCategoryRef": ""
     },
@@ -4643,7 +4643,7 @@
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
-      "datatypeRef": "62c3146b-0bdf-419b-9830-9342ad62ec54",
+      "datatypeRef": "669c19fd-9c49-4bba-b22c-082b35823937",
       "methodRef": "",
       "unitCategoryRef": ""
     },
@@ -5507,7 +5507,7 @@
       "modified": false
     },
     {
-      "id": "62c3146b-0bdf-419b-9830-9342ad62ec54",
+      "id": "669c19fd-9c49-4bba-b22c-082b35823937",
       "name": "today",
       "description": "",
       "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
@@ -5531,7 +5531,7 @@
       "description": "",
       "properties": [
         {
-          "id": "1964da28-6d1e-438f-e322-0451ee89a582",
+          "id": "ea7fe0a7-9fc3-4f1e-daad-bd5eba415af5",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -5595,7 +5595,7 @@
           "example": ""
         },
         {
-          "id": "2cd5e6dd-1f6a-4f35-8742-84adeed6362d",
+          "id": "5a08895f-cc21-4124-5c27-696272f4b63a",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -5637,7 +5637,7 @@
           "example": ""
         },
         {
-          "id": "5e7fb0b3-e70a-4d37-6f28-b498a44e7201",
+          "id": "9d200adb-a3fb-4704-55b8-851fd9eba733",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -5659,7 +5659,7 @@
           "example": ""
         },
         {
-          "id": "1662c19b-38dd-4141-6e04-3f706d5050e3",
+          "id": "40e6e6f7-387c-474d-1bef-bd93c959ceed",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -5711,7 +5711,7 @@
       "description": "",
       "properties": [
         {
-          "id": "49526707-47f5-4863-f59d-bbe326d5a0ff",
+          "id": "43f8fb43-dd02-4ff0-e0b4-7961eeb2a8fb",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -5742,7 +5742,7 @@
       "description": "",
       "properties": [
         {
-          "id": "1b8442b8-752a-47e4-e024-8a19e449dedc",
+          "id": "20996cc9-218a-401f-2cfd-7d4f50f99508",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -5764,7 +5764,7 @@
           "example": ""
         },
         {
-          "id": "b41dbe02-4e2a-4861-f012-5c99ccc6ffb4",
+          "id": "eac21d80-9834-4362-a2a0-ecc444bd58de",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -5786,7 +5786,7 @@
           "example": ""
         },
         {
-          "id": "f5c35dd6-fb9d-4710-b135-4056e03c3787",
+          "id": "e58da6af-6227-4359-1783-2ec8705ea452",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -5808,7 +5808,7 @@
           "example": ""
         },
         {
-          "id": "5f09af6c-669d-4934-8d92-4f4016420e45",
+          "id": "97578629-ae2d-458a-e5bb-339beea7bfe7",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -5830,7 +5830,7 @@
           "example": ""
         },
         {
-          "id": "f5a93dc5-f8ab-4498-13be-d83dafb0b4a8",
+          "id": "8367ea33-b02a-4391-df8d-6046c50c055b",
           "name": "nolevels",
           "nameId": "nolevels",
           "category": "Property",
@@ -5873,7 +5873,7 @@
           "example": ""
         },
         {
-          "id": "b4126366-a803-47a2-3a35-e305dee7f3f0",
+          "id": "77f56cfd-998e-47a8-e58b-5cce8d73ce7a",
           "name": "valuecondition",
           "nameId": "valuecondition",
           "category": "Property",
@@ -5916,7 +5916,7 @@
           "example": ""
         },
         {
-          "id": "4d42bf14-8651-47cd-a72b-e816df334ee8",
+          "id": "999e2b9c-2bf7-4e21-608a-30c4ad7a401a",
           "name": "preaction",
           "nameId": "preaction",
           "category": "Property",
@@ -5938,7 +5938,7 @@
           "example": ""
         },
         {
-          "id": "56d579ed-1c5b-4b93-272b-0c59714d7661",
+          "id": "587f278f-4fc7-4155-1de5-448dad43b975",
           "name": "postaction",
           "nameId": "postaction",
           "category": "Property",
@@ -6352,48 +6352,6 @@
   "objtypegeos": [],
   "relshiptypeviews": [
     {
-      "id": "efca666c-d2c7-4235-8315-842c16034684",
-      "name": "Is_Generalization",
-      "description": "",
-      "typeRef": "c334327e-340a-41b9-edf8-817001793088",
-      "template": "linkTemplate1",
-      "strokecolor": "black",
-      "strokewidth": "1",
-      "textcolor": "black",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "Triangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "e9e2bb81-c942-40db-92c9-7fe7d928a219",
-      "name": "Is_Generalization",
-      "description": "",
-      "typeRef": "d960fead-3f9e-4a33-1f8d-a93d49b333b2",
-      "template": "linkTemplate1",
-      "strokecolor": "black",
-      "strokewidth": "1",
-      "textcolor": "black",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "Triangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
       "id": "bff0d530-2f03-47cc-feaf-4c137bc4b921",
       "name": "Is_Generalization",
       "description": "",
@@ -6667,7 +6625,7 @@
       "modified": false
     },
     {
-      "id": "c1b8c85d-06d1-4c11-ea8f-3d78c6cb8d97",
+      "id": "3005dbee-2995-4651-6f69-8cb8f9be822e",
       "name": "Is_Generalization",
       "description": "",
       "typeRef": "1e697ed3-aa57-4fd4-37eb-693b3cf35fde",
@@ -6688,7 +6646,7 @@
       "modified": false
     },
     {
-      "id": "dfab8ea2-1df8-4fe1-597a-605975202d9b",
+      "id": "1ba7a1dd-e382-42de-f2a1-e0eb5d996e9e",
       "name": "Is_Generalization",
       "description": "",
       "typeRef": "47bbeca8-7861-48ed-9418-f7ec4448888f",
@@ -6882,15 +6840,15 @@
       "description": "",
       "typeRef": "318a0257-ce17-43ef-1924-4acd4e860726",
       "template": "linkTemplate1",
-      "strokecolor": "#aaaaaa",
+      "strokecolor": "#CCCCCC80",
       "strokewidth": "1",
-      "textcolor": "grey",
+      "textcolor": "#CCCCCC80",
       "textscale": 1,
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
+      "fromArrowColor": "#CCCCCC80",
+      "toArrowColor": "#CCCCCC80",
       "routing": "Normal",
       "corner": "0",
       "curve": "None",
@@ -6903,15 +6861,15 @@
       "description": "",
       "typeRef": "317f6bb9-524c-44a3-8b05-1c6f28a004ba",
       "template": "linkTemplate1",
-      "strokecolor": "#aaaaaa",
+      "strokecolor": "#CCCCCC80",
       "strokewidth": "1",
-      "textcolor": "grey",
+      "textcolor": "#CCCCCC80",
       "textscale": 1,
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
+      "fromArrowColor": "#CCCCCC80",
+      "toArrowColor": "#CCCCCC80",
       "routing": "Normal",
       "corner": "0",
       "curve": "None",
@@ -6924,15 +6882,15 @@
       "description": "",
       "typeRef": "1bb34108-f18c-4d8c-1107-07f48b02bb4d",
       "template": "linkTemplate1",
-      "strokecolor": "lightgrey",
+      "strokecolor": "#CCCCCC80",
       "strokewidth": "1",
-      "textcolor": "grey",
+      "textcolor": "#CCCCCC80",
       "textscale": 1,
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
+      "fromArrowColor": "#CCCCCC80",
+      "toArrowColor": "#CCCCCC80",
       "routing": "Normal",
       "corner": "0",
       "curve": "None",
@@ -6945,18 +6903,18 @@
       "description": "",
       "typeRef": "c2c607c4-351d-4646-28eb-f65f61fbb6fd",
       "template": "linkTemplate1",
-      "strokecolor": "lightgrey",
+      "strokecolor": "#CCCCCC80",
       "strokewidth": "1",
-      "textcolor": "grey",
+      "textcolor": "#CCCCCC80",
       "textscale": 1,
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
+      "fromArrowColor": "#CCCCCC80",
+      "toArrowColor": "#CCCCCC80",
       "routing": "Normal",
       "corner": "0",
-      "curve": "0",
+      "curve": "None",
       "markedAsDeleted": false,
       "modified": false
     },
@@ -6966,15 +6924,15 @@
       "description": "",
       "typeRef": "5c87028c-e488-4f8c-1bbd-990ccf0b7a37",
       "template": "linkTemplate1",
-      "strokecolor": "lightgrey",
+      "strokecolor": "#CCCCCC80",
       "strokewidth": "1",
-      "textcolor": "lightgrey",
+      "textcolor": "#CCCCCC80",
       "textscale": "1",
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
+      "fromArrowColor": "#CCCCCC80",
+      "toArrowColor": "#CCCCCC80",
       "routing": "Normal",
       "corner": "0",
       "curve": "None",

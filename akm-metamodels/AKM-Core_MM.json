@@ -1230,7 +1230,7 @@
       "supertypes": [],
       "properties": [
         {
-          "id": "77a22d76-9a61-4a1f-20a3-47d676e98702",
+          "id": "4f06cf29-faf1-470d-2af2-75d7957180f4",
           "name": "isRequired",
           "defaultValue": "",
           "inputPattern": "",
@@ -1245,7 +1245,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "5fd180ff-49ac-4fe0-ffb3-ac13e98314d9",
+          "id": "2bdab0f8-efe2-4f05-f24a-a3efc009c984",
           "name": "isDerived",
           "defaultValue": "",
           "inputPattern": "",
@@ -1260,7 +1260,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "e52e753e-1191-48f4-4b61-e71762d86bf2",
+          "id": "4dd1ff80-af45-4663-043a-933c95bb76f3",
           "name": "isIndexed",
           "defaultValue": "",
           "inputPattern": "",
@@ -1275,7 +1275,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "e925169e-d061-4c9b-95d9-0cbe60cf6ce8",
+          "id": "1c47a96a-1653-4c7c-b66c-a44fecf6325a",
           "name": "referenceObject",
           "defaultValue": "",
           "inputPattern": "",
@@ -1290,7 +1290,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "8611bf2f-1eef-4288-8ac9-dc50772fd91e",
+          "id": "ff64c6cf-a407-40ab-47a5-fec53d228ff8",
           "name": "refGroupType",
           "defaultValue": "",
           "inputPattern": "",
@@ -1305,7 +1305,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "40dbc8d1-1d86-41ef-e357-fe92a5214aec",
+          "id": "6fbbb9d5-e9fc-4bda-5b9a-ecc624106f6f",
           "name": "refVersion",
           "defaultValue": "",
           "inputPattern": "",
@@ -1517,44 +1517,6 @@
       "nameTo": "",
       "markedAsDeleted": false,
       "modified": true
-    },
-    {
-      "id": "c334327e-340a-41b9-edf8-817001793088",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "40602423-74d9-418a-9fa2-197d5b178284",
-      "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "efca666c-d2c7-4235-8315-842c16034684",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
-      "id": "d960fead-3f9e-4a33-1f8d-a93d49b333b2",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
-      "toobjtypeRef": "40602423-74d9-418a-9fa2-197d5b178284",
-      "typeviewRef": "e9e2bb81-c942-40db-92c9-7fe7d928a219",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
     },
     {
       "id": "eced5e80-5e79-4617-823d-6a34bc749321",
@@ -2604,7 +2566,7 @@
       "supertypes": [],
       "properties": [
         {
-          "id": "77a22d76-9a61-4a1f-20a3-47d676e98702",
+          "id": "4f06cf29-faf1-470d-2af2-75d7957180f4",
           "name": "isRequired",
           "defaultValue": "",
           "inputPattern": "",
@@ -2619,7 +2581,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "5fd180ff-49ac-4fe0-ffb3-ac13e98314d9",
+          "id": "2bdab0f8-efe2-4f05-f24a-a3efc009c984",
           "name": "isDerived",
           "defaultValue": "",
           "inputPattern": "",
@@ -2634,7 +2596,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "e52e753e-1191-48f4-4b61-e71762d86bf2",
+          "id": "4dd1ff80-af45-4663-043a-933c95bb76f3",
           "name": "isIndexed",
           "defaultValue": "",
           "inputPattern": "",
@@ -2649,7 +2611,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "e925169e-d061-4c9b-95d9-0cbe60cf6ce8",
+          "id": "1c47a96a-1653-4c7c-b66c-a44fecf6325a",
           "name": "referenceObject",
           "defaultValue": "",
           "inputPattern": "",
@@ -2664,7 +2626,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "8611bf2f-1eef-4288-8ac9-dc50772fd91e",
+          "id": "ff64c6cf-a407-40ab-47a5-fec53d228ff8",
           "name": "refGroupType",
           "defaultValue": "",
           "inputPattern": "",
@@ -2679,7 +2641,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "40dbc8d1-1d86-41ef-e357-fe92a5214aec",
+          "id": "6fbbb9d5-e9fc-4bda-5b9a-ecc624106f6f",
           "name": "refVersion",
           "defaultValue": "",
           "inputPattern": "",
@@ -4058,7 +4020,7 @@
       "modified": false
     },
     {
-      "id": "0f5df169-b54e-4738-0f1c-d8ac58b09d5a",
+      "id": "86ba288f-1744-4736-044b-7708e589ab54",
       "name": "today",
       "description": "",
       "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
@@ -4082,7 +4044,7 @@
       "description": "",
       "properties": [
         {
-          "id": "3a174b08-7450-449c-5a17-0c7b3d8bdbdd",
+          "id": "0339033b-c417-45f9-bc47-d440541c4784",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -4146,7 +4108,7 @@
           "example": ""
         },
         {
-          "id": "37e7c15c-59da-4d15-64d5-311712466f80",
+          "id": "39613ce0-0a87-4d59-020a-81fc33fa5a7f",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -4188,7 +4150,7 @@
           "example": ""
         },
         {
-          "id": "2816a9ba-3d02-43ca-7537-03c2f02e564d",
+          "id": "acabec93-b077-4ef7-31b6-45d206bc5863",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -4210,7 +4172,7 @@
           "example": ""
         },
         {
-          "id": "d66b2545-c135-4d29-fafd-b6cf358ebae6",
+          "id": "da1d777e-305d-4505-df3c-2602e2d8848d",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -4262,7 +4224,7 @@
       "description": "",
       "properties": [
         {
-          "id": "ee63f969-20cf-4ead-a00e-edabe0f75949",
+          "id": "ea5797fb-0af1-42ad-0730-d18e6516d522",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -4293,7 +4255,7 @@
       "description": "",
       "properties": [
         {
-          "id": "6bde0cc7-c17e-49c8-6661-6baa97771049",
+          "id": "1636fd99-f146-435f-4bf3-c6dbcfe4ab7d",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -4315,7 +4277,7 @@
           "example": ""
         },
         {
-          "id": "4939ec28-8e5e-4066-17fd-0daf4c037fdd",
+          "id": "c3ccdc03-cf31-4ff5-c2a2-f01f8544673f",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -4337,7 +4299,7 @@
           "example": ""
         },
         {
-          "id": "ac9288ad-f934-4c91-430c-45882249ffb9",
+          "id": "cfee3eb3-0c48-4cdc-6661-9652ad57cd22",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -4359,7 +4321,7 @@
           "example": ""
         },
         {
-          "id": "1ab3ab4a-9ccf-4301-bbb9-6399f0993c39",
+          "id": "c8946206-821c-4a6f-5f83-13e70a8d6e46",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -4381,7 +4343,7 @@
           "example": ""
         },
         {
-          "id": "161fdbea-3d31-4cd2-d458-3ce41a20112d",
+          "id": "b3e9ddd0-7722-4667-02db-ccefcf87715e",
           "name": "nolevels",
           "nameId": "nolevels",
           "category": "Property",
@@ -4424,7 +4386,7 @@
           "example": ""
         },
         {
-          "id": "4b9bd2a2-2447-4b90-ec2d-37365eb14769",
+          "id": "55fedd74-e8a8-4310-e8db-64dec207b141",
           "name": "valuecondition",
           "nameId": "valuecondition",
           "category": "Property",
@@ -4467,7 +4429,7 @@
           "example": ""
         },
         {
-          "id": "db82da0e-5d75-4347-5ad1-4ded3e63da81",
+          "id": "c2a67f28-7720-4e4e-3f28-37e72e9d4502",
           "name": "preaction",
           "nameId": "preaction",
           "category": "Property",
@@ -4489,7 +4451,7 @@
           "example": ""
         },
         {
-          "id": "294d342e-ea21-49dc-715b-384e54209442",
+          "id": "9f4fe2bb-fef1-448d-0fbf-9a72c5dab5bd",
           "name": "postaction",
           "nameId": "postaction",
           "category": "Property",
@@ -4707,30 +4669,6 @@
       "textscale": "1",
       "memberscale": 0.8,
       "icon": "./../images/types/View.png",
-      "image": "",
-      "grabIsAllowed": false,
-      "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
-    },
-    {
-      "id": "72b9c77d-d326-4cb0-a1d2-608d4e881946",
-      "name": "General",
-      "description": "",
-      "typeRef": "40602423-74d9-418a-9fa2-197d5b178284",
-      "viewkind": "Object",
-      "template": "textAndIcon",
-      "fillcolor": "#ffffff",
-      "fillcolor2": "white",
-      "strokecolor": "black",
-      "strokecolor1": "black",
-      "strokecolor2": "lightgrey",
-      "strokewidth": "1",
-      "textcolor": "black",
-      "textcolor2": "black",
-      "textscale": "1",
-      "memberscale": 1,
-      "icon": "",
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
