@@ -8,7 +8,7 @@
           "description": "AKM Type Definition Model",
           "metamodelRef": "b9f5b34e-2ea4-4f68-6421-2e1253c2322d",
           "sourceMetamodelRef": "",
-          "targetMetamodelRef": "b4b96299-4eb0-4b94-1490-a47f3b877afa",
+          "targetMetamodelRef": "14398d2f-90de-44bf-e484-1d780a93b88c",
           "sourceModelRef": "",
           "targetModelRef": "",
           "includeSystemtypes": false,
@@ -414,7 +414,7 @@
               "propertyValues": [],
               "ports": [],
               "markedAsDeleted": false,
-              "generatedTypeId": "b5b099eb-c468-4a83-1b78-5ce5e44708fe",
+              "generatedTypeId": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
               "modified": true,
               "nameId": "EntityType",
               "category": "Object",
@@ -6247,6 +6247,29 @@
               "valueset": null,
               "copiedFromId": "",
               "text": "AKM_MM"
+            },
+            {
+              "id": "f364bdbc-7edc-4211-9c68-6b2e1d199403",
+              "name": "POPS",
+              "description": "",
+              "abstract": false,
+              "viewkind": "",
+              "parentModelRef": "05d5b929-b985-49ac-cf92-cc095a03889z",
+              "typeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
+              "typeName": "Container",
+              "typeDescription": "A Container like a folder that holds everything inside, either by relationship \"hasMember\"  to objects or in a Modelview just visually keeping the objectviews.",
+              "propertyValues": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "generatedTypeId": "",
+              "modified": true,
+              "nameId": "Container",
+              "category": "Object",
+              "sourceUri": "",
+              "relshipkind": "Association",
+              "valueset": null,
+              "copiedFromId": "",
+              "text": "POPS"
             }
           ],
           "relships": [
@@ -22045,7 +22068,7 @@
               ],
               "objecttypeviews": [],
               "relshiptypeviews": [],
-              "focusObjectviewRef": "34991279-8610-444e-63bf-fc8282fe69dd",
+              "focusObjectviewRef": "c53a121a-18fc-4c1e-e9d0-cd1169c761ea",
               "markedAsDeleted": false,
               "modified": false
             },
@@ -25142,7 +25165,7 @@
                   "description": "",
                   "objectRef": "ad2ab456-2e9e-4e3c-b564-298479a81d5d",
                   "typeviewRef": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
-                  "group": "",
+                  "group": "b0d74f29-944f-4059-646d-969a6ba40cd5",
                   "groupLayout": "",
                   "viewkind": "",
                   "isGroup": false,
@@ -25181,7 +25204,7 @@
                   "isGroup": false,
                   "isExpanded": true,
                   "isSelected": false,
-                  "loc": "-1400 -300",
+                  "loc": "-1560 -300",
                   "template": "",
                   "figure": "",
                   "geometry": "",
@@ -25208,7 +25231,7 @@
                   "description": "",
                   "objectRef": "68cb5f3d-c531-422e-255b-22ec54b7faec",
                   "typeviewRef": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
-                  "group": "",
+                  "group": "b0d74f29-944f-4059-646d-969a6ba40cd5",
                   "groupLayout": "",
                   "viewkind": "Object",
                   "isGroup": false,
@@ -25241,7 +25264,7 @@
                   "description": "",
                   "objectRef": "7248a709-8bcd-455a-fb69-c80d2bf98096",
                   "typeviewRef": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
-                  "group": "",
+                  "group": "b0d74f29-944f-4059-646d-969a6ba40cd5",
                   "groupLayout": "",
                   "viewkind": "Object",
                   "isGroup": false,
@@ -25274,7 +25297,7 @@
                   "description": "",
                   "objectRef": "c9ef0626-dfd8-4e27-37df-7a7f0baf7d28",
                   "typeviewRef": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
-                  "group": "",
+                  "group": "b0d74f29-944f-4059-646d-969a6ba40cd5",
                   "groupLayout": "",
                   "viewkind": "Object",
                   "isGroup": false,
@@ -25307,7 +25330,7 @@
                   "description": "",
                   "objectRef": "b355ee4a-3cc8-4647-6d13-8a5566a30532",
                   "typeviewRef": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
-                  "group": "",
+                  "group": "b0d74f29-944f-4059-646d-969a6ba40cd5",
                   "groupLayout": "",
                   "viewkind": "Object",
                   "isGroup": false,
@@ -25327,6 +25350,39 @@
                   "icon": "\\uf5fc",
                   "image": "",
                   "size": "160 70",
+                  "scale": 1,
+                  "memberscale": 1,
+                  "textscale": "1",
+                  "arrowscale": "1",
+                  "markedAsDeleted": false,
+                  "modified": true
+                },
+                {
+                  "id": "b0d74f29-944f-4059-646d-969a6ba40cd5",
+                  "name": "POPS",
+                  "description": "",
+                  "objectRef": "f364bdbc-7edc-4211-9c68-6b2e1d199403",
+                  "typeviewRef": "a3112875-e4fe-4100-b290-5634d8b8acfc",
+                  "group": "",
+                  "groupLayout": "",
+                  "viewkind": "",
+                  "isGroup": true,
+                  "isExpanded": true,
+                  "isSelected": false,
+                  "loc": "-1280 -550",
+                  "template": "",
+                  "figure": "",
+                  "geometry": "",
+                  "fillcolor": "",
+                  "fillcolor2": "",
+                  "strokecolor": "",
+                  "strokecolor2": "",
+                  "strokewidth": "1",
+                  "textcolor": "",
+                  "textcolor2": "",
+                  "icon": "",
+                  "image": "",
+                  "size": "910 630",
                   "scale": 1,
                   "memberscale": 1,
                   "textscale": "1",
@@ -25362,7 +25418,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25391,7 +25447,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25420,7 +25476,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25449,7 +25505,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25474,16 +25530,16 @@
                   "fromPortid": "",
                   "toPortid": "",
                   "points": [
-                    -1262.7997509253194,
-                    -229.3080946367644,
-                    -1095.2002490746806,
-                    -68.69190536323562
+                    -1399.0026589143338,
+                    -229.5015288757419,
+                    -1118.9973410856662,
+                    -68.49847112425809
                   ],
                   "routing": "",
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25508,16 +25564,16 @@
                   "fromPortid": "",
                   "toPortid": "",
                   "points": [
-                    -1199.4580150125762,
-                    -233.87545191170068,
-                    -638.541984987424,
-                    -64.12454808829938
+                    -1359.0298574998546,
+                    -239.00746437496366,
+                    -638.9701425001454,
+                    -58.99253562503633
                   ],
                   "routing": "",
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25542,16 +25598,16 @@
                   "fromPortid": "",
                   "toPortid": "",
                   "points": [
-                    -1199.0329254627372,
-                    -290.307124878227,
-                    -638.9670745372626,
-                    -437.692875121773
+                    -1359.0228236360772,
+                    -285.7341687747658,
+                    -638.9771763639228,
+                    -442.2658312252342
                   ],
                   "routing": "",
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25576,16 +25632,16 @@
                   "fromPortid": "",
                   "toPortid": "",
                   "points": [
-                    -1257.4317787204027,
-                    -298.64018439966446,
-                    -1100.5682212795973,
-                    -429.35981560033554
+                    -1390.105572809,
+                    -298.44721359549993,
+                    -1127.894427191,
+                    -429.5527864045
                   ],
                   "routing": "",
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25621,7 +25677,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25655,7 +25711,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25691,7 +25747,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25725,7 +25781,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25736,15 +25792,15 @@
                   "typeviewRef": "70e7b709-bd91-4b7c-f390-553914e10430",
                   "template": "",
                   "arrowscale": "",
-                  "strokecolor": "",
+                  "strokecolor": "#CCCCCC80",
                   "strokewidth": "1",
-                  "textcolor": "",
+                  "textcolor": "#CCCCCC80",
                   "textscale": "",
                   "dash": "",
                   "fromArrow": "",
                   "toArrow": "",
-                  "fromArrowColor": "",
-                  "toArrowColor": "",
+                  "fromArrowColor": "#CCCCCC80",
+                  "toArrowColor": "#CCCCCC80",
                   "fromobjviewRef": "00178c8d-19dd-4acf-60c8-a4cd3927e9ef",
                   "toobjviewRef": "00178c8d-19dd-4acf-60c8-a4cd3927e9ef",
                   "fromPortid": "",
@@ -25760,10 +25816,10 @@
                     0.8660254037844197
                   ],
                   "routing": "",
-                  "curve": "",
+                  "curve": "None",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25774,15 +25830,15 @@
                   "typeviewRef": "70e7b709-bd91-4b7c-f390-553914e10430",
                   "template": "",
                   "arrowscale": "",
-                  "strokecolor": "",
+                  "strokecolor": "#CCCCCC80",
                   "strokewidth": "1",
-                  "textcolor": "",
+                  "textcolor": "#CCCCCC80",
                   "textscale": "",
                   "dash": "",
                   "fromArrow": "",
                   "toArrow": "",
-                  "fromArrowColor": "",
-                  "toArrowColor": "",
+                  "fromArrowColor": "#CCCCCC80",
+                  "toArrowColor": "#CCCCCC80",
                   "fromobjviewRef": "b239555b-5903-4775-69a9-0663ebfb5c55",
                   "toobjviewRef": "b239555b-5903-4775-69a9-0663ebfb5c55",
                   "fromPortid": "",
@@ -25798,10 +25854,10 @@
                     0.8660254037844339
                   ],
                   "routing": "",
-                  "curve": "",
+                  "curve": "None",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25812,15 +25868,15 @@
                   "typeviewRef": "70e7b709-bd91-4b7c-f390-553914e10430",
                   "template": "",
                   "arrowscale": "",
-                  "strokecolor": "",
+                  "strokecolor": "#CCCCCC80",
                   "strokewidth": "1",
-                  "textcolor": "",
+                  "textcolor": "#CCCCCC80",
                   "textscale": "",
                   "dash": "",
                   "fromArrow": "",
                   "toArrow": "",
-                  "fromArrowColor": "",
-                  "toArrowColor": "",
+                  "fromArrowColor": "#CCCCCC80",
+                  "toArrowColor": "#CCCCCC80",
                   "fromobjviewRef": "9c76f274-fb2b-44ec-2d40-97e2a4082eef",
                   "toobjviewRef": "9c76f274-fb2b-44ec-2d40-97e2a4082eef",
                   "fromPortid": "",
@@ -25836,10 +25892,10 @@
                     -429.1339745962156
                   ],
                   "routing": "",
-                  "curve": "",
+                  "curve": "None",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25850,15 +25906,15 @@
                   "typeviewRef": "70e7b709-bd91-4b7c-f390-553914e10430",
                   "template": "",
                   "arrowscale": "",
-                  "strokecolor": "",
+                  "strokecolor": "#CCCCCC80",
                   "strokewidth": "1",
-                  "textcolor": "",
+                  "textcolor": "#CCCCCC80",
                   "textscale": "",
                   "dash": "",
                   "fromArrow": "",
                   "toArrow": "",
-                  "fromArrowColor": "",
-                  "toArrowColor": "",
+                  "fromArrowColor": "#CCCCCC80",
+                  "toArrowColor": "#CCCCCC80",
                   "fromobjviewRef": "03a370c3-ebda-4ae8-ba44-4139e4ec3bc1",
                   "toobjviewRef": "03a370c3-ebda-4ae8-ba44-4139e4ec3bc1",
                   "fromPortid": "",
@@ -25874,10 +25930,10 @@
                     -429.1339745962156
                   ],
                   "routing": "",
-                  "curve": "",
+                  "curve": "None",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25913,7 +25969,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25949,7 +26005,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 },
                 {
@@ -25985,13 +26041,13 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": false,
+                  "modified": "",
                   "visible": true
                 }
               ],
               "objecttypeviews": [],
               "relshiptypeviews": [],
-              "focusObjectviewRef": "e9e9f5e9-68b5-4a19-5db8-caaa86181691",
+              "focusObjectviewRef": "997e77b0-1824-46d8-83cc-9a54a1051710",
               "markedAsDeleted": false,
               "modified": false
             },
@@ -28105,7 +28161,7 @@
                   "curve": "None",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": ""
+                  "modified": false
                 },
                 {
                   "id": "6970b6d1-ead4-4559-0252-79f32d9e065c",
@@ -28138,7 +28194,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28172,7 +28228,7 @@
                   "curve": "None",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28206,7 +28262,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28240,7 +28296,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28274,7 +28330,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28308,7 +28364,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28342,7 +28398,7 @@
                   "curve": "None",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28376,7 +28432,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28410,7 +28466,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28444,7 +28500,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28478,7 +28534,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28516,7 +28572,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28550,7 +28606,7 @@
                   "curve": "None",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28654,7 +28710,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28690,7 +28746,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28728,7 +28784,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28766,7 +28822,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28802,7 +28858,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28838,7 +28894,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28874,7 +28930,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28910,7 +28966,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28948,7 +29004,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -28982,7 +29038,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29016,7 +29072,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29050,7 +29106,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29084,7 +29140,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29118,7 +29174,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29152,7 +29208,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29188,7 +29244,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29224,7 +29280,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29260,7 +29316,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29296,7 +29352,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29330,7 +29386,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29364,7 +29420,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29398,7 +29454,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29432,7 +29488,7 @@
                   "curve": "None",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29466,7 +29522,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29500,7 +29556,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29534,7 +29590,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29568,7 +29624,7 @@
                   "curve": "None",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29602,7 +29658,7 @@
                   "curve": "None",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29640,7 +29696,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29674,7 +29730,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29708,7 +29764,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29742,7 +29798,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29776,7 +29832,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29810,7 +29866,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29844,7 +29900,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29878,7 +29934,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29912,7 +29968,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29946,7 +30002,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -29980,7 +30036,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30014,7 +30070,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30048,7 +30104,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30082,7 +30138,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30118,7 +30174,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30154,7 +30210,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30190,7 +30246,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30226,7 +30282,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30260,7 +30316,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30294,7 +30350,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30328,7 +30384,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30362,7 +30418,7 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 },
                 {
@@ -30396,13 +30452,12 @@
                   "curve": "",
                   "corner": "",
                   "markedAsDeleted": false,
-                  "modified": "",
+                  "modified": false,
                   "visible": true
                 }
               ],
               "objecttypeviews": [],
               "relshiptypeviews": [],
-              "focusObjectviewRef": "33f4abef-3dc1-46d0-2645-39d5433b4051",
               "markedAsDeleted": false,
               "modified": false
             },
@@ -46453,12 +46508,12 @@
             "14398d2f-90de-44bf-e484-1d780a93b88c"
           ],
           "subModelRefs": [
-            "4650fd47-5f10-407c-573b-6a3c59e4661d",
-            "b722fbe6-f672-4e5c-6468-63a8f3619223"
+            "aec5b279-b784-4924-9e34-4d32c0e4f8b8",
+            "9381fcf7-3d42-4b64-7fa1-35f651642467"
           ],
           "subModels": [
             {
-              "id": "4650fd47-5f10-407c-573b-6a3c59e4661d",
+              "id": "aec5b279-b784-4924-9e34-4d32c0e4f8b8",
               "name": "Getting Started",
               "description": "",
               "metamodelRef": "b9f5b34e-2ea4-4f68-6421-2e1253c2322d",
@@ -46593,7 +46648,7 @@
               "modified": false
             },
             {
-              "id": "b722fbe6-f672-4e5c-6468-63a8f3619223",
+              "id": "9381fcf7-3d42-4b64-7fa1-35f651642467",
               "name": "Metamodelling Tasks",
               "description": "",
               "metamodelRef": "b9f5b34e-2ea4-4f68-6421-2e1253c2322d",
@@ -47019,6 +47074,38 @@
               "modified": true
             },
             {
+              "id": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
+              "name": "Container",
+              "abstract": "",
+              "viewkind": "Container",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "a3112875-e4fe-4100-b290-5634d8b8acfc",
+              "description": "A Container like a folder that holds everything inside, either by relationship \"hasMember\"  to objects or in a Modelview just visually keeping the objectviews.",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+              "name": "EntityType",
+              "abstract": true,
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
+              "description": "An EntityType represents a category or class of similar entities in a data model, For example, a 'Customer' could be an EntityType with relationships to properties like name and address.",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
               "id": "422f23eb-fe48-418a-ddcf-4839f7b033aa",
               "name": "Type",
               "abstract": true,
@@ -47029,7 +47116,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "a628f4a0-6646-4816-8145-9526d00c6a63",
+                  "id": "a6819eb7-d335-4313-0b4c-711d8013ae24",
                   "name": "typedescription",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -47044,7 +47131,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "108e1632-b7ab-4a99-2130-950722204a70",
+                  "id": "db12f796-3537-4586-e921-36b79367c120",
                   "name": "typename",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -47059,7 +47146,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "1589e740-98d4-4309-f105-cfb6af06131f",
+                  "id": "6a18b219-4bfe-4ce0-8d0b-68611c3bafb9",
                   "name": "typeid",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -47074,26 +47161,7 @@
                   "unitCategoryRef": ""
                 }
               ],
-              "attributes": [
-                {
-                  "typeName": "Type",
-                  "propName": "typedescription",
-                  "name": "Type.typedescription",
-                  "propRef": "a628f4a0-6646-4816-8145-9526d00c6a63"
-                },
-                {
-                  "typeName": "Type",
-                  "propName": "typename",
-                  "name": "Type.typename",
-                  "propRef": "108e1632-b7ab-4a99-2130-950722204a70"
-                },
-                {
-                  "typeName": "Type",
-                  "propName": "typeid",
-                  "name": "Type.typeid",
-                  "propRef": "1589e740-98d4-4309-f105-cfb6af06131f"
-                }
-              ],
+              "attributes": [],
               "methods": [],
               "ports": [],
               "markedAsDeleted": false,
@@ -47110,7 +47178,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "b9784c85-3a6b-4b3c-1f0f-5da085ce2103",
+                  "id": "3dc21d6b-09e2-4bcd-d8c8-eac6ab290e83",
                   "name": "abstract",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -47125,7 +47193,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "868332ab-a5bd-4b4e-91c8-b468778fd034",
+                  "id": "2621ffef-7c61-47e6-03a9-fc3aeed1cdff",
                   "name": "name",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -47140,7 +47208,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "8723730c-4c02-4273-8d4e-d2d433c38a6b",
+                  "id": "7699d2b4-606a-425d-7eaa-b9543e980ae6",
                   "name": "description",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -47155,26 +47223,23 @@
                   "unitCategoryRef": ""
                 }
               ],
-              "attributes": [
-                {
-                  "typeName": "Details",
-                  "propName": "abstract",
-                  "name": "Details.abstract",
-                  "propRef": "b9784c85-3a6b-4b3c-1f0f-5da085ce2103"
-                },
-                {
-                  "typeName": "Details",
-                  "propName": "name",
-                  "name": "Details.name",
-                  "propRef": "868332ab-a5bd-4b4e-91c8-b468778fd034"
-                },
-                {
-                  "typeName": "Details",
-                  "propName": "description",
-                  "name": "Details.description",
-                  "propRef": "8723730c-4c02-4273-8d4e-d2d433c38a6b"
-                }
-              ],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "4f1e3080-24b0-4e9f-f8cc-f13e469232a2",
+              "name": "Method",
+              "abstract": "",
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "d096c796-7028-47f3-11e3-3abde73a4f94",
+              "description": "Method is a function associated with an EntityType (object or class), defining an action or behavior the object can perform. It often manipulates the object's data properties and can return values.\n",
+              "properties": [],
+              "attributes": [],
               "methods": [],
               "ports": [],
               "markedAsDeleted": false,
@@ -47823,179 +47888,92 @@
                 {
                   "id": "6a5ec70f-e514-482e-4b89-f71213ca4dc2",
                   "name": "isRequired",
-                  "nameId": "isRequired",
-                  "category": "Property",
-                  "sourceUri": "",
-                  "markedAsDeleted": false,
-                  "modified": false,
-                  "description": "Is required checkbox",
-                  "fs_collection": "properties",
-                  "datatype": {
-                    "id": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
-                    "name": "YN",
-                    "nameId": "YN",
-                    "category": "Datatype",
-                    "sourceUri": "",
-                    "markedAsDeleted": false,
-                    "modified": false,
-                    "description": "",
-                    "fs_collection": "datatypes",
-                    "isOfDatatype": {
-                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
-                      "name": "string",
-                      "nameId": "string",
-                      "category": "Datatype",
-                      "sourceUri": "",
-                      "markedAsDeleted": false,
-                      "modified": false,
-                      "description": "String",
-                      "fs_collection": "datatypes",
-                      "isOfDatatype": null,
-                      "inputPattern": "",
-                      "viewFormat": "%s",
-                      "fieldType": "text",
-                      "readOnly": false,
-                      "allowedValues": "",
-                      "defaultValue": null,
-                      "value": "",
-                      "pointerType": null,
-                      "pointerCriteria": ""
-                    },
-                    "inputPattern": "",
-                    "viewFormat": "%s",
-                    "fieldType": "select",
-                    "readOnly": false,
-                    "allowedValues": [
-                      "Y",
-                      "N"
-                    ],
-                    "defaultValue": "N",
-                    "value": "",
-                    "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
-                  },
-                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
-                  "method": null,
-                  "methodRef": "",
-                  "unitCategory": null,
-                  "unitCategoryRef": "",
-                  "subProperties": null,
-                  "defaultValue": " ",
-                  "readOnly": "",
+                  "defaultValue": "",
                   "inputPattern": "",
                   "viewFormat": "",
-                  "example": ""
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
                 },
                 {
                   "id": "b062c283-91c4-497d-d53a-9a95d0bc2a96",
                   "name": "isDerived",
-                  "nameId": "isDerived",
-                  "category": "Property",
-                  "sourceUri": "",
-                  "markedAsDeleted": false,
-                  "modified": false,
-                  "description": "Is derived checkbox",
-                  "fs_collection": "properties",
-                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
-                  "method": null,
-                  "methodRef": "",
-                  "unitCategory": null,
-                  "unitCategoryRef": "",
-                  "subProperties": null,
-                  "defaultValue": " ",
-                  "readOnly": "",
+                  "defaultValue": "",
                   "inputPattern": "",
                   "viewFormat": "",
-                  "example": ""
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
                 },
                 {
                   "id": "20767270-0363-4c8c-91b7-8a15c694e9bf",
                   "name": "isIndexed",
-                  "nameId": "isIndexed",
-                  "category": "Property",
-                  "sourceUri": "",
-                  "markedAsDeleted": false,
-                  "modified": false,
-                  "description": "Is indexed checkbox",
-                  "fs_collection": "properties",
-                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
-                  "method": null,
-                  "methodRef": "",
-                  "unitCategory": null,
-                  "unitCategoryRef": "",
-                  "subProperties": null,
-                  "defaultValue": " ",
-                  "readOnly": "",
+                  "defaultValue": "",
                   "inputPattern": "",
                   "viewFormat": "",
-                  "example": ""
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
                 },
                 {
                   "id": "f2c44272-259b-4678-7184-72f49e9af681",
                   "name": "referenceObject",
-                  "nameId": "referenceObject",
-                  "category": "Property",
-                  "sourceUri": "",
-                  "markedAsDeleted": false,
-                  "modified": false,
-                  "description": "",
-                  "fs_collection": "properties",
-                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
-                  "method": null,
-                  "methodRef": "",
-                  "unitCategory": null,
-                  "unitCategoryRef": "",
-                  "subProperties": null,
-                  "defaultValue": " ",
-                  "readOnly": "",
+                  "defaultValue": "",
                   "inputPattern": "",
                   "viewFormat": "",
-                  "example": ""
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
                 },
                 {
                   "id": "27b5be92-0a8c-4755-7b95-1e6ba8ef21a0",
                   "name": "refGroupType",
-                  "nameId": "refGroupType",
-                  "category": "Property",
-                  "sourceUri": "",
-                  "markedAsDeleted": false,
-                  "modified": false,
-                  "description": "",
-                  "fs_collection": "properties",
-                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
-                  "method": null,
-                  "methodRef": "",
-                  "unitCategory": null,
-                  "unitCategoryRef": "",
-                  "subProperties": null,
-                  "defaultValue": " ",
-                  "readOnly": "",
+                  "defaultValue": "",
                   "inputPattern": "",
                   "viewFormat": "",
-                  "example": ""
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
                 },
                 {
                   "id": "f84f8d7d-858c-4159-b98a-4ccfb9dc7fc4",
                   "name": "refVersion",
-                  "nameId": "refVersion",
-                  "category": "Property",
-                  "sourceUri": "",
-                  "markedAsDeleted": false,
-                  "modified": false,
-                  "description": "Version of the related object.",
-                  "fs_collection": "properties",
-                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
-                  "method": null,
-                  "methodRef": "",
-                  "unitCategory": null,
-                  "unitCategoryRef": "",
-                  "subProperties": null,
-                  "defaultValue": " ",
-                  "readOnly": "",
+                  "defaultValue": "",
                   "inputPattern": "",
                   "viewFormat": "",
-                  "example": ""
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
                 }
               ],
               "cardinality": "",
@@ -48636,167 +48614,6 @@
           ],
           "objecttypes0": [
             {
-              "id": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
-              "name": "Container",
-              "abstract": "",
-              "viewkind": "Container",
-              "typename": "Object type",
-              "typedescription": "",
-              "typeviewRef": "a3112875-e4fe-4100-b290-5634d8b8acfc",
-              "description": "A Container like a folder that holds everything inside, either by relationship \"hasMember\"  to objects or in a Modelview just visually keeping the objectviews.",
-              "properties": [],
-              "attributes": [],
-              "methods": [],
-              "ports": [],
-              "markedAsDeleted": false,
-              "modified": true
-            },
-            {
-              "id": "c30f6e2c-d04b-4360-fc17-002d1c4162f8",
-              "name": "Datatype",
-              "abstract": "",
-              "viewkind": "",
-              "typename": "Object type",
-              "typedescription": "",
-              "typeviewRef": "f3ba4286-48ca-445d-7bf5-dff9d8d78e39",
-              "description": "A datatype is a classification identifying the type of data, such as integer, string, or boolean, which determines the possible values for that type, the operations that can be performed on it, and the way it is stored.",
-              "properties": [],
-              "attributes": [],
-              "methods": [],
-              "ports": [],
-              "markedAsDeleted": false,
-              "modified": true
-            },
-            {
-              "id": "ecb8b2df-d974-4351-a4f8-4d417bb3a182",
-              "name": "Details",
-              "abstract": true,
-              "viewkind": "",
-              "typename": "Object type",
-              "typedescription": "",
-              "typeviewRef": "2821fd55-01a6-4373-c028-3d54be0da3a5",
-              "description": "",
-              "properties": [
-                {
-                  "id": "b9784c85-3a6b-4b3c-1f0f-5da085ce2103",
-                  "name": "abstract",
-                  "defaultValue": "",
-                  "inputPattern": "",
-                  "viewFormat": "",
-                  "example": "",
-                  "readOnly": false,
-                  "markedAsDeleted": false,
-                  "modified": false,
-                  "description": " ",
-                  "datatypeRef": "9c426092-98be-4470-97d3-99ee033b6b29",
-                  "methodRef": "",
-                  "unitCategoryRef": ""
-                },
-                {
-                  "id": "868332ab-a5bd-4b4e-91c8-b468778fd034",
-                  "name": "name",
-                  "defaultValue": "",
-                  "inputPattern": "",
-                  "viewFormat": "",
-                  "example": "",
-                  "readOnly": false,
-                  "markedAsDeleted": false,
-                  "modified": false,
-                  "description": " ",
-                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
-                  "methodRef": "",
-                  "unitCategoryRef": ""
-                },
-                {
-                  "id": "8723730c-4c02-4273-8d4e-d2d433c38a6b",
-                  "name": "description",
-                  "defaultValue": "",
-                  "inputPattern": "",
-                  "viewFormat": "",
-                  "example": "",
-                  "readOnly": false,
-                  "markedAsDeleted": false,
-                  "modified": false,
-                  "description": " ",
-                  "datatypeRef": "3bdde73a-6500-4d16-e4f1-d0326d946575",
-                  "methodRef": "",
-                  "unitCategoryRef": ""
-                }
-              ],
-              "attributes": [
-                {
-                  "typeName": "Details",
-                  "propName": "abstract",
-                  "name": "Details.abstract",
-                  "propRef": "b9784c85-3a6b-4b3c-1f0f-5da085ce2103"
-                },
-                {
-                  "typeName": "Details",
-                  "propName": "name",
-                  "name": "Details.name",
-                  "propRef": "868332ab-a5bd-4b4e-91c8-b468778fd034"
-                },
-                {
-                  "typeName": "Details",
-                  "propName": "description",
-                  "name": "Details.description",
-                  "propRef": "8723730c-4c02-4273-8d4e-d2d433c38a6b"
-                }
-              ],
-              "methods": [],
-              "ports": [],
-              "markedAsDeleted": false,
-              "modified": true
-            },
-            {
-              "id": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-              "name": "EntityType",
-              "abstract": true,
-              "viewkind": "",
-              "typename": "Object type",
-              "typedescription": "",
-              "typeviewRef": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
-              "description": "An EntityType represents a category or class of similar entities in a data model, For example, a 'Customer' could be an EntityType with relationships to properties like name and address.",
-              "properties": [],
-              "attributes": [],
-              "methods": [],
-              "ports": [],
-              "markedAsDeleted": false,
-              "modified": true
-            },
-            {
-              "id": "4e4ce109-200d-456a-f963-4a9e3f29e2cf",
-              "name": "Fieldtype",
-              "abstract": "",
-              "viewkind": "Object",
-              "typename": "Object type",
-              "typedescription": "",
-              "typeviewRef": "f16bda52-6a4c-4a35-cf40-e740f85bff88",
-              "description": "FieldType typically specify of the type of data contained in a field. (text, textarea, select, checkbox, radio, date, time, color)",
-              "properties": [],
-              "attributes": [],
-              "methods": [],
-              "ports": [],
-              "markedAsDeleted": false,
-              "modified": true
-            },
-            {
-              "id": "b5cd30a2-6213-402a-a64a-85c6eff312f5",
-              "name": "InputPattern",
-              "abstract": "",
-              "viewkind": "",
-              "typename": "Object type",
-              "typedescription": "",
-              "typeviewRef": "1d0b05ce-e3dc-43fa-b113-25da766290aa",
-              "description": "InputPattern typically refers to a predefined format or rule that an input must follow. It's used to validate or guide user input, ensuring it matches a specific structure, like a date format or a phone number pattern. RegEx is typically used to specify the pattern.",
-              "properties": [],
-              "attributes": [],
-              "methods": [],
-              "ports": [],
-              "markedAsDeleted": false,
-              "modified": true
-            },
-            {
               "id": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
               "name": "Label",
               "abstract": false,
@@ -48836,62 +48653,94 @@
               "modified": true
             },
             {
-              "id": "4ccd52d4-fbbe-46d6-fea5-83d67a9aff33",
-              "name": "Metamodel",
+              "id": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
+              "name": "Container",
               "abstract": "",
-              "viewkind": "",
-              "typename": "Object type",
-              "typedescription": "",
-              "typeviewRef": "083f561b-1a53-4d41-b395-3dd3715c54fd",
-              "description": "Metamodel is a model that defines the Object and Relationship-types, rules and structures for creating other models. It provides a higher-level framework for understanding how different elements in a model relate and interact.",
-              "properties": [],
-              "attributes": [],
-              "methods": [],
-              "ports": [],
-              "markedAsDeleted": false,
-              "modified": true
-            },
-            {
-              "id": "4f1e3080-24b0-4e9f-f8cc-f13e469232a2",
-              "name": "Method",
-              "abstract": "",
-              "viewkind": "",
-              "typename": "Object type",
-              "typedescription": "",
-              "typeviewRef": "d096c796-7028-47f3-11e3-3abde73a4f94",
-              "description": "Method is a function associated with an EntityType (object or class), defining an action or behavior the object can perform. It often manipulates the object's data properties and can return values.\n",
-              "properties": [],
-              "attributes": [],
-              "methods": [],
-              "ports": [],
-              "markedAsDeleted": false,
-              "modified": true
-            },
-            {
-              "id": "e0708fcb-4dab-44fb-312d-7685ea332985",
-              "name": "MethodType",
-              "abstract": "",
-              "viewkind": "",
-              "typename": "Object type",
-              "typedescription": "",
-              "typeviewRef": "8b66f193-4ee2-4084-851f-2fd16c686538",
-              "description": "MethodType typically refers to an attribute that specifies the type or category of a method or function.",
-              "properties": [],
-              "attributes": [],
-              "methods": [],
-              "ports": [],
-              "markedAsDeleted": false,
-              "modified": true
-            },
-            {
-              "id": "20f118cd-688d-4749-ab71-5bfd4028a0a5",
-              "name": "Model",
-              "abstract": false,
               "viewkind": "Container",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "b15ef272-300c-45ab-9656-4d07af8329c7",
-              "description": "",
+              "typeviewRef": "a3112875-e4fe-4100-b290-5634d8b8acfc",
+              "description": "A Container like a folder that holds everything inside, either by relationship \"hasMember\"  to objects or in a Modelview just visually keeping the objectviews.",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "91c27596-9910-49c3-9088-44da75085f14",
+              "name": "Value",
+              "abstract": "",
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "103cb445-fa53-4e3c-c345-bb79e1896e4c",
+              "description": "Value represents the specific data assigned to a Property. It defines the actual content or figure, such as a numerical amount, text string, or boolean state, that the property holds.",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "1b6ba1b5-f716-4777-deab-cf91b0f53218",
+              "name": "ViewFormat",
+              "abstract": "",
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "8be2c96a-1919-4cb7-7f37-c15126d79155",
+              "description": "ViewFormat typically refers to a setting or attribute in software that determines how data or information is displayed or formatted in a user interface. It controls the visual presentation of data, such as layout, style, or format, enhancing readability and user experience.",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "b5cd30a2-6213-402a-a64a-85c6eff312f5",
+              "name": "InputPattern",
+              "abstract": "",
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "1d0b05ce-e3dc-43fa-b113-25da766290aa",
+              "description": "InputPattern typically refers to a predefined format or rule that an input must follow. It's used to validate or guide user input, ensuring it matches a specific structure, like a date format or a phone number pattern. RegEx is typically used to specify the pattern.",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "4e4ce109-200d-456a-f963-4a9e3f29e2cf",
+              "name": "Fieldtype",
+              "abstract": "",
+              "viewkind": "Object",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "f16bda52-6a4c-4a35-cf40-e740f85bff88",
+              "description": "FieldType typically specify of the type of data contained in a field. (text, textarea, select, checkbox, radio, date, time, color)",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "c30f6e2c-d04b-4360-fc17-002d1c4162f8",
+              "name": "Datatype",
+              "abstract": "",
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "f3ba4286-48ca-445d-7bf5-dff9d8d78e39",
+              "description": "A datatype is a classification identifying the type of data, such as integer, string, or boolean, which determines the possible values for that type, the operations that can be performed on it, and the way it is stored.",
               "properties": [],
               "attributes": [],
               "methods": [],
@@ -48932,6 +48781,102 @@
               "modified": true
             },
             {
+              "id": "4ccd52d4-fbbe-46d6-fea5-83d67a9aff33",
+              "name": "Metamodel",
+              "abstract": "",
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "083f561b-1a53-4d41-b395-3dd3715c54fd",
+              "description": "Metamodel is a model that defines the Object and Relationship-types, rules and structures for creating other models. It provides a higher-level framework for understanding how different elements in a model relate and interact.",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "20f118cd-688d-4749-ab71-5bfd4028a0a5",
+              "name": "Model",
+              "abstract": false,
+              "viewkind": "Container",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "b15ef272-300c-45ab-9656-4d07af8329c7",
+              "description": "",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "4f1e3080-24b0-4e9f-f8cc-f13e469232a2",
+              "name": "Method",
+              "abstract": "",
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "d096c796-7028-47f3-11e3-3abde73a4f94",
+              "description": "Method is a function associated with an EntityType (object or class), defining an action or behavior the object can perform. It often manipulates the object's data properties and can return values.\n",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "e0708fcb-4dab-44fb-312d-7685ea332985",
+              "name": "MethodType",
+              "abstract": "",
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "8b66f193-4ee2-4084-851f-2fd16c686538",
+              "description": "MethodType typically refers to an attribute that specifies the type or category of a method or function.",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
+              "name": "Container",
+              "abstract": "",
+              "viewkind": "Container",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "a3112875-e4fe-4100-b290-5634d8b8acfc",
+              "description": "A Container like a folder that holds everything inside, either by relationship \"hasMember\"  to objects or in a Modelview just visually keeping the objectviews.",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+              "name": "EntityType",
+              "abstract": true,
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
+              "description": "An EntityType represents a category or class of similar entities in a data model, For example, a 'Customer' could be an EntityType with relationships to properties like name and address.",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
               "id": "422f23eb-fe48-418a-ddcf-4839f7b033aa",
               "name": "Type",
               "abstract": true,
@@ -48942,7 +48887,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "a628f4a0-6646-4816-8145-9526d00c6a63",
+                  "id": "a6819eb7-d335-4313-0b4c-711d8013ae24",
                   "name": "typedescription",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -48957,7 +48902,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "108e1632-b7ab-4a99-2130-950722204a70",
+                  "id": "db12f796-3537-4586-e921-36b79367c120",
                   "name": "typename",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -48972,7 +48917,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "1589e740-98d4-4309-f105-cfb6af06131f",
+                  "id": "6a18b219-4bfe-4ce0-8d0b-68611c3bafb9",
                   "name": "typeid",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -48987,41 +48932,6 @@
                   "unitCategoryRef": ""
                 }
               ],
-              "attributes": [
-                {
-                  "typeName": "Type",
-                  "propName": "typedescription",
-                  "name": "Type.typedescription",
-                  "propRef": "a628f4a0-6646-4816-8145-9526d00c6a63"
-                },
-                {
-                  "typeName": "Type",
-                  "propName": "typename",
-                  "name": "Type.typename",
-                  "propRef": "108e1632-b7ab-4a99-2130-950722204a70"
-                },
-                {
-                  "typeName": "Type",
-                  "propName": "typeid",
-                  "name": "Type.typeid",
-                  "propRef": "1589e740-98d4-4309-f105-cfb6af06131f"
-                }
-              ],
-              "methods": [],
-              "ports": [],
-              "markedAsDeleted": false,
-              "modified": true
-            },
-            {
-              "id": "91c27596-9910-49c3-9088-44da75085f14",
-              "name": "Value",
-              "abstract": "",
-              "viewkind": "",
-              "typename": "Object type",
-              "typedescription": "",
-              "typeviewRef": "103cb445-fa53-4e3c-c345-bb79e1896e4c",
-              "description": "Value represents the specific data assigned to a Property. It defines the actual content or figure, such as a numerical amount, text string, or boolean state, that the property holds.",
-              "properties": [],
               "attributes": [],
               "methods": [],
               "ports": [],
@@ -49029,14 +48939,76 @@
               "modified": true
             },
             {
-              "id": "1b6ba1b5-f716-4777-deab-cf91b0f53218",
-              "name": "ViewFormat",
+              "id": "ecb8b2df-d974-4351-a4f8-4d417bb3a182",
+              "name": "Details",
+              "abstract": true,
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "2821fd55-01a6-4373-c028-3d54be0da3a5",
+              "description": "",
+              "properties": [
+                {
+                  "id": "3dc21d6b-09e2-4bcd-d8c8-eac6ab290e83",
+                  "name": "abstract",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": false,
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "9c426092-98be-4470-97d3-99ee033b6b29",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "2621ffef-7c61-47e6-03a9-fc3aeed1cdff",
+                  "name": "name",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": false,
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "7699d2b4-606a-425d-7eaa-b9543e980ae6",
+                  "name": "description",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": false,
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "3bdde73a-6500-4d16-e4f1-d0326d946575",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                }
+              ],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "4f1e3080-24b0-4e9f-f8cc-f13e469232a2",
+              "name": "Method",
               "abstract": "",
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "8be2c96a-1919-4cb7-7f37-c15126d79155",
-              "description": "ViewFormat typically refers to a setting or attribute in software that determines how data or information is displayed or formatted in a user interface. It controls the visual presentation of data, such as layout, style, or format, enhancing readability and user experience.",
+              "typeviewRef": "d096c796-7028-47f3-11e3-3abde73a4f94",
+              "description": "Method is a function associated with an EntityType (object or class), defining an action or behavior the object can perform. It often manipulates the object's data properties and can return values.\n",
               "properties": [],
               "attributes": [],
               "methods": [],
@@ -49267,7 +49239,7 @@
               "supertypes": [],
               "properties": [
                 {
-                  "id": "dc447fe7-76fa-445a-afa6-d1c32f1a6c55",
+                  "id": "6a5ec70f-e514-482e-4b89-f71213ca4dc2",
                   "name": "isRequired",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -49282,7 +49254,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "5024c164-b350-4ede-b807-87e2cbe6a1c9",
+                  "id": "b062c283-91c4-497d-d53a-9a95d0bc2a96",
                   "name": "isDerived",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -49297,7 +49269,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "ccc549f5-c240-4e84-2ee9-c2c86ba54f5c",
+                  "id": "20767270-0363-4c8c-91b7-8a15c694e9bf",
                   "name": "isIndexed",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -49312,7 +49284,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "6e7d0306-61e7-4121-e24b-b3d579cccbe1",
+                  "id": "f2c44272-259b-4678-7184-72f49e9af681",
                   "name": "referenceObject",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -49327,7 +49299,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "8c2de3a4-b09f-4692-836d-53f1235eb4fc",
+                  "id": "27b5be92-0a8c-4755-7b95-1e6ba8ef21a0",
                   "name": "refGroupType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -49342,7 +49314,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "b1550cb6-3cfe-4d52-1a14-0526e12e877f",
+                  "id": "f84f8d7d-858c-4159-b98a-4ccfb9dc7fc4",
                   "name": "refVersion",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -50426,6 +50398,7 @@
               "id": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
               "name": "condition",
               "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
               "allowedValues": null,
               "defaultValue": "",
               "readOnly": false,
@@ -50440,6 +50413,7 @@
               "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
               "name": "typenames",
               "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
               "allowedValues": null,
               "defaultValue": "",
               "readOnly": false,
@@ -50524,6 +50498,11 @@
               "id": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
               "name": "YN",
               "description": "",
+              "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+              "allowedValues": [
+                "Y",
+                "N"
+              ],
               "defaultValue": "N",
               "readOnly": false,
               "value": "",
@@ -50616,6 +50595,23 @@
               "fieldType": "select",
               "markedAsDeleted": false,
               "modified": false
+            },
+            {
+              "id": "facdaf68-f9d5-4793-54ed-d3bd8e8f187a",
+              "name": "today",
+              "description": "",
+              "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
+              "allowedValues": [
+                "now"
+              ],
+              "defaultValue": "now",
+              "readOnly": false,
+              "value": "",
+              "inputPattern": "",
+              "viewFormat": "%s",
+              "fieldType": "date",
+              "markedAsDeleted": false,
+              "modified": false
             }
           ],
           "methodtypes": [
@@ -50625,7 +50621,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "b1e0cca4-b73e-440a-8768-0a5b5be6e8e2",
+                  "id": "2c5a43cb-811d-4872-973d-5359acc88c42",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -50634,8 +50630,49 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
+                    "name": "typenames",
+                    "nameId": "typenames",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": {
+                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                      "name": "string",
+                      "nameId": "string",
+                      "category": "Datatype",
+                      "sourceUri": "",
+                      "markedAsDeleted": false,
+                      "modified": false,
+                      "description": "String",
+                      "fs_collection": "datatypes",
+                      "isOfDatatype": null,
+                      "inputPattern": "",
+                      "viewFormat": "%s",
+                      "fieldType": "text",
+                      "readOnly": false,
+                      "allowedValues": "",
+                      "defaultValue": null,
+                      "value": "",
+                      "pointerType": null,
+                      "pointerCriteria": ""
+                    },
+                    "inputPattern": "",
+                    "viewFormat": "%s",
+                    "fieldType": "text",
+                    "readOnly": false,
+                    "allowedValues": null,
+                    "defaultValue": "",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": "",
+                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                  },
+                  "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -50648,7 +50685,7 @@
                   "example": ""
                 },
                 {
-                  "id": "987f53f8-172f-4bdc-570c-e4ef16d11de1",
+                  "id": "193c2615-0512-4d78-ad3a-3f6801e790e8",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -50657,8 +50694,32 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "4260f5d9-16ee-40e2-3503-1d4988f2c23a",
+                    "name": "reldir",
+                    "nameId": "reldir",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": null,
+                    "inputPattern": "",
+                    "viewFormat": "",
+                    "fieldType": "radio",
+                    "readOnly": false,
+                    "allowedValues": [
+                      "in",
+                      "out",
+                      "any"
+                    ],
+                    "defaultValue": "any",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": ""
+                  },
+                  "datatypeRef": "4260f5d9-16ee-40e2-3503-1d4988f2c23a",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -50671,7 +50732,7 @@
                   "example": ""
                 },
                 {
-                  "id": "37075009-5858-4a1c-d482-a0b9db20afca",
+                  "id": "0e2c0cb5-3c34-4df4-a6d8-6eb8a033aed1",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -50680,8 +50741,49 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
+                    "name": "typenames",
+                    "nameId": "typenames",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": {
+                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                      "name": "string",
+                      "nameId": "string",
+                      "category": "Datatype",
+                      "sourceUri": "",
+                      "markedAsDeleted": false,
+                      "modified": false,
+                      "description": "String",
+                      "fs_collection": "datatypes",
+                      "isOfDatatype": null,
+                      "inputPattern": "",
+                      "viewFormat": "%s",
+                      "fieldType": "text",
+                      "readOnly": false,
+                      "allowedValues": "",
+                      "defaultValue": null,
+                      "value": "",
+                      "pointerType": null,
+                      "pointerCriteria": ""
+                    },
+                    "inputPattern": "",
+                    "viewFormat": "%s",
+                    "fieldType": "text",
+                    "readOnly": false,
+                    "allowedValues": null,
+                    "defaultValue": "",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": "",
+                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                  },
+                  "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -50694,7 +50796,7 @@
                   "example": ""
                 },
                 {
-                  "id": "66b5a7d8-d212-4942-ff48-a139238fdca4",
+                  "id": "7ec13298-899b-4357-7ff5-a4b371f1e690",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -50703,8 +50805,28 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "255491ab-0dd1-44a3-e9cf-40d590821421",
+                    "name": "expression",
+                    "nameId": "expression",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": null,
+                    "inputPattern": "",
+                    "viewFormat": "%s",
+                    "fieldType": "text",
+                    "readOnly": false,
+                    "allowedValues": null,
+                    "defaultValue": "",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": ""
+                  },
+                  "datatypeRef": "255491ab-0dd1-44a3-e9cf-40d590821421",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -50726,7 +50848,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "69e4eddd-6273-4f13-aa51-4d3d70bb1b27",
+                  "id": "22807898-3c3f-4637-42e5-b691bf92f853",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -50735,8 +50857,28 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "255491ab-0dd1-44a3-e9cf-40d590821421",
+                    "name": "expression",
+                    "nameId": "expression",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": null,
+                    "inputPattern": "",
+                    "viewFormat": "%s",
+                    "fieldType": "text",
+                    "readOnly": false,
+                    "allowedValues": null,
+                    "defaultValue": "",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": ""
+                  },
+                  "datatypeRef": "255491ab-0dd1-44a3-e9cf-40d590821421",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -50758,7 +50900,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "6a6eb023-2114-41f0-a78e-8cd0415fa6c3",
+                  "id": "95fdd0bd-e432-45d1-36e6-bde35da26342",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -50767,8 +50909,49 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
+                    "name": "typenames",
+                    "nameId": "typenames",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": {
+                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                      "name": "string",
+                      "nameId": "string",
+                      "category": "Datatype",
+                      "sourceUri": "",
+                      "markedAsDeleted": false,
+                      "modified": false,
+                      "description": "String",
+                      "fs_collection": "datatypes",
+                      "isOfDatatype": null,
+                      "inputPattern": "",
+                      "viewFormat": "%s",
+                      "fieldType": "text",
+                      "readOnly": false,
+                      "allowedValues": "",
+                      "defaultValue": null,
+                      "value": "",
+                      "pointerType": null,
+                      "pointerCriteria": ""
+                    },
+                    "inputPattern": "",
+                    "viewFormat": "%s",
+                    "fieldType": "text",
+                    "readOnly": false,
+                    "allowedValues": null,
+                    "defaultValue": "",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": "",
+                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                  },
+                  "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -50781,7 +50964,7 @@
                   "example": ""
                 },
                 {
-                  "id": "0ef430ea-965d-493a-0823-8b5e8772fd11",
+                  "id": "5a81ae03-10dc-416d-34bb-2c99c1805b49",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -50790,8 +50973,32 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "4260f5d9-16ee-40e2-3503-1d4988f2c23a",
+                    "name": "reldir",
+                    "nameId": "reldir",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": null,
+                    "inputPattern": "",
+                    "viewFormat": "",
+                    "fieldType": "radio",
+                    "readOnly": false,
+                    "allowedValues": [
+                      "in",
+                      "out",
+                      "any"
+                    ],
+                    "defaultValue": "any",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": ""
+                  },
+                  "datatypeRef": "4260f5d9-16ee-40e2-3503-1d4988f2c23a",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -50804,7 +51011,7 @@
                   "example": ""
                 },
                 {
-                  "id": "2954a8a6-5b83-4751-3cae-d8288bc74e59",
+                  "id": "3ddf10b5-5663-410e-5388-4065eb38bf73",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -50813,8 +51020,49 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
+                    "name": "typenames",
+                    "nameId": "typenames",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": {
+                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                      "name": "string",
+                      "nameId": "string",
+                      "category": "Datatype",
+                      "sourceUri": "",
+                      "markedAsDeleted": false,
+                      "modified": false,
+                      "description": "String",
+                      "fs_collection": "datatypes",
+                      "isOfDatatype": null,
+                      "inputPattern": "",
+                      "viewFormat": "%s",
+                      "fieldType": "text",
+                      "readOnly": false,
+                      "allowedValues": "",
+                      "defaultValue": null,
+                      "value": "",
+                      "pointerType": null,
+                      "pointerCriteria": ""
+                    },
+                    "inputPattern": "",
+                    "viewFormat": "%s",
+                    "fieldType": "text",
+                    "readOnly": false,
+                    "allowedValues": null,
+                    "defaultValue": "",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": "",
+                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                  },
+                  "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -50827,7 +51075,7 @@
                   "example": ""
                 },
                 {
-                  "id": "2fb5d5fe-6d96-4346-fdc6-47f98ab2aea8",
+                  "id": "179e7e26-a07a-4d68-f610-96d12a6fd877",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -50836,8 +51084,28 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "255491ab-0dd1-44a3-e9cf-40d590821421",
+                    "name": "expression",
+                    "nameId": "expression",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": null,
+                    "inputPattern": "",
+                    "viewFormat": "%s",
+                    "fieldType": "text",
+                    "readOnly": false,
+                    "allowedValues": null,
+                    "defaultValue": "",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": ""
+                  },
+                  "datatypeRef": "255491ab-0dd1-44a3-e9cf-40d590821421",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -50850,7 +51118,7 @@
                   "example": ""
                 },
                 {
-                  "id": "a580441e-18f3-40db-fb86-95d6fa0fb1f2",
+                  "id": "becba1b5-55c0-48d9-a781-2c20e1a30794",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -50859,8 +51127,28 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "b044f60b-1763-480b-576f-4e4b110ba495",
+                    "name": "integer",
+                    "nameId": "integer",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "Integer",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": null,
+                    "inputPattern": "^[-+]?\\d+$",
+                    "viewFormat": "%d",
+                    "fieldType": "text",
+                    "readOnly": false,
+                    "allowedValues": "",
+                    "defaultValue": null,
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": ""
+                  },
+                  "datatypeRef": "b044f60b-1763-480b-576f-4e4b110ba495",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -50873,7 +51161,7 @@
                   "example": ""
                 },
                 {
-                  "id": "0562e944-93fc-4ccd-d384-8a9bbb5b36f8",
+                  "id": "f2b154cf-fa70-4e8d-cd39-6819cd396f4a",
                   "name": "valuecondition",
                   "nameId": "valuecondition",
                   "category": "Property",
@@ -50882,21 +51170,62 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
+                    "name": "condition",
+                    "nameId": "condition",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": {
+                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                      "name": "string",
+                      "nameId": "string",
+                      "category": "Datatype",
+                      "sourceUri": "",
+                      "markedAsDeleted": false,
+                      "modified": false,
+                      "description": "String",
+                      "fs_collection": "datatypes",
+                      "isOfDatatype": null,
+                      "inputPattern": "",
+                      "viewFormat": "%s",
+                      "fieldType": "text",
+                      "readOnly": false,
+                      "allowedValues": "",
+                      "defaultValue": null,
+                      "value": "",
+                      "pointerType": null,
+                      "pointerCriteria": ""
+                    },
+                    "inputPattern": "",
+                    "viewFormat": "%s",
+                    "fieldType": "text",
+                    "readOnly": false,
+                    "allowedValues": null,
+                    "defaultValue": "",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": "",
+                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                  },
+                  "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
                   "unitCategoryRef": "",
                   "subProperties": null,
                   "defaultValue": " ",
-                  "readOnly": false,
+                  "readOnly": "",
                   "inputPattern": "",
                   "viewFormat": "",
                   "example": ""
                 },
                 {
-                  "id": "823e3f10-c91d-40ed-997f-fd4540505233",
+                  "id": "d09af7ab-b7c6-462b-4510-8c4caa321e34",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -50905,8 +51234,49 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
+                    "name": "condition",
+                    "nameId": "condition",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": {
+                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                      "name": "string",
+                      "nameId": "string",
+                      "category": "Datatype",
+                      "sourceUri": "",
+                      "markedAsDeleted": false,
+                      "modified": false,
+                      "description": "String",
+                      "fs_collection": "datatypes",
+                      "isOfDatatype": null,
+                      "inputPattern": "",
+                      "viewFormat": "%s",
+                      "fieldType": "text",
+                      "readOnly": false,
+                      "allowedValues": "",
+                      "defaultValue": null,
+                      "value": "",
+                      "pointerType": null,
+                      "pointerCriteria": ""
+                    },
+                    "inputPattern": "",
+                    "viewFormat": "%s",
+                    "fieldType": "text",
+                    "readOnly": false,
+                    "allowedValues": null,
+                    "defaultValue": "",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": "",
+                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                  },
+                  "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -50919,7 +51289,7 @@
                   "example": ""
                 },
                 {
-                  "id": "4201602a-6622-48d3-32b7-e63d36e6cfc3",
+                  "id": "7fbcc83c-15c8-4c4a-f541-af4358003fa0",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -50928,8 +51298,49 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": null,
-                  "datatypeRef": "",
+                  "datatype": {
+                    "id": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
+                    "name": "condition",
+                    "nameId": "condition",
+                    "category": "Datatype",
+                    "sourceUri": "",
+                    "markedAsDeleted": false,
+                    "modified": false,
+                    "description": "",
+                    "fs_collection": "datatypes",
+                    "isOfDatatype": {
+                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                      "name": "string",
+                      "nameId": "string",
+                      "category": "Datatype",
+                      "sourceUri": "",
+                      "markedAsDeleted": false,
+                      "modified": false,
+                      "description": "String",
+                      "fs_collection": "datatypes",
+                      "isOfDatatype": null,
+                      "inputPattern": "",
+                      "viewFormat": "%s",
+                      "fieldType": "text",
+                      "readOnly": false,
+                      "allowedValues": "",
+                      "defaultValue": null,
+                      "value": "",
+                      "pointerType": null,
+                      "pointerCriteria": ""
+                    },
+                    "inputPattern": "",
+                    "viewFormat": "%s",
+                    "fieldType": "text",
+                    "readOnly": false,
+                    "allowedValues": null,
+                    "defaultValue": "",
+                    "value": "",
+                    "pointerType": null,
+                    "pointerCriteria": "",
+                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
+                  },
+                  "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
                   "methodRef": "",
                   "unitCategory": null,
@@ -52270,7 +52681,7 @@
               "strokecolor": "lightgrey",
               "strokewidth": "1",
               "textcolor": "lightgrey",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -52333,7 +52744,7 @@
               "strokecolor": "black",
               "strokewidth": "1",
               "textcolor": "black",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "Dotted",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -52354,7 +52765,7 @@
               "strokecolor": "lightgrey",
               "strokewidth": "1",
               "textcolor": "lightgrey",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -52375,7 +52786,7 @@
               "strokecolor": "lightgrey",
               "strokewidth": "1",
               "textcolor": "grey",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -52396,7 +52807,7 @@
               "strokecolor": "lightgrey",
               "strokewidth": "1",
               "textcolor": "lightgrey",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -52493,6 +52904,27 @@
               "modified": false
             },
             {
+              "id": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
+              "name": "has_Association",
+              "description": "",
+              "typeRef": "22f50fa8-90be-4738-8f71-670a19668fe0",
+              "template": "linkTemplate1",
+              "strokecolor": "lightgrey",
+              "strokewidth": "1",
+              "textcolor": "lightgrey",
+              "textscale": "1",
+              "dash": "None",
+              "fromArrow": "",
+              "toArrow": "OpenTriangle",
+              "fromArrowColor": "#CCCCCC80",
+              "toArrowColor": "#CCCCCC80",
+              "routing": "Normal",
+              "corner": "0",
+              "curve": "None",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
               "id": "1ca7851f-f1d9-4965-ab51-72ba7ea3ec56",
               "name": "isDefault_Association",
               "description": "",
@@ -52501,7 +52933,7 @@
               "strokecolor": "lightgrey",
               "strokewidth": "1",
               "textcolor": "lightgrey",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -52522,7 +52954,7 @@
               "strokecolor": "#aaaaaa",
               "strokewidth": "1",
               "textcolor": "lightgrey",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -52543,7 +52975,7 @@
               "strokecolor": "black",
               "strokewidth": "1",
               "textcolor": "black",
-              "textscale": "1",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -52565,6 +52997,48 @@
               "strokewidth": "1",
               "textcolor": "black",
               "textscale": "1",
+              "dash": "None",
+              "fromArrow": "",
+              "toArrow": "OpenTriangle",
+              "fromArrowColor": "",
+              "toArrowColor": "white",
+              "routing": "Normal",
+              "corner": "0",
+              "curve": "0",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "c8aacf92-e0d2-443d-8762-a159506f1f1d",
+              "name": "refersTo_Association",
+              "description": "",
+              "typeRef": "7efd38eb-82a8-457f-9fda-7b75ef71d942",
+              "template": "linkTemplate1",
+              "strokecolor": "black",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textscale": 1,
+              "dash": "None",
+              "fromArrow": "",
+              "toArrow": "OpenTriangle",
+              "fromArrowColor": "",
+              "toArrowColor": "white",
+              "routing": "Normal",
+              "corner": "0",
+              "curve": "0",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "70e7b709-bd91-4b7c-f390-553914e10430",
+              "name": "relationshipType_Association",
+              "description": "",
+              "typeRef": "9c2f4dd9-297a-4221-c694-76a7c18ab04d",
+              "template": "linkTemplate1",
+              "strokecolor": "black",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textscale": 1,
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
@@ -54213,12 +54687,12 @@
             "14398d2f-90de-44bf-e484-1d780a93b88c"
           ],
           "subModelRefs": [
-            "5476be66-68d5-4051-2d2a-40b1b173e052",
-            "15e775e7-5702-45e3-0b95-6946e75a3b4a"
+            "5f634a29-2f14-4073-ed6a-2f36e6b12a47",
+            "706b1a4b-236f-4887-825c-c93b98da76f6"
           ],
           "subModels": [
             {
-              "id": "5476be66-68d5-4051-2d2a-40b1b173e052",
+              "id": "5f634a29-2f14-4073-ed6a-2f36e6b12a47",
               "name": "Build a Concept Model",
               "description": "",
               "metamodelRef": "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
@@ -54309,7 +54783,7 @@
               "modified": false
             },
             {
-              "id": "15e775e7-5702-45e3-0b95-6946e75a3b4a",
+              "id": "706b1a4b-236f-4887-825c-c93b98da76f6",
               "name": "Model",
               "description": "",
               "metamodelRef": "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
@@ -54598,7 +55072,7 @@
               "description": "Defines an Information element with Name, description and proposedType properties.",
               "properties": [
                 {
-                  "id": "4c4b4977-afaa-4ded-d63d-2f05e2458a5d",
+                  "id": "d0423cb4-7198-473f-d2bd-90c295d39c2c",
                   "name": "proposedType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -54678,7 +55152,7 @@
               "description": "A View highlight essential Information elements tailored to the need of specific users or tasks.",
               "properties": [
                 {
-                  "id": "cd0efcbb-92aa-493e-e3bd-dea40f458ce7",
+                  "id": "1082220a-c64c-48d2-3111-92cf5fb025ac",
                   "name": "proposedType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -54698,7 +55172,7 @@
                   "typeName": "View",
                   "propName": "proposedType",
                   "name": "View.proposedType",
-                  "propRef": "69809331-3f5d-4a7a-9ef7-69a80db3a748"
+                  "propRef": "cd0efcbb-92aa-493e-e3bd-dea40f458ce7"
                 }
               ],
               "methods": [],
@@ -55363,7 +55837,7 @@
               "supertypes": [],
               "properties": [
                 {
-                  "id": "dc447fe7-76fa-445a-afa6-d1c32f1a6c55",
+                  "id": "6a5ec70f-e514-482e-4b89-f71213ca4dc2",
                   "name": "isRequired",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -55378,7 +55852,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "5024c164-b350-4ede-b807-87e2cbe6a1c9",
+                  "id": "b062c283-91c4-497d-d53a-9a95d0bc2a96",
                   "name": "isDerived",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -55393,7 +55867,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "ccc549f5-c240-4e84-2ee9-c2c86ba54f5c",
+                  "id": "20767270-0363-4c8c-91b7-8a15c694e9bf",
                   "name": "isIndexed",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -55408,7 +55882,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "6e7d0306-61e7-4121-e24b-b3d579cccbe1",
+                  "id": "f2c44272-259b-4678-7184-72f49e9af681",
                   "name": "referenceObject",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -55423,7 +55897,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "8c2de3a4-b09f-4692-836d-53f1235eb4fc",
+                  "id": "27b5be92-0a8c-4755-7b95-1e6ba8ef21a0",
                   "name": "refGroupType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -55438,7 +55912,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "b1550cb6-3cfe-4d52-1a14-0526e12e877f",
+                  "id": "f84f8d7d-858c-4159-b98a-4ccfb9dc7fc4",
                   "name": "refVersion",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -56467,7 +56941,7 @@
               "description": "Defines an Information element with Name, description and proposedType properties.",
               "properties": [
                 {
-                  "id": "4c4b4977-afaa-4ded-d63d-2f05e2458a5d",
+                  "id": "d0423cb4-7198-473f-d2bd-90c295d39c2c",
                   "name": "proposedType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -56547,7 +57021,7 @@
               "description": "A View highlight essential Information elements tailored to the need of specific users or tasks.",
               "properties": [
                 {
-                  "id": "cd0efcbb-92aa-493e-e3bd-dea40f458ce7",
+                  "id": "1082220a-c64c-48d2-3111-92cf5fb025ac",
                   "name": "proposedType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -56567,7 +57041,7 @@
                   "typeName": "View",
                   "propName": "proposedType",
                   "name": "View.proposedType",
-                  "propRef": "69809331-3f5d-4a7a-9ef7-69a80db3a748"
+                  "propRef": "cd0efcbb-92aa-493e-e3bd-dea40f458ce7"
                 }
               ],
               "methods": [],
@@ -56738,7 +57212,7 @@
               "supertypes": [],
               "properties": [
                 {
-                  "id": "dc447fe7-76fa-445a-afa6-d1c32f1a6c55",
+                  "id": "6a5ec70f-e514-482e-4b89-f71213ca4dc2",
                   "name": "isRequired",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -56753,7 +57227,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "5024c164-b350-4ede-b807-87e2cbe6a1c9",
+                  "id": "b062c283-91c4-497d-d53a-9a95d0bc2a96",
                   "name": "isDerived",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -56768,7 +57242,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "ccc549f5-c240-4e84-2ee9-c2c86ba54f5c",
+                  "id": "20767270-0363-4c8c-91b7-8a15c694e9bf",
                   "name": "isIndexed",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -56783,7 +57257,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "6e7d0306-61e7-4121-e24b-b3d579cccbe1",
+                  "id": "f2c44272-259b-4678-7184-72f49e9af681",
                   "name": "referenceObject",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -56798,7 +57272,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "8c2de3a4-b09f-4692-836d-53f1235eb4fc",
+                  "id": "27b5be92-0a8c-4755-7b95-1e6ba8ef21a0",
                   "name": "refGroupType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -56813,7 +57287,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "b1550cb6-3cfe-4d52-1a14-0526e12e877f",
+                  "id": "f84f8d7d-858c-4159-b98a-4ccfb9dc7fc4",
                   "name": "refVersion",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -57592,7 +58066,7 @@
               "modified": false
             },
             {
-              "id": "47aae71c-5323-476a-bbfa-d10eaa29ad2f",
+              "id": "bc00ef3d-bcc2-4313-24ac-5139666af4bc",
               "name": "today",
               "description": "",
               "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
@@ -57616,7 +58090,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "311cd894-ddba-44fc-6cbb-83ba83609688",
+                  "id": "63a19e60-bb68-4d6c-e503-9ebc1d005418",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -57680,7 +58154,7 @@
                   "example": ""
                 },
                 {
-                  "id": "dc12f563-baf5-4f34-a1f3-5ad1d510823f",
+                  "id": "8e345bd5-f265-4ec4-f920-2ad52f9a575e",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -57727,7 +58201,7 @@
                   "example": ""
                 },
                 {
-                  "id": "5735274b-6b9f-4238-846f-92f9790089d1",
+                  "id": "5790d40b-9b49-4fd8-5c00-964be02fdccc",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -57791,7 +58265,7 @@
                   "example": ""
                 },
                 {
-                  "id": "28622d13-8e0a-44d6-7597-a25fd73840e1",
+                  "id": "74338224-7f47-4b44-2cac-091318b742be",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -57843,7 +58317,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "53ce129f-1a4f-4416-788d-14cdb5f38432",
+                  "id": "0901606f-22d8-4f7e-ab00-5d760e6453d8",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -57895,7 +58369,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "317e8b7e-0f0a-493d-5bda-bcdba64cf650",
+                  "id": "a224d4b9-a7f7-4886-18fd-ae37e67222b2",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -57959,7 +58433,7 @@
                   "example": ""
                 },
                 {
-                  "id": "c6e4f740-7fd7-44b5-1917-f96fcfed3cc2",
+                  "id": "1cd9b93c-1cb2-4620-646d-505242ccb0ba",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -58006,7 +58480,7 @@
                   "example": ""
                 },
                 {
-                  "id": "55a0b0f4-af93-4848-e715-34140d32392b",
+                  "id": "73deeb8a-9c7e-45f9-e3d8-72179c00fc7e",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -58070,7 +58544,7 @@
                   "example": ""
                 },
                 {
-                  "id": "bdc99f41-e601-43eb-9fb9-b84bea760b9f",
+                  "id": "aef3cdac-df65-4d8f-58e4-c3099e2afa7a",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -58113,7 +58587,7 @@
                   "example": ""
                 },
                 {
-                  "id": "219095a4-9492-42f7-4e36-8426337f93cc",
+                  "id": "4c4013e5-db58-4a0a-db6f-993e595f1612",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -58156,7 +58630,7 @@
                   "example": ""
                 },
                 {
-                  "id": "cf40423f-15e8-41e5-075b-4023952d0028",
+                  "id": "ba8ceb68-819d-4c49-3dbe-546520e9359d",
                   "name": "valuecondition",
                   "nameId": "valuecondition",
                   "category": "Property",
@@ -58220,7 +58694,7 @@
                   "example": ""
                 },
                 {
-                  "id": "934b5cc0-4c0e-4467-558f-3fe2787fe8d2",
+                  "id": "f68456bc-c982-41df-66ce-cd7761637bb2",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -58284,7 +58758,7 @@
                   "example": ""
                 },
                 {
-                  "id": "65bc8fc9-aeae-4c13-bddc-3a1645b5e542",
+                  "id": "e31fbea0-2d97-45cc-7e6f-b844a96423ce",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -67331,7 +67805,7 @@
               "supertypes": [],
               "properties": [
                 {
-                  "id": "dc447fe7-76fa-445a-afa6-d1c32f1a6c55",
+                  "id": "6a5ec70f-e514-482e-4b89-f71213ca4dc2",
                   "name": "isRequired",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -67346,7 +67820,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "5024c164-b350-4ede-b807-87e2cbe6a1c9",
+                  "id": "b062c283-91c4-497d-d53a-9a95d0bc2a96",
                   "name": "isDerived",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -67361,7 +67835,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "ccc549f5-c240-4e84-2ee9-c2c86ba54f5c",
+                  "id": "20767270-0363-4c8c-91b7-8a15c694e9bf",
                   "name": "isIndexed",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -67376,7 +67850,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "6e7d0306-61e7-4121-e24b-b3d579cccbe1",
+                  "id": "f2c44272-259b-4678-7184-72f49e9af681",
                   "name": "referenceObject",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -67391,7 +67865,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "8c2de3a4-b09f-4692-836d-53f1235eb4fc",
+                  "id": "27b5be92-0a8c-4755-7b95-1e6ba8ef21a0",
                   "name": "refGroupType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -67406,7 +67880,7 @@
                   "unitCategoryRef": ""
                 },
                 {
-                  "id": "b1550cb6-3cfe-4d52-1a14-0526e12e877f",
+                  "id": "f84f8d7d-858c-4159-b98a-4ccfb9dc7fc4",
                   "name": "refVersion",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -68739,11 +69213,6 @@
               "id": "4260f5d9-16ee-40e2-3503-1d4988f2c23a",
               "name": "reldir",
               "description": "",
-              "allowedValues": [
-                "in",
-                "out",
-                "any"
-              ],
               "defaultValue": "any",
               "readOnly": false,
               "value": "",
@@ -68815,11 +69284,6 @@
               "id": "b03f82b9-7dc6-4ffb-6998-0e77c0ab1c7f",
               "name": "propertyGroup",
               "description": "",
-              "allowedValues": [
-                "default",
-                "viewProperty",
-                "externalProperty"
-              ],
               "defaultValue": "default",
               "readOnly": false,
               "value": "",
@@ -68833,12 +69297,6 @@
               "id": "46d2c4c0-ebcb-4157-3cf9-b652e624c9c7",
               "name": "datatype",
               "description": "",
-              "allowedValues": [
-                "boolean",
-                "integer",
-                "string",
-                "number"
-              ],
               "defaultValue": "string",
               "readOnly": false,
               "value": "",
@@ -68866,12 +69324,6 @@
               "id": "cb56e09b-01f0-4fe1-79cd-095bbcba937b",
               "name": "fillcolor",
               "description": "",
-              "allowedValues": [
-                "#FEA07A",
-                "#FFD701",
-                "#40E0D0",
-                "#B0C4DE"
-              ],
               "defaultValue": "",
               "readOnly": false,
               "value": "",
@@ -68886,10 +69338,6 @@
               "name": "YN",
               "description": "",
               "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
-              "allowedValues": [
-                "Y",
-                "N"
-              ],
               "defaultValue": "N",
               "readOnly": false,
               "value": "",
@@ -68917,12 +69365,6 @@
               "id": "583357b6-dd3f-4356-862f-c192eb5fcc2b",
               "name": "GroupType",
               "description": "",
-              "allowedValues": [
-                "master-data",
-                "reference-data",
-                "abstract",
-                "work-product-component"
-              ],
               "defaultValue": "",
               "readOnly": false,
               "value": "",
@@ -68936,10 +69378,6 @@
               "id": "e9004d12-af12-4304-6883-8ae9c0754afa",
               "name": "required",
               "description": "",
-              "allowedValues": [
-                "N",
-                "Y"
-              ],
               "defaultValue": "N",
               "readOnly": false,
               "value": "",
@@ -68967,13 +69405,6 @@
               "id": "5e0071e9-6617-4d2c-b060-e1867da38b21",
               "name": "action",
               "description": "",
-              "allowedValues": [
-                "Add",
-                "Update",
-                "Remove",
-                "Move",
-                "No Change"
-              ],
               "defaultValue": "",
               "readOnly": false,
               "value": "",
@@ -68987,11 +69418,6 @@
               "id": "ad81c088-0e5c-4c95-94dc-902d903c0b56",
               "name": "methodtype",
               "description": "",
-              "allowedValues": [
-                "propertyMethod",
-                "aggregateValue",
-                "objectMethod"
-              ],
               "defaultValue": "",
               "readOnly": false,
               "value": "",
@@ -69005,13 +69431,6 @@
               "id": "abc274e1-f4e9-4d9c-7f98-b0ffe26499c9",
               "name": "cardinality",
               "description": "",
-              "allowedValues": [
-                "0-1",
-                "1",
-                "0-n",
-                "1-n",
-                "n"
-              ],
               "defaultValue": "",
               "readOnly": false,
               "value": "",
@@ -69025,11 +69444,6 @@
               "id": "ae89dc9b-91ee-47a9-15a8-32ab3a593d03",
               "name": "viewkind",
               "description": "",
-              "allowedValues": [
-                "Object",
-                "Container",
-                "Subprocess"
-              ],
               "defaultValue": "Object",
               "readOnly": false,
               "value": "",
@@ -69043,12 +69457,6 @@
               "id": "2c460d8f-8b4f-402c-bd09-54177f28c330",
               "name": "relshipkind",
               "description": "",
-              "allowedValues": [
-                "Association",
-                "Generalization",
-                "Composition",
-                "Aggregation"
-              ],
               "defaultValue": "Association",
               "readOnly": false,
               "value": "",
@@ -69062,14 +69470,6 @@
               "id": "c02679a8-aa20-4140-09c5-b5e6c2644185",
               "name": "layout",
               "description": "",
-              "allowedValues": [
-                "Circular",
-                "Grid",
-                "Tree",
-                "ForceDirected",
-                "LayeredDigraph",
-                "Manual"
-              ],
               "defaultValue": "Tree",
               "readOnly": false,
               "value": "",
@@ -69083,11 +69483,6 @@
               "id": "38e214e8-80f4-4f4f-bf56-feff87579529",
               "name": "routing",
               "description": "",
-              "allowedValues": [
-                "AvoidsNodes",
-                "Orthogonal",
-                "Normal"
-              ],
               "defaultValue": "Normal",
               "readOnly": false,
               "value": "",
@@ -69101,12 +69496,6 @@
               "id": "8148679b-66b8-4035-27ff-d7e3435465f0",
               "name": "linkcurve",
               "description": "",
-              "allowedValues": [
-                "None",
-                "Bezier",
-                "JumpGap",
-                "JumpOver"
-              ],
               "defaultValue": "None",
               "readOnly": false,
               "value": "",
@@ -69134,10 +69523,6 @@
               "id": "afc3d3bd-2a61-4e15-0503-c85bb300ca85",
               "name": "actiontype",
               "description": "",
-              "allowedValues": [
-                "Highlight",
-                "Select"
-              ],
               "defaultValue": "",
               "readOnly": false,
               "value": "",
@@ -69148,7 +69533,7 @@
               "modified": false
             },
             {
-              "id": "4d7a3b8c-a26d-4a94-2a4a-81167311aec4",
+              "id": "3dcc9cb3-27e6-41e6-4792-e395b8465714",
               "name": "today",
               "description": "",
               "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
@@ -69172,7 +69557,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "4a05b328-6b9e-4efd-deb7-ae107e12402b",
+                  "id": "15941164-f798-47d4-4912-08e1a0ee1b7c",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -69236,7 +69621,7 @@
                   "example": ""
                 },
                 {
-                  "id": "d407b69f-534b-4602-e346-ad53f497f9ee",
+                  "id": "8a6e2d82-3a81-43b7-1466-239c631ef4e3",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -69260,11 +69645,6 @@
                     "viewFormat": "",
                     "fieldType": "radio",
                     "readOnly": false,
-                    "allowedValues": [
-                      "in",
-                      "out",
-                      "any"
-                    ],
                     "defaultValue": "any",
                     "value": "",
                     "pointerType": null,
@@ -69283,7 +69663,7 @@
                   "example": ""
                 },
                 {
-                  "id": "524f2671-4336-44c5-f0b7-1c176f592011",
+                  "id": "5f18ea4c-9073-40d9-6e42-6afd3dacf064",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -69292,48 +69672,6 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": {
-                    "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
-                    "name": "typenames",
-                    "nameId": "typenames",
-                    "category": "Datatype",
-                    "sourceUri": "",
-                    "markedAsDeleted": false,
-                    "modified": false,
-                    "description": "",
-                    "fs_collection": "datatypes",
-                    "isOfDatatype": {
-                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
-                      "name": "string",
-                      "nameId": "string",
-                      "category": "Datatype",
-                      "sourceUri": "",
-                      "markedAsDeleted": false,
-                      "modified": false,
-                      "description": "String",
-                      "fs_collection": "datatypes",
-                      "isOfDatatype": null,
-                      "inputPattern": "",
-                      "viewFormat": "%s",
-                      "fieldType": "text",
-                      "readOnly": false,
-                      "allowedValues": "",
-                      "defaultValue": null,
-                      "value": "",
-                      "pointerType": null,
-                      "pointerCriteria": ""
-                    },
-                    "inputPattern": "",
-                    "viewFormat": "%s",
-                    "fieldType": "text",
-                    "readOnly": false,
-                    "allowedValues": null,
-                    "defaultValue": "",
-                    "value": "",
-                    "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
-                  },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
                   "methodRef": "",
@@ -69347,7 +69685,7 @@
                   "example": ""
                 },
                 {
-                  "id": "9beec074-0ca1-4beb-939e-3572322eff7f",
+                  "id": "0d1fc427-326a-44e0-4a95-3c7a0c089cda",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -69399,7 +69737,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "2192be4f-15de-4392-bd59-75cc060379c3",
+                  "id": "5c6e5d0a-6998-42a0-cdd0-428341340200",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -69408,27 +69746,6 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": {
-                    "id": "255491ab-0dd1-44a3-e9cf-40d590821421",
-                    "name": "expression",
-                    "nameId": "expression",
-                    "category": "Datatype",
-                    "sourceUri": "",
-                    "markedAsDeleted": false,
-                    "modified": false,
-                    "description": "",
-                    "fs_collection": "datatypes",
-                    "isOfDatatype": null,
-                    "inputPattern": "",
-                    "viewFormat": "%s",
-                    "fieldType": "text",
-                    "readOnly": false,
-                    "allowedValues": null,
-                    "defaultValue": "",
-                    "value": "",
-                    "pointerType": null,
-                    "pointerCriteria": ""
-                  },
                   "datatypeRef": "255491ab-0dd1-44a3-e9cf-40d590821421",
                   "method": null,
                   "methodRef": "",
@@ -69451,7 +69768,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "01ddb7b9-8f40-42f1-4eee-8fbb5ae8c366",
+                  "id": "7394a004-0d61-478a-5846-b2271f31322a",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -69460,48 +69777,6 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": {
-                    "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
-                    "name": "typenames",
-                    "nameId": "typenames",
-                    "category": "Datatype",
-                    "sourceUri": "",
-                    "markedAsDeleted": false,
-                    "modified": false,
-                    "description": "",
-                    "fs_collection": "datatypes",
-                    "isOfDatatype": {
-                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
-                      "name": "string",
-                      "nameId": "string",
-                      "category": "Datatype",
-                      "sourceUri": "",
-                      "markedAsDeleted": false,
-                      "modified": false,
-                      "description": "String",
-                      "fs_collection": "datatypes",
-                      "isOfDatatype": null,
-                      "inputPattern": "",
-                      "viewFormat": "%s",
-                      "fieldType": "text",
-                      "readOnly": false,
-                      "allowedValues": "",
-                      "defaultValue": null,
-                      "value": "",
-                      "pointerType": null,
-                      "pointerCriteria": ""
-                    },
-                    "inputPattern": "",
-                    "viewFormat": "%s",
-                    "fieldType": "text",
-                    "readOnly": false,
-                    "allowedValues": null,
-                    "defaultValue": "",
-                    "value": "",
-                    "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
-                  },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
                   "methodRef": "",
@@ -69515,7 +69790,7 @@
                   "example": ""
                 },
                 {
-                  "id": "95fbda05-ca5a-469c-5696-ae2ebad5b5ee",
+                  "id": "b9dd5cae-118f-4149-0dce-0b211613a2aa",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -69524,31 +69799,6 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": {
-                    "id": "4260f5d9-16ee-40e2-3503-1d4988f2c23a",
-                    "name": "reldir",
-                    "nameId": "reldir",
-                    "category": "Datatype",
-                    "sourceUri": "",
-                    "markedAsDeleted": false,
-                    "modified": false,
-                    "description": "",
-                    "fs_collection": "datatypes",
-                    "isOfDatatype": null,
-                    "inputPattern": "",
-                    "viewFormat": "",
-                    "fieldType": "radio",
-                    "readOnly": false,
-                    "allowedValues": [
-                      "in",
-                      "out",
-                      "any"
-                    ],
-                    "defaultValue": "any",
-                    "value": "",
-                    "pointerType": null,
-                    "pointerCriteria": ""
-                  },
                   "datatypeRef": "4260f5d9-16ee-40e2-3503-1d4988f2c23a",
                   "method": null,
                   "methodRef": "",
@@ -69562,7 +69812,7 @@
                   "example": ""
                 },
                 {
-                  "id": "478a1a8f-fbd5-4907-0337-54d488204c13",
+                  "id": "8aac72bb-f2f1-4dfb-64f0-286a6303a2c7",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -69571,48 +69821,6 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": {
-                    "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
-                    "name": "typenames",
-                    "nameId": "typenames",
-                    "category": "Datatype",
-                    "sourceUri": "",
-                    "markedAsDeleted": false,
-                    "modified": false,
-                    "description": "",
-                    "fs_collection": "datatypes",
-                    "isOfDatatype": {
-                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
-                      "name": "string",
-                      "nameId": "string",
-                      "category": "Datatype",
-                      "sourceUri": "",
-                      "markedAsDeleted": false,
-                      "modified": false,
-                      "description": "String",
-                      "fs_collection": "datatypes",
-                      "isOfDatatype": null,
-                      "inputPattern": "",
-                      "viewFormat": "%s",
-                      "fieldType": "text",
-                      "readOnly": false,
-                      "allowedValues": "",
-                      "defaultValue": null,
-                      "value": "",
-                      "pointerType": null,
-                      "pointerCriteria": ""
-                    },
-                    "inputPattern": "",
-                    "viewFormat": "%s",
-                    "fieldType": "text",
-                    "readOnly": false,
-                    "allowedValues": null,
-                    "defaultValue": "",
-                    "value": "",
-                    "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
-                  },
                   "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
                   "method": null,
                   "methodRef": "",
@@ -69626,7 +69834,7 @@
                   "example": ""
                 },
                 {
-                  "id": "60a9bec3-7426-47ec-9912-a7ba320cb28a",
+                  "id": "37b7107a-4466-4d2d-4360-db00f8751ede",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -69635,27 +69843,6 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": {
-                    "id": "255491ab-0dd1-44a3-e9cf-40d590821421",
-                    "name": "expression",
-                    "nameId": "expression",
-                    "category": "Datatype",
-                    "sourceUri": "",
-                    "markedAsDeleted": false,
-                    "modified": false,
-                    "description": "",
-                    "fs_collection": "datatypes",
-                    "isOfDatatype": null,
-                    "inputPattern": "",
-                    "viewFormat": "%s",
-                    "fieldType": "text",
-                    "readOnly": false,
-                    "allowedValues": null,
-                    "defaultValue": "",
-                    "value": "",
-                    "pointerType": null,
-                    "pointerCriteria": ""
-                  },
                   "datatypeRef": "255491ab-0dd1-44a3-e9cf-40d590821421",
                   "method": null,
                   "methodRef": "",
@@ -69669,7 +69856,7 @@
                   "example": ""
                 },
                 {
-                  "id": "cf9029e4-aa28-4c0e-f576-f0469a05eae4",
+                  "id": "f631796b-74b1-4005-c3bf-59ae2f7d01cd",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -69712,7 +69899,7 @@
                   "example": ""
                 },
                 {
-                  "id": "9e8249e5-7ba6-4a5f-934b-be38443840e6",
+                  "id": "444ba98e-c8e0-4518-ecc9-2214905476c8",
                   "name": "valuecondition",
                   "nameId": "valuecondition",
                   "category": "Property",
@@ -69731,27 +69918,6 @@
                     "modified": false,
                     "description": "",
                     "fs_collection": "datatypes",
-                    "isOfDatatype": {
-                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
-                      "name": "string",
-                      "nameId": "string",
-                      "category": "Datatype",
-                      "sourceUri": "",
-                      "markedAsDeleted": false,
-                      "modified": false,
-                      "description": "String",
-                      "fs_collection": "datatypes",
-                      "isOfDatatype": null,
-                      "inputPattern": "",
-                      "viewFormat": "%s",
-                      "fieldType": "text",
-                      "readOnly": false,
-                      "allowedValues": "",
-                      "defaultValue": null,
-                      "value": "",
-                      "pointerType": null,
-                      "pointerCriteria": ""
-                    },
                     "inputPattern": "",
                     "viewFormat": "%s",
                     "fieldType": "text",
@@ -69776,7 +69942,7 @@
                   "example": ""
                 },
                 {
-                  "id": "e727b299-c418-46fb-f855-da817d70a8a8",
+                  "id": "2167ecb0-d805-4d7f-d50a-da84907e9ac5",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -69785,48 +69951,6 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": {
-                    "id": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
-                    "name": "condition",
-                    "nameId": "condition",
-                    "category": "Datatype",
-                    "sourceUri": "",
-                    "markedAsDeleted": false,
-                    "modified": false,
-                    "description": "",
-                    "fs_collection": "datatypes",
-                    "isOfDatatype": {
-                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
-                      "name": "string",
-                      "nameId": "string",
-                      "category": "Datatype",
-                      "sourceUri": "",
-                      "markedAsDeleted": false,
-                      "modified": false,
-                      "description": "String",
-                      "fs_collection": "datatypes",
-                      "isOfDatatype": null,
-                      "inputPattern": "",
-                      "viewFormat": "%s",
-                      "fieldType": "text",
-                      "readOnly": false,
-                      "allowedValues": "",
-                      "defaultValue": null,
-                      "value": "",
-                      "pointerType": null,
-                      "pointerCriteria": ""
-                    },
-                    "inputPattern": "",
-                    "viewFormat": "%s",
-                    "fieldType": "text",
-                    "readOnly": false,
-                    "allowedValues": null,
-                    "defaultValue": "",
-                    "value": "",
-                    "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
-                  },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
                   "methodRef": "",
@@ -69840,7 +69964,7 @@
                   "example": ""
                 },
                 {
-                  "id": "73be010e-e893-4479-eaba-5f8f0531c98b",
+                  "id": "89a5b6de-83dc-4dfc-e8d0-4b98fefe7c24",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -69849,48 +69973,6 @@
                   "modified": false,
                   "description": "",
                   "fs_collection": "properties",
-                  "datatype": {
-                    "id": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
-                    "name": "condition",
-                    "nameId": "condition",
-                    "category": "Datatype",
-                    "sourceUri": "",
-                    "markedAsDeleted": false,
-                    "modified": false,
-                    "description": "",
-                    "fs_collection": "datatypes",
-                    "isOfDatatype": {
-                      "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
-                      "name": "string",
-                      "nameId": "string",
-                      "category": "Datatype",
-                      "sourceUri": "",
-                      "markedAsDeleted": false,
-                      "modified": false,
-                      "description": "String",
-                      "fs_collection": "datatypes",
-                      "isOfDatatype": null,
-                      "inputPattern": "",
-                      "viewFormat": "%s",
-                      "fieldType": "text",
-                      "readOnly": false,
-                      "allowedValues": "",
-                      "defaultValue": null,
-                      "value": "",
-                      "pointerType": null,
-                      "pointerCriteria": ""
-                    },
-                    "inputPattern": "",
-                    "viewFormat": "%s",
-                    "fieldType": "text",
-                    "readOnly": false,
-                    "allowedValues": null,
-                    "defaultValue": "",
-                    "value": "",
-                    "pointerType": null,
-                    "pointerCriteria": "",
-                    "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
-                  },
                   "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
                   "method": null,
                   "methodRef": "",
@@ -70142,18 +70224,18 @@
               "description": "",
               "typeRef": "0ba965d8-deb5-45bc-8039-17eca2cec548",
               "template": "linkTemplate1",
-              "strokecolor": "black",
+              "strokecolor": "#CCCCCC80",
               "strokewidth": "1",
-              "textcolor": "black",
+              "textcolor": "#CCCCCC80",
               "textscale": "1",
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
-              "toArrowColor": "white",
+              "fromArrowColor": "#CCCCCC80",
+              "toArrowColor": "#CCCCCC80",
               "routing": "Normal",
               "corner": "0",
-              "curve": "0",
+              "curve": "None",
               "markedAsDeleted": false,
               "modified": false
             },
@@ -70163,18 +70245,18 @@
               "description": "",
               "typeRef": "7792d96d-3385-4b30-71b8-e4b728317b67",
               "template": "linkTemplate1",
-              "strokecolor": "black",
+              "strokecolor": "#CCCCCC80",
               "strokewidth": "1",
-              "textcolor": "black",
+              "textcolor": "#CCCCCC80",
               "textscale": "1",
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
-              "toArrowColor": "white",
+              "fromArrowColor": "#CCCCCC80",
+              "toArrowColor": "#CCCCCC80",
               "routing": "Normal",
               "corner": "0",
-              "curve": "0",
+              "curve": "None",
               "markedAsDeleted": false,
               "modified": false
             },
@@ -70184,18 +70266,18 @@
               "description": "",
               "typeRef": "3ed939e1-51c0-4c4c-b339-a1f1e983b42b",
               "template": "linkTemplate1",
-              "strokecolor": "black",
+              "strokecolor": "#CCCCCC80",
               "strokewidth": "1",
-              "textcolor": "black",
+              "textcolor": "#CCCCCC80",
               "textscale": "1",
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
-              "toArrowColor": "white",
+              "fromArrowColor": "#CCCCCC80",
+              "toArrowColor": "#CCCCCC80",
               "routing": "Normal",
               "corner": "0",
-              "curve": "0",
+              "curve": "None",
               "markedAsDeleted": false,
               "modified": false
             },
@@ -70205,18 +70287,18 @@
               "description": "",
               "typeRef": "931bf976-e7ba-4223-550b-437e04bbd831",
               "template": "linkTemplate1",
-              "strokecolor": "black",
+              "strokecolor": "#CCCCCC80",
               "strokewidth": "1",
-              "textcolor": "black",
+              "textcolor": "#CCCCCC80",
               "textscale": "1",
               "dash": "None",
               "fromArrow": "",
               "toArrow": "OpenTriangle",
-              "fromArrowColor": "",
-              "toArrowColor": "white",
+              "fromArrowColor": "#CCCCCC80",
+              "toArrowColor": "#CCCCCC80",
               "routing": "Normal",
               "corner": "0",
-              "curve": "0",
+              "curve": "None",
               "markedAsDeleted": false,
               "modified": false
             },
@@ -70387,8 +70469,8 @@
     "focusTargetModel": null,
     "focusTargetModelview": null,
     "focusObjectview": {
-      "id": "c53a121a-18fc-4c1e-e9d0-cd1169c761ea",
-      "name": "AKM-OSDU_MM"
+      "id": "997e77b0-1824-46d8-83cc-9a54a1051710",
+      "name": "3-POPS"
     },
     "focusRelship": {
       "id": null,
@@ -70447,12 +70529,12 @@
       "name": "Create Concept Model from Scratch (Overall steps)"
     },
     "focusTargetMetamodel": {
-      "id": "b4b96299-4eb0-4b94-1490-a47f3b877afa",
-      "name": "AKM-OSDU_MM"
+      "id": "14398d2f-90de-44bf-e484-1d780a93b88c",
+      "name": "AKM-POPS_MM"
     },
     "focusModelview": {
-      "id": "33f4abef-3dc1-46d0-2645-39d5433b4051",
-      "name": "7-OSDU"
+      "id": "3d010104-5c18-43cb-f44c-469a7533658b",
+      "name": "1-AKM Core"
     },
     "focusModel": {
       "id": "05d5b929-b985-49ac-cf92-cc095a03889z",
@@ -70693,6 +70775,7 @@
           "relshipkind": "Association",
           "valueset": null,
           "copiedFromId": "",
+          "propertyGroups": [],
           "created": "",
           "image": "",
           "textcolor": "red",
@@ -70873,6 +70956,7 @@
           "relshipkind": "Association",
           "valueset": null,
           "copiedFromId": "",
+          "propertyGroups": [],
           "text": "",
           "created": "",
           "image": "",
@@ -71273,6 +71357,7 @@
           "relshipkind": "Association",
           "valueset": null,
           "copiedFromId": "",
+          "propertyGroups": [],
           "text": "Array",
           "created": "",
           "image": "",
@@ -71306,6 +71391,7 @@
           "relshipkind": "Association",
           "valueset": null,
           "copiedFromId": "",
+          "propertyGroups": [],
           "text": ""
         },
         {
@@ -72479,6 +72565,7 @@
           "relshipkind": "Association",
           "valueset": null,
           "copiedFromId": "",
+          "propertyGroups": [],
           "created": "",
           "image": "",
           "textcolor": "",
@@ -73922,6 +74009,7 @@
           "relshipkind": "Association",
           "valueset": null,
           "copiedFromId": "",
+          "propertyGroups": [],
           "created": "",
           "image": "",
           "textcolor": "",
@@ -74276,6 +74364,7 @@
           "relshipkind": "Association",
           "valueset": null,
           "copiedFromId": "",
+          "propertyGroups": [],
           "created": "",
           "image": "",
           "textcolor": "",
@@ -100847,7 +100936,7 @@
           ],
           "objecttypeviews": [],
           "relshiptypeviews": [],
-          "focusObjectviewRef": "997e77b0-1824-46d8-83cc-9a54a1051710",
+          "focusObjectviewRef": "33f4abef-3dc1-46d0-2645-39d5433b4051",
           "markedAsDeleted": false,
           "modified": false
         },
@@ -105341,13 +105430,9 @@
       ],
       "markedAsDeleted": false,
       "modified": false
-    },
-    "focusObject": {
-      "id": "11d562f8-2701-4b8b-1ed2-b92980c3da1f",
-      "name": "AKM-OSDU_MM"
     }
   },
-  "phSource": "AKM-Type-Definitions_PR",
+  "phSource": "AKM-Core-Template_PR",
   "phUser": {
     "focusUser": {
       "diagram": {
