@@ -5,15 +5,16 @@
   "metamodelRefs": [],
   "subMetamodelRefs": [
     "b9f5b34e-2ea4-4f68-6421-2e1253c2322d",
-    "42c16e69-49ec-45b9-080e-0ca3ab8e0223"
+    "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
+    "14398d2f-90de-44bf-e484-1d780a93b88c"
   ],
   "subModelRefs": [
-    "2bfc0c04-b919-4af9-f911-8cb851f8d03e"
+    "4b23cb4e-d26d-4a9f-888e-afd727c27ede"
   ],
   "subModels": [
     {
-      "id": "2bfc0c04-b919-4af9-f911-8cb851f8d03e",
-      "name": "Import OSDU Schema",
+      "id": "4b23cb4e-d26d-4a9f-888e-afd727c27ede",
+      "name": "Import OSDU EntityType from Schema",
       "description": "",
       "sourceMetamodelRef": "",
       "targetMetamodelRef": "",
@@ -136,7 +137,7 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "a3112875-e4fe-4100-b290-5634d8b8acfc",
-      "description": "",
+      "description": "A Container like a folder that holds everything inside, either by relationship \"hasMember\"  to objects or in a Modelview just visually keeping the objectviews.",
       "properties": [],
       "attributes": [],
       "methods": [],
@@ -152,7 +153,7 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "f736983f-14ae-4774-1ca7-e5b66fc4cd54",
-      "description": "",
+      "description": "Represents a list of Items.",
       "properties": [],
       "attributes": [],
       "methods": [],
@@ -168,16 +169,16 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "3cf0f678-c397-49ef-b805-8365ab84626b",
-      "description": "",
+      "description": "Represents a relationships or link to a another EntityType (OSDUType). The link is identified byt target GroupType name and EntityType name",
       "properties": [
         {
-          "id": "0d03a421-77ee-42dd-56b4-a833d98df846",
+          "id": "04f6642e-3091-46af-f5da-8f607209fbd1",
           "name": "refGroupType",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -186,13 +187,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "34a25f56-e141-498f-f7e8-82ca2953952c",
+          "id": "184a0ac1-01dd-40a1-ca65-806ac2887b57",
           "name": "referenceObject",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -201,13 +202,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "10cd2f06-4161-4c15-7405-9cfa3efc30a1",
+          "id": "37272cde-cb31-495e-9735-5f5de9ebfdc1",
           "name": "refVersion",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -221,19 +222,19 @@
           "typeName": "Proxy",
           "propName": "refGroupType",
           "name": "Proxy.refGroupType",
-          "propRef": "0d03a421-77ee-42dd-56b4-a833d98df846"
+          "propRef": "04f6642e-3091-46af-f5da-8f607209fbd1"
         },
         {
           "typeName": "Proxy",
           "propName": "referenceObject",
           "name": "Proxy.referenceObject",
-          "propRef": "34a25f56-e141-498f-f7e8-82ca2953952c"
+          "propRef": "184a0ac1-01dd-40a1-ca65-806ac2887b57"
         },
         {
           "typeName": "Proxy",
           "propName": "refVersion",
           "name": "Proxy.refVersion",
-          "propRef": "10cd2f06-4161-4c15-7405-9cfa3efc30a1"
+          "propRef": "37272cde-cb31-495e-9735-5f5de9ebfdc1"
         }
       ],
       "methods": [],
@@ -265,16 +266,16 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "3db51d2d-dddd-4a5c-fb77-6ebd1de45ae0",
-      "description": "",
+      "description": "EntityType represents a concept.",
       "properties": [
         {
-          "id": "65663b7d-918c-480b-7230-cd6b8e309525",
+          "id": "7462a578-132d-4162-277e-6d7935d2fd67",
           "name": "x-osdu-schema-source",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -283,13 +284,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "f2d3d527-da37-45d5-c3ce-2aff5d2b3e5e",
+          "id": "a0a7ef23-cad4-459b-f940-e5074b6f6201",
           "name": "version",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -298,13 +299,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "fcf9af57-a64d-4f95-1808-2c86a618cd87",
+          "id": "a65169af-c2b8-40f7-027d-266154a26e49",
           "name": "$schema",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -313,13 +314,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "24ca736a-d8b9-4416-8e3e-0121857346a8",
+          "id": "053d5102-ac4a-4bd4-40d3-0de054657a8f",
           "name": "$id",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -328,13 +329,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "51e4fcf4-50b5-4541-b031-86b78c6f50aa",
+          "id": "15057464-12da-4057-29c3-536540e477cb",
           "name": "x-osdu-license",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -343,13 +344,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "c1e35888-cdc0-4e3d-6a55-cdc91bd6c6cf",
+          "id": "97607a5b-3a3e-45b6-8d66-bf37a83838fd",
           "name": "groupType",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -358,13 +359,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "2e5be42b-d71d-4d45-b23b-65fe211f3579",
+          "id": "dab55f2d-6e2a-4a10-6241-c9ae5b79488c",
           "name": "x-osdu-supported-file-formats",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -373,13 +374,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "3192289b-9bd0-405b-aaae-72d905c77789",
+          "id": "3b749f64-e10b-43bf-9f47-e19861091514",
           "name": "additionalProperties",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -388,13 +389,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "47d77dfb-d160-47f4-0a4a-b0aeb2f7b6b4",
+          "id": "b304e25e-9e51-4aa1-f090-8acf730785aa",
           "name": "x-osdu-virtual-properties",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -403,13 +404,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "44608707-22ec-446f-d0b5-fa4da5d53f0e",
+          "id": "2056a7ce-07f8-4c40-d4bb-056a791448a2",
           "name": "required",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -423,61 +424,61 @@
           "typeName": "OSDUType",
           "propName": "x-osdu-schema-source",
           "name": "OSDUType.x-osdu-schema-source",
-          "propRef": "65663b7d-918c-480b-7230-cd6b8e309525"
+          "propRef": "7462a578-132d-4162-277e-6d7935d2fd67"
         },
         {
           "typeName": "OSDUType",
           "propName": "version",
           "name": "OSDUType.version",
-          "propRef": "f2d3d527-da37-45d5-c3ce-2aff5d2b3e5e"
+          "propRef": "a0a7ef23-cad4-459b-f940-e5074b6f6201"
         },
         {
           "typeName": "OSDUType",
           "propName": "$schema",
           "name": "OSDUType.$schema",
-          "propRef": "fcf9af57-a64d-4f95-1808-2c86a618cd87"
+          "propRef": "a65169af-c2b8-40f7-027d-266154a26e49"
         },
         {
           "typeName": "OSDUType",
           "propName": "$id",
           "name": "OSDUType.$id",
-          "propRef": "24ca736a-d8b9-4416-8e3e-0121857346a8"
+          "propRef": "053d5102-ac4a-4bd4-40d3-0de054657a8f"
         },
         {
           "typeName": "OSDUType",
           "propName": "x-osdu-license",
           "name": "OSDUType.x-osdu-license",
-          "propRef": "51e4fcf4-50b5-4541-b031-86b78c6f50aa"
+          "propRef": "15057464-12da-4057-29c3-536540e477cb"
         },
         {
           "typeName": "OSDUType",
           "propName": "groupType",
           "name": "OSDUType.groupType",
-          "propRef": "c1e35888-cdc0-4e3d-6a55-cdc91bd6c6cf"
+          "propRef": "97607a5b-3a3e-45b6-8d66-bf37a83838fd"
         },
         {
           "typeName": "OSDUType",
           "propName": "x-osdu-supported-file-formats",
           "name": "OSDUType.x-osdu-supported-file-formats",
-          "propRef": "2e5be42b-d71d-4d45-b23b-65fe211f3579"
+          "propRef": "dab55f2d-6e2a-4a10-6241-c9ae5b79488c"
         },
         {
           "typeName": "OSDUType",
           "propName": "additionalProperties",
           "name": "OSDUType.additionalProperties",
-          "propRef": "3192289b-9bd0-405b-aaae-72d905c77789"
+          "propRef": "3b749f64-e10b-43bf-9f47-e19861091514"
         },
         {
           "typeName": "OSDUType",
           "propName": "x-osdu-virtual-properties",
           "name": "OSDUType.x-osdu-virtual-properties",
-          "propRef": "47d77dfb-d160-47f4-0a4a-b0aeb2f7b6b4"
+          "propRef": "b304e25e-9e51-4aa1-f090-8acf730785aa"
         },
         {
           "typeName": "OSDUType",
           "propName": "required",
           "name": "OSDUType.required",
-          "propRef": "44608707-22ec-446f-d0b5-fa4da5d53f0e"
+          "propRef": "2056a7ce-07f8-4c40-d4bb-056a791448a2"
         }
       ],
       "methods": [],
@@ -493,7 +494,7 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "3d844879-aae1-4267-9f3a-2aa683f53a33",
-      "description": "",
+      "description": "Represents an Item in a list. the Item can contain Property and  Proxy. ",
       "properties": [],
       "attributes": [],
       "methods": [],
@@ -512,32 +513,32 @@
       "description": "",
       "properties": [
         {
-          "id": "4f7418cb-17af-4d3f-b956-25cc043b8984",
+          "id": "ef66d621-9277-4223-0ae7-434e306dcb26",
           "name": "created",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": true,
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "669c19fd-9c49-4bba-b22c-082b35823937",
+          "datatypeRef": "80f4c48a-49e1-47e5-199f-1d5219c31f46",
           "methodRef": "",
           "unitCategoryRef": ""
         },
         {
-          "id": "16e0ee3e-0114-41d3-0aca-56ae00d39ef1",
+          "id": "bfa4bb2d-185b-4b7b-6915-c4d1990021a3",
           "name": "modified",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "669c19fd-9c49-4bba-b22c-082b35823937",
+          "datatypeRef": "80f4c48a-49e1-47e5-199f-1d5219c31f46",
           "methodRef": "",
           "unitCategoryRef": ""
         }
@@ -547,13 +548,13 @@
           "typeName": "Timestamp",
           "propName": "created",
           "name": "Timestamp.created",
-          "propRef": "4f7418cb-17af-4d3f-b956-25cc043b8984"
+          "propRef": "ef66d621-9277-4223-0ae7-434e306dcb26"
         },
         {
           "typeName": "Timestamp",
           "propName": "modified",
           "name": "Timestamp.modified",
-          "propRef": "16e0ee3e-0114-41d3-0aca-56ae00d39ef1"
+          "propRef": "bfa4bb2d-185b-4b7b-6915-c4d1990021a3"
         }
       ],
       "methods": [],
@@ -572,12 +573,13 @@
       "description": "",
       "properties": [
         {
-          "id": "82d12025-b8ca-4f54-4854-55037c965c20",
+          "id": "b23d6bd0-6918-4abc-e4b4-9f55695143b3",
           "name": "image",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -586,13 +588,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "00271815-3521-4169-4913-fd3737acdf43",
+          "id": "c0cd422c-371a-4390-9c48-04aad02308a0",
           "name": "textcolor",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -601,13 +603,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "2d3901e3-45fd-4e38-5324-6ad834219075",
+          "id": "f8708755-7884-4c2f-0b87-05cbf57c5a75",
           "name": "fillcolor",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -616,13 +618,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "185ac5b8-203d-4b49-d6e5-6f45380e53de",
+          "id": "4b654740-7b6f-462a-f218-79445a280687",
           "name": "strokecolor",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -631,13 +633,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "91002b4b-e8ed-4c0d-43d3-f9db4996fbf5",
+          "id": "8e61dc11-f70b-4879-b457-e554cf7a40de",
           "name": "icon",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -646,13 +648,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "ce808b12-3e66-4b7f-48d1-8f32f938c08c",
+          "id": "df5ebcd4-4373-4383-009d-1ab11df3e4ed",
           "name": "strokecolor2",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -661,13 +663,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "4bf83bdc-c2c2-4039-3303-5aae28ffba86",
+          "id": "2a15f157-edc3-43ba-a035-24f38dad724c",
           "name": "fillcolor2",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -676,13 +678,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "ea5ca46e-5fd9-4e84-f2e0-bf1fd98ced81",
+          "id": "a3200d5f-e8be-49db-afc9-b7d3594ced77",
           "name": "textcolor2",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -696,49 +698,49 @@
           "typeName": "Visualisation",
           "propName": "image",
           "name": "Visualisation.image",
-          "propRef": "82d12025-b8ca-4f54-4854-55037c965c20"
+          "propRef": "b23d6bd0-6918-4abc-e4b4-9f55695143b3"
         },
         {
           "typeName": "Visualisation",
           "propName": "textcolor",
           "name": "Visualisation.textcolor",
-          "propRef": "00271815-3521-4169-4913-fd3737acdf43"
+          "propRef": "c0cd422c-371a-4390-9c48-04aad02308a0"
         },
         {
           "typeName": "Visualisation",
           "propName": "fillcolor",
           "name": "Visualisation.fillcolor",
-          "propRef": "2d3901e3-45fd-4e38-5324-6ad834219075"
+          "propRef": "f8708755-7884-4c2f-0b87-05cbf57c5a75"
         },
         {
           "typeName": "Visualisation",
           "propName": "strokecolor",
           "name": "Visualisation.strokecolor",
-          "propRef": "185ac5b8-203d-4b49-d6e5-6f45380e53de"
+          "propRef": "4b654740-7b6f-462a-f218-79445a280687"
         },
         {
           "typeName": "Visualisation",
           "propName": "icon",
           "name": "Visualisation.icon",
-          "propRef": "91002b4b-e8ed-4c0d-43d3-f9db4996fbf5"
+          "propRef": "8e61dc11-f70b-4879-b457-e554cf7a40de"
         },
         {
           "typeName": "Visualisation",
           "propName": "strokecolor2",
           "name": "Visualisation.strokecolor2",
-          "propRef": "ce808b12-3e66-4b7f-48d1-8f32f938c08c"
+          "propRef": "df5ebcd4-4373-4383-009d-1ab11df3e4ed"
         },
         {
           "typeName": "Visualisation",
           "propName": "fillcolor2",
           "name": "Visualisation.fillcolor2",
-          "propRef": "4bf83bdc-c2c2-4039-3303-5aae28ffba86"
+          "propRef": "2a15f157-edc3-43ba-a035-24f38dad724c"
         },
         {
           "typeName": "Visualisation",
           "propName": "textcolor2",
           "name": "Visualisation.textcolor2",
-          "propRef": "ea5ca46e-5fd9-4e84-f2e0-bf1fd98ced81"
+          "propRef": "a3200d5f-e8be-49db-afc9-b7d3594ced77"
         }
       ],
       "methods": [],
@@ -757,13 +759,13 @@
       "description": "",
       "properties": [
         {
-          "id": "bedabec2-48a8-4275-0537-4b27ddcded25",
+          "id": "e99d7646-4cb2-4c07-5a59-0ebe16e9f716",
           "name": "isRequired",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -772,13 +774,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "e80f5383-add5-4be1-ef29-536d6eb83674",
+          "id": "74dadccc-bd17-42dc-780e-3f36477df720",
           "name": "isDerived",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -787,13 +789,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "27e6a75b-439c-477b-e688-fab3875b12f5",
+          "id": "bcef3a69-5af4-4b4a-ec5c-4d7301ffc7df",
           "name": "isIndexed",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -807,19 +809,19 @@
           "typeName": "Behaviors",
           "propName": "isRequired",
           "name": "Behaviors.isRequired",
-          "propRef": "bedabec2-48a8-4275-0537-4b27ddcded25"
+          "propRef": "e99d7646-4cb2-4c07-5a59-0ebe16e9f716"
         },
         {
           "typeName": "Behaviors",
           "propName": "isDerived",
           "name": "Behaviors.isDerived",
-          "propRef": "e80f5383-add5-4be1-ef29-536d6eb83674"
+          "propRef": "74dadccc-bd17-42dc-780e-3f36477df720"
         },
         {
           "typeName": "Behaviors",
           "propName": "isIndexed",
           "name": "Behaviors.isIndexed",
-          "propRef": "27e6a75b-439c-477b-e688-fab3875b12f5"
+          "propRef": "bcef3a69-5af4-4b4a-ec5c-4d7301ffc7df"
         }
       ],
       "methods": [],
@@ -838,13 +840,13 @@
       "description": "",
       "properties": [
         {
-          "id": "d425de37-9e84-422a-6006-45ebd05087c5",
+          "id": "d3273080-eb94-4eb9-d902-d030352451fd",
           "name": "proposal",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -853,13 +855,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "55890159-858f-464b-fce1-4fe631264110",
+          "id": "b8b2e780-0c65-4422-65dd-b710425d4efd",
           "name": "priority",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -868,13 +870,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "8b50d752-9fa1-4668-1099-ef50935254db",
+          "id": "08a10703-ad9f-41d1-8393-a25abb342847",
           "name": "action",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -883,13 +885,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "5855f88d-71ec-40f2-be09-ddf6e37e4a8f",
+          "id": "ed12bdec-334f-4438-9257-71814d72e8d2",
           "name": "operators",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -898,13 +900,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "ebce5d13-41eb-4fcf-b90c-b2fbf90f16f1",
+          "id": "4e346659-8872-486c-7aa5-3a247a10326b",
           "name": "additionaComments",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -918,31 +920,31 @@
           "typeName": "Proposals",
           "propName": "proposal",
           "name": "Proposals.proposal",
-          "propRef": "d425de37-9e84-422a-6006-45ebd05087c5"
+          "propRef": "d3273080-eb94-4eb9-d902-d030352451fd"
         },
         {
           "typeName": "Proposals",
           "propName": "priority",
           "name": "Proposals.priority",
-          "propRef": "55890159-858f-464b-fce1-4fe631264110"
+          "propRef": "b8b2e780-0c65-4422-65dd-b710425d4efd"
         },
         {
           "typeName": "Proposals",
           "propName": "action",
           "name": "Proposals.action",
-          "propRef": "8b50d752-9fa1-4668-1099-ef50935254db"
+          "propRef": "08a10703-ad9f-41d1-8393-a25abb342847"
         },
         {
           "typeName": "Proposals",
           "propName": "operators",
           "name": "Proposals.operators",
-          "propRef": "5855f88d-71ec-40f2-be09-ddf6e37e4a8f"
+          "propRef": "ed12bdec-334f-4438-9257-71814d72e8d2"
         },
         {
           "typeName": "Proposals",
           "propName": "additionaComments",
           "name": "Proposals.additionaComments",
-          "propRef": "ebce5d13-41eb-4fcf-b90c-b2fbf90f16f1"
+          "propRef": "4e346659-8872-486c-7aa5-3a247a10326b"
         }
       ],
       "methods": [],
@@ -961,13 +963,13 @@
       "description": "",
       "properties": [
         {
-          "id": "0a8188f1-e113-42e8-d426-6a22d53aed7a",
+          "id": "a9c18f89-b42b-4a47-6cbf-44a85b88fad4",
           "name": "readOnly",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -976,13 +978,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "c6ae2aaa-11bf-4682-616c-f2a5129f110b",
+          "id": "150b3e3d-1ac7-48b6-3fc6-3e3fb2724449",
           "name": "propertyGroup",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -991,13 +993,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "ffbd9ba8-1175-471b-63d1-ef31055ef5a5",
+          "id": "bb576fe6-6006-45f7-31fd-3ddf7e28c567",
           "name": "datatype",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -1006,13 +1008,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "4d1d9400-3807-4208-cf3f-7053a033873d",
+          "id": "93a59fa1-4c94-44eb-bee0-d54b20e564c2",
           "name": "pattern",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -1021,13 +1023,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "fcb39885-e210-404f-23b4-d124734b251b",
+          "id": "c96f2b5d-3d17-48f7-340d-8692c672fc60",
           "name": "title",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -1036,13 +1038,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "5bb8627b-ff07-4782-3708-62b2935ff1d8",
+          "id": "057e9a31-c233-434f-462c-e442efb7d186",
           "name": "href",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -1051,13 +1053,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "e202e483-5f80-48b9-c71d-596620230e73",
+          "id": "fa7a7f34-ffb4-47ce-eebf-237ed2033964",
           "name": "example",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -1066,13 +1068,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "dad30d0c-8323-4a63-fa6c-c77ac6288429",
+          "id": "439fe0c5-d862-45ca-3e8f-beedb2892df7",
           "name": "format",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -1086,49 +1088,49 @@
           "typeName": "General",
           "propName": "readOnly",
           "name": "General.readOnly",
-          "propRef": "0a8188f1-e113-42e8-d426-6a22d53aed7a"
+          "propRef": "a9c18f89-b42b-4a47-6cbf-44a85b88fad4"
         },
         {
           "typeName": "General",
           "propName": "propertyGroup",
           "name": "General.propertyGroup",
-          "propRef": "c6ae2aaa-11bf-4682-616c-f2a5129f110b"
+          "propRef": "150b3e3d-1ac7-48b6-3fc6-3e3fb2724449"
         },
         {
           "typeName": "General",
           "propName": "datatype",
           "name": "General.datatype",
-          "propRef": "ffbd9ba8-1175-471b-63d1-ef31055ef5a5"
+          "propRef": "bb576fe6-6006-45f7-31fd-3ddf7e28c567"
         },
         {
           "typeName": "General",
           "propName": "pattern",
           "name": "General.pattern",
-          "propRef": "4d1d9400-3807-4208-cf3f-7053a033873d"
+          "propRef": "93a59fa1-4c94-44eb-bee0-d54b20e564c2"
         },
         {
           "typeName": "General",
           "propName": "title",
           "name": "General.title",
-          "propRef": "fcb39885-e210-404f-23b4-d124734b251b"
+          "propRef": "c96f2b5d-3d17-48f7-340d-8692c672fc60"
         },
         {
           "typeName": "General",
           "propName": "href",
           "name": "General.href",
-          "propRef": "5bb8627b-ff07-4782-3708-62b2935ff1d8"
+          "propRef": "057e9a31-c233-434f-462c-e442efb7d186"
         },
         {
           "typeName": "General",
           "propName": "example",
           "name": "General.example",
-          "propRef": "e202e483-5f80-48b9-c71d-596620230e73"
+          "propRef": "fa7a7f34-ffb4-47ce-eebf-237ed2033964"
         },
         {
           "typeName": "General",
           "propName": "format",
           "name": "General.format",
-          "propRef": "dad30d0c-8323-4a63-fa6c-c77ac6288429"
+          "propRef": "439fe0c5-d862-45ca-3e8f-beedb2892df7"
         }
       ],
       "methods": [],
@@ -1144,16 +1146,16 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "ee6bf364-b3c9-4a33-c308-957a2a298efb",
-      "description": "",
+      "description": "A View highlight essential Information elements tailored to the need of specific users or tasks.",
       "properties": [
         {
-          "id": "16c66b4e-1e6d-43d6-44b6-8c5a6e6c8258",
+          "id": "590544d3-4def-4d63-8e62-c25f469e6311",
           "name": "proposedType",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -1167,7 +1169,7 @@
           "typeName": "View",
           "propName": "proposedType",
           "name": "View.proposedType",
-          "propRef": "16c66b4e-1e6d-43d6-44b6-8c5a6e6c8258"
+          "propRef": "590544d3-4def-4d63-8e62-c25f469e6311"
         }
       ],
       "methods": [],
@@ -1816,7 +1818,7 @@
       "supertypes": [],
       "properties": [
         {
-          "id": "2bb1dd20-a9bc-4282-1c4f-06b740f54ad8",
+          "id": "750a59b1-cb95-429a-04be-b741d411a26b",
           "name": "isRequired",
           "defaultValue": "",
           "inputPattern": "",
@@ -1831,7 +1833,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "1154b11c-f981-4194-6c1a-3e0c9a677add",
+          "id": "846b58c8-df91-4dbe-7f8f-07942fa1fa85",
           "name": "isDerived",
           "defaultValue": "",
           "inputPattern": "",
@@ -1846,7 +1848,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "5dc64edf-82c9-4400-810d-2e9b686a127c",
+          "id": "c04fa2d1-94cc-4e4c-7a95-dc45f351636c",
           "name": "isIndexed",
           "defaultValue": "",
           "inputPattern": "",
@@ -1861,7 +1863,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "4f2c120f-cf30-4c2c-f456-ed2ebe37fc5a",
+          "id": "6dbbd3af-2ba9-4dbf-3591-6737d255cc30",
           "name": "referenceObject",
           "defaultValue": "",
           "inputPattern": "",
@@ -1876,7 +1878,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "0e6d62f7-fe3a-4260-dd0b-eeafbc5f954d",
+          "id": "87bf72d6-77dc-4257-197d-136d78e58ac5",
           "name": "refGroupType",
           "defaultValue": "",
           "inputPattern": "",
@@ -1891,7 +1893,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "e6bdf538-e1a6-471f-9886-905d4c4eb479",
+          "id": "b53d95bb-7249-4546-7e65-0e53a6027d6d",
           "name": "refVersion",
           "defaultValue": "",
           "inputPattern": "",
@@ -2390,6 +2392,101 @@
       "modified": true
     },
     {
+      "id": "593e4eb2-564f-4a6c-5fb7-03a72f4dfb9c",
+      "name": "Is",
+      "relshipkind": "Generalization",
+      "viewkind": "",
+      "fromobjtypeRef": "6e86bbab-881b-4d16-8538-7a73719fa7e1",
+      "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "typeviewRef": "17936845-7909-4228-9912-f1ff1806e2f8",
+      "description": "",
+      "supertypes": [],
+      "properties": [],
+      "cardinality": "",
+      "cardinalityFrom": "",
+      "cardinalityTo": "",
+      "nameFrom": "",
+      "nameTo": "",
+      "markedAsDeleted": false,
+      "modified": true
+    },
+    {
+      "id": "fd2116e9-c1ac-4508-43b9-1ccc312a8600",
+      "name": "Is",
+      "relshipkind": "Generalization",
+      "viewkind": "",
+      "fromobjtypeRef": "54ec61df-1920-4f5b-ad81-6d4f8c2681f4",
+      "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "typeviewRef": "6efe8506-6660-4d81-5689-9c69e5173581",
+      "description": "",
+      "supertypes": [],
+      "properties": [],
+      "cardinality": "",
+      "cardinalityFrom": "",
+      "cardinalityTo": "",
+      "nameFrom": "",
+      "nameTo": "",
+      "markedAsDeleted": false,
+      "modified": true
+    },
+    {
+      "id": "887c06b1-849e-40dc-55df-a0850c764806",
+      "name": "Is",
+      "relshipkind": "Generalization",
+      "viewkind": "",
+      "fromobjtypeRef": "7570bbcf-4bf8-4110-6fb0-951b1b43f3df",
+      "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "typeviewRef": "85b4a332-824c-408b-58a1-d83bbeca0c6d",
+      "description": "",
+      "supertypes": [],
+      "properties": [],
+      "cardinality": "",
+      "cardinalityFrom": "",
+      "cardinalityTo": "",
+      "nameFrom": "",
+      "nameTo": "",
+      "markedAsDeleted": false,
+      "modified": true
+    },
+    {
+      "id": "07c46d5f-833b-4c1a-7183-05cd46027eb0",
+      "name": "Is",
+      "relshipkind": "Generalization",
+      "viewkind": "",
+      "fromobjtypeRef": "cbe6e17e-b1da-4dc2-e48f-9d4879fec428",
+      "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "typeviewRef": "b958bfd1-48d5-422b-a1b8-460b58b1a5a2",
+      "description": "",
+      "supertypes": [],
+      "properties": [],
+      "cardinality": "",
+      "cardinalityFrom": "",
+      "cardinalityTo": "",
+      "nameFrom": "",
+      "nameTo": "",
+      "markedAsDeleted": false,
+      "modified": true
+    },
+    {
+      "id": "70768759-14bb-4b63-9145-cc2e1790e283",
+      "name": "hasMember",
+      "relshipkind": "Association",
+      "viewkind": "",
+      "fromobjtypeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
+      "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+      "typeviewRef": "c64e9d14-88f8-4940-a49d-2a657a0c490e",
+      "description": "",
+      "supertypes": [],
+      "properties": [],
+      "cardinality": "",
+      "cardinalityFrom": "",
+      "cardinalityTo": "",
+      "nameFrom": "",
+      "nameTo": "",
+      "markedAsDeleted": false,
+      "modified": true
+    },
+    {
       "id": "24d38c72-df55-4d6f-fdc4-1edb028d367e",
       "name": "includes",
       "relshipkind": "Association",
@@ -2401,7 +2498,7 @@
       "supertypes": [],
       "properties": [
         {
-          "id": "a982fa87-297d-4b57-152e-5d30bec08810",
+          "id": "cc50133f-56aa-4b49-0fb3-54f3b72b0bb5",
           "name": "referenceObject",
           "defaultValue": "",
           "inputPattern": "",
@@ -2416,7 +2513,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "e8ef2991-cef1-4d9a-8b4e-02bd7ea3ab8c",
+          "id": "cc28d43a-6910-4ca9-b49f-627cd6d5b97f",
           "name": "refGroupType",
           "defaultValue": "",
           "inputPattern": "",
@@ -2431,7 +2528,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "dbda2378-f0b0-47a9-ed52-b1b21159df74",
+          "id": "9ecbc0ae-3938-4785-3f67-68983759dedd",
           "name": "refVersion",
           "defaultValue": "",
           "inputPattern": "",
@@ -2643,234 +2740,6 @@
       "nameTo": "",
       "markedAsDeleted": false,
       "modified": true
-    },
-    {
-      "id": "ef8833ea-113c-4a9d-be42-2790201470eb",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "022e1752-9a71-463a-7604-a3feaa695eb3",
-      "toobjtypeRef": "cc2e259c-e116-4bac-42b4-76a8d4ce7ced",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "afb0e3d7-8797-4d88-0e01-f9570b288939",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "022e1752-9a71-463a-7604-a3feaa695eb3",
-      "toobjtypeRef": "3b5c04f2-fe60-42e5-59e6-ed1fc7499558",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "3eaea348-4daa-488f-5cdd-88af7309dac4",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "c8ad9e34-2d87-49cc-dba6-9ed3b9cdfbca",
-      "toobjtypeRef": "3b5c04f2-fe60-42e5-59e6-ed1fc7499558",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "76519ede-5bb8-40e0-00e3-67d28dd55484",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "c8ad9e34-2d87-49cc-dba6-9ed3b9cdfbca",
-      "toobjtypeRef": "cc2e259c-e116-4bac-42b4-76a8d4ce7ced",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "74a69ab2-1129-4fba-6690-9fdadc5f83ba",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "9070c9e3-6e3c-4366-44bb-59828fc49238",
-      "toobjtypeRef": "01a5b8a0-2edd-499d-da88-afb9c53fad23",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "fa94c690-4dc4-4bc4-4d6d-016e323d7bc5",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "9070c9e3-6e3c-4366-44bb-59828fc49238",
-      "toobjtypeRef": "3909d4c3-1fd6-4a18-d971-1f49c1046d25",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "7dc37f17-32f0-4fc2-616a-db5413551092",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "83dc2e99-b5cf-46d4-45c8-251a0d7c394b",
-      "toobjtypeRef": "01a5b8a0-2edd-499d-da88-afb9c53fad23",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "dbbc252f-92a5-45ac-c4af-ab5352693f31",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "83dc2e99-b5cf-46d4-45c8-251a0d7c394b",
-      "toobjtypeRef": "3909d4c3-1fd6-4a18-d971-1f49c1046d25",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "ef106ce1-064e-4964-9d93-6383cf263cd3",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "9070c9e3-6e3c-4366-44bb-59828fc49238",
-      "toobjtypeRef": "3b2c73b8-ad01-4665-d66a-9f8b78dc0f2b",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "d6dd8ef0-e5b6-4bf5-293e-9da3cedc4a1f",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "83dc2e99-b5cf-46d4-45c8-251a0d7c394b",
-      "toobjtypeRef": "3b2c73b8-ad01-4665-d66a-9f8b78dc0f2b",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "e3d8d8f8-a720-42aa-33ec-1bdfe87d07fc",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "c8ad9e34-2d87-49cc-dba6-9ed3b9cdfbca",
-      "toobjtypeRef": "3b2c73b8-ad01-4665-d66a-9f8b78dc0f2b",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "b7e961da-d51b-46cc-d398-aa4889b19b03",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "022e1752-9a71-463a-7604-a3feaa695eb3",
-      "toobjtypeRef": "3b2c73b8-ad01-4665-d66a-9f8b78dc0f2b",
-      "typeviewRef": "",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": false
     }
   ],
   "objecttypes0": [
@@ -2921,7 +2790,7 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "a3112875-e4fe-4100-b290-5634d8b8acfc",
-      "description": "",
+      "description": "A Container like a folder that holds everything inside, either by relationship \"hasMember\"  to objects or in a Modelview just visually keeping the objectviews.",
       "properties": [],
       "attributes": [],
       "methods": [],
@@ -2937,7 +2806,7 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "f736983f-14ae-4774-1ca7-e5b66fc4cd54",
-      "description": "",
+      "description": "Represents a list of Items.",
       "properties": [],
       "attributes": [],
       "methods": [],
@@ -2953,16 +2822,16 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "3cf0f678-c397-49ef-b805-8365ab84626b",
-      "description": "",
+      "description": "Represents a relationships or link to a another EntityType (OSDUType). The link is identified byt target GroupType name and EntityType name",
       "properties": [
         {
-          "id": "0d03a421-77ee-42dd-56b4-a833d98df846",
+          "id": "04f6642e-3091-46af-f5da-8f607209fbd1",
           "name": "refGroupType",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -2971,13 +2840,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "34a25f56-e141-498f-f7e8-82ca2953952c",
+          "id": "184a0ac1-01dd-40a1-ca65-806ac2887b57",
           "name": "referenceObject",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -2986,13 +2855,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "10cd2f06-4161-4c15-7405-9cfa3efc30a1",
+          "id": "37272cde-cb31-495e-9735-5f5de9ebfdc1",
           "name": "refVersion",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3006,19 +2875,19 @@
           "typeName": "Proxy",
           "propName": "refGroupType",
           "name": "Proxy.refGroupType",
-          "propRef": "0d03a421-77ee-42dd-56b4-a833d98df846"
+          "propRef": "04f6642e-3091-46af-f5da-8f607209fbd1"
         },
         {
           "typeName": "Proxy",
           "propName": "referenceObject",
           "name": "Proxy.referenceObject",
-          "propRef": "34a25f56-e141-498f-f7e8-82ca2953952c"
+          "propRef": "184a0ac1-01dd-40a1-ca65-806ac2887b57"
         },
         {
           "typeName": "Proxy",
           "propName": "refVersion",
           "name": "Proxy.refVersion",
-          "propRef": "10cd2f06-4161-4c15-7405-9cfa3efc30a1"
+          "propRef": "37272cde-cb31-495e-9735-5f5de9ebfdc1"
         }
       ],
       "methods": [],
@@ -3050,16 +2919,16 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "3db51d2d-dddd-4a5c-fb77-6ebd1de45ae0",
-      "description": "",
+      "description": "EntityType represents a concept.",
       "properties": [
         {
-          "id": "65663b7d-918c-480b-7230-cd6b8e309525",
+          "id": "7462a578-132d-4162-277e-6d7935d2fd67",
           "name": "x-osdu-schema-source",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3068,13 +2937,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "f2d3d527-da37-45d5-c3ce-2aff5d2b3e5e",
+          "id": "a0a7ef23-cad4-459b-f940-e5074b6f6201",
           "name": "version",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3083,13 +2952,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "fcf9af57-a64d-4f95-1808-2c86a618cd87",
+          "id": "a65169af-c2b8-40f7-027d-266154a26e49",
           "name": "$schema",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3098,13 +2967,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "24ca736a-d8b9-4416-8e3e-0121857346a8",
+          "id": "053d5102-ac4a-4bd4-40d3-0de054657a8f",
           "name": "$id",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3113,13 +2982,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "51e4fcf4-50b5-4541-b031-86b78c6f50aa",
+          "id": "15057464-12da-4057-29c3-536540e477cb",
           "name": "x-osdu-license",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3128,13 +2997,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "c1e35888-cdc0-4e3d-6a55-cdc91bd6c6cf",
+          "id": "97607a5b-3a3e-45b6-8d66-bf37a83838fd",
           "name": "groupType",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3143,13 +3012,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "2e5be42b-d71d-4d45-b23b-65fe211f3579",
+          "id": "dab55f2d-6e2a-4a10-6241-c9ae5b79488c",
           "name": "x-osdu-supported-file-formats",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3158,13 +3027,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "3192289b-9bd0-405b-aaae-72d905c77789",
+          "id": "3b749f64-e10b-43bf-9f47-e19861091514",
           "name": "additionalProperties",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3173,13 +3042,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "47d77dfb-d160-47f4-0a4a-b0aeb2f7b6b4",
+          "id": "b304e25e-9e51-4aa1-f090-8acf730785aa",
           "name": "x-osdu-virtual-properties",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3188,13 +3057,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "44608707-22ec-446f-d0b5-fa4da5d53f0e",
+          "id": "2056a7ce-07f8-4c40-d4bb-056a791448a2",
           "name": "required",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3208,61 +3077,61 @@
           "typeName": "OSDUType",
           "propName": "x-osdu-schema-source",
           "name": "OSDUType.x-osdu-schema-source",
-          "propRef": "65663b7d-918c-480b-7230-cd6b8e309525"
+          "propRef": "7462a578-132d-4162-277e-6d7935d2fd67"
         },
         {
           "typeName": "OSDUType",
           "propName": "version",
           "name": "OSDUType.version",
-          "propRef": "f2d3d527-da37-45d5-c3ce-2aff5d2b3e5e"
+          "propRef": "a0a7ef23-cad4-459b-f940-e5074b6f6201"
         },
         {
           "typeName": "OSDUType",
           "propName": "$schema",
           "name": "OSDUType.$schema",
-          "propRef": "fcf9af57-a64d-4f95-1808-2c86a618cd87"
+          "propRef": "a65169af-c2b8-40f7-027d-266154a26e49"
         },
         {
           "typeName": "OSDUType",
           "propName": "$id",
           "name": "OSDUType.$id",
-          "propRef": "24ca736a-d8b9-4416-8e3e-0121857346a8"
+          "propRef": "053d5102-ac4a-4bd4-40d3-0de054657a8f"
         },
         {
           "typeName": "OSDUType",
           "propName": "x-osdu-license",
           "name": "OSDUType.x-osdu-license",
-          "propRef": "51e4fcf4-50b5-4541-b031-86b78c6f50aa"
+          "propRef": "15057464-12da-4057-29c3-536540e477cb"
         },
         {
           "typeName": "OSDUType",
           "propName": "groupType",
           "name": "OSDUType.groupType",
-          "propRef": "c1e35888-cdc0-4e3d-6a55-cdc91bd6c6cf"
+          "propRef": "97607a5b-3a3e-45b6-8d66-bf37a83838fd"
         },
         {
           "typeName": "OSDUType",
           "propName": "x-osdu-supported-file-formats",
           "name": "OSDUType.x-osdu-supported-file-formats",
-          "propRef": "2e5be42b-d71d-4d45-b23b-65fe211f3579"
+          "propRef": "dab55f2d-6e2a-4a10-6241-c9ae5b79488c"
         },
         {
           "typeName": "OSDUType",
           "propName": "additionalProperties",
           "name": "OSDUType.additionalProperties",
-          "propRef": "3192289b-9bd0-405b-aaae-72d905c77789"
+          "propRef": "3b749f64-e10b-43bf-9f47-e19861091514"
         },
         {
           "typeName": "OSDUType",
           "propName": "x-osdu-virtual-properties",
           "name": "OSDUType.x-osdu-virtual-properties",
-          "propRef": "47d77dfb-d160-47f4-0a4a-b0aeb2f7b6b4"
+          "propRef": "b304e25e-9e51-4aa1-f090-8acf730785aa"
         },
         {
           "typeName": "OSDUType",
           "propName": "required",
           "name": "OSDUType.required",
-          "propRef": "44608707-22ec-446f-d0b5-fa4da5d53f0e"
+          "propRef": "2056a7ce-07f8-4c40-d4bb-056a791448a2"
         }
       ],
       "methods": [],
@@ -3278,7 +3147,7 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "3d844879-aae1-4267-9f3a-2aa683f53a33",
-      "description": "",
+      "description": "Represents an Item in a list. the Item can contain Property and  Proxy. ",
       "properties": [],
       "attributes": [],
       "methods": [],
@@ -3297,32 +3166,32 @@
       "description": "",
       "properties": [
         {
-          "id": "4f7418cb-17af-4d3f-b956-25cc043b8984",
+          "id": "ef66d621-9277-4223-0ae7-434e306dcb26",
           "name": "created",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": true,
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "669c19fd-9c49-4bba-b22c-082b35823937",
+          "datatypeRef": "80f4c48a-49e1-47e5-199f-1d5219c31f46",
           "methodRef": "",
           "unitCategoryRef": ""
         },
         {
-          "id": "16e0ee3e-0114-41d3-0aca-56ae00d39ef1",
+          "id": "bfa4bb2d-185b-4b7b-6915-c4d1990021a3",
           "name": "modified",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
-          "datatypeRef": "669c19fd-9c49-4bba-b22c-082b35823937",
+          "datatypeRef": "80f4c48a-49e1-47e5-199f-1d5219c31f46",
           "methodRef": "",
           "unitCategoryRef": ""
         }
@@ -3332,13 +3201,13 @@
           "typeName": "Timestamp",
           "propName": "created",
           "name": "Timestamp.created",
-          "propRef": "4f7418cb-17af-4d3f-b956-25cc043b8984"
+          "propRef": "ef66d621-9277-4223-0ae7-434e306dcb26"
         },
         {
           "typeName": "Timestamp",
           "propName": "modified",
           "name": "Timestamp.modified",
-          "propRef": "16e0ee3e-0114-41d3-0aca-56ae00d39ef1"
+          "propRef": "bfa4bb2d-185b-4b7b-6915-c4d1990021a3"
         }
       ],
       "methods": [],
@@ -3357,12 +3226,13 @@
       "description": "",
       "properties": [
         {
-          "id": "82d12025-b8ca-4f54-4854-55037c965c20",
+          "id": "b23d6bd0-6918-4abc-e4b4-9f55695143b3",
           "name": "image",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3371,13 +3241,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "00271815-3521-4169-4913-fd3737acdf43",
+          "id": "c0cd422c-371a-4390-9c48-04aad02308a0",
           "name": "textcolor",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3386,13 +3256,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "2d3901e3-45fd-4e38-5324-6ad834219075",
+          "id": "f8708755-7884-4c2f-0b87-05cbf57c5a75",
           "name": "fillcolor",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3401,13 +3271,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "185ac5b8-203d-4b49-d6e5-6f45380e53de",
+          "id": "4b654740-7b6f-462a-f218-79445a280687",
           "name": "strokecolor",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3416,13 +3286,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "91002b4b-e8ed-4c0d-43d3-f9db4996fbf5",
+          "id": "8e61dc11-f70b-4879-b457-e554cf7a40de",
           "name": "icon",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3431,13 +3301,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "ce808b12-3e66-4b7f-48d1-8f32f938c08c",
+          "id": "df5ebcd4-4373-4383-009d-1ab11df3e4ed",
           "name": "strokecolor2",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3446,13 +3316,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "4bf83bdc-c2c2-4039-3303-5aae28ffba86",
+          "id": "2a15f157-edc3-43ba-a035-24f38dad724c",
           "name": "fillcolor2",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3461,13 +3331,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "ea5ca46e-5fd9-4e84-f2e0-bf1fd98ced81",
+          "id": "a3200d5f-e8be-49db-afc9-b7d3594ced77",
           "name": "textcolor2",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3481,49 +3351,49 @@
           "typeName": "Visualisation",
           "propName": "image",
           "name": "Visualisation.image",
-          "propRef": "82d12025-b8ca-4f54-4854-55037c965c20"
+          "propRef": "b23d6bd0-6918-4abc-e4b4-9f55695143b3"
         },
         {
           "typeName": "Visualisation",
           "propName": "textcolor",
           "name": "Visualisation.textcolor",
-          "propRef": "00271815-3521-4169-4913-fd3737acdf43"
+          "propRef": "c0cd422c-371a-4390-9c48-04aad02308a0"
         },
         {
           "typeName": "Visualisation",
           "propName": "fillcolor",
           "name": "Visualisation.fillcolor",
-          "propRef": "2d3901e3-45fd-4e38-5324-6ad834219075"
+          "propRef": "f8708755-7884-4c2f-0b87-05cbf57c5a75"
         },
         {
           "typeName": "Visualisation",
           "propName": "strokecolor",
           "name": "Visualisation.strokecolor",
-          "propRef": "185ac5b8-203d-4b49-d6e5-6f45380e53de"
+          "propRef": "4b654740-7b6f-462a-f218-79445a280687"
         },
         {
           "typeName": "Visualisation",
           "propName": "icon",
           "name": "Visualisation.icon",
-          "propRef": "91002b4b-e8ed-4c0d-43d3-f9db4996fbf5"
+          "propRef": "8e61dc11-f70b-4879-b457-e554cf7a40de"
         },
         {
           "typeName": "Visualisation",
           "propName": "strokecolor2",
           "name": "Visualisation.strokecolor2",
-          "propRef": "ce808b12-3e66-4b7f-48d1-8f32f938c08c"
+          "propRef": "df5ebcd4-4373-4383-009d-1ab11df3e4ed"
         },
         {
           "typeName": "Visualisation",
           "propName": "fillcolor2",
           "name": "Visualisation.fillcolor2",
-          "propRef": "4bf83bdc-c2c2-4039-3303-5aae28ffba86"
+          "propRef": "2a15f157-edc3-43ba-a035-24f38dad724c"
         },
         {
           "typeName": "Visualisation",
           "propName": "textcolor2",
           "name": "Visualisation.textcolor2",
-          "propRef": "ea5ca46e-5fd9-4e84-f2e0-bf1fd98ced81"
+          "propRef": "a3200d5f-e8be-49db-afc9-b7d3594ced77"
         }
       ],
       "methods": [],
@@ -3542,13 +3412,13 @@
       "description": "",
       "properties": [
         {
-          "id": "bedabec2-48a8-4275-0537-4b27ddcded25",
+          "id": "e99d7646-4cb2-4c07-5a59-0ebe16e9f716",
           "name": "isRequired",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3557,13 +3427,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "e80f5383-add5-4be1-ef29-536d6eb83674",
+          "id": "74dadccc-bd17-42dc-780e-3f36477df720",
           "name": "isDerived",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3572,13 +3442,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "27e6a75b-439c-477b-e688-fab3875b12f5",
+          "id": "bcef3a69-5af4-4b4a-ec5c-4d7301ffc7df",
           "name": "isIndexed",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3592,19 +3462,19 @@
           "typeName": "Behaviors",
           "propName": "isRequired",
           "name": "Behaviors.isRequired",
-          "propRef": "bedabec2-48a8-4275-0537-4b27ddcded25"
+          "propRef": "e99d7646-4cb2-4c07-5a59-0ebe16e9f716"
         },
         {
           "typeName": "Behaviors",
           "propName": "isDerived",
           "name": "Behaviors.isDerived",
-          "propRef": "e80f5383-add5-4be1-ef29-536d6eb83674"
+          "propRef": "74dadccc-bd17-42dc-780e-3f36477df720"
         },
         {
           "typeName": "Behaviors",
           "propName": "isIndexed",
           "name": "Behaviors.isIndexed",
-          "propRef": "27e6a75b-439c-477b-e688-fab3875b12f5"
+          "propRef": "bcef3a69-5af4-4b4a-ec5c-4d7301ffc7df"
         }
       ],
       "methods": [],
@@ -3623,13 +3493,13 @@
       "description": "",
       "properties": [
         {
-          "id": "d425de37-9e84-422a-6006-45ebd05087c5",
+          "id": "d3273080-eb94-4eb9-d902-d030352451fd",
           "name": "proposal",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3638,13 +3508,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "55890159-858f-464b-fce1-4fe631264110",
+          "id": "b8b2e780-0c65-4422-65dd-b710425d4efd",
           "name": "priority",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3653,13 +3523,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "8b50d752-9fa1-4668-1099-ef50935254db",
+          "id": "08a10703-ad9f-41d1-8393-a25abb342847",
           "name": "action",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3668,13 +3538,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "5855f88d-71ec-40f2-be09-ddf6e37e4a8f",
+          "id": "ed12bdec-334f-4438-9257-71814d72e8d2",
           "name": "operators",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3683,13 +3553,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "ebce5d13-41eb-4fcf-b90c-b2fbf90f16f1",
+          "id": "4e346659-8872-486c-7aa5-3a247a10326b",
           "name": "additionaComments",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3703,31 +3573,31 @@
           "typeName": "Proposals",
           "propName": "proposal",
           "name": "Proposals.proposal",
-          "propRef": "d425de37-9e84-422a-6006-45ebd05087c5"
+          "propRef": "d3273080-eb94-4eb9-d902-d030352451fd"
         },
         {
           "typeName": "Proposals",
           "propName": "priority",
           "name": "Proposals.priority",
-          "propRef": "55890159-858f-464b-fce1-4fe631264110"
+          "propRef": "b8b2e780-0c65-4422-65dd-b710425d4efd"
         },
         {
           "typeName": "Proposals",
           "propName": "action",
           "name": "Proposals.action",
-          "propRef": "8b50d752-9fa1-4668-1099-ef50935254db"
+          "propRef": "08a10703-ad9f-41d1-8393-a25abb342847"
         },
         {
           "typeName": "Proposals",
           "propName": "operators",
           "name": "Proposals.operators",
-          "propRef": "5855f88d-71ec-40f2-be09-ddf6e37e4a8f"
+          "propRef": "ed12bdec-334f-4438-9257-71814d72e8d2"
         },
         {
           "typeName": "Proposals",
           "propName": "additionaComments",
           "name": "Proposals.additionaComments",
-          "propRef": "ebce5d13-41eb-4fcf-b90c-b2fbf90f16f1"
+          "propRef": "4e346659-8872-486c-7aa5-3a247a10326b"
         }
       ],
       "methods": [],
@@ -3746,13 +3616,13 @@
       "description": "",
       "properties": [
         {
-          "id": "0a8188f1-e113-42e8-d426-6a22d53aed7a",
+          "id": "a9c18f89-b42b-4a47-6cbf-44a85b88fad4",
           "name": "readOnly",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3761,13 +3631,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "c6ae2aaa-11bf-4682-616c-f2a5129f110b",
+          "id": "150b3e3d-1ac7-48b6-3fc6-3e3fb2724449",
           "name": "propertyGroup",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3776,13 +3646,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "ffbd9ba8-1175-471b-63d1-ef31055ef5a5",
+          "id": "bb576fe6-6006-45f7-31fd-3ddf7e28c567",
           "name": "datatype",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3791,13 +3661,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "4d1d9400-3807-4208-cf3f-7053a033873d",
+          "id": "93a59fa1-4c94-44eb-bee0-d54b20e564c2",
           "name": "pattern",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3806,13 +3676,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "fcb39885-e210-404f-23b4-d124734b251b",
+          "id": "c96f2b5d-3d17-48f7-340d-8692c672fc60",
           "name": "title",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3821,13 +3691,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "5bb8627b-ff07-4782-3708-62b2935ff1d8",
+          "id": "057e9a31-c233-434f-462c-e442efb7d186",
           "name": "href",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3836,13 +3706,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "e202e483-5f80-48b9-c71d-596620230e73",
+          "id": "fa7a7f34-ffb4-47ce-eebf-237ed2033964",
           "name": "example",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3851,13 +3721,13 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "dad30d0c-8323-4a63-fa6c-c77ac6288429",
+          "id": "439fe0c5-d862-45ca-3e8f-beedb2892df7",
           "name": "format",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3871,49 +3741,49 @@
           "typeName": "General",
           "propName": "readOnly",
           "name": "General.readOnly",
-          "propRef": "0a8188f1-e113-42e8-d426-6a22d53aed7a"
+          "propRef": "a9c18f89-b42b-4a47-6cbf-44a85b88fad4"
         },
         {
           "typeName": "General",
           "propName": "propertyGroup",
           "name": "General.propertyGroup",
-          "propRef": "c6ae2aaa-11bf-4682-616c-f2a5129f110b"
+          "propRef": "150b3e3d-1ac7-48b6-3fc6-3e3fb2724449"
         },
         {
           "typeName": "General",
           "propName": "datatype",
           "name": "General.datatype",
-          "propRef": "ffbd9ba8-1175-471b-63d1-ef31055ef5a5"
+          "propRef": "bb576fe6-6006-45f7-31fd-3ddf7e28c567"
         },
         {
           "typeName": "General",
           "propName": "pattern",
           "name": "General.pattern",
-          "propRef": "4d1d9400-3807-4208-cf3f-7053a033873d"
+          "propRef": "93a59fa1-4c94-44eb-bee0-d54b20e564c2"
         },
         {
           "typeName": "General",
           "propName": "title",
           "name": "General.title",
-          "propRef": "fcb39885-e210-404f-23b4-d124734b251b"
+          "propRef": "c96f2b5d-3d17-48f7-340d-8692c672fc60"
         },
         {
           "typeName": "General",
           "propName": "href",
           "name": "General.href",
-          "propRef": "5bb8627b-ff07-4782-3708-62b2935ff1d8"
+          "propRef": "057e9a31-c233-434f-462c-e442efb7d186"
         },
         {
           "typeName": "General",
           "propName": "example",
           "name": "General.example",
-          "propRef": "e202e483-5f80-48b9-c71d-596620230e73"
+          "propRef": "fa7a7f34-ffb4-47ce-eebf-237ed2033964"
         },
         {
           "typeName": "General",
           "propName": "format",
           "name": "General.format",
-          "propRef": "dad30d0c-8323-4a63-fa6c-c77ac6288429"
+          "propRef": "439fe0c5-d862-45ca-3e8f-beedb2892df7"
         }
       ],
       "methods": [],
@@ -3929,16 +3799,16 @@
       "typename": "Object type",
       "typedescription": "",
       "typeviewRef": "ee6bf364-b3c9-4a33-c308-957a2a298efb",
-      "description": "",
+      "description": "A View highlight essential Information elements tailored to the need of specific users or tasks.",
       "properties": [
         {
-          "id": "16c66b4e-1e6d-43d6-44b6-8c5a6e6c8258",
+          "id": "590544d3-4def-4d63-8e62-c25f469e6311",
           "name": "proposedType",
           "defaultValue": "",
           "inputPattern": "",
           "viewFormat": "",
           "example": "",
-          "readOnly": "",
+          "readOnly": false,
           "markedAsDeleted": false,
           "modified": false,
           "description": " ",
@@ -3952,7 +3822,7 @@
           "typeName": "View",
           "propName": "proposedType",
           "name": "View.proposedType",
-          "propRef": "16c66b4e-1e6d-43d6-44b6-8c5a6e6c8258"
+          "propRef": "590544d3-4def-4d63-8e62-c25f469e6311"
         }
       ],
       "methods": [],
@@ -4069,7 +3939,7 @@
       "supertypes": [],
       "properties": [
         {
-          "id": "2bb1dd20-a9bc-4282-1c4f-06b740f54ad8",
+          "id": "750a59b1-cb95-429a-04be-b741d411a26b",
           "name": "isRequired",
           "defaultValue": "",
           "inputPattern": "",
@@ -4084,7 +3954,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "1154b11c-f981-4194-6c1a-3e0c9a677add",
+          "id": "846b58c8-df91-4dbe-7f8f-07942fa1fa85",
           "name": "isDerived",
           "defaultValue": "",
           "inputPattern": "",
@@ -4099,7 +3969,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "5dc64edf-82c9-4400-810d-2e9b686a127c",
+          "id": "c04fa2d1-94cc-4e4c-7a95-dc45f351636c",
           "name": "isIndexed",
           "defaultValue": "",
           "inputPattern": "",
@@ -4114,7 +3984,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "4f2c120f-cf30-4c2c-f456-ed2ebe37fc5a",
+          "id": "6dbbd3af-2ba9-4dbf-3591-6737d255cc30",
           "name": "referenceObject",
           "defaultValue": "",
           "inputPattern": "",
@@ -4129,7 +3999,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "0e6d62f7-fe3a-4260-dd0b-eeafbc5f954d",
+          "id": "87bf72d6-77dc-4257-197d-136d78e58ac5",
           "name": "refGroupType",
           "defaultValue": "",
           "inputPattern": "",
@@ -4144,7 +4014,7 @@
           "unitCategoryRef": ""
         },
         {
-          "id": "e6bdf538-e1a6-471f-9886-905d4c4eb479",
+          "id": "b53d95bb-7249-4546-7e65-0e53a6027d6d",
           "name": "refVersion",
           "defaultValue": "",
           "inputPattern": "",
@@ -4309,7 +4179,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4324,7 +4194,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4339,7 +4209,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4354,7 +4224,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4369,7 +4239,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4384,7 +4254,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4399,7 +4269,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4414,7 +4284,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4429,7 +4299,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4444,7 +4314,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4459,7 +4329,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4474,7 +4344,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4489,7 +4359,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4504,7 +4374,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4519,7 +4389,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4534,7 +4404,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4549,7 +4419,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4564,7 +4434,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4579,7 +4449,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4594,7 +4464,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4609,7 +4479,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4639,7 +4509,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4654,6 +4524,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4668,7 +4539,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4683,7 +4554,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4698,7 +4569,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4713,7 +4584,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4728,7 +4599,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4743,7 +4614,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4758,7 +4629,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4773,7 +4644,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4788,7 +4659,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4803,7 +4674,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4818,7 +4689,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4833,7 +4704,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4848,7 +4719,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4863,7 +4734,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4878,7 +4749,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4893,7 +4764,7 @@
       "inputPattern": "",
       "viewFormat": "",
       "example": "",
-      "readOnly": "",
+      "readOnly": false,
       "markedAsDeleted": false,
       "modified": false,
       "description": " ",
@@ -4917,7 +4788,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "7703477b-9b2b-4497-bdfb-95994373bcef",
+      "id": "1d002e38-b4ca-4401-f9f1-6035785e6c4c",
       "name": "expression",
       "defaultValue": "",
       "inputPattern": "",
@@ -4932,7 +4803,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "bff86351-3209-406c-e207-0d6a2cf03206",
+      "id": "1edf3b80-0eed-4ee3-381a-315af90bae7d",
       "name": "reltypes",
       "defaultValue": "",
       "inputPattern": "",
@@ -4947,7 +4818,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "57ba4475-a760-43c3-cd04-c9d80e6bc6c6",
+      "id": "08505954-f039-4a7e-4ee2-a415cd3a9fc9",
       "name": "reldir",
       "defaultValue": "",
       "inputPattern": "",
@@ -4962,7 +4833,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "f4059464-4be6-46a5-cac2-e00bb7815042",
+      "id": "024f1a06-e257-4657-9eb9-4950c752f33e",
       "name": "objtypes",
       "defaultValue": "",
       "inputPattern": "",
@@ -4977,7 +4848,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "4f05d9b0-59dc-46e1-ddac-8f87735dbfed",
+      "id": "b222a528-21a4-4398-b6c0-163268f6345f",
       "name": "nolevels",
       "defaultValue": "",
       "inputPattern": "",
@@ -4992,7 +4863,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "9f7e36ac-e25f-4a11-4949-f9db7eb4c0db",
+      "id": "86a7b753-5814-4f1d-a2d9-f328d752861f",
       "name": "valuecondition",
       "defaultValue": "",
       "inputPattern": "",
@@ -5007,7 +4878,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "a4619aa0-2f20-4d82-2513-c354a6cdb8dd",
+      "id": "3586e110-9660-4fa2-5bf0-6686b73f3ff8",
       "name": "preaction",
       "defaultValue": "",
       "inputPattern": "",
@@ -5022,7 +4893,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "23ca39ff-9a1a-4b11-3001-eedd5375be1d",
+      "id": "79efb3e8-7a2c-44d6-83bf-4b524bfd06ce",
       "name": "postaction",
       "defaultValue": "",
       "inputPattern": "",
@@ -5130,7 +5001,6 @@
       "id": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
       "name": "condition",
       "description": "",
-      "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
       "allowedValues": null,
       "defaultValue": "",
       "readOnly": false,
@@ -5159,7 +5029,6 @@
       "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
       "name": "typenames",
       "description": "",
-      "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
       "allowedValues": null,
       "defaultValue": "",
       "readOnly": false,
@@ -5262,7 +5131,6 @@
       "id": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
       "name": "YN",
       "description": "",
-      "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
       "allowedValues": [
         "Y",
         "N"
@@ -5505,23 +5373,6 @@
       "fieldType": "radio",
       "markedAsDeleted": false,
       "modified": false
-    },
-    {
-      "id": "669c19fd-9c49-4bba-b22c-082b35823937",
-      "name": "today",
-      "description": "",
-      "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
-      "allowedValues": [
-        "now"
-      ],
-      "defaultValue": "now",
-      "readOnly": false,
-      "value": "",
-      "inputPattern": "",
-      "viewFormat": "%s",
-      "fieldType": "date",
-      "markedAsDeleted": false,
-      "modified": false
     }
   ],
   "methodtypes": [
@@ -5531,7 +5382,7 @@
       "description": "",
       "properties": [
         {
-          "id": "ea7fe0a7-9fc3-4f1e-daad-bd5eba415af5",
+          "id": "be28bb5c-9bf3-4725-3183-5c48f7e85070",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -5540,49 +5391,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatype": {
-            "id": "7eeb1b21-4816-418e-175a-a7c170e8492c",
-            "name": "typenames",
-            "nameId": "typenames",
-            "category": "Datatype",
-            "sourceUri": "",
-            "markedAsDeleted": false,
-            "modified": false,
-            "description": "",
-            "fs_collection": "datatypes",
-            "isOfDatatype": {
-              "id": "160e8cac-4003-4b00-175f-2b720ba088e0",
-              "name": "string",
-              "nameId": "string",
-              "category": "Datatype",
-              "sourceUri": "",
-              "markedAsDeleted": false,
-              "modified": false,
-              "description": "String",
-              "fs_collection": "datatypes",
-              "isOfDatatype": null,
-              "inputPattern": "",
-              "viewFormat": "%s",
-              "fieldType": "text",
-              "readOnly": false,
-              "allowedValues": "",
-              "defaultValue": null,
-              "value": "",
-              "pointerType": null,
-              "pointerCriteria": ""
-            },
-            "inputPattern": "",
-            "viewFormat": "%s",
-            "fieldType": "text",
-            "readOnly": false,
-            "allowedValues": null,
-            "defaultValue": "",
-            "value": "",
-            "pointerType": null,
-            "pointerCriteria": "",
-            "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
-          },
-          "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5595,7 +5405,7 @@
           "example": ""
         },
         {
-          "id": "5a08895f-cc21-4124-5c27-696272f4b63a",
+          "id": "1b538c4b-34b6-4364-6d49-0c1dc8c4ad56",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -5604,27 +5414,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatype": {
-            "id": "4260f5d9-16ee-40e2-3503-1d4988f2c23a",
-            "name": "reldir",
-            "nameId": "reldir",
-            "category": "Datatype",
-            "sourceUri": "",
-            "markedAsDeleted": false,
-            "modified": false,
-            "description": "",
-            "fs_collection": "datatypes",
-            "isOfDatatype": null,
-            "inputPattern": "",
-            "viewFormat": "",
-            "fieldType": "radio",
-            "readOnly": false,
-            "defaultValue": "any",
-            "value": "",
-            "pointerType": null,
-            "pointerCriteria": ""
-          },
-          "datatypeRef": "4260f5d9-16ee-40e2-3503-1d4988f2c23a",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5637,7 +5428,7 @@
           "example": ""
         },
         {
-          "id": "9d200adb-a3fb-4704-55b8-851fd9eba733",
+          "id": "87399d57-9db4-4023-6b1f-9d414cfb4724",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -5646,7 +5437,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5659,7 +5451,7 @@
           "example": ""
         },
         {
-          "id": "40e6e6f7-387c-474d-1bef-bd93c959ceed",
+          "id": "eb5b6c4b-7080-49da-51bf-fb84ef44dcdb",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -5668,28 +5460,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatype": {
-            "id": "255491ab-0dd1-44a3-e9cf-40d590821421",
-            "name": "expression",
-            "nameId": "expression",
-            "category": "Datatype",
-            "sourceUri": "",
-            "markedAsDeleted": false,
-            "modified": false,
-            "description": "",
-            "fs_collection": "datatypes",
-            "isOfDatatype": null,
-            "inputPattern": "",
-            "viewFormat": "%s",
-            "fieldType": "text",
-            "readOnly": false,
-            "allowedValues": null,
-            "defaultValue": "",
-            "value": "",
-            "pointerType": null,
-            "pointerCriteria": ""
-          },
-          "datatypeRef": "255491ab-0dd1-44a3-e9cf-40d590821421",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5711,7 +5483,7 @@
       "description": "",
       "properties": [
         {
-          "id": "43f8fb43-dd02-4ff0-e0b4-7961eeb2a8fb",
+          "id": "50a377f6-3b67-4fe1-88f3-50ad6f1e8582",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -5720,7 +5492,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatypeRef": "255491ab-0dd1-44a3-e9cf-40d590821421",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5742,7 +5515,7 @@
       "description": "",
       "properties": [
         {
-          "id": "20996cc9-218a-401f-2cfd-7d4f50f99508",
+          "id": "7a8851e7-1dd0-4468-c0be-2a9f26eae259",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -5751,7 +5524,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5764,7 +5538,7 @@
           "example": ""
         },
         {
-          "id": "eac21d80-9834-4362-a2a0-ecc444bd58de",
+          "id": "34cac0af-d98b-4058-5cc0-7f0eb0727196",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -5773,7 +5547,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatypeRef": "4260f5d9-16ee-40e2-3503-1d4988f2c23a",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5786,7 +5561,7 @@
           "example": ""
         },
         {
-          "id": "e58da6af-6227-4359-1783-2ec8705ea452",
+          "id": "15f09dc6-011d-4cf6-d941-a4a8d82e3dab",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -5795,7 +5570,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatypeRef": "7eeb1b21-4816-418e-175a-a7c170e8492c",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5808,7 +5584,7 @@
           "example": ""
         },
         {
-          "id": "97578629-ae2d-458a-e5bb-339beea7bfe7",
+          "id": "0ded615a-5f16-4be9-ba67-8ed05029413f",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -5817,7 +5593,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatypeRef": "255491ab-0dd1-44a3-e9cf-40d590821421",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5830,7 +5607,7 @@
           "example": ""
         },
         {
-          "id": "8367ea33-b02a-4391-df8d-6046c50c055b",
+          "id": "8d442925-089f-45b3-4d17-d70672cc2ee9",
           "name": "nolevels",
           "nameId": "nolevels",
           "category": "Property",
@@ -5839,28 +5616,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatype": {
-            "id": "b044f60b-1763-480b-576f-4e4b110ba495",
-            "name": "integer",
-            "nameId": "integer",
-            "category": "Datatype",
-            "sourceUri": "",
-            "markedAsDeleted": false,
-            "modified": false,
-            "description": "Integer",
-            "fs_collection": "datatypes",
-            "isOfDatatype": null,
-            "inputPattern": "^[-+]?\\d+$",
-            "viewFormat": "%d",
-            "fieldType": "text",
-            "readOnly": false,
-            "allowedValues": "",
-            "defaultValue": null,
-            "value": "",
-            "pointerType": null,
-            "pointerCriteria": ""
-          },
-          "datatypeRef": "b044f60b-1763-480b-576f-4e4b110ba495",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5873,7 +5630,7 @@
           "example": ""
         },
         {
-          "id": "77f56cfd-998e-47a8-e58b-5cce8d73ce7a",
+          "id": "2065e036-1cb6-4d9f-0f48-2e86eedd7707",
           "name": "valuecondition",
           "nameId": "valuecondition",
           "category": "Property",
@@ -5882,50 +5639,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatype": {
-            "id": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
-            "name": "condition",
-            "nameId": "condition",
-            "category": "Datatype",
-            "sourceUri": "",
-            "markedAsDeleted": false,
-            "modified": false,
-            "description": "",
-            "fs_collection": "datatypes",
-            "inputPattern": "",
-            "viewFormat": "%s",
-            "fieldType": "text",
-            "readOnly": false,
-            "allowedValues": null,
-            "defaultValue": "",
-            "value": "",
-            "pointerType": null,
-            "pointerCriteria": "",
-            "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0"
-          },
-          "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
-          "method": null,
-          "methodRef": "",
-          "unitCategory": null,
-          "unitCategoryRef": "",
-          "subProperties": null,
-          "defaultValue": " ",
-          "readOnly": "",
-          "inputPattern": "",
-          "viewFormat": "",
-          "example": ""
-        },
-        {
-          "id": "999e2b9c-2bf7-4e21-608a-30c4ad7a401a",
-          "name": "preaction",
-          "nameId": "preaction",
-          "category": "Property",
-          "sourceUri": "",
-          "markedAsDeleted": false,
-          "modified": false,
-          "description": "",
-          "fs_collection": "properties",
-          "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5938,7 +5653,30 @@
           "example": ""
         },
         {
-          "id": "587f278f-4fc7-4155-1de5-448dad43b975",
+          "id": "6f6a9b13-e0f3-4c07-fb31-2211e1b0b8c6",
+          "name": "preaction",
+          "nameId": "preaction",
+          "category": "Property",
+          "sourceUri": "",
+          "markedAsDeleted": false,
+          "modified": false,
+          "description": "",
+          "fs_collection": "properties",
+          "datatype": null,
+          "datatypeRef": "",
+          "method": null,
+          "methodRef": "",
+          "unitCategory": null,
+          "unitCategoryRef": "",
+          "subProperties": null,
+          "defaultValue": " ",
+          "readOnly": false,
+          "inputPattern": "",
+          "viewFormat": "",
+          "example": ""
+        },
+        {
+          "id": "dba78ded-8731-4a88-121f-cc0796fa23b5",
           "name": "postaction",
           "nameId": "postaction",
           "category": "Property",
@@ -5947,7 +5685,8 @@
           "modified": false,
           "description": "",
           "fs_collection": "properties",
-          "datatypeRef": "e452cf56-a868-4d80-cf0e-539f2f2558cb",
+          "datatype": null,
+          "datatypeRef": "",
           "method": null,
           "methodRef": "",
           "unitCategory": null,
@@ -5974,6 +5713,8 @@
       "typeRef": "c0de4b48-0220-424a-dd07-e620e27bd3c8",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "lightgray",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -5987,8 +5728,7 @@
       "icon": "",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "b42be04d-f9e5-4906-0459-80f43aada183",
@@ -5997,6 +5737,8 @@
       "typeRef": "5cc540c0-ea91-4401-74bb-4f7cb52a2366",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "#96c5b9",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -6010,8 +5752,7 @@
       "icon": "./../images/default.png",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "4be6622d-82a6-4b8c-a872-df6e9fcc8d3a",
@@ -6020,6 +5761,8 @@
       "typeRef": "c7b60c43-cb91-4e92-a4b6-53d2aba052f3",
       "viewkind": "Object",
       "template": "Annotation",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "lightgrey",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -6033,8 +5776,7 @@
       "icon": "",
       "image": "",
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "a3112875-e4fe-4100-b290-5634d8b8acfc",
@@ -6043,6 +5785,8 @@
       "typeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
       "viewkind": "Container",
       "template": "groupNoPorts",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "#ffffff",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -6057,8 +5801,7 @@
       "image": "./../images/blank.png",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "f736983f-14ae-4774-1ca7-e5b66fc4cd54",
@@ -6067,6 +5810,8 @@
       "typeRef": "5a38e81f-3d55-46d8-491e-c40301315ad5",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "#d8ffdc",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -6081,8 +5826,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "3cf0f678-c397-49ef-b805-8365ab84626b",
@@ -6091,6 +5835,8 @@
       "typeRef": "022e1752-9a71-463a-7604-a3feaa695eb3",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "#94ff9f",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -6105,8 +5851,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "3db51d2d-dddd-4a5c-fb77-6ebd1de45ae0",
@@ -6115,6 +5860,8 @@
       "typeRef": "9070c9e3-6e3c-4366-44bb-59828fc49238",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "#ffffff",
       "fillcolor2": "lightgrey",
       "strokecolor": "black",
@@ -6129,8 +5876,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "3d844879-aae1-4267-9f3a-2aa683f53a33",
@@ -6139,6 +5885,8 @@
       "typeRef": "83dc2e99-b5cf-46d4-45c8-251a0d7c394b",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "#e0ffe0",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -6153,8 +5901,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "5323fbad-0d44-40df-d7e5-9905d31e1e41",
@@ -6163,6 +5910,8 @@
       "typeRef": "3b5c04f2-fe60-42e5-59e6-ed1fc7499558",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "white",
       "fillcolor2": "white",
       "strokecolor": "gray",
@@ -6177,8 +5926,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "e32e64fc-4b31-4492-cf9f-0922778b9a7f",
@@ -6187,6 +5935,8 @@
       "typeRef": "cc2e259c-e116-4bac-42b4-76a8d4ce7ced",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "white",
       "fillcolor2": "white",
       "strokecolor": "gray",
@@ -6201,8 +5951,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "bcd95e80-036a-48c2-9ffb-f97fdb1dea3e",
@@ -6211,6 +5960,8 @@
       "typeRef": "c8ad9e34-2d87-49cc-dba6-9ed3b9cdfbca",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "#90ee90",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -6225,8 +5976,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "79d348f7-6b6e-4aab-5047-510b6c66e8de",
@@ -6235,6 +5985,8 @@
       "typeRef": "3909d4c3-1fd6-4a18-d971-1f49c1046d25",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "white",
       "fillcolor2": "white",
       "strokecolor": "gray",
@@ -6249,8 +6001,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "3783cdc6-ed2d-401e-bf1e-960dae29c6c5",
@@ -6259,6 +6010,8 @@
       "typeRef": "01a5b8a0-2edd-499d-da88-afb9c53fad23",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "white",
       "fillcolor2": "white",
       "strokecolor": "gray",
@@ -6273,8 +6026,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "53ccb172-b2dc-41de-c9d3-6ac10dad4e4d",
@@ -6283,6 +6035,8 @@
       "typeRef": "3b2c73b8-ad01-4665-d66a-9f8b78dc0f2b",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "white",
       "fillcolor2": "white",
       "strokecolor": "gray",
@@ -6297,8 +6051,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "7574ccd4-c5d7-4cc3-6de2-0ed31335e7e9",
@@ -6307,11 +6060,13 @@
       "typeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
       "viewkind": "Object",
       "template": "textAndIcon",
-      "fillcolor": "#ffffff",
-      "fillcolor2": "white",
+      "figure": "",
+      "geometry": "",
+      "fillcolor": "white",
+      "fillcolor2": "#ffffff",
       "strokecolor": "black",
       "strokecolor1": "black",
-      "strokecolor2": "black",
+      "strokecolor2": "lightgrey",
       "strokewidth": "1",
       "textcolor": "black",
       "textcolor2": "black",
@@ -6321,8 +6076,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     },
     {
       "id": "ee6bf364-b3c9-4a33-c308-957a2a298efb",
@@ -6331,6 +6085,8 @@
       "typeRef": "b5b099eb-c468-4a83-1b78-5ce5e44708fe",
       "viewkind": "Object",
       "template": "textAndIcon",
+      "figure": "",
+      "geometry": "",
       "fillcolor": "white",
       "fillcolor2": "white",
       "strokecolor": "black",
@@ -6345,8 +6101,7 @@
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
-      "modified": false,
-      "geometry": ""
+      "modified": false
     }
   ],
   "objtypegeos": [],
@@ -6625,48 +6380,6 @@
       "modified": false
     },
     {
-      "id": "3005dbee-2995-4651-6f69-8cb8f9be822e",
-      "name": "Is_Generalization",
-      "description": "",
-      "typeRef": "1e697ed3-aa57-4fd4-37eb-693b3cf35fde",
-      "template": "linkTemplate1",
-      "strokecolor": "black",
-      "strokewidth": "1",
-      "textcolor": "black",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "Triangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "1ba7a1dd-e382-42de-f2a1-e0eb5d996e9e",
-      "name": "Is_Generalization",
-      "description": "",
-      "typeRef": "47bbeca8-7861-48ed-9418-f7ec4448888f",
-      "template": "linkTemplate1",
-      "strokecolor": "black",
-      "strokewidth": "1",
-      "textcolor": "black",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "Triangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
       "id": "27eb5fd1-c46e-4edd-79fa-cf61f0ccc1f2",
       "name": "Is_Generalization",
       "description": "",
@@ -6675,7 +6388,7 @@
       "strokecolor": "black",
       "strokewidth": "1",
       "textcolor": "black",
-      "textscale": 1,
+      "textscale": "1",
       "dash": "None",
       "fromArrow": "",
       "toArrow": "Triangle",
@@ -6843,7 +6556,7 @@
       "strokecolor": "#CCCCCC80",
       "strokewidth": "1",
       "textcolor": "#CCCCCC80",
-      "textscale": 1,
+      "textscale": "1",
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
@@ -6864,7 +6577,7 @@
       "strokecolor": "#CCCCCC80",
       "strokewidth": "1",
       "textcolor": "#CCCCCC80",
-      "textscale": 1,
+      "textscale": "1",
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
@@ -6885,7 +6598,7 @@
       "strokecolor": "#CCCCCC80",
       "strokewidth": "1",
       "textcolor": "#CCCCCC80",
-      "textscale": 1,
+      "textscale": "1",
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
@@ -6906,7 +6619,7 @@
       "strokecolor": "#CCCCCC80",
       "strokewidth": "1",
       "textcolor": "#CCCCCC80",
-      "textscale": 1,
+      "textscale": "1",
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
@@ -6952,29 +6665,8 @@
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "None",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
-      "name": "has_Association",
-      "description": "",
-      "typeRef": "22f50fa8-90be-4738-8f71-670a19668fe0",
-      "template": "linkTemplate1",
-      "strokecolor": "lightgrey",
-      "strokewidth": "1",
-      "textcolor": "lightgrey",
-      "textscale": "1",
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
+      "fromArrowColor": "#CCCCCC80",
+      "toArrowColor": "#CCCCCC80",
       "routing": "Normal",
       "corner": "0",
       "curve": "None",
@@ -7032,28 +6724,7 @@
       "strokecolor": "black",
       "strokewidth": "1",
       "textcolor": "black",
-      "textscale": 1,
-      "dash": "None",
-      "fromArrow": "",
-      "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
-      "routing": "Normal",
-      "corner": "0",
-      "curve": "0",
-      "markedAsDeleted": false,
-      "modified": false
-    },
-    {
-      "id": "c8aacf92-e0d2-443d-8762-a159506f1f1d",
-      "name": "refersTo_Association",
-      "description": "",
-      "typeRef": "7efd38eb-82a8-457f-9fda-7b75ef71d942",
-      "template": "linkTemplate1",
-      "strokecolor": "black",
-      "strokewidth": "1",
-      "textcolor": "black",
-      "textscale": 1,
+      "textscale": "1",
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
@@ -7074,7 +6745,7 @@
       "strokecolor": "black",
       "strokewidth": "1",
       "textcolor": "black",
-      "textscale": 1,
+      "textscale": "1",
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
