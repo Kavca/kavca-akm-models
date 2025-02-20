@@ -3,7 +3,7 @@
     "metis": {
       "models": [
         {
-          "id": "c913371b-e824-4847-a660-eae8933758df",
+          "id": "dc10de9a-7bee-47bf-9a9f-8d1e212966bf",
           "name": "01-Overview_POPS",
           "description": "Overview Model, modeling based on POPS (Products, Organisations, Processes, Systems)",
           "metamodelRef": "14398d2f-90de-44bf-e484-1d780a93b88c",
@@ -17,7 +17,7 @@
           "relships": [],
           "modelviews": [
             {
-              "id": "904b0d44-379d-4cc4-8b3b-531199e06486",
+              "id": "f1270364-0239-4d53-8f27-175faf2c70d1",
               "name": "0-Main",
               "description": "Main view",
               "objectviews": [],
@@ -28,7 +28,7 @@
           "modified": false
         },
         {
-          "id": "da259f53-4c34-488a-8506-2e90a30e8c01",
+          "id": "b56a0161-13c8-41d6-9ba9-02b5eae1c43f",
           "name": "02-Concept_IRTV",
           "description": "Concept model based on AKM-IRTV_MM Metamodel. It includes the Information, Roles, Tasks, and Views. The intention of this model is to define the concepts and relationships between them, as well as the Roles and Tasks operating on Views of this Information.",
           "metamodelRef": "42c16e69-49ec-45b9-080e-0ca3ab8e0223",
@@ -42,7 +42,7 @@
           "relships": [],
           "modelviews": [
             {
-              "id": "d94dbc66-5037-47e0-8643-cf3c49e95895",
+              "id": "4a54ec7a-2468-4c01-b475-3e0c4ea3cba9",
               "name": "0-Main",
               "description": "Main Concepts View,  with Information defining the concepts and relationships between them. It may also include Views, Tasks, and Roles.",
               "objectviews": [],
@@ -3771,7 +3771,7 @@
           "subModels": [],
           "viewstyles": [
             {
-              "id": "017580c3-031c-44f5-e95d-87148b3fecbe",
+              "id": "c8a27186-09ee-4bd1-ee85-3233694e805a",
               "name": "AKM-POPS_MM_Viewstyle",
               "description": "",
               "markedAsDeleted": false,
@@ -3890,7 +3890,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "b01223f4-a8af-4091-9911-6473545f8365",
+              "typeviewRef": "741283b4-6491-4191-805b-df39c9a89e7a",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -3906,7 +3906,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "9fec9ee2-1da1-401f-d68a-0119520ee94e",
+              "typeviewRef": "a988bbf6-cf60-484b-f191-2c2155c17793",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -3922,7 +3922,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "353a3e85-e5a6-4585-926e-ff505b5357f2",
+              "typeviewRef": "621394e0-2234-4c0e-84db-363d3748eef0",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -3938,7 +3938,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "75d3b60f-f147-409a-9c69-2ff863d8e9f9",
+              "typeviewRef": "2faea231-3587-4597-3d3f-5001618e7d3f",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -3954,7 +3954,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "ef0b539e-d942-4342-3cf9-66e59b1aca49",
+              "typeviewRef": "e09e1257-b13a-49f3-c80e-0f2f461b779b",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -3970,7 +3970,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "278cbd3c-b29d-4672-8e90-aaf930cc0997",
+              "typeviewRef": "dc18b69d-03b4-48c9-437d-4e2b39c5e59d",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -3986,7 +3986,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "28d50ebd-6a10-4df6-d86c-e3d4edf09645",
+              "typeviewRef": "333f9695-7451-40eb-461d-f9d97795e86d",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -4002,7 +4002,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "23f1ba03-ec11-4c7b-1454-7620f020bee3",
+              "typeviewRef": "e9c159bb-81be-4185-3836-9fdbdc4777e2",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -4018,7 +4018,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "bd26e5c8-913f-4b11-2670-f58a96af8960",
+              "typeviewRef": "fb0d82b4-5cd6-4ed6-220c-43f9710b275b",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -4034,7 +4034,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "9c6fe3a0-7230-4534-0650-3545019f9748",
+              "typeviewRef": "5bb56a0d-ba62-4c26-39f2-577c764510ca",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -4050,7 +4050,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "9be6293e-413c-40b5-8c7f-09f936eb29f1",
+              "typeviewRef": "79a813d6-238b-483f-6599-aa38edab4d4e",
               "description": "A device represents a physical IT resource upon which system software and artifacts may be stored or deployed for execution.",
               "properties": [],
               "attributes": [],
@@ -4066,7 +4066,23 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "26e122b6-bbe2-4460-1928-682a841bbb98",
+              "typeviewRef": "e3cf4f1d-3ad9-4b89-c37a-8007c71d2c31",
+              "description": "",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "a107568f-d05f-42a9-20fb-80f4cc744faa",
+              "name": "Event",
+              "abstract": false,
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "42ae9809-afae-42aa-bd79-186fa9dd4683",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -5423,7 +5439,26 @@
               "modified": true
             },
             {
-              "id": "6629e55d-b1e0-48e6-9822-08fce3649df2",
+              "id": "28aca790-01f5-4c26-f7b4-ec3ff11366b1",
+              "name": "Is",
+              "relshipkind": "Generalization",
+              "viewkind": "",
+              "fromobjtypeRef": "a107568f-d05f-42a9-20fb-80f4cc744faa",
+              "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+              "typeviewRef": "4a74c123-bfb6-40f8-aabb-df8497b25656",
+              "description": "",
+              "supertypes": [],
+              "properties": [],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "ffd940a6-a159-49cc-6f53-5e710bfb907e",
               "name": "Is",
               "relshipkind": "Generalization",
               "viewkind": "",
@@ -5442,7 +5477,7 @@
               "modified": true
             },
             {
-              "id": "8673a1d4-8bff-4b6b-30e2-2f45721248b3",
+              "id": "0b3dc51f-5ae5-4c3a-458d-ae96e8f2b32e",
               "name": "Is",
               "relshipkind": "Association",
               "viewkind": "",
@@ -5461,7 +5496,7 @@
               "modified": false
             },
             {
-              "id": "053bb723-de51-473c-7225-66825b16eb8b",
+              "id": "5a4bbf0d-c6d4-420b-75d8-1df648395b6b",
               "name": "Is",
               "relshipkind": "Generalization",
               "viewkind": "",
@@ -5480,7 +5515,7 @@
               "modified": true
             },
             {
-              "id": "065e5b13-13d8-40df-8aa1-3f6c2500429d",
+              "id": "6d76e0fd-5ff9-4105-63c1-42ff4314d7f7",
               "name": "Is",
               "relshipkind": "Association",
               "viewkind": "",
@@ -5499,7 +5534,7 @@
               "modified": false
             },
             {
-              "id": "6bdfb87b-2418-4d12-e5c9-442ba7c632b4",
+              "id": "1e647cb0-4a74-4a27-188b-55c970e97a19",
               "name": "Is",
               "relshipkind": "Generalization",
               "viewkind": "",
@@ -5518,7 +5553,7 @@
               "modified": true
             },
             {
-              "id": "83e96f30-bf4d-4fc9-845e-e79df621bae5",
+              "id": "c0519aec-3c42-42ad-2838-8bb1b94eaf0d",
               "name": "Is",
               "relshipkind": "Association",
               "viewkind": "",
@@ -5537,7 +5572,7 @@
               "modified": false
             },
             {
-              "id": "8e860db6-f436-4a74-7207-de9227df6596",
+              "id": "1026fb4d-7cae-480b-4f81-e98d4713a483",
               "name": "Is",
               "relshipkind": "Generalization",
               "viewkind": "",
@@ -5556,7 +5591,7 @@
               "modified": true
             },
             {
-              "id": "83e35b2c-f3c4-4b64-a30f-290d4b36ac01",
+              "id": "82bf21a8-c32b-4c58-dadf-6b991daf4bee",
               "name": "Is",
               "relshipkind": "Association",
               "viewkind": "",
@@ -5575,7 +5610,7 @@
               "modified": false
             },
             {
-              "id": "3140f626-e7c1-4133-682b-aa96b45060dc",
+              "id": "a827bcf7-4274-4dea-ab07-6e43d0d3aec8",
               "name": "Is",
               "relshipkind": "Generalization",
               "viewkind": "",
@@ -5594,7 +5629,7 @@
               "modified": true
             },
             {
-              "id": "42a14450-7c98-4e90-bea3-ccb9652b2317",
+              "id": "5fe641d5-7296-4850-6614-51ea8fdff0bc",
               "name": "Is",
               "relshipkind": "Association",
               "viewkind": "",
@@ -5974,6 +6009,44 @@
               "modified": true
             },
             {
+              "id": "7c839f50-6d41-491c-6bcb-5cf74bec3eb1",
+              "name": "triggers",
+              "relshipkind": "Association",
+              "viewkind": "",
+              "fromobjtypeRef": "54ec61df-1920-4f5b-ad81-6d4f8c2681f4",
+              "toobjtypeRef": "a107568f-d05f-42a9-20fb-80f4cc744faa",
+              "typeviewRef": "faa97005-57e5-4af8-0ed3-bd439ec83c81",
+              "description": "",
+              "supertypes": [],
+              "properties": [],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "e58517a4-38ad-42c3-b7db-c777cfca73b6",
+              "name": "triggers",
+              "relshipkind": "Association",
+              "viewkind": "",
+              "fromobjtypeRef": "a107568f-d05f-42a9-20fb-80f4cc744faa",
+              "toobjtypeRef": "54ec61df-1920-4f5b-ad81-6d4f8c2681f4",
+              "typeviewRef": "b2c2b72f-f7ca-488f-c699-d1ba4260194e",
+              "description": "",
+              "supertypes": [],
+              "properties": [],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
               "id": "5693f9b0-89c4-4c16-0bba-68feee41b1e7",
               "name": "triggers",
               "relshipkind": "Association",
@@ -6075,7 +6148,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "b01223f4-a8af-4091-9911-6473545f8365",
+              "typeviewRef": "741283b4-6491-4191-805b-df39c9a89e7a",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -6091,7 +6164,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "9fec9ee2-1da1-401f-d68a-0119520ee94e",
+              "typeviewRef": "a988bbf6-cf60-484b-f191-2c2155c17793",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -6107,7 +6180,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "353a3e85-e5a6-4585-926e-ff505b5357f2",
+              "typeviewRef": "621394e0-2234-4c0e-84db-363d3748eef0",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -6123,7 +6196,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "75d3b60f-f147-409a-9c69-2ff863d8e9f9",
+              "typeviewRef": "2faea231-3587-4597-3d3f-5001618e7d3f",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -6139,7 +6212,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "ef0b539e-d942-4342-3cf9-66e59b1aca49",
+              "typeviewRef": "e09e1257-b13a-49f3-c80e-0f2f461b779b",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -6155,7 +6228,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "278cbd3c-b29d-4672-8e90-aaf930cc0997",
+              "typeviewRef": "dc18b69d-03b4-48c9-437d-4e2b39c5e59d",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -6171,7 +6244,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "28d50ebd-6a10-4df6-d86c-e3d4edf09645",
+              "typeviewRef": "333f9695-7451-40eb-461d-f9d97795e86d",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -6187,7 +6260,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "23f1ba03-ec11-4c7b-1454-7620f020bee3",
+              "typeviewRef": "e9c159bb-81be-4185-3836-9fdbdc4777e2",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -6203,7 +6276,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "bd26e5c8-913f-4b11-2670-f58a96af8960",
+              "typeviewRef": "fb0d82b4-5cd6-4ed6-220c-43f9710b275b",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -6219,7 +6292,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "9c6fe3a0-7230-4534-0650-3545019f9748",
+              "typeviewRef": "5bb56a0d-ba62-4c26-39f2-577c764510ca",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -6235,7 +6308,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "9be6293e-413c-40b5-8c7f-09f936eb29f1",
+              "typeviewRef": "79a813d6-238b-483f-6599-aa38edab4d4e",
               "description": "A device represents a physical IT resource upon which system software and artifacts may be stored or deployed for execution.",
               "properties": [],
               "attributes": [],
@@ -6251,7 +6324,23 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "26e122b6-bbe2-4460-1928-682a841bbb98",
+              "typeviewRef": "e3cf4f1d-3ad9-4b89-c37a-8007c71d2c31",
+              "description": "",
+              "properties": [],
+              "attributes": [],
+              "methods": [],
+              "ports": [],
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "a107568f-d05f-42a9-20fb-80f4cc744faa",
+              "name": "Event",
+              "abstract": false,
+              "viewkind": "",
+              "typename": "Object type",
+              "typedescription": "",
+              "typeviewRef": "42ae9809-afae-42aa-bd79-186fa9dd4683",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -6624,6 +6713,44 @@
               "modified": true
             },
             {
+              "id": "7c839f50-6d41-491c-6bcb-5cf74bec3eb1",
+              "name": "triggers",
+              "relshipkind": "Association",
+              "viewkind": "",
+              "fromobjtypeRef": "54ec61df-1920-4f5b-ad81-6d4f8c2681f4",
+              "toobjtypeRef": "a107568f-d05f-42a9-20fb-80f4cc744faa",
+              "typeviewRef": "faa97005-57e5-4af8-0ed3-bd439ec83c81",
+              "description": "",
+              "supertypes": [],
+              "properties": [],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "e58517a4-38ad-42c3-b7db-c777cfca73b6",
+              "name": "triggers",
+              "relshipkind": "Association",
+              "viewkind": "",
+              "fromobjtypeRef": "a107568f-d05f-42a9-20fb-80f4cc744faa",
+              "toobjtypeRef": "54ec61df-1920-4f5b-ad81-6d4f8c2681f4",
+              "typeviewRef": "b2c2b72f-f7ca-488f-c699-d1ba4260194e",
+              "description": "",
+              "supertypes": [],
+              "properties": [],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
               "id": "5693f9b0-89c4-4c16-0bba-68feee41b1e7",
               "name": "triggers",
               "relshipkind": "Association",
@@ -6664,7 +6791,7 @@
           ],
           "properties": [
             {
-              "id": "c69be120-c1dc-42bd-8909-8b5f1e19445e",
+              "id": "82b94977-e99c-43bb-78c3-3b335b3350c6",
               "name": "expression",
               "defaultValue": "",
               "inputPattern": "",
@@ -6679,7 +6806,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "5171d7e5-459a-4d15-17fa-ba2f837df5f1",
+              "id": "e93fc22d-271d-45ef-c2b6-d09266ca501e",
               "name": "reltypes",
               "defaultValue": "",
               "inputPattern": "",
@@ -6694,7 +6821,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "9cd003cb-70ea-4255-d4bf-98052fd9bbc4",
+              "id": "da76d54f-4126-4914-7c22-961a57abf534",
               "name": "reldir",
               "defaultValue": "",
               "inputPattern": "",
@@ -6709,7 +6836,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "988c8dab-0fd3-4f74-f476-6dadfc1927e6",
+              "id": "ac5704ef-f3c4-4326-15da-6411ed947840",
               "name": "objtypes",
               "defaultValue": "",
               "inputPattern": "",
@@ -6724,7 +6851,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "3629bbcb-d4ee-4782-c436-8c025e937af6",
+              "id": "3b0302e5-6061-4151-d016-f45949322024",
               "name": "nolevels",
               "defaultValue": "",
               "inputPattern": "",
@@ -6739,7 +6866,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "595dee93-e9f6-4fe8-5e87-83862c46f6e6",
+              "id": "60f79480-86c8-4249-e3c7-decca9ca1931",
               "name": "valuecondition",
               "defaultValue": "",
               "inputPattern": "",
@@ -6754,7 +6881,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "985b48b8-500f-4b85-573a-737d9feba6c0",
+              "id": "bf6099d5-07f1-4553-35b9-54c9cc672186",
               "name": "preaction",
               "defaultValue": "",
               "inputPattern": "",
@@ -6769,7 +6896,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "d0bc40b8-4915-44ca-79a7-20fd9d40bf71",
+              "id": "57648199-decd-4829-c3ab-0076530d3986",
               "name": "postaction",
               "defaultValue": "",
               "inputPattern": "",
@@ -6786,7 +6913,7 @@
           ],
           "datatypes": [
             {
-              "id": "78e34e45-37d5-4760-d388-4a2f658f0a32",
+              "id": "09b3e4e0-8849-4a92-c7a4-025bcd55c3dc",
               "name": "today",
               "description": "",
               "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
@@ -7276,7 +7403,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "5171d7e5-459a-4d15-17fa-ba2f837df5f1",
+                  "id": "e93fc22d-271d-45ef-c2b6-d09266ca501e",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -7320,7 +7447,7 @@
                   "example": ""
                 },
                 {
-                  "id": "9cd003cb-70ea-4255-d4bf-98052fd9bbc4",
+                  "id": "da76d54f-4126-4914-7c22-961a57abf534",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -7362,7 +7489,7 @@
                   "example": ""
                 },
                 {
-                  "id": "988c8dab-0fd3-4f74-f476-6dadfc1927e6",
+                  "id": "ac5704ef-f3c4-4326-15da-6411ed947840",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -7384,7 +7511,7 @@
                   "example": ""
                 },
                 {
-                  "id": "7f3b2e8d-c480-473b-648d-9aed4038d919",
+                  "id": "742389f1-3f2e-46cb-c534-9daf6a3dddc6",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -7436,7 +7563,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "c69be120-c1dc-42bd-8909-8b5f1e19445e",
+                  "id": "82b94977-e99c-43bb-78c3-3b335b3350c6",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -7467,7 +7594,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "6e8ccff9-4822-419b-de76-2eb2299e5dde",
+                  "id": "218df071-10a6-4d64-e814-afa962760a80",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -7489,7 +7616,7 @@
                   "example": ""
                 },
                 {
-                  "id": "07da3de1-2e65-4fa2-dfdb-4f17f8e3b5cb",
+                  "id": "f6b12d67-a14e-422d-9a97-07f56b1076cf",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -7511,7 +7638,7 @@
                   "example": ""
                 },
                 {
-                  "id": "cc66c137-fb86-405b-5fda-9b6d3f587841",
+                  "id": "188c90c0-5be1-4c68-412e-b6ca01aaa961",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -7533,7 +7660,7 @@
                   "example": ""
                 },
                 {
-                  "id": "02e959b1-0a11-49a1-0634-60f66f73f619",
+                  "id": "924e92e0-9cb7-4c49-fb37-ade50e6d0b54",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -7555,7 +7682,7 @@
                   "example": ""
                 },
                 {
-                  "id": "3629bbcb-d4ee-4782-c436-8c025e937af6",
+                  "id": "3b0302e5-6061-4151-d016-f45949322024",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -7598,7 +7725,7 @@
                   "example": ""
                 },
                 {
-                  "id": "595dee93-e9f6-4fe8-5e87-83862c46f6e6",
+                  "id": "60f79480-86c8-4249-e3c7-decca9ca1931",
                   "name": "valuecondition",
                   "nameId": "valuecondition",
                   "category": "Property",
@@ -7662,7 +7789,7 @@
                   "example": ""
                 },
                 {
-                  "id": "985b48b8-500f-4b85-573a-737d9feba6c0",
+                  "id": "bf6099d5-07f1-4553-35b9-54c9cc672186",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -7684,7 +7811,7 @@
                   "example": ""
                 },
                 {
-                  "id": "d0bc40b8-4915-44ca-79a7-20fd9d40bf71",
+                  "id": "57648199-decd-4829-c3ab-0076530d3986",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -7714,7 +7841,7 @@
           "units": [],
           "objecttypeviews": [
             {
-              "id": "b01223f4-a8af-4091-9911-6473545f8365",
+              "id": "741283b4-6491-4191-805b-df39c9a89e7a",
               "name": "Process",
               "description": "",
               "typeRef": "54ec61df-1920-4f5b-ad81-6d4f8c2681f4",
@@ -7739,7 +7866,7 @@
               "modified": false
             },
             {
-              "id": "9fec9ee2-1da1-401f-d68a-0119520ee94e",
+              "id": "a988bbf6-cf60-484b-f191-2c2155c17793",
               "name": "Organisation",
               "description": "",
               "typeRef": "7570bbcf-4bf8-4110-6fb0-951b1b43f3df",
@@ -7764,7 +7891,7 @@
               "modified": false
             },
             {
-              "id": "353a3e85-e5a6-4585-926e-ff505b5357f2",
+              "id": "621394e0-2234-4c0e-84db-363d3748eef0",
               "name": "System",
               "description": "",
               "typeRef": "2fcda91b-7e2d-4ff0-8d0b-33d9dc25cd13",
@@ -7789,7 +7916,7 @@
               "modified": false
             },
             {
-              "id": "75d3b60f-f147-409a-9c69-2ff863d8e9f9",
+              "id": "2faea231-3587-4597-3d3f-5001618e7d3f",
               "name": "Product",
               "description": "",
               "typeRef": "4f6b7b90-9029-4a6e-7d44-7f3d24240a9c",
@@ -7814,7 +7941,7 @@
               "modified": false
             },
             {
-              "id": "ef0b539e-d942-4342-3cf9-66e59b1aca49",
+              "id": "e09e1257-b13a-49f3-c80e-0f2f461b779b",
               "name": "Equipment",
               "description": "",
               "typeRef": "be8ae9fe-bfbf-45fd-8151-74b9f9fcff85",
@@ -7839,7 +7966,7 @@
               "modified": false
             },
             {
-              "id": "278cbd3c-b29d-4672-8e90-aaf930cc0997",
+              "id": "dc18b69d-03b4-48c9-437d-4e2b39c5e59d",
               "name": "Facility",
               "description": "",
               "typeRef": "f4734d90-d470-46aa-8c54-be6257294b9d",
@@ -7864,7 +7991,7 @@
               "modified": false
             },
             {
-              "id": "28d50ebd-6a10-4df6-d86c-e3d4edf09645",
+              "id": "333f9695-7451-40eb-461d-f9d97795e86d",
               "name": "DistributNetwork",
               "description": "",
               "typeRef": "564ae73b-4148-4c57-0c48-3d94a81d7d1d",
@@ -7889,7 +8016,7 @@
               "modified": false
             },
             {
-              "id": "23f1ba03-ec11-4c7b-1454-7620f020bee3",
+              "id": "e9c159bb-81be-4185-3836-9fdbdc4777e2",
               "name": "Material",
               "description": "",
               "typeRef": "0c2635bb-592b-4970-cef5-b825d431a162",
@@ -7914,7 +8041,7 @@
               "modified": false
             },
             {
-              "id": "bd26e5c8-913f-4b11-2670-f58a96af8960",
+              "id": "fb0d82b4-5cd6-4ed6-220c-43f9710b275b",
               "name": "Geobody",
               "description": "",
               "typeRef": "54f3bb64-8999-4f3a-fa43-08e2eb5306b3",
@@ -7939,7 +8066,7 @@
               "modified": false
             },
             {
-              "id": "9c6fe3a0-7230-4534-0650-3545019f9748",
+              "id": "5bb56a0d-ba62-4c26-39f2-577c764510ca",
               "name": "Software",
               "description": "",
               "typeRef": "786f27af-a029-4489-6ed9-040049f35b35",
@@ -7964,7 +8091,7 @@
               "modified": false
             },
             {
-              "id": "9be6293e-413c-40b5-8c7f-09f936eb29f1",
+              "id": "79a813d6-238b-483f-6599-aa38edab4d4e",
               "name": "Device",
               "description": "A device represents a physical IT resource upon which system software and artifacts may be stored or deployed for execution.",
               "typeRef": "b5003c65-357f-4b05-278b-7f28453779d4",
@@ -7989,7 +8116,7 @@
               "modified": false
             },
             {
-              "id": "26e122b6-bbe2-4460-1928-682a841bbb98",
+              "id": "e3cf4f1d-3ad9-4b89-c37a-8007c71d2c31",
               "name": "Data",
               "description": "",
               "typeRef": "a9605c64-b49c-4edf-612a-3c6e05997a75",
@@ -7998,7 +8125,7 @@
               "figure": "",
               "geometry": "",
               "fillcolor": "white",
-              "fillcolor2": "#ffffff",
+              "fillcolor2": "lightyellow",
               "strokecolor": "black",
               "strokecolor1": "black",
               "strokecolor2": "lightyellow",
@@ -8008,6 +8135,31 @@
               "textscale": "1",
               "memberscale": 1,
               "icon": "\\u2395",
+              "image": "",
+              "grabIsAllowed": false,
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "42ae9809-afae-42aa-bd79-186fa9dd4683",
+              "name": "Event",
+              "description": "",
+              "typeRef": "a107568f-d05f-42a9-20fb-80f4cc744faa",
+              "viewkind": "Object",
+              "template": "textAndIcon",
+              "figure": "",
+              "geometry": "",
+              "fillcolor": "white",
+              "fillcolor2": "lightyellow",
+              "strokecolor": "black",
+              "strokecolor1": "black",
+              "strokecolor2": "lightgrey",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textcolor2": "black",
+              "textscale": "1",
+              "memberscale": 1,
+              "icon": "\\u2705",
               "image": "",
               "grabIsAllowed": false,
               "markedAsDeleted": false,
@@ -8378,6 +8530,48 @@
               "name": "owns_Association",
               "description": "",
               "typeRef": "36ca5db5-f845-4348-8b9f-9e35fce15ac1",
+              "template": "linkTemplate1",
+              "strokecolor": "black",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textscale": "1",
+              "dash": "None",
+              "fromArrow": "",
+              "toArrow": "OpenTriangle",
+              "fromArrowColor": "",
+              "toArrowColor": "white",
+              "routing": "Normal",
+              "corner": "0",
+              "curve": "0",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "faa97005-57e5-4af8-0ed3-bd439ec83c81",
+              "name": "triggers_Association",
+              "description": "",
+              "typeRef": "7c839f50-6d41-491c-6bcb-5cf74bec3eb1",
+              "template": "linkTemplate1",
+              "strokecolor": "black",
+              "strokewidth": "1",
+              "textcolor": "black",
+              "textscale": "1",
+              "dash": "None",
+              "fromArrow": "",
+              "toArrow": "OpenTriangle",
+              "fromArrowColor": "",
+              "toArrowColor": "white",
+              "routing": "Normal",
+              "corner": "0",
+              "curve": "0",
+              "markedAsDeleted": false,
+              "modified": false
+            },
+            {
+              "id": "b2c2b72f-f7ca-488f-c699-d1ba4260194e",
+              "name": "triggers_Association",
+              "description": "",
+              "typeRef": "e58517a4-38ad-42c3-b7db-c777cfca73b6",
               "template": "linkTemplate1",
               "strokecolor": "black",
               "strokewidth": "1",
@@ -10443,6 +10637,25 @@
               "relshipkind": "Generalization",
               "viewkind": "",
               "fromobjtypeRef": "a9605c64-b49c-4edf-612a-3c6e05997a75",
+              "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+              "typeviewRef": "",
+              "description": "",
+              "supertypes": [],
+              "properties": [],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
+              "id": "28aca790-01f5-4c26-f7b4-ec3ff11366b1",
+              "name": "Is",
+              "relshipkind": "Generalization",
+              "viewkind": "",
+              "fromobjtypeRef": "a107568f-d05f-42a9-20fb-80f4cc744faa",
               "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
               "typeviewRef": "",
               "description": "",
@@ -13797,7 +14010,7 @@
           "subModels": [],
           "viewstyles": [
             {
-              "id": "2d7b2d88-efb1-4a61-0d3f-f9397989182d",
+              "id": "c44d53bd-6c2c-44d0-4a96-c22ae32195b4",
               "name": "AKM-IRTV_MM_Viewstyle",
               "description": "",
               "markedAsDeleted": false,
@@ -13916,11 +14129,11 @@
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "de63b81b-58aa-4416-f758-15dde50b3695",
+              "typeviewRef": "944fce10-0062-47b0-e081-e784e0159a67",
               "description": "Defines an Information element with Name, description and proposedType properties.",
               "properties": [
                 {
-                  "id": "2b77e4b7-1e9f-4932-f091-5074f682a1a7",
+                  "id": "98441884-26a8-4699-5de9-d7c7c1187a3c",
                   "name": "proposedType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -13948,7 +14161,7 @@
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "abe0ddd4-546f-4aa8-8f7f-16ce8c7c269d",
+              "typeviewRef": "70c198a7-8ddc-4937-ae4e-5057728aa182",
               "description": "A process role defines the responsibilities and authority of individuals involved in a business process. These roles help clarify who is accountable for various tasks, ensuring efficient process management and execution.",
               "properties": [],
               "attributes": [],
@@ -13964,7 +14177,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "a8a52cdb-5eaf-4d81-1a89-13bf1c097ff9",
+              "typeviewRef": "02abed03-58d3-4dff-40b4-9c148904f5e4",
               "description": "A task is a specific, defined activity or piece of work that contributes to the completion of a larger project or process.",
               "properties": [],
               "attributes": [],
@@ -13980,7 +14193,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "b80cb12f-9066-47d5-854c-36c697524286",
+              "typeviewRef": "60e3edd6-bbf4-4f49-daae-36f903dcc283",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -13996,11 +14209,11 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "2381616a-c493-4d7f-bd14-84054d90ebde",
+              "typeviewRef": "2c92d481-c506-4639-0ba6-f5b2698b0e40",
               "description": "A View highlight essential Information elements tailored to the need of specific users or tasks.",
               "properties": [
                 {
-                  "id": "a2249bc2-7921-4ef0-2d5c-fe7cdf0606c2",
+                  "id": "5631b45e-db6c-46f2-c6bd-2d58d1e38d1e",
                   "name": "proposedType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -14028,7 +14241,7 @@
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "97905a16-f2a4-4bba-8e53-cbc9ac043a15",
+              "typeviewRef": "01749037-6187-4581-983a-62dd0481c7b7",
               "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
               "properties": [],
               "attributes": [],
@@ -14638,7 +14851,98 @@
               "typeviewRef": "c8aacf92-e0d2-443d-8762-a159506f1f1d",
               "description": "",
               "supertypes": [],
-              "properties": [],
+              "properties": [
+                {
+                  "id": "750a59b1-cb95-429a-04be-b741d411a26b",
+                  "name": "isRequired",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "846b58c8-df91-4dbe-7f8f-07942fa1fa85",
+                  "name": "isDerived",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "c04fa2d1-94cc-4e4c-7a95-dc45f351636c",
+                  "name": "isIndexed",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "6dbbd3af-2ba9-4dbf-3591-6737d255cc30",
+                  "name": "referenceObject",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "87bf72d6-77dc-4257-197d-136d78e58ac5",
+                  "name": "refGroupType",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "b53d95bb-7249-4546-7e65-0e53a6027d6d",
+                  "name": "refVersion",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                }
+              ],
               "cardinality": "",
               "cardinalityFrom": "",
               "cardinalityTo": "",
@@ -15275,6 +15579,25 @@
               "modified": true
             },
             {
+              "id": "f69b1429-1689-49de-0280-2358a317dda0",
+              "name": "Is",
+              "relshipkind": "Generalization",
+              "viewkind": "",
+              "fromobjtypeRef": "a9605c64-b49c-4edf-612a-3c6e05997a75",
+              "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
+              "typeviewRef": "7ad066c6-99c4-4161-ad28-90ff66c8daa1",
+              "description": "",
+              "supertypes": [],
+              "properties": [],
+              "cardinality": "",
+              "cardinalityFrom": "",
+              "cardinalityTo": "",
+              "nameFrom": "",
+              "nameTo": "",
+              "markedAsDeleted": false,
+              "modified": true
+            },
+            {
               "id": "7d0f9a1b-ab22-48ee-6656-4e9f0b072504",
               "name": "includes",
               "relshipkind": "Association",
@@ -15566,11 +15889,11 @@
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "de63b81b-58aa-4416-f758-15dde50b3695",
+              "typeviewRef": "944fce10-0062-47b0-e081-e784e0159a67",
               "description": "Defines an Information element with Name, description and proposedType properties.",
               "properties": [
                 {
-                  "id": "2b77e4b7-1e9f-4932-f091-5074f682a1a7",
+                  "id": "98441884-26a8-4699-5de9-d7c7c1187a3c",
                   "name": "proposedType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -15598,7 +15921,7 @@
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "abe0ddd4-546f-4aa8-8f7f-16ce8c7c269d",
+              "typeviewRef": "70c198a7-8ddc-4937-ae4e-5057728aa182",
               "description": "A process role defines the responsibilities and authority of individuals involved in a business process. These roles help clarify who is accountable for various tasks, ensuring efficient process management and execution.",
               "properties": [],
               "attributes": [],
@@ -15614,7 +15937,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "a8a52cdb-5eaf-4d81-1a89-13bf1c097ff9",
+              "typeviewRef": "02abed03-58d3-4dff-40b4-9c148904f5e4",
               "description": "A task is a specific, defined activity or piece of work that contributes to the completion of a larger project or process.",
               "properties": [],
               "attributes": [],
@@ -15630,7 +15953,7 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "b80cb12f-9066-47d5-854c-36c697524286",
+              "typeviewRef": "60e3edd6-bbf4-4f49-daae-36f903dcc283",
               "description": "",
               "properties": [],
               "attributes": [],
@@ -15646,11 +15969,11 @@
               "viewkind": "",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "2381616a-c493-4d7f-bd14-84054d90ebde",
+              "typeviewRef": "2c92d481-c506-4639-0ba6-f5b2698b0e40",
               "description": "A View highlight essential Information elements tailored to the need of specific users or tasks.",
               "properties": [
                 {
-                  "id": "a2249bc2-7921-4ef0-2d5c-fe7cdf0606c2",
+                  "id": "5631b45e-db6c-46f2-c6bd-2d58d1e38d1e",
                   "name": "proposedType",
                   "defaultValue": "",
                   "inputPattern": "",
@@ -15678,7 +16001,7 @@
               "viewkind": "Object",
               "typename": "Object type",
               "typedescription": "",
-              "typeviewRef": "97905a16-f2a4-4bba-8e53-cbc9ac043a15",
+              "typeviewRef": "01749037-6187-4581-983a-62dd0481c7b7",
               "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
               "properties": [],
               "attributes": [],
@@ -15775,7 +16098,98 @@
               "typeviewRef": "c8aacf92-e0d2-443d-8762-a159506f1f1d",
               "description": "",
               "supertypes": [],
-              "properties": [],
+              "properties": [
+                {
+                  "id": "750a59b1-cb95-429a-04be-b741d411a26b",
+                  "name": "isRequired",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "846b58c8-df91-4dbe-7f8f-07942fa1fa85",
+                  "name": "isDerived",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "c04fa2d1-94cc-4e4c-7a95-dc45f351636c",
+                  "name": "isIndexed",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "e5353977-f62c-4a73-c50d-f0c2378a6f19",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "6dbbd3af-2ba9-4dbf-3591-6737d255cc30",
+                  "name": "referenceObject",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "87bf72d6-77dc-4257-197d-136d78e58ac5",
+                  "name": "refGroupType",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                },
+                {
+                  "id": "b53d95bb-7249-4546-7e65-0e53a6027d6d",
+                  "name": "refVersion",
+                  "defaultValue": "",
+                  "inputPattern": "",
+                  "viewFormat": "",
+                  "example": "",
+                  "readOnly": "",
+                  "markedAsDeleted": false,
+                  "modified": false,
+                  "description": " ",
+                  "datatypeRef": "160e8cac-4003-4b00-175f-2b720ba088e0",
+                  "methodRef": "",
+                  "unitCategoryRef": ""
+                }
+              ],
               "cardinality": "",
               "cardinalityFrom": "",
               "cardinalityTo": "",
@@ -15785,14 +16199,14 @@
               "modified": true
             },
             {
-              "id": "bd3166b5-6e5e-483b-375b-f4130bacb42f",
+              "id": "9c2f4dd9-297a-4221-c694-76a7c18ab04d",
               "name": "relationshipType",
               "relshipkind": "Association",
               "viewkind": "",
               "fromobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
               "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-              "typeviewRef": "5013af87-c80f-48fe-7d8a-717a004eb7cc",
-              "description": "RelationshipType refers to an attribute that defines the kind of connection between entities. The Name of this relationship will be generated to the RelationshipType name.",
+              "typeviewRef": "70e7b709-bd91-4b7c-f390-553914e10430",
+              "description": "",
               "supertypes": [],
               "properties": [],
               "cardinality": "",
@@ -15804,13 +16218,13 @@
               "modified": true
             },
             {
-              "id": "3549566f-1175-4d50-e048-5bc5a3ee0bf2",
+              "id": "22f50fa8-90be-4738-8f71-670a19668fe0",
               "name": "has",
               "relshipkind": "Association",
               "viewkind": "",
               "fromobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
               "toobjtypeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
-              "typeviewRef": "21d561f1-de92-4274-0473-ac49aa14d160",
+              "typeviewRef": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
               "description": "",
               "supertypes": [],
               "properties": [],
@@ -15977,7 +16391,7 @@
           ],
           "properties": [
             {
-              "id": "09073009-df9e-4159-b237-aecc6d910c11",
+              "id": "559443f0-1a64-4d41-3322-1822de3b187f",
               "name": "expression",
               "defaultValue": "",
               "inputPattern": "",
@@ -15992,7 +16406,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "8e460c89-6484-4f03-3bed-3992d96bb90b",
+              "id": "4a3becfa-0d54-484e-fbe7-fefb4415100d",
               "name": "reltypes",
               "defaultValue": "",
               "inputPattern": "",
@@ -16007,7 +16421,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "b0667356-1544-4e5b-217a-25b428b1c879",
+              "id": "387393e6-9dfd-4aeb-0a87-7df31acb44eb",
               "name": "reldir",
               "defaultValue": "",
               "inputPattern": "",
@@ -16022,7 +16436,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "2fe60eb3-fae2-49a5-e67c-2232c5cc9489",
+              "id": "e2336d0b-14ab-4b61-ae15-1d105ed3e594",
               "name": "objtypes",
               "defaultValue": "",
               "inputPattern": "",
@@ -16037,7 +16451,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "cd88cbd1-8a30-4ac3-8061-3b561616c5d8",
+              "id": "6dc59a97-30e7-499c-794a-5fd5941a3a37",
               "name": "nolevels",
               "defaultValue": "",
               "inputPattern": "",
@@ -16052,7 +16466,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "dca75e6f-1917-42aa-f70e-5d734fee619e",
+              "id": "fda2ba1d-170f-42fb-ba0c-d851cf5ba0fd",
               "name": "valuecondition",
               "defaultValue": "",
               "inputPattern": "",
@@ -16067,7 +16481,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "5fa166fc-b699-4fcb-b9e2-a88b37bad3bf",
+              "id": "8f87a923-ef82-450e-9c8f-0c968a013d59",
               "name": "preaction",
               "defaultValue": "",
               "inputPattern": "",
@@ -16082,7 +16496,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "111cb481-0912-4da6-d137-220ad82c7d03",
+              "id": "afd336f9-e5dc-4b28-00f1-2e882d8fe0eb",
               "name": "postaction",
               "defaultValue": "",
               "inputPattern": "",
@@ -16097,7 +16511,7 @@
               "unitCategoryRef": ""
             },
             {
-              "id": "2b77e4b7-1e9f-4932-f091-5074f682a1a7",
+              "id": "98441884-26a8-4699-5de9-d7c7c1187a3c",
               "name": "proposedType",
               "defaultValue": "",
               "inputPattern": "",
@@ -16114,7 +16528,7 @@
           ],
           "datatypes": [
             {
-              "id": "4cda8c71-bbd1-483b-953f-dd55f7e98fe2",
+              "id": "c75ad1cd-f6fe-4d9e-3319-1577577a650c",
               "name": "today",
               "description": "",
               "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
@@ -16515,7 +16929,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "8e460c89-6484-4f03-3bed-3992d96bb90b",
+                  "id": "4a3becfa-0d54-484e-fbe7-fefb4415100d",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -16559,7 +16973,7 @@
                   "example": ""
                 },
                 {
-                  "id": "b0667356-1544-4e5b-217a-25b428b1c879",
+                  "id": "387393e6-9dfd-4aeb-0a87-7df31acb44eb",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -16601,7 +17015,7 @@
                   "example": ""
                 },
                 {
-                  "id": "2fe60eb3-fae2-49a5-e67c-2232c5cc9489",
+                  "id": "e2336d0b-14ab-4b61-ae15-1d105ed3e594",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -16623,7 +17037,7 @@
                   "example": ""
                 },
                 {
-                  "id": "abc76cbb-13d3-488d-713e-0c000489fa42",
+                  "id": "28dd3d32-3c51-48c9-1885-7e664d7b6626",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -16675,7 +17089,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "09073009-df9e-4159-b237-aecc6d910c11",
+                  "id": "559443f0-1a64-4d41-3322-1822de3b187f",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -16706,7 +17120,7 @@
               "description": "",
               "properties": [
                 {
-                  "id": "23cd1617-4f9a-4eb3-4962-ccad6c4eabb2",
+                  "id": "0924f311-3ec7-4b59-85f0-639908583a7d",
                   "name": "reltypes",
                   "nameId": "reltypes",
                   "category": "Property",
@@ -16728,7 +17142,7 @@
                   "example": ""
                 },
                 {
-                  "id": "35f6964d-baca-4e78-7d7d-d62015f777aa",
+                  "id": "1bb2edb7-aae9-4a79-ad01-81d4892597b2",
                   "name": "reldir",
                   "nameId": "reldir",
                   "category": "Property",
@@ -16750,7 +17164,7 @@
                   "example": ""
                 },
                 {
-                  "id": "9a62cf8b-38df-40e1-c779-56f1361f3ea0",
+                  "id": "f6fbb15a-9d3b-4948-d848-189f38a1e1d0",
                   "name": "objtypes",
                   "nameId": "objtypes",
                   "category": "Property",
@@ -16772,7 +17186,7 @@
                   "example": ""
                 },
                 {
-                  "id": "19ec2442-e4f5-4e3d-4a97-2b81cfc6ec48",
+                  "id": "eeae4a9c-1105-48a3-8907-5c279b268fab",
                   "name": "expression",
                   "nameId": "expression",
                   "category": "Property",
@@ -16794,7 +17208,7 @@
                   "example": ""
                 },
                 {
-                  "id": "cd88cbd1-8a30-4ac3-8061-3b561616c5d8",
+                  "id": "6dc59a97-30e7-499c-794a-5fd5941a3a37",
                   "name": "nolevels",
                   "nameId": "nolevels",
                   "category": "Property",
@@ -16837,7 +17251,7 @@
                   "example": ""
                 },
                 {
-                  "id": "dca75e6f-1917-42aa-f70e-5d734fee619e",
+                  "id": "fda2ba1d-170f-42fb-ba0c-d851cf5ba0fd",
                   "name": "valuecondition",
                   "nameId": "valuecondition",
                   "category": "Property",
@@ -16901,7 +17315,7 @@
                   "example": ""
                 },
                 {
-                  "id": "5fa166fc-b699-4fcb-b9e2-a88b37bad3bf",
+                  "id": "8f87a923-ef82-450e-9c8f-0c968a013d59",
                   "name": "preaction",
                   "nameId": "preaction",
                   "category": "Property",
@@ -16923,7 +17337,7 @@
                   "example": ""
                 },
                 {
-                  "id": "111cb481-0912-4da6-d137-220ad82c7d03",
+                  "id": "afd336f9-e5dc-4b28-00f1-2e882d8fe0eb",
                   "name": "postaction",
                   "nameId": "postaction",
                   "category": "Property",
@@ -16953,7 +17367,7 @@
           "units": [],
           "objecttypeviews": [
             {
-              "id": "de63b81b-58aa-4416-f758-15dde50b3695",
+              "id": "944fce10-0062-47b0-e081-e784e0159a67",
               "name": "Information",
               "description": "Defines an Information element with Name, description and proposedType properties.",
               "typeRef": "058cbb1b-018e-4959-2a33-a27889543209",
@@ -16970,7 +17384,7 @@
               "textcolor": "black",
               "textcolor2": "black",
               "textscale": "1",
-              "memberscale": "1",
+              "memberscale": 1,
               "icon": "./../images/types/Information.png",
               "image": "",
               "grabIsAllowed": false,
@@ -16978,7 +17392,7 @@
               "modified": false
             },
             {
-              "id": "abe0ddd4-546f-4aa8-8f7f-16ce8c7c269d",
+              "id": "70c198a7-8ddc-4937-ae4e-5057728aa182",
               "name": "Role",
               "description": "A process role defines the responsibilities and authority of individuals involved in a business process. These roles help clarify who is accountable for various tasks, ensuring efficient process management and execution.",
               "typeRef": "bbb60f1c-b5a3-41dc-dff6-2b594f54a2dd",
@@ -16995,7 +17409,7 @@
               "textcolor": "black",
               "textcolor2": "black",
               "textscale": "1",
-              "memberscale": "1",
+              "memberscale": 1,
               "icon": "./../images/types/Role.png",
               "image": "",
               "grabIsAllowed": false,
@@ -17003,7 +17417,7 @@
               "modified": false
             },
             {
-              "id": "a8a52cdb-5eaf-4d81-1a89-13bf1c097ff9",
+              "id": "02abed03-58d3-4dff-40b4-9c148904f5e4",
               "name": "Task",
               "description": "A task is a specific, defined activity or piece of work that contributes to the completion of a larger project or process.",
               "typeRef": "29d76eb4-29b7-4cf7-ed16-a1d172738bad",
@@ -17020,7 +17434,7 @@
               "textcolor": "black",
               "textcolor2": "black",
               "textscale": "1",
-              "memberscale": "1",
+              "memberscale": 1,
               "icon": "./../images/types/Task.png",
               "image": "",
               "grabIsAllowed": false,
@@ -17028,7 +17442,7 @@
               "modified": false
             },
             {
-              "id": "b80cb12f-9066-47d5-854c-36c697524286",
+              "id": "60e3edd6-bbf4-4f49-daae-36f903dcc283",
               "name": "Event",
               "description": "",
               "typeRef": "30c1934a-f11d-41c5-7c44-81ddaf3ed998",
@@ -17045,7 +17459,7 @@
               "textcolor": "black",
               "textcolor2": "black",
               "textscale": "1",
-              "memberscale": "1",
+              "memberscale": 1,
               "icon": "./../images/types/Event.png",
               "image": "",
               "grabIsAllowed": false,
@@ -17053,7 +17467,7 @@
               "modified": false
             },
             {
-              "id": "2381616a-c493-4d7f-bd14-84054d90ebde",
+              "id": "2c92d481-c506-4639-0ba6-f5b2698b0e40",
               "name": "View",
               "description": "A View highlight essential Information elements tailored to the need of specific users or tasks.",
               "typeRef": "6e465c81-59f2-46f8-4c1d-ec5c2e30b358",
@@ -17070,7 +17484,7 @@
               "textcolor": "black",
               "textcolor2": "black",
               "textscale": "1",
-              "memberscale": "1",
+              "memberscale": 1,
               "icon": "./../images/types/View.png",
               "image": "",
               "grabIsAllowed": false,
@@ -17078,7 +17492,7 @@
               "modified": false
             },
             {
-              "id": "97905a16-f2a4-4bba-8e53-cbc9ac043a15",
+              "id": "01749037-6187-4581-983a-62dd0481c7b7",
               "name": "Property",
               "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
               "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
@@ -17153,9 +17567,9 @@
               "description": "",
               "typeRef": "3395bf81-8acd-4600-5248-4101947a4705",
               "template": "linkTemplate1",
-              "strokecolor": "black",
+              "strokecolor": "darkgreen",
               "strokewidth": "1",
-              "textcolor": "black",
+              "textcolor": "darkgreen",
               "textscale": "1",
               "dash": "None",
               "fromArrow": "",
@@ -17164,7 +17578,7 @@
               "toArrowColor": "white",
               "routing": "Normal",
               "corner": "0",
-              "curve": "0",
+              "curve": "None",
               "markedAsDeleted": false,
               "modified": false
             },
@@ -17174,9 +17588,9 @@
               "description": "",
               "typeRef": "a575a166-04c8-438f-24f6-aefc42e655db",
               "template": "linkTemplate1",
-              "strokecolor": "black",
+              "strokecolor": "darkred",
               "strokewidth": "1",
-              "textcolor": "black",
+              "textcolor": "darkred",
               "textscale": "1",
               "dash": "None",
               "fromArrow": "",
@@ -17185,15 +17599,15 @@
               "toArrowColor": "white",
               "routing": "Normal",
               "corner": "0",
-              "curve": "0",
+              "curve": "None",
               "markedAsDeleted": false,
               "modified": false
             },
             {
-              "id": "21d561f1-de92-4274-0473-ac49aa14d160",
+              "id": "32adedbc-a6db-4bd9-ce39-977921b1cd50",
               "name": "has_Association",
               "description": "",
-              "typeRef": "3549566f-1175-4d50-e048-5bc5a3ee0bf2",
+              "typeRef": "22f50fa8-90be-4738-8f71-670a19668fe0",
               "template": "linkTemplate1",
               "strokecolor": "black",
               "strokewidth": "1",
@@ -17295,10 +17709,10 @@
               "modified": false
             },
             {
-              "id": "5013af87-c80f-48fe-7d8a-717a004eb7cc",
+              "id": "70e7b709-bd91-4b7c-f390-553914e10430",
               "name": "relationshipType_Association",
               "description": "",
-              "typeRef": "bd3166b5-6e5e-483b-375b-f4130bacb42f",
+              "typeRef": "9c2f4dd9-297a-4221-c694-76a7c18ab04d",
               "template": "linkTemplate1",
               "strokecolor": "black",
               "strokewidth": "1",
@@ -18621,8 +19035,8 @@
       ],
       "name": "AKM-POPS-Template",
       "description": "Modelling based on AKM-POPS_MM Metamodel",
-      "currentModelRef": "c913371b-e824-4847-a660-eae8933758df",
-      "currentModelviewRef": "904b0d44-379d-4cc4-8b3b-531199e06486",
+      "currentModelRef": "dc10de9a-7bee-47bf-9a9f-8d1e212966bf",
+      "currentModelviewRef": "f1270364-0239-4d53-8f27-175faf2c70d1",
       "currentMetamodelRef": "14398d2f-90de-44bf-e484-1d780a93b88c"
     }
   },
@@ -18695,11 +19109,11 @@
       "name": "AKM-POPS_MM"
     },
     "focusModelview": {
-      "id": "904b0d44-379d-4cc4-8b3b-531199e06486",
+      "id": "f1270364-0239-4d53-8f27-175faf2c70d1",
       "name": "0-Main"
     },
     "focusModel": {
-      "id": "c913371b-e824-4847-a660-eae8933758df",
+      "id": "dc10de9a-7bee-47bf-9a9f-8d1e212966bf",
       "name": "01-Overview_POPS"
     },
     "focusObject": {
@@ -18716,5 +19130,5 @@
   },
   "phTemplate": "AKM-POPS-Template",
   "phSource": "AKM-POPS-Template",
-  "lastUpdate": "2025-02-20T11:09:39.285Z"
+  "lastUpdate": "2025-02-20T12:14:11.095Z"
 }
