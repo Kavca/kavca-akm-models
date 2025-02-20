@@ -8,7 +8,7 @@
   "subModels": [],
   "viewstyles": [
     {
-      "id": "c8a27186-09ee-4bd1-ee85-3233694e805a",
+      "id": "3ff94673-2955-4642-f68c-d4d91b1ca7bf",
       "name": "AKM-POPS_MM_Viewstyle",
       "description": "",
       "markedAsDeleted": false,
@@ -127,7 +127,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "741283b4-6491-4191-805b-df39c9a89e7a",
+      "typeviewRef": "07ff8e72-f846-438d-a80d-573c49dabbcc",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -143,7 +143,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "a988bbf6-cf60-484b-f191-2c2155c17793",
+      "typeviewRef": "1f05c2f8-2e22-4ffd-5a8a-41b91b866386",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -159,7 +159,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "621394e0-2234-4c0e-84db-363d3748eef0",
+      "typeviewRef": "a09e5120-65e9-4c56-fc79-2a3a9832dab9",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -175,7 +175,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "2faea231-3587-4597-3d3f-5001618e7d3f",
+      "typeviewRef": "b99e34e6-3103-4d7b-6b0b-fa9125758b0f",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -191,7 +191,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "e09e1257-b13a-49f3-c80e-0f2f461b779b",
+      "typeviewRef": "a1c61cae-de22-4eda-8ca6-d7f8be05fa0a",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -207,7 +207,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "dc18b69d-03b4-48c9-437d-4e2b39c5e59d",
+      "typeviewRef": "f0643d20-e855-4b0a-804e-b9d049df049a",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -223,7 +223,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "333f9695-7451-40eb-461d-f9d97795e86d",
+      "typeviewRef": "05b79d5a-1053-45c8-497b-3d9caa1906b4",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -239,7 +239,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "e9c159bb-81be-4185-3836-9fdbdc4777e2",
+      "typeviewRef": "72a22a5a-5c92-46bf-60ed-a8ea3b6c52cb",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -255,7 +255,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "fb0d82b4-5cd6-4ed6-220c-43f9710b275b",
+      "typeviewRef": "d8e64155-a40f-44bd-b7a1-5b0e07751ba6",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -271,7 +271,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "5bb56a0d-ba62-4c26-39f2-577c764510ca",
+      "typeviewRef": "88064236-511e-4eef-40de-dd67a39b0f45",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -287,7 +287,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "79a813d6-238b-483f-6599-aa38edab4d4e",
+      "typeviewRef": "20d262aa-7ace-43a5-adbb-5aa5aad8b8ad",
       "description": "A device represents a physical IT resource upon which system software and artifacts may be stored or deployed for execution.",
       "properties": [],
       "attributes": [],
@@ -303,7 +303,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "e3cf4f1d-3ad9-4b89-c37a-8007c71d2c31",
+      "typeviewRef": "c9d2b1ea-b64b-46db-88aa-c59ebb0116e0",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -319,7 +319,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "42ae9809-afae-42aa-bd79-186fa9dd4683",
+      "typeviewRef": "c68466cb-ddeb-4c81-0e27-7f349593768f",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -1391,25 +1391,6 @@
       "modified": true
     },
     {
-      "id": "77fc1804-e95e-4625-ac94-b1b365cdfcf2",
-      "name": "Is",
-      "relshipkind": "Generalization",
-      "viewkind": "",
-      "fromobjtypeRef": "b5b099eb-c468-4a83-1b78-5ce5e44708fe",
-      "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "bc5357ac-5f31-43bd-510e-0a0b504a1f5b",
-      "description": "",
-      "supertypes": [],
-      "properties": [],
-      "cardinality": "",
-      "cardinalityFrom": "",
-      "cardinalityTo": "",
-      "nameFrom": "",
-      "nameTo": "",
-      "markedAsDeleted": false,
-      "modified": true
-    },
-    {
       "id": "3c3254c6-1909-45d1-9e16-e9eb083f50c4",
       "name": "Is",
       "relshipkind": "Generalization",
@@ -1682,7 +1663,7 @@
       "viewkind": "",
       "fromobjtypeRef": "a107568f-d05f-42a9-20fb-80f4cc744faa",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "4a74c123-bfb6-40f8-aabb-df8497b25656",
+      "typeviewRef": "26eed68f-0d3a-40c7-fb3e-c1a7a288a081",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -1695,7 +1676,7 @@
       "modified": true
     },
     {
-      "id": "ffd940a6-a159-49cc-6f53-5e710bfb907e",
+      "id": "6a874f1f-ea74-49be-0bba-382b5a0c3cdf",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -1714,7 +1695,7 @@
       "modified": true
     },
     {
-      "id": "0b3dc51f-5ae5-4c3a-458d-ae96e8f2b32e",
+      "id": "f1e1dab2-3244-45f9-cdb8-42b1b550eae6",
       "name": "Is",
       "relshipkind": "Association",
       "viewkind": "",
@@ -1733,7 +1714,7 @@
       "modified": false
     },
     {
-      "id": "5a4bbf0d-c6d4-420b-75d8-1df648395b6b",
+      "id": "166ee59b-7144-4ecc-78a5-4dc1579d230c",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -1752,7 +1733,7 @@
       "modified": true
     },
     {
-      "id": "6d76e0fd-5ff9-4105-63c1-42ff4314d7f7",
+      "id": "92b43a29-e27c-467a-c239-1a814af380e8",
       "name": "Is",
       "relshipkind": "Association",
       "viewkind": "",
@@ -1771,7 +1752,7 @@
       "modified": false
     },
     {
-      "id": "1e647cb0-4a74-4a27-188b-55c970e97a19",
+      "id": "a716f26b-04e6-4242-18ab-ffb4a057592c",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -1790,7 +1771,7 @@
       "modified": true
     },
     {
-      "id": "c0519aec-3c42-42ad-2838-8bb1b94eaf0d",
+      "id": "497fadd7-3f09-49ae-8fb1-8da287fd124a",
       "name": "Is",
       "relshipkind": "Association",
       "viewkind": "",
@@ -1809,7 +1790,7 @@
       "modified": false
     },
     {
-      "id": "1026fb4d-7cae-480b-4f81-e98d4713a483",
+      "id": "9dfd3435-2e0c-4731-3f9d-0aa49379d475",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -1828,7 +1809,7 @@
       "modified": true
     },
     {
-      "id": "82bf21a8-c32b-4c58-dadf-6b991daf4bee",
+      "id": "f8b3bdd0-3ba9-4b80-3677-d3c060663dec",
       "name": "Is",
       "relshipkind": "Association",
       "viewkind": "",
@@ -1847,7 +1828,7 @@
       "modified": false
     },
     {
-      "id": "a827bcf7-4274-4dea-ab07-6e43d0d3aec8",
+      "id": "852e663b-147c-474c-bbf2-32e14f0eaccd",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
@@ -1866,7 +1847,7 @@
       "modified": true
     },
     {
-      "id": "5fe641d5-7296-4850-6614-51ea8fdff0bc",
+      "id": "f48deeea-a953-4b9c-eb94-8f1c7adaa0eb",
       "name": "Is",
       "relshipkind": "Association",
       "viewkind": "",
@@ -2385,7 +2366,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "741283b4-6491-4191-805b-df39c9a89e7a",
+      "typeviewRef": "07ff8e72-f846-438d-a80d-573c49dabbcc",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -2401,7 +2382,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "a988bbf6-cf60-484b-f191-2c2155c17793",
+      "typeviewRef": "1f05c2f8-2e22-4ffd-5a8a-41b91b866386",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -2417,7 +2398,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "621394e0-2234-4c0e-84db-363d3748eef0",
+      "typeviewRef": "a09e5120-65e9-4c56-fc79-2a3a9832dab9",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -2433,7 +2414,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "2faea231-3587-4597-3d3f-5001618e7d3f",
+      "typeviewRef": "b99e34e6-3103-4d7b-6b0b-fa9125758b0f",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -2449,7 +2430,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "e09e1257-b13a-49f3-c80e-0f2f461b779b",
+      "typeviewRef": "a1c61cae-de22-4eda-8ca6-d7f8be05fa0a",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -2465,7 +2446,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "dc18b69d-03b4-48c9-437d-4e2b39c5e59d",
+      "typeviewRef": "f0643d20-e855-4b0a-804e-b9d049df049a",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -2481,7 +2462,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "333f9695-7451-40eb-461d-f9d97795e86d",
+      "typeviewRef": "05b79d5a-1053-45c8-497b-3d9caa1906b4",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -2497,7 +2478,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "e9c159bb-81be-4185-3836-9fdbdc4777e2",
+      "typeviewRef": "72a22a5a-5c92-46bf-60ed-a8ea3b6c52cb",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -2513,7 +2494,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "fb0d82b4-5cd6-4ed6-220c-43f9710b275b",
+      "typeviewRef": "d8e64155-a40f-44bd-b7a1-5b0e07751ba6",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -2529,7 +2510,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "5bb56a0d-ba62-4c26-39f2-577c764510ca",
+      "typeviewRef": "88064236-511e-4eef-40de-dd67a39b0f45",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -2545,7 +2526,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "79a813d6-238b-483f-6599-aa38edab4d4e",
+      "typeviewRef": "20d262aa-7ace-43a5-adbb-5aa5aad8b8ad",
       "description": "A device represents a physical IT resource upon which system software and artifacts may be stored or deployed for execution.",
       "properties": [],
       "attributes": [],
@@ -2561,7 +2542,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "e3cf4f1d-3ad9-4b89-c37a-8007c71d2c31",
+      "typeviewRef": "c9d2b1ea-b64b-46db-88aa-c59ebb0116e0",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -2577,7 +2558,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "42ae9809-afae-42aa-bd79-186fa9dd4683",
+      "typeviewRef": "c68466cb-ddeb-4c81-0e27-7f349593768f",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -3028,7 +3009,7 @@
   ],
   "properties": [
     {
-      "id": "82b94977-e99c-43bb-78c3-3b335b3350c6",
+      "id": "36b92144-055f-4928-7a9f-32abc22c1d9d",
       "name": "expression",
       "defaultValue": "",
       "inputPattern": "",
@@ -3043,7 +3024,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "e93fc22d-271d-45ef-c2b6-d09266ca501e",
+      "id": "0f45b0e4-5cc9-47bf-9436-ffd26254ca53",
       "name": "reltypes",
       "defaultValue": "",
       "inputPattern": "",
@@ -3058,7 +3039,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "da76d54f-4126-4914-7c22-961a57abf534",
+      "id": "3fd96aad-35b3-47fd-c258-254eed1215ee",
       "name": "reldir",
       "defaultValue": "",
       "inputPattern": "",
@@ -3073,7 +3054,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "ac5704ef-f3c4-4326-15da-6411ed947840",
+      "id": "f559ba22-4515-4061-c982-42f8fc1a6fa1",
       "name": "objtypes",
       "defaultValue": "",
       "inputPattern": "",
@@ -3088,7 +3069,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "3b0302e5-6061-4151-d016-f45949322024",
+      "id": "122351ac-23ae-46fc-360c-28eb33ede239",
       "name": "nolevels",
       "defaultValue": "",
       "inputPattern": "",
@@ -3103,7 +3084,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "60f79480-86c8-4249-e3c7-decca9ca1931",
+      "id": "3379c9e5-9fe0-4baa-dd01-623d3510cbf4",
       "name": "valuecondition",
       "defaultValue": "",
       "inputPattern": "",
@@ -3118,7 +3099,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "bf6099d5-07f1-4553-35b9-54c9cc672186",
+      "id": "d78fa3d9-a444-49eb-da35-28e502f524d2",
       "name": "preaction",
       "defaultValue": "",
       "inputPattern": "",
@@ -3133,7 +3114,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "57648199-decd-4829-c3ab-0076530d3986",
+      "id": "24da629b-7316-4948-462b-03058d4bf7d7",
       "name": "postaction",
       "defaultValue": "",
       "inputPattern": "",
@@ -3150,7 +3131,7 @@
   ],
   "datatypes": [
     {
-      "id": "09b3e4e0-8849-4a92-c7a4-025bcd55c3dc",
+      "id": "71292e41-9c0f-4556-b2f6-5d9f61ff6819",
       "name": "today",
       "description": "",
       "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
@@ -3640,7 +3621,7 @@
       "description": "",
       "properties": [
         {
-          "id": "e93fc22d-271d-45ef-c2b6-d09266ca501e",
+          "id": "0f45b0e4-5cc9-47bf-9436-ffd26254ca53",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -3684,7 +3665,7 @@
           "example": ""
         },
         {
-          "id": "da76d54f-4126-4914-7c22-961a57abf534",
+          "id": "3fd96aad-35b3-47fd-c258-254eed1215ee",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -3726,7 +3707,7 @@
           "example": ""
         },
         {
-          "id": "ac5704ef-f3c4-4326-15da-6411ed947840",
+          "id": "f559ba22-4515-4061-c982-42f8fc1a6fa1",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -3748,7 +3729,7 @@
           "example": ""
         },
         {
-          "id": "742389f1-3f2e-46cb-c534-9daf6a3dddc6",
+          "id": "8f88dae6-a78d-473b-6693-d8f46c870df3",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -3800,7 +3781,7 @@
       "description": "",
       "properties": [
         {
-          "id": "82b94977-e99c-43bb-78c3-3b335b3350c6",
+          "id": "36b92144-055f-4928-7a9f-32abc22c1d9d",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -3831,7 +3812,7 @@
       "description": "",
       "properties": [
         {
-          "id": "218df071-10a6-4d64-e814-afa962760a80",
+          "id": "41ee8841-6610-4dee-e8fd-b76422683a45",
           "name": "reltypes",
           "nameId": "reltypes",
           "category": "Property",
@@ -3853,7 +3834,7 @@
           "example": ""
         },
         {
-          "id": "f6b12d67-a14e-422d-9a97-07f56b1076cf",
+          "id": "75a8f05c-b244-4e98-0e3f-53745cf164b4",
           "name": "reldir",
           "nameId": "reldir",
           "category": "Property",
@@ -3875,7 +3856,7 @@
           "example": ""
         },
         {
-          "id": "188c90c0-5be1-4c68-412e-b6ca01aaa961",
+          "id": "f0453c89-8e0d-4ef3-1d3f-cd301eb6e681",
           "name": "objtypes",
           "nameId": "objtypes",
           "category": "Property",
@@ -3897,7 +3878,7 @@
           "example": ""
         },
         {
-          "id": "924e92e0-9cb7-4c49-fb37-ade50e6d0b54",
+          "id": "c94fb997-b15a-4acb-08fb-afaa639d8f64",
           "name": "expression",
           "nameId": "expression",
           "category": "Property",
@@ -3919,7 +3900,7 @@
           "example": ""
         },
         {
-          "id": "3b0302e5-6061-4151-d016-f45949322024",
+          "id": "122351ac-23ae-46fc-360c-28eb33ede239",
           "name": "nolevels",
           "nameId": "nolevels",
           "category": "Property",
@@ -3962,7 +3943,7 @@
           "example": ""
         },
         {
-          "id": "60f79480-86c8-4249-e3c7-decca9ca1931",
+          "id": "3379c9e5-9fe0-4baa-dd01-623d3510cbf4",
           "name": "valuecondition",
           "nameId": "valuecondition",
           "category": "Property",
@@ -4026,7 +4007,7 @@
           "example": ""
         },
         {
-          "id": "bf6099d5-07f1-4553-35b9-54c9cc672186",
+          "id": "d78fa3d9-a444-49eb-da35-28e502f524d2",
           "name": "preaction",
           "nameId": "preaction",
           "category": "Property",
@@ -4048,7 +4029,7 @@
           "example": ""
         },
         {
-          "id": "57648199-decd-4829-c3ab-0076530d3986",
+          "id": "24da629b-7316-4948-462b-03058d4bf7d7",
           "name": "postaction",
           "nameId": "postaction",
           "category": "Property",
@@ -4078,7 +4059,7 @@
   "units": [],
   "objecttypeviews": [
     {
-      "id": "741283b4-6491-4191-805b-df39c9a89e7a",
+      "id": "07ff8e72-f846-438d-a80d-573c49dabbcc",
       "name": "Process",
       "description": "",
       "typeRef": "54ec61df-1920-4f5b-ad81-6d4f8c2681f4",
@@ -4103,7 +4084,7 @@
       "modified": false
     },
     {
-      "id": "a988bbf6-cf60-484b-f191-2c2155c17793",
+      "id": "1f05c2f8-2e22-4ffd-5a8a-41b91b866386",
       "name": "Organisation",
       "description": "",
       "typeRef": "7570bbcf-4bf8-4110-6fb0-951b1b43f3df",
@@ -4128,7 +4109,7 @@
       "modified": false
     },
     {
-      "id": "621394e0-2234-4c0e-84db-363d3748eef0",
+      "id": "a09e5120-65e9-4c56-fc79-2a3a9832dab9",
       "name": "System",
       "description": "",
       "typeRef": "2fcda91b-7e2d-4ff0-8d0b-33d9dc25cd13",
@@ -4153,7 +4134,7 @@
       "modified": false
     },
     {
-      "id": "2faea231-3587-4597-3d3f-5001618e7d3f",
+      "id": "b99e34e6-3103-4d7b-6b0b-fa9125758b0f",
       "name": "Product",
       "description": "",
       "typeRef": "4f6b7b90-9029-4a6e-7d44-7f3d24240a9c",
@@ -4178,7 +4159,7 @@
       "modified": false
     },
     {
-      "id": "e09e1257-b13a-49f3-c80e-0f2f461b779b",
+      "id": "a1c61cae-de22-4eda-8ca6-d7f8be05fa0a",
       "name": "Equipment",
       "description": "",
       "typeRef": "be8ae9fe-bfbf-45fd-8151-74b9f9fcff85",
@@ -4203,7 +4184,7 @@
       "modified": false
     },
     {
-      "id": "dc18b69d-03b4-48c9-437d-4e2b39c5e59d",
+      "id": "f0643d20-e855-4b0a-804e-b9d049df049a",
       "name": "Facility",
       "description": "",
       "typeRef": "f4734d90-d470-46aa-8c54-be6257294b9d",
@@ -4228,7 +4209,7 @@
       "modified": false
     },
     {
-      "id": "333f9695-7451-40eb-461d-f9d97795e86d",
+      "id": "05b79d5a-1053-45c8-497b-3d9caa1906b4",
       "name": "DistributNetwork",
       "description": "",
       "typeRef": "564ae73b-4148-4c57-0c48-3d94a81d7d1d",
@@ -4253,7 +4234,7 @@
       "modified": false
     },
     {
-      "id": "e9c159bb-81be-4185-3836-9fdbdc4777e2",
+      "id": "72a22a5a-5c92-46bf-60ed-a8ea3b6c52cb",
       "name": "Material",
       "description": "",
       "typeRef": "0c2635bb-592b-4970-cef5-b825d431a162",
@@ -4278,7 +4259,7 @@
       "modified": false
     },
     {
-      "id": "fb0d82b4-5cd6-4ed6-220c-43f9710b275b",
+      "id": "d8e64155-a40f-44bd-b7a1-5b0e07751ba6",
       "name": "Geobody",
       "description": "",
       "typeRef": "54f3bb64-8999-4f3a-fa43-08e2eb5306b3",
@@ -4303,7 +4284,7 @@
       "modified": false
     },
     {
-      "id": "5bb56a0d-ba62-4c26-39f2-577c764510ca",
+      "id": "88064236-511e-4eef-40de-dd67a39b0f45",
       "name": "Software",
       "description": "",
       "typeRef": "786f27af-a029-4489-6ed9-040049f35b35",
@@ -4328,7 +4309,7 @@
       "modified": false
     },
     {
-      "id": "79a813d6-238b-483f-6599-aa38edab4d4e",
+      "id": "20d262aa-7ace-43a5-adbb-5aa5aad8b8ad",
       "name": "Device",
       "description": "A device represents a physical IT resource upon which system software and artifacts may be stored or deployed for execution.",
       "typeRef": "b5003c65-357f-4b05-278b-7f28453779d4",
@@ -4353,7 +4334,7 @@
       "modified": false
     },
     {
-      "id": "e3cf4f1d-3ad9-4b89-c37a-8007c71d2c31",
+      "id": "c9d2b1ea-b64b-46db-88aa-c59ebb0116e0",
       "name": "Data",
       "description": "",
       "typeRef": "a9605c64-b49c-4edf-612a-3c6e05997a75",
@@ -4365,20 +4346,20 @@
       "fillcolor2": "lightyellow",
       "strokecolor": "black",
       "strokecolor1": "black",
-      "strokecolor2": "lightyellow",
+      "strokecolor2": "lightgrey",
       "strokewidth": "1",
       "textcolor": "black",
       "textcolor2": "black",
       "textscale": "1",
       "memberscale": 1,
-      "icon": "\\u2395",
+      "icon": "\\uf249",
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
       "modified": false
     },
     {
-      "id": "42ae9809-afae-42aa-bd79-186fa9dd4683",
+      "id": "c68466cb-ddeb-4c81-0e27-7f349593768f",
       "name": "Event",
       "description": "",
       "typeRef": "a107568f-d05f-42a9-20fb-80f4cc744faa",
@@ -4396,7 +4377,7 @@
       "textcolor2": "black",
       "textscale": "1",
       "memberscale": 1,
-      "icon": "\\u2705",
+      "icon": "\\uf133",
       "image": "",
       "grabIsAllowed": false,
       "markedAsDeleted": false,
