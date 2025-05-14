@@ -76484,18 +76484,6 @@
           ],
           "modelviews": [
             {
-              "name": "",
-              "description": "",
-              "modelRef": "cc6203d6-0357-43d5-0239-eb72578a623c",
-              "UseUMLrelshipkinds": true,
-              "objectviews": [],
-              "relshipviews": [],
-              "objecttypeviews": [],
-              "relshiptypeviews": [],
-              "markedAsDeleted": false,
-              "modified": false
-            },
-            {
               "id": "6da88860-471b-4721-86ba-117d17aab147",
               "name": "DEMO1_META",
               "description": "",
