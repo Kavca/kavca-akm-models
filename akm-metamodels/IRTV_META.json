@@ -10,7 +10,7 @@
   "subModels": [],
   "viewstyles": [
     {
-      "id": "23a542e3-efee-4846-4e84-b224ae3b6a4f",
+      "id": "46e74b07-9ab8-46de-347a-f7884cdbee53",
       "name": "IRTV_META_Viewstyle",
       "description": "",
       "markedAsDeleted": false,
@@ -42,11 +42,11 @@
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "ea59de18-59f3-4851-8449-f624c15b1754",
+      "typeviewRef": "3dc3bf2e-5c90-4604-b7d7-c2706424350c",
       "description": "Defines an Information element with Name, description and proposedType properties.",
       "properties": [
         {
-          "id": "da0c8f7d-4e07-4b35-3de0-e1480186b907",
+          "id": "d8305124-bbed-4dd6-f41f-f1d8b58c289e",
           "name": "proposedType",
           "defaultValue": "",
           "inputPattern": "",
@@ -74,7 +74,7 @@
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "dde373c6-1f70-417c-3152-934ad6287234",
+      "typeviewRef": "dabb66b8-8cac-4d95-f95d-2a4fd07d4fd6",
       "description": "A process role defines the responsibilities and authority of individuals involved in a business process. These roles help clarify who is accountable for various tasks, ensuring efficient process management and execution.",
       "properties": [],
       "attributes": [],
@@ -90,7 +90,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "56d30a4e-dc05-47a4-d153-1c7a02df69a3",
+      "typeviewRef": "cf8e1dd7-f80a-487b-7e8a-a1a0bc8ea124",
       "description": "A task is a specific, defined activity or piece of work that contributes to the completion of a larger project or process.",
       "properties": [],
       "attributes": [],
@@ -106,7 +106,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "9e20fe9f-913d-4571-48dd-fec353f4bef0",
+      "typeviewRef": "612ac75f-ae36-420f-22ae-ce7fcbd40903",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -122,11 +122,11 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "3fdb9e94-19f9-4bc4-f4af-fec12d186957",
+      "typeviewRef": "adb4a231-4f9b-4bf5-21d3-aded3071710c",
       "description": "A View highlight essential Information elements tailored to the need of specific users or tasks.",
       "properties": [
         {
-          "id": "143c53cc-0b39-4ddd-33ae-1c49b412ef04",
+          "id": "cec8656b-677a-4457-7b52-6e12785195cc",
           "name": "proposedType",
           "defaultValue": "",
           "inputPattern": "",
@@ -154,7 +154,7 @@
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "9ec679c5-2033-43bc-825a-5afebd5624f8",
+      "typeviewRef": "a1b1ff3d-2015-47eb-c4b8-13b2263066e2",
       "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
       "properties": [],
       "attributes": [],
@@ -166,13 +166,13 @@
   ],
   "relshiptypes": [
     {
-      "id": "1082d112-3ec7-4e95-d6c8-b4b87bfe5685",
+      "id": "9bba7e52-fe06-4a4b-94db-a4f8b6c8ff31",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "91c27596-9910-49c3-9088-44da75085f14",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "a0e579c9-b746-49e4-7dc7-a26577ac0e6f",
+      "typeviewRef": "460cdf77-0fc8-48a2-3c1a-9e53f8c903e2",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -185,13 +185,13 @@
       "modified": true
     },
     {
-      "id": "cbd49dbc-bbe4-4f78-19ca-cb4c1342bda6",
+      "id": "8566cff6-8189-4063-b4d2-2d99d71a6e12",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "1b6ba1b5-f716-4777-deab-cf91b0f53218",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "5bb1e2fb-3958-4f0c-9f46-e7892ff02032",
+      "typeviewRef": "d50c484d-a55e-48ae-cd02-6dadebcc4750",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -204,13 +204,13 @@
       "modified": true
     },
     {
-      "id": "5d9c254b-c267-438e-671d-64ced266acda",
+      "id": "63ebe326-f508-40d6-6997-e7324948dc99",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "b5cd30a2-6213-402a-a64a-85c6eff312f5",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "fd8be5ed-fa7d-4e24-8560-8ca7cbfd24f5",
+      "typeviewRef": "2714bd28-9cf4-46f4-246a-534056d3f231",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -223,13 +223,13 @@
       "modified": true
     },
     {
-      "id": "d0a7b2ba-78b3-462e-4c09-5ee8b32a28b7",
+      "id": "dcb9c857-2b03-4ee6-4373-81b5bbcf0e89",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "4e4ce109-200d-456a-f963-4a9e3f29e2cf",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "0073a56a-d33c-450f-2649-0e217a1cf5b0",
+      "typeviewRef": "3758e803-f7d7-49e0-285e-06ae33acd4de",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -242,13 +242,13 @@
       "modified": true
     },
     {
-      "id": "c6e3b8a6-5f81-405e-3ea4-0873a65329be",
+      "id": "92fe0cd1-ab11-4788-13cc-31cab4fea8e4",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "c30f6e2c-d04b-4360-fc17-002d1c4162f8",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "2cf8acb6-6a4b-4cd5-6d08-55a9a8974ec2",
+      "typeviewRef": "fe622a50-bf57-4f8b-42a3-8d70f97c6e27",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -261,13 +261,13 @@
       "modified": true
     },
     {
-      "id": "bea4f761-b728-4272-372e-d381deb8a508",
+      "id": "a17f4f1c-7a72-48d0-7263-8af8a0f9d9ed",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "af5540df-c2a8-43db-5f59-a46ae183ca6f",
+      "typeviewRef": "103a20b5-fb33-4b70-3647-0f1c0fe2baa0",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -280,13 +280,13 @@
       "modified": true
     },
     {
-      "id": "9487296d-cdcb-48b9-ffd5-466dc054866b",
+      "id": "00e1ae9a-27d9-415e-ebad-d246c99d59dc",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "4beef970-06ed-4f54-6589-5804e358a8a6",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "2158c604-3265-4fab-67d7-cf26fe192dec",
+      "typeviewRef": "9359dd78-8233-4023-ee49-662a8aec0740",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -299,13 +299,13 @@
       "modified": true
     },
     {
-      "id": "5b25aa28-a67f-4c0c-afcb-e75855be57a4",
+      "id": "de0677e1-b921-4231-c0cd-4ce81b17bf77",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "4ccd52d4-fbbe-46d6-fea5-83d67a9aff33",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "0848ee10-22b9-46d0-0965-49e8f2e540ae",
+      "typeviewRef": "37aa885f-6d0a-4acb-9073-51e897569d2b",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -318,13 +318,13 @@
       "modified": true
     },
     {
-      "id": "8278ce32-15b4-432c-a208-8c84300ae480",
+      "id": "a250ff68-137a-4003-5d8b-1e99b6e3f6e2",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "4f1e3080-24b0-4e9f-f8cc-f13e469232a2",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "a4fb94a8-d9eb-4cc5-4cbf-691aa9dd7a1f",
+      "typeviewRef": "6a302dc2-c898-4fc5-ea42-68afbaa3f85a",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -337,13 +337,13 @@
       "modified": true
     },
     {
-      "id": "82e295ea-7b80-40a8-ca81-303690ed4be9",
+      "id": "79f99db4-52b4-4cd4-0af2-5181819bc247",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "e0708fcb-4dab-44fb-312d-7685ea332985",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "171c85cb-c68f-48ab-d363-df96c46f2780",
+      "typeviewRef": "f0b15718-e385-44cf-b5eb-fa1b2768e483",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -356,13 +356,13 @@
       "modified": true
     },
     {
-      "id": "483c77ae-c78c-4a19-ce78-86cbdff0ac60",
+      "id": "0749b5fb-64eb-4c5c-1ce6-642c3093a7cd",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "5f1fa0f1-d89f-4a62-5b93-3a433acb833e",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "f24b3ec6-f9c3-4fa0-714f-0abf8148c066",
+      "typeviewRef": "09f9f381-07d4-4ee4-dc76-6d1da13270f3",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -375,13 +375,13 @@
       "modified": true
     },
     {
-      "id": "47093603-6796-4596-390c-dd790158ff35",
+      "id": "5fdf2feb-44fe-4ba2-b765-c27d1e91d727",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "41cd3474-c982-4f2d-4300-a3a9cf3ec23e",
+      "typeviewRef": "b5b17a93-eabd-478d-418d-a51eea23379e",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -394,13 +394,13 @@
       "modified": true
     },
     {
-      "id": "2192079d-6b65-4dd2-4524-6d6a743c9db8",
+      "id": "549bcc96-93a9-43a5-8388-83a8fc75f4a5",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "422f23eb-fe48-418a-ddcf-4839f7b033aa",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "ec5a5096-6566-49c0-bced-b27384c1cec6",
+      "typeviewRef": "3b904d64-0d33-4ad5-e88f-e6e1ebb68741",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -413,13 +413,13 @@
       "modified": true
     },
     {
-      "id": "3a97e180-2778-42b3-2daf-c5c33d96e9c8",
+      "id": "f346cf54-5c7d-40e1-1bbf-51081b502c7d",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "ecb8b2df-d974-4351-a4f8-4d417bb3a182",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "63908939-1874-4ccb-53f8-23394ac35f5b",
+      "typeviewRef": "e010f3a1-860d-4846-ac56-c2b13bb6cfba",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -846,13 +846,13 @@
       "modified": false
     },
     {
-      "id": "5d64643d-c683-4363-4ca4-a7f254e4b337",
+      "id": "e83186b5-fed1-4842-a3d1-c70dff242e3b",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "267aceff-433d-43d4-e1f2-067fb70cb3b4",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "85d19aa0-ff48-4c5c-d200-5f56b011357f",
+      "typeviewRef": "",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -865,13 +865,13 @@
       "modified": true
     },
     {
-      "id": "a55dc76c-9c6c-4cf0-6cf3-955c4e70e8d0",
+      "id": "1de427c2-2719-4cf4-9126-2df1ca438127",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "c6877ff9-599f-4aee-2540-b185133f49f1",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "bff6906a-c0a9-465c-9eb4-6092a80df092",
+      "typeviewRef": "",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -884,13 +884,13 @@
       "modified": true
     },
     {
-      "id": "576d45ba-197b-4c4d-df0f-248047e0358f",
+      "id": "b8038dce-46dc-49b2-4585-1ef4756cb0b0",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "5d2149c9-ed68-456d-b033-e2d7b8c672e2",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "4797fdec-75f3-45fa-82cc-bdf3a4f25147",
+      "typeviewRef": "",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -903,13 +903,13 @@
       "modified": true
     },
     {
-      "id": "e820371d-a853-45bb-2ad9-169ba43a6802",
+      "id": "9f2c13cc-6554-45dc-771e-80cd2e5d377a",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "f3ceb50e-15e0-4d94-3e31-9f946318afa9",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "58bb402e-afde-4d0d-3002-4ca0425957c3",
+      "typeviewRef": "",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -922,13 +922,13 @@
       "modified": true
     },
     {
-      "id": "b9437ae9-5be0-4e59-38a6-bc5de1ce0112",
+      "id": "b24a4a82-66d7-4897-bf57-7d30dc4ddcd1",
       "name": "Is",
       "relshipkind": "Generalization",
       "viewkind": "",
       "fromobjtypeRef": "82e81fcc-f34f-4555-1f58-37e690aec58b",
       "toobjtypeRef": "31a18ce8-66cf-4b95-79e4-673746867ac3",
-      "typeviewRef": "946e2b20-54c0-4b71-0184-1883cca0e715",
+      "typeviewRef": "",
       "description": "",
       "supertypes": [],
       "properties": [],
@@ -1177,11 +1177,11 @@
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "ea59de18-59f3-4851-8449-f624c15b1754",
+      "typeviewRef": "3dc3bf2e-5c90-4604-b7d7-c2706424350c",
       "description": "Defines an Information element with Name, description and proposedType properties.",
       "properties": [
         {
-          "id": "da0c8f7d-4e07-4b35-3de0-e1480186b907",
+          "id": "d8305124-bbed-4dd6-f41f-f1d8b58c289e",
           "name": "proposedType",
           "defaultValue": "",
           "inputPattern": "",
@@ -1209,7 +1209,7 @@
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "dde373c6-1f70-417c-3152-934ad6287234",
+      "typeviewRef": "dabb66b8-8cac-4d95-f95d-2a4fd07d4fd6",
       "description": "A process role defines the responsibilities and authority of individuals involved in a business process. These roles help clarify who is accountable for various tasks, ensuring efficient process management and execution.",
       "properties": [],
       "attributes": [],
@@ -1225,7 +1225,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "56d30a4e-dc05-47a4-d153-1c7a02df69a3",
+      "typeviewRef": "cf8e1dd7-f80a-487b-7e8a-a1a0bc8ea124",
       "description": "A task is a specific, defined activity or piece of work that contributes to the completion of a larger project or process.",
       "properties": [],
       "attributes": [],
@@ -1241,7 +1241,7 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "9e20fe9f-913d-4571-48dd-fec353f4bef0",
+      "typeviewRef": "612ac75f-ae36-420f-22ae-ce7fcbd40903",
       "description": "",
       "properties": [],
       "attributes": [],
@@ -1257,11 +1257,11 @@
       "viewkind": "",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "3fdb9e94-19f9-4bc4-f4af-fec12d186957",
+      "typeviewRef": "adb4a231-4f9b-4bf5-21d3-aded3071710c",
       "description": "A View highlight essential Information elements tailored to the need of specific users or tasks.",
       "properties": [
         {
-          "id": "143c53cc-0b39-4ddd-33ae-1c49b412ef04",
+          "id": "cec8656b-677a-4457-7b52-6e12785195cc",
           "name": "proposedType",
           "defaultValue": "",
           "inputPattern": "",
@@ -1289,7 +1289,7 @@
       "viewkind": "Object",
       "typename": "Object type",
       "typedescription": "",
-      "typeviewRef": "9ec679c5-2033-43bc-825a-5afebd5624f8",
+      "typeviewRef": "a1b1ff3d-2015-47eb-c4b8-13b2263066e2",
       "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
       "properties": [],
       "attributes": [],
@@ -1679,7 +1679,7 @@
   ],
   "properties": [
     {
-      "id": "11f2f238-97f2-41b8-d1ac-1b93a1bc2948",
+      "id": "5ec07ec6-3835-40eb-6e4d-8a0f3bca599f",
       "name": "typedescription",
       "defaultValue": "",
       "inputPattern": "",
@@ -1694,7 +1694,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "bb635e9d-224d-43d0-fbc5-adf42004e02f",
+      "id": "561358de-1c4f-4ae8-c0f9-7f7edf81f3da",
       "name": "typename",
       "defaultValue": "",
       "inputPattern": "",
@@ -1709,7 +1709,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "a6f1fda7-0be9-4bdf-308f-4b26e28e3568",
+      "id": "127c95bc-fa64-4765-2d26-c8f4fbb42b85",
       "name": "typeid",
       "defaultValue": "",
       "inputPattern": "",
@@ -1724,7 +1724,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "2889e0ce-fc99-4d86-c968-cfff17fccaa1",
+      "id": "facf0f92-8d3d-4289-c919-0f5767186f8b",
       "name": "abstract",
       "defaultValue": "",
       "inputPattern": "",
@@ -1739,7 +1739,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "cdb7ee8e-6a4c-4637-1f6e-1550dbca1daa",
+      "id": "cbbc64a6-413a-4a8b-11f4-e7696d948b05",
       "name": "name",
       "defaultValue": "",
       "inputPattern": "",
@@ -1754,7 +1754,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "afd10894-4815-4599-5119-4d52a2d1709b",
+      "id": "aff270fd-9a89-4420-369d-c3ef6f25af51",
       "name": "description",
       "defaultValue": "",
       "inputPattern": "",
@@ -1769,7 +1769,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "4b9ef07f-4634-4f8a-460f-5745c7c5c53c",
+      "id": "233eced6-a6d3-429a-97c1-dd9623fdb35e",
       "name": "methodtype",
       "defaultValue": "",
       "inputPattern": "",
@@ -1784,7 +1784,7 @@
       "unitCategoryRef": ""
     },
     {
-      "id": "da0c8f7d-4e07-4b35-3de0-e1480186b907",
+      "id": "d8305124-bbed-4dd6-f41f-f1d8b58c289e",
       "name": "proposedType",
       "defaultValue": "",
       "inputPattern": "",
@@ -1801,7 +1801,7 @@
   ],
   "datatypes": [
     {
-      "id": "218900f4-eb23-417b-dee3-53355c930b6a",
+      "id": "40de266d-80f3-4d60-4028-90593195f86d",
       "name": "today",
       "description": "",
       "datatypeRef": "b959f506-7609-4915-80dc-2b64270efa9f",
@@ -2143,7 +2143,7 @@
   "units": [],
   "objecttypeviews": [
     {
-      "id": "ea59de18-59f3-4851-8449-f624c15b1754",
+      "id": "3dc3bf2e-5c90-4604-b7d7-c2706424350c",
       "name": "Information",
       "description": "Defines an Information element with Name, description and proposedType properties.",
       "typeRef": "267aceff-433d-43d4-e1f2-067fb70cb3b4",
@@ -2168,7 +2168,7 @@
       "modified": false
     },
     {
-      "id": "dde373c6-1f70-417c-3152-934ad6287234",
+      "id": "dabb66b8-8cac-4d95-f95d-2a4fd07d4fd6",
       "name": "Role",
       "description": "A process role defines the responsibilities and authority of individuals involved in a business process. These roles help clarify who is accountable for various tasks, ensuring efficient process management and execution.",
       "typeRef": "c6877ff9-599f-4aee-2540-b185133f49f1",
@@ -2193,7 +2193,7 @@
       "modified": false
     },
     {
-      "id": "56d30a4e-dc05-47a4-d153-1c7a02df69a3",
+      "id": "cf8e1dd7-f80a-487b-7e8a-a1a0bc8ea124",
       "name": "Task",
       "description": "A task is a specific, defined activity or piece of work that contributes to the completion of a larger project or process.",
       "typeRef": "5d2149c9-ed68-456d-b033-e2d7b8c672e2",
@@ -2218,7 +2218,7 @@
       "modified": false
     },
     {
-      "id": "9e20fe9f-913d-4571-48dd-fec353f4bef0",
+      "id": "612ac75f-ae36-420f-22ae-ce7fcbd40903",
       "name": "Event",
       "description": "",
       "typeRef": "f3ceb50e-15e0-4d94-3e31-9f946318afa9",
@@ -2243,7 +2243,7 @@
       "modified": false
     },
     {
-      "id": "3fdb9e94-19f9-4bc4-f4af-fec12d186957",
+      "id": "adb4a231-4f9b-4bf5-21d3-aded3071710c",
       "name": "View",
       "description": "A View highlight essential Information elements tailored to the need of specific users or tasks.",
       "typeRef": "82e81fcc-f34f-4555-1f58-37e690aec58b",
@@ -2268,7 +2268,7 @@
       "modified": false
     },
     {
-      "id": "9ec679c5-2033-43bc-825a-5afebd5624f8",
+      "id": "a1b1ff3d-2015-47eb-c4b8-13b2263066e2",
       "name": "Property",
       "description": "A property is an object representing an attribute of an entity that holds basic data, such as strings, numbers, or booleans. It defines specific characteristics of the entity, like 'name' or 'age'.",
       "typeRef": "7e9386c9-75bc-4239-c040-d328f1c91e1b",
@@ -2406,15 +2406,15 @@
       "description": "",
       "typeRef": "22f50fa8-90be-4738-8f71-670a19668fe0",
       "template": "linkTemplate1",
-      "strokecolor": "lightgrey",
+      "strokecolor": "#dddddd50",
       "strokewidth": "1",
-      "textcolor": "lightgrey",
+      "textcolor": "#dddddd50",
       "textscale": 1,
       "dash": "None",
       "fromArrow": "",
       "toArrow": "OpenTriangle",
-      "fromArrowColor": "",
-      "toArrowColor": "white",
+      "fromArrowColor": "#dddddd50",
+      "toArrowColor": "#dddddd50",
       "routing": "Normal",
       "corner": 0,
       "curve": 0,
